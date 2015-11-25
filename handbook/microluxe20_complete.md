@@ -26,16 +26,17 @@ For Fortitude and Reflex saving throws, use Physical + STR or DEX bonus. Saving 
 
 ## Races
 
-| **Humans** get +1 to all skill rolls | **Goblins** get +3 DEX, -1 MIND |
-| --- | --- |
-| **Great Elves** get +2 MIND | **Giants** get +3 STR, -1 DEX |
-| **Forest Elves** get +2 DEX | **Orcs** get +3 STR, -1 MIND |
-| **Halflings** get +1 DEX, +1 STR | **Dwarmir** get +1 STR, +1 to any 1 Skill |
-| **Gnomes** get +1 DEX, +1 MIND | **Elvir** get +1 DEX, and +1 to any 1 Skill |
-| **Forged** get a +3 natural armor bonus to AC. | **Orkeir** get +2 STR, -1 MIND, +1 to Physical skill |
-| **Dwarves** get +2 STR & can use a Waraxe, regardless of class. | **Tauremir** get +1 STR, and +1 to any 1 Skill |
-| **Minotaurs** get +3 STR, -1 MIND | **Gorimir** get a +1 DEX, and +1 to any 1 Skill |
-| **Lycanthropes** get +1 DEX, +1 to Guile skill | **Slaan** get +2 STR, +1 DEX, -1 to MIND |
+|Race|Bonus|Race|Bonus|
+|:---|:---|:--- |:--- |
+| **Humans** | +1 to all skill rolls|**Goblins** | +3 DEX, -1 MIND |
+| **Great Elves** | +2 MIND | **Giants** | +3 STR, -1 DEX |
+| **Forest Elves** | +2 DEX | **Orcs** | +3 STR, -1 MIND |
+| **Halflings** | +1 DEX, +1 STR | **Dwarmir** | +1 STR, +1 to any 1 Skill |
+| **Gnomes** | +1 DEX, +1 MIND | **Elvir** | +1 DEX, and +1 to any 1 Skill |
+| **Forged** | a +3 natural armor bonus to AC. | **Orkeir** | +2 STR, -1 MIND, +1 to Physical skill |
+| **Dwarves** | +2 STR & can use a Waraxe, regardless of class. | **Tauremir** | +1 STR, and +1 to any 1 Skill |
+| **Minotaurs** | +3 STR, -1 MIND | **Gorimir** | a +1 DEX, and +1 to any 1 Skill |
+| **Lycanthropes** | +1 DEX, +1 to Guile skill | **Slaan** | +2 STR, +1 DEX, -1 to MIND |
 
 ## Classes
 
@@ -63,9 +64,10 @@ For Fortitude and Reflex saving throws, use Physical + STR or DEX bonus. Saving 
 
 Spellcasters can cast any of their class spells, with a spell level equal or below 1/2 their class level, rounded up. Casting a spell of any kind costs Hit Points. The cost is 1 + double the level of the spell being cast:
 
-| Spell Level | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+|Spell Cost Table|||||||||||
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| HP Cost | 1 | 3 | 5 | 7 | 9 | 11 | 13 | 15 | 17 | 19 |
+| **Spell Level** | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+| **HP Cost** | 1 | 3 | 5 | 7 | 9 | 11 | 13 | 15 | 17 | 19 |
 
 Once a spellcaster has cast a spell in an encounter, their HP **cannot** be healed normally until 8 hours of rest (long rest). Healing spells cast on an injured caster only heal ¼ of the given amount.
 
@@ -162,46 +164,77 @@ Here is the format for weapon entries (given as column headings on the table bel
 
 **Complexity** : Different weapons require different amount of training to use. The level of complexity relies on the player's class.
 
-|
-### Light Weapons
- |
-### Ranged Weapons
- |
-| --- | --- |
-| Weapon | Cost | Damage | Range | Complexity | Weapon | Cost | Damage | Range | Complexity |
-| Unarmed | — | 1d3 | — | Simple | Dart | 5sp | 1d4 | 20ft. | Simple |
-| Dagger | 2gp | 1d4 | 10 ft. | Simple | Sling | 1gp | 1d4 | 50ft. | Simple |
-| Mace, light | 5gp | 1d6 | — | Simple | Javelin | 1gp | 1d6 | 30ft. | Simple |
-| Sickle | 5gp | 1d6 | — | Simple | Crossbow, light | 35gp | 1d8 | 80ft. | Simple |
-| Pick, light | 5gp | 1d4 | — | Complex | Crossbow, heavy | 50gp | 1d10 | 120ft. | Simple |
-| Handaxe | 5gp | 1d4 | — | Complex | Net | 20gp | — | 10ft. | Complex |
-| Sap | 8gp | 1d6 | — | Complex | Crossbow, hand | 100gp | 1d4 | 30ft. | Complex |
-| Sword, short | 8gp | 1d6 | — | Complex | Shortbow | 30gp | 1d6 | 60ft. | Complex |
-| Axe, throwing | 10gp | 1d6 | 10ft. | Complex | Longbow | 75gp | 1d8 | 100ft. | Complex |
-| Hammer, light | 12gp | 1d6 | 20ft. | Complex | Longbow, Composite | 100gp | 1d10 | 120ft. | Complex |
 
-|
+### Light Weapons
+
+| Weapon | Cost | Damage | Range | Complexity |
+| --- | --- | --- | --- | --- |
+| Unarmed | — | 1d3 | — | Simple |
+| Dagger | 2gp | 1d4 | 10 ft. | Simple |
+| Mace, light | 5gp | 1d6 | — | Simple |
+| Sickle | 5gp | 1d6 | — | Simple |
+| Pick, light | 5gp | 1d4 | — | Complex |
+| Handaxe | 5gp | 1d4 | — | Complex |
+| Sap | 8gp | 1d6 | — | Complex |
+| Sword, short | 8gp | 1d6 | — | Complex |
+| Axe, throwing | 10gp | 1d6 | 10ft. | Complex |
+| Hammer, light | 12gp | 1d6 | 20ft. | Complex |
+
+#### Ranged Weapons
+
+| Weapon | Cost | Damage | Range | Complexity |
+| --- | --- | --- | --- | --- |
+| Dart | 5sp | 1d4 | 20ft. | Simple |
+| Sling | 1gp | 1d4 | 50ft. | Simple |
+| Javelin | 1gp | 1d6 | 30ft. | Simple |
+| Crossbow, light | 35gp | 1d8 | 80ft. | Simple |
+| Crossbow, heavy | 50gp | 1d10 | 120ft. | Simple |
+| Net | 20gp | — | 10ft. | Complex |
+| Crossbow, hand | 100gp | 1d4 | 30ft. | Complex |
+| Shortbow | 30gp | 1d6 | 60ft. | Complex |
+| Longbow | 75gp | 1d8 | 100ft. | Complex |
+| Longbow, Composite | 100gp | 1d10 | 120ft. | Complex |
+
+
 ### Two-Handed Weapons
- |
-### One-Handed Weapons
- |
-| --- | --- |
-| Weapon | Cost | Damage | Range | Complexity | Weapon | Cost | Damage | Range | Complexity |
-| Bayonet | 2gp | 1d4 | — | Simple | Club | 2gp | 1d6 | 10ft. | Simple |
-| Quarterstaff | 3gp | 1d6 | — | Simple | Shortspear | 4gp | 1d6 | 20ft. | Simple |
-| Longspear | 5gp | 1d8 | — | Simple | Mace, heavy | 12gp | 1d8 | — | Simple |
-| Spear | 8gp | 1d8 | 20ft. | Simple | Morningstar | 12gp | 1d8 | — | Simple |
-| Falchion | 25gp | 1d6 | — | Complex | Whip | 1gp | 1d3 | — | Complex |
-| Flail, heavy | 30gp | 1d8 | — | Complex | Pick, heavy | 15gp | 1d6 | — | Complex |
-| Glaive | 30gp | 1d8 | — | Complex | Rapier | 15gp | 1d6 | — | Complex |
-| Greatclub | 30gp | 1d8 | — | Complex | Scimitar | 15gp | 1d6 | — | Complex |
-| Lance | 30gp | 1d8 | — | Complex | Warhammer | 20gp | 1d8 | — | Complex |
-| Scythe | 35gp | 2d4 | — | Complex | Battleaxe | 20gp | 1d8 | — | Complex |
-| Chain, spiked | 35gp | 2d4 | — | Complex | Flail | 20gp | 1d8 | — | Complex |
-| Guisarme | 35gp | 2d4 | — | Complex | Longsword | 20gp | 1d8 | — | Complex |
-| Greataxe | 40gp | 1d10 | — | Complex | Trident | 25gp | 1d8 | 10ft. | Complex |
-| Halberd | 40gp | 1d10 | — | Complex | Waraxe | 35gp | 1d10 | — | Complex |
-| Greatsword | 50gp | 2d6 | — | Complex | Sword, bastard | 35gp | 1d10 | — | Complex |
+
+| Weapon | Cost | Damage | Range | Complexity |
+| --- | --- | --- | --- | --- |
+| Bayonet | 2gp | 1d4 | — | Simple |
+| Quarterstaff | 3gp | 1d6 | — | Simple |
+| Longspear | 5gp | 1d8 | — | Simple |
+| Spear | 8gp | 1d8 | 20ft. | Simple |
+| Falchion | 25gp | 1d6 | — | Complex |
+| Flail, heavy | 30gp | 1d8 | — | Complex |
+| Glaive | 30gp | 1d8 | — | Complex |
+| Greatclub | 30gp | 1d8 | — | Complex |
+| Lance | 30gp | 1d8 | — | Complex |
+| Scythe | 35gp | 2d4 | — | Complex |
+| Chain, spiked | 35gp | 2d4 | — | Complex |
+| Guisarme | 35gp | 2d4 | — | Complex |
+| Greataxe | 40gp | 1d10 | — | Complex |
+| Halberd | 40gp | 1d10 | — | Complex |
+| Greatsword | 50gp | 2d6 | — | Complex |
+
+#### One-Handed Weapons
+
+| Weapon | Cost | Damage | Range | Complexity |
+| --- | --- | --- | --- | --- |
+| Club | 2gp | 1d6 | 10ft. | Simple |
+| Shortspear | 4gp | 1d6 | 20ft. | Simple |
+| Mace, heavy | 12gp | 1d8 | — | Simple |
+| Morningstar | 12gp | 1d8 | — | Simple |
+| Whip | 1gp | 1d3 | — | Complex |
+| Pick, heavy | 15gp | 1d6 | — | Complex |
+| Rapier | 15gp | 1d6 | — | Complex |
+| Scimitar | 15gp | 1d6 | — | Complex |
+| Warhammer | 20gp | 1d8 | — | Complex |
+| Battleaxe | 20gp | 1d8 | — | Complex |
+| Flail | 20gp | 1d8 | — | Complex |
+| Longsword | 20gp | 1d8 | — | Complex |
+| Trident | 25gp | 1d8 | 10ft. | Complex |
+| Waraxe | 35gp | 1d10 | — | Complex |
+| Sword, bastard | 35gp | 1d10 | — | Complex |
 
 ## Armor & Shields
 
@@ -213,25 +246,33 @@ Here is the format for armor entries (given as column headings on the table belo
 
 **AC Bonus** : This column gives the Armor Class bonus provided by the armor.
 
-|
 ### Armor
- |
-### Shields
- |
-| --- | --- |
-| Armor | Size | Cost | Bonus | Armor | Cost | Bonus |
-| Padded | Light | 2gp | +1 | Buckler | 5gp | +1 |
-| Leather | Light | 10gp | +2 | Klar (1d4 damage) | 20gp | +1 |
-| Studded Leather | Light | 25gp | +3 | Shield, light wooden | 3gp | +1 |
-| Chain Shirt | Light | 100gp | +4 | Shield, light steel | 9gp | +1 |
-| Hide | Medium | 15gp | +3 | Shield, heavy wooden | 7gp | +2 |
-| Scale Mail | Medium | 50gp | +4 | Shield, heavy steel | 20gp | +2 |
-| Chainmail | Medium | 150gp | +5 | Shield, tower | 30gp | +4 |
-| Breastplate | Medium | 200gp | +5 |   |
+| Armor | Size | Cost | Bonus |
+| --- | --- | --- | --- |
+| Padded | Light | 2gp | +1 |
+| Leather | Light | 10gp | +2 |
+| Studded Leather | Light | 25gp | +3 |
+| Chain Shirt | Light | 100gp | +4 |
+| Hide | Medium | 15gp | +3 |
+| Scale Mail | Medium | 50gp | +4 |
+| Chainmail | Medium | 150gp | +5 |
+| Breastplate | Medium | 200gp | +5 |
 | Splint Mail | Heavy | 200gp | +6 |
 | Banded Mail | Heavy | 250gp | +6 |
 | Half-plate | Heavy | 600gp | +7 |
 | Full Plate | Heavy | 1,500gp | +8 |
+
+### Shields
+
+| Armor | Cost | Bonus |
+| --- | --- | --- |
+| Buckler | 5gp | +1 |
+| Klar (1d4 damage) | 20gp | +1 |
+| Shield, light wooden | 3gp | +1 |
+| Shield, light steel | 9gp | +1 |
+| Shield, heavy wooden | 7gp | +2 |
+| Shield, heavy steel | 20gp | +2 |
+| Shield, tower | 30gp | +4 |
 
 ## Adventuring Equipment
 
@@ -239,8 +280,8 @@ Characters may purchase equipment from the following lists with their starting m
 
 ### Adventuring Gear
 
-| Goods | Cost |   | Goods | Cost |   | Goods | Cost |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| Goods | Cost | Goods | Cost | Goods | Cost |
+| --- | --- | --- | --- | --- | --- |
 | Acid (flask) | 10gp | Flint and Steel | 1gp | Pick, miner's | 3gp |
 | Antitoxin (vial) | 50gp | Grappling Hook | 1gp | Pitcher, clay | 2cp |
 | Artisan's Tools | 5gp | Hammer | 5sp | Piton | 1sp |
@@ -267,12 +308,12 @@ Characters may purchase equipment from the following lists with their starting m
 | Fishhook | 1sp | Oil, pint flask | 1sp | Torch | 1cp |
 | Fishing net (25 sq. ft.) | 4gp | Paper (sheet) | 4sp | Vial, ink or potion | 1gp |
 | Flask (empty) | 3cp | Parchment (sheet) | 2sp | Water skin | 1gp |
-|   | Whetstone | 2cp |
+| Whetstone | 2cp |
 
 ### Clothing
 
-| Goods | Cost |   | Goods | Cost |   | Goods | Cost |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| Goods | Cost | Goods | Cost | Goods | Cost |
+| --- | --- | --- | --- | --- | --- |
 | Artisan's Outfit | 1gp | Entertainer's Outfit | 3gp | Peasant's Outfit | 1sp |
 | Cleric's Vestments | 5gp | Explorer's Outfit | 10gp | Royal Outfit | 200gp |
 | Cold Weather Outfit | 8gp | Monk's Outfit | 5gp | Scholar's Outfit | 5gp |
@@ -280,8 +321,8 @@ Characters may purchase equipment from the following lists with their starting m
 
 ### Mounts and Related Gear
 
-| Goods | Cost |   | Goods | Cost |   | Goods | Cost |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| Goods | Cost | Goods | Cost | Goods | Cost |
+| --- | --- | --- | --- | --- | --- |
 | Barding, medium creature | armor price x2 | Feed (per day) | 5cp | Saddle, riding | 10gp |
 | Barding, large creature | armor price x4 | Horse, heavy | 200gp | Saddlebags | 4gp |
 | Bit and Bridle | 2gp | Horse, light | 75gp | Stabling (per day) | 5sp |
@@ -1272,7 +1313,7 @@ Several typical poisons are summarized below. The entries for poisons include th
 
 **Name of the poison:** Type, DC, damage, price.
 
-**        Type:** lists the poison's method of delivery (contact, ingested, inhaled, or injury).
+**Type:** lists the poison's method of delivery (contact, ingested, inhaled, or injury).
 
 **DC:** lists the phys+STR check DC needed to avoid the poison's damage.
 
@@ -1432,8 +1473,9 @@ Have them roll whatever check seems most appropriate. A roll of 1-10 is a failur
 
 If you're seriously still stuck in SRD land, here is a chart for the skills from the d20 SRD and their Microluxe20 equivalents:
 
+| | |
+|---|---|
 | **Appraise –** com+MIND | **Jump –** phys+STR (long jump) or phys+DEX (high jump) |
-| --- | --- |
 | **Balance –** phys+DEX | **Knowledge –** know+MIND |
 | **Bluff –** com+MIND | **Listen –** guile+MIND |
 | **Climb –** phys+DEX or STR, whichever is highest | **Move Silently –** guile+DEX |
@@ -1500,8 +1542,8 @@ Experience is gained from taking part in a battle equal to the HD of the opponen
 
 The 500-strong Order of the Purple Flame stand ready against the Red Dragon. They are CSx10, while the Dragon, a single critter, is just CSx1, though formidable.
 
-- .500 Knights: HD2d8+4 (14HP), AC18, Lance +7 (1d10+4) or Longsword +6 (1d8+2), CSx10
-- .Red Dragon: HD13×12+39 (123HP), AC21, Bite +20 (2d6+7) or Breath 10d10 DC24
+500 Knights: HD2d8+4 (14HP), AC18, Lance +7 (1d10+4) or Longsword +6 (1d8+2), CSx10
+Red Dragon: HD13×12+39 (123HP), AC21, Bite +20 (2d6+7) or Breath 10d10 DC24
 
 The Dragon flies high above and breathes flame across their phalanx for 46HP damage. The knights dive for cover beneath their shields (phys+DEX to dodge DC24. They roll 25, barely making it). They take ½ damage – 23HP, divided by CSx10 for 2HP. The Knights are down to 12HP.
 
