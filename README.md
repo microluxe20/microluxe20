@@ -1,4 +1,6 @@
-![Microluxe 20](handbook/img/logo.png "Microluxe 20")
+<p align="center">
+  <img src="handbook/img/logo.png" alt="Microluxe 20">
+</p>
 Microluxe20 attempts to be a stand-in replacement for any [SRD](https://en.wikipedia.org/wiki/System_Reference_Document) based tabletop
 adventure. The main goal is to bring in the simplicity of [Microlite20](http://microlite20.net/), but also
 add various races and classes, as well as balance and clarify some of the more
