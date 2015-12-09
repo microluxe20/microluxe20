@@ -17,6 +17,7 @@ The documents can be found in the `handbook/docs` directory.
 
 ## Contributing
 If you are contributing to the core handbook, do the following:
+
 1. Fork the repository
 2. Create your feature branch
 3. Make changes to the __markdown files__ and commit your changes
