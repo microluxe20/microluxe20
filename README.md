@@ -8,6 +8,7 @@ confusing parts of the Microlite20 system.
 
 ## Handbook
 Check out the online handbook [here](handbook/microluxe20_complete.md)!
+
 Microluxe20 comes with a pre-built campaign setting, named "Terador". If you are interested in reading about the available races
 of Terador, check [this](handbook/microluxe20_races.md) out. Otherwise, feel free to use your own setting and races!
 
@@ -23,7 +24,7 @@ If you are contributing to the core handbook, do the following:
 3. Make changes to the __markdown files__ and commit your changes
 4. Push to the branch and create a new pull request
 
-**NOTE:** Please please __PLEASE__ do nott try to submit a changed word document or pdf. Make all of your changes
+**NOTE:** Please, please, __PLEASE__ do __not__ try to submit a changed word document or pdf. Make all of your changes
 in the markdown, and those changes, once merged, will be reflected in the word documents/pdf's as well.
 
 ## Authors & Contributors
