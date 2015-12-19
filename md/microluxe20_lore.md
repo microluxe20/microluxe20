@@ -1,4 +1,4 @@
-### The Mythos of Terador
+# The Mythos of Terador
 
 ## Genesis
 
