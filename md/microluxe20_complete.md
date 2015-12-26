@@ -31,12 +31,12 @@ For Fortitude and Reflex saving throws, use Physical + STR or DEX bonus. Saving 
 | **Humans** | +1 to all skill rolls|**Goblins** | +3 DEX, -1 MIND |
 | **Great Elves** | +2 MIND | **Giants** | +3 STR, -1 DEX |
 | **Forest Elves** | +2 DEX | **Orcs** | +3 STR, -1 MIND |
-| **Halflings** | +1 DEX, +1 STR | **Dwarmir** | +1 STR, +1 to any 1 Skill |
+| **Halflings** | +1 DEX, +1 STR | **Dwarmir** | +1 STR, +1 to any 1 Skill & can use a Waraxe, regardless of class |
 | **Gnomes** | +1 DEX, +1 MIND | **Elvir** | +1 DEX, and +1 to any 1 Skill |
-| **Forged** | a +3 natural armor bonus to AC. | **Orkeir** | +2 STR, -1 MIND, +1 to Physical skill |
-| **Dwarves** | +2 STR & can use a Waraxe, regardless of class. | **Tauremir** | +1 STR, and +1 to any 1 Skill |
+| **Forged** | +2 natural armor bonus to AC | **Orkeir** | +2 STR, -1 MIND, +1 to Physical skill |
+| **Dwarves** | +2 STR & can use a Waraxe, regardless of class | **Tauremir** | +2 STR, -1 MIND,  +1 to any 1 Skill |
 | **Minotaurs** | +3 STR, -1 MIND | **Gorimir** | a +1 DEX, and +1 to any 1 Skill |
-| **Lycanthropes** | +1 DEX, +1 to Guile skill | **Slaan** | +2 STR, +1 DEX, -1 to MIND |
+| **Lycanthropes** | +1 DEX, +1 to Guile skill | **Slaan** | +2 MIND, +1 DEX, -1 to STR |
 
 ## Classes
 
