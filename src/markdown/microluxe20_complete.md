@@ -1,3 +1,5 @@
+![title-img](/src/static/logo.png)
+
 # Introduction
 
 This is a modified and slightly shortened version of the Microlite20 rules, designed to be a more complete experience, while still continuing to be extremely easy to setup and play. The goal was to build off of the already-simplified Microlite20 rule-set, but also introduce more complete classes, additional races, and a more intuitive set of weapons, armor, and spells. It also maintains compatibility with any Primary Fantasy SRD resources.
@@ -695,7 +697,7 @@ While any spells in the SRD can be available to spell casters, the following spe
 
 **Mirror Image:** Creates 1d4+1 decoys of caster for 10 rounds/level.
 
-### **3**** rd ****-Level Illusionist Spells**
+### **3rd -Level Illusionist Spells**
 
 **Daylight:** 60ft. radius of daylight for 10 min./level.
 
