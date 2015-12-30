@@ -9,11 +9,11 @@ To dive right into the game, check out the online handbook [here](src/markdown/m
 Microluxe20 comes with a pre-designed campaign setting, named "Terador". The lore/mythos can be found [here](src/markdown/microluxe20_lore.md). A complete map can be found [here](map/Terador-complete.png). If you are interested in reading about the available races of Terador, check out [this](src/markdown/microluxe20_races.md).  Otherwise, feel free to use your own setting and races!
 
 ## Downloads
-You can download the latest release [here](https://github.com/kgrubb/microluxe20/releases/latest)!
+The latest release can be downloaded [here](https://github.com/kgrubb/microluxe20/releases/latest)!
 
 ## Contributing
 
-**NOTICE:** OSX is currently not supported (or advised) for compiling PDFs. This project's build process depends on gulp-markdown-pdf, which wraps markdown-pdf. When compiling the PDF files, the filesize of the PDF gets ridiculously huge. There is an open issue [here](https://github.com/alanshaw/markdown-pdf/issues/37), explaining that its an OSX-only PhantomJS issue, documented [here](https://github.com/ariya/phantomjs/issues/10373).
+**NOTICE:** OSX is currently not supported (or advised) for compiling the PDFs. This project's build process depends on gulp-markdown-pdf, which wraps markdown-pdf. When compiling the PDF files, the filesize of the PDF gets ridiculously huge. There is an open issue [here](https://github.com/alanshaw/markdown-pdf/issues/37), explaining that its an OSX-only PhantomJS issue, documented [here](https://github.com/ariya/phantomjs/issues/10373).
 
 If you want to contribute to the game's handbooks, please do the following:
 
@@ -58,7 +58,7 @@ You can also use the following command to automatically build PDFs whenever chan
 gulp watch-markdown
 ```
 
-#### 5. Submit a pull request
+##### 5. Submit a pull request
 
 Commit your changes and submit a new pull request to the microluxe20 develop branch.
 
