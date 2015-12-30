@@ -1,3 +1,5 @@
+![title-img](/src/static/logo-lore.png)
+
 # The Mythos of Terador
 
 ## Genesis

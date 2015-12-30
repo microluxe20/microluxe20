@@ -5,7 +5,6 @@ img[alt=title-img] {
 }
 
 h1 {
-    page-break-before: always;
     page-break-after: avoid;
     border-top: 2px double black;
     border-bottom: 2px double black;
@@ -17,9 +16,25 @@ h2 {
 }
 
 * {
-    font-family: serif;
+    font-family: Helvetica;
 }
 
 table {
-    width: 100%;
+    margin: 0;
+}
+
+table, td {
+  padding: 2px 6px;
+  border: 1px solid black;
+}
+
+th {
+  padding: 2px 6px;
+}
+
+body {
+  font-size: 85%;
+  font-stretch:expanded;
+  font-kerning: auto;
+  f
 }

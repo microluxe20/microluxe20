@@ -1,3 +1,5 @@
+![title-img](/src/static/logo-races.png)
+
 # Races of Terador
 
 This is an introduction to the most predominant races of Terador. There are other races and animals native to Terador, but those other races play a significantly smaller role.
