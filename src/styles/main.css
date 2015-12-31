@@ -1,0 +1,39 @@
+img[alt=title-img] {
+    display: block;
+    margin: auto;
+    page-break-after: always;
+}
+
+h1 {
+    page-break-after: avoid;
+    border-top: 2px double black;
+    border-bottom: 2px double black;
+}
+
+h2 {
+    page-break-after: avoid;
+    border-bottom: 1px solid black;
+}
+
+* {
+    font-family: Helvetica;
+}
+
+table {
+    margin: 0;
+}
+
+table, td {
+  padding: 2px 6px;
+  border: 1px solid black;
+}
+
+th {
+  padding: 2px 6px;
+}
+
+body {
+  font-size: 85%;
+  font-stretch:expanded;
+  font-kerning: auto;
+}

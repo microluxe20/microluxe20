@@ -1,3 +1,5 @@
+![title-img](/src/static/logo-handbook.png)
+
 # Introduction
 
 This is a modified and slightly shortened version of the Microlite20 rules, designed to be a more complete experience, while still continuing to be extremely easy to setup and play. The goal was to build off of the already-simplified Microlite20 rule-set, but also introduce more complete classes, additional races, and a more intuitive set of weapons, armor, and spells. It also maintains compatibility with any Primary Fantasy SRD resources.
@@ -25,7 +27,6 @@ For example, Climbing would use Physical + STR bonus. Dodging a falling rock is 
 For Fortitude and Reflex saving throws, use Physical + STR or DEX bonus. Saving against magic (Will save) is MIND bonus + your level.
 
 ## Races
-
 |Race|Bonus|Race|Bonus|
 |:---|:---|:--- |:--- |
 | **Humans** | +1 to all skill rolls|**Goblins** | +3 DEX, -1 MIND |
@@ -65,7 +66,7 @@ For Fortitude and Reflex saving throws, use Physical + STR or DEX bonus. Saving 
 Spellcasters can cast any of their class spells, with a spell level equal or below 1/2 their class level, rounded up. Casting a spell of any kind costs Hit Points. The cost is 1 + double the level of the spell being cast:
 
 |Spell Cost Table|||||||||||
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Spell Level** | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 | **HP Cost** | 1 | 3 | 5 | 7 | 9 | 11 | 13 | 15 | 17 | 19 |
 
@@ -136,7 +137,7 @@ New spell levels are unlocked at levels 3,5,7,9,etc.
 The most common coin is the _gold piece_ (gp).
 
 | Exchange | CP | SP | GP | PP |
-| --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- |
 | Copper piece | 1 | 1/10 | 1/100 | 1/1,000 |
 | Silver piece | 10 | 1 | 1/10 | 1/100 |
 | Gold piece | 100 | 10 | 1 | 1/10 |
@@ -145,7 +146,7 @@ The most common coin is the _gold piece_ (gp).
 You begin with a certain amount of acquired wealth, determined by your character class.
 
 | Class | Amount |
-| --- | --- |
+| :--- | :---: |
 | Fighter, Paladin | 150 gp |
 | Rogue, Ranger | 125 gp |
 | Mage, Illusionist, Psion | 75 gp |
@@ -168,7 +169,7 @@ Here is the format for weapon entries (given as column headings on the table bel
 ### Light Weapons
 
 | Weapon | Cost | Damage | Range | Complexity |
-| --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- |
 | Unarmed | — | 1d3 | — | Simple |
 | Dagger | 2gp | 1d4 | 10 ft. | Simple |
 | Mace, light | 5gp | 1d6 | — | Simple |
@@ -180,10 +181,10 @@ Here is the format for weapon entries (given as column headings on the table bel
 | Axe, throwing | 10gp | 1d6 | 10ft. | Complex |
 | Hammer, light | 12gp | 1d6 | 20ft. | Complex |
 
-#### Ranged Weapons
+### Ranged Weapons
 
 | Weapon | Cost | Damage | Range | Complexity |
-| --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- |
 | Dart | 5sp | 1d4 | 20ft. | Simple |
 | Sling | 1gp | 1d4 | 50ft. | Simple |
 | Javelin | 1gp | 1d6 | 30ft. | Simple |
@@ -199,7 +200,7 @@ Here is the format for weapon entries (given as column headings on the table bel
 ### Two-Handed Weapons
 
 | Weapon | Cost | Damage | Range | Complexity |
-| --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- |
 | Bayonet | 2gp | 1d4 | — | Simple |
 | Quarterstaff | 3gp | 1d6 | — | Simple |
 | Longspear | 5gp | 1d8 | — | Simple |
@@ -216,10 +217,10 @@ Here is the format for weapon entries (given as column headings on the table bel
 | Halberd | 40gp | 1d10 | — | Complex |
 | Greatsword | 50gp | 2d6 | — | Complex |
 
-#### One-Handed Weapons
+### One-Handed Weapons
 
 | Weapon | Cost | Damage | Range | Complexity |
-| --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- |
 | Club | 2gp | 1d6 | 10ft. | Simple |
 | Shortspear | 4gp | 1d6 | 20ft. | Simple |
 | Mace, heavy | 12gp | 1d8 | — | Simple |
@@ -240,15 +241,16 @@ Here is the format for weapon entries (given as column headings on the table bel
 
 Here is the format for armor entries (given as column headings on the table below):
 
-**Size** : This is the physical size of the armor. Different classes can only wear specific sizes of armor.
+**Size:** This is the physical size of the armor. Different classes can only wear specific sizes of armor.
 
-**Cost** : This value is the price for purchasing the armor.
+**Cost:** This value is the price for purchasing the armor.
 
-**AC Bonus** : This column gives the Armor Class bonus provided by the armor.
+**AC Bonus:** This column gives the Armor Class bonus provided by the armor.
 
 ### Armor
+
 | Armor | Size | Cost | Bonus |
-| --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- |
 | Padded | Light | 2gp | +1 |
 | Leather | Light | 10gp | +2 |
 | Studded Leather | Light | 25gp | +3 |
@@ -265,7 +267,7 @@ Here is the format for armor entries (given as column headings on the table belo
 ### Shields
 
 | Armor | Cost | Bonus |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | Buckler | 5gp | +1 |
 | Klar (1d4 damage) | 20gp | +1 |
 | Shield, light wooden | 3gp | +1 |
@@ -281,7 +283,7 @@ Characters may purchase equipment from the following lists with their starting m
 ### Adventuring Gear
 
 | Goods | Cost | Goods | Cost | Goods | Cost |
-| --- | --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 | Acid (flask) | 10gp | Flint and Steel | 1gp | Pick, miner's | 3gp |
 | Antitoxin (vial) | 50gp | Grappling Hook | 1gp | Pitcher, clay | 2cp |
 | Artisan's Tools | 5gp | Hammer | 5sp | Piton | 1sp |
@@ -313,7 +315,7 @@ Characters may purchase equipment from the following lists with their starting m
 ### Clothing
 
 | Goods | Cost | Goods | Cost | Goods | Cost |
-| --- | --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 | Artisan's Outfit | 1gp | Entertainer's Outfit | 3gp | Peasant's Outfit | 1sp |
 | Cleric's Vestments | 5gp | Explorer's Outfit | 10gp | Royal Outfit | 200gp |
 | Cold Weather Outfit | 8gp | Monk's Outfit | 5gp | Scholar's Outfit | 5gp |
@@ -322,7 +324,7 @@ Characters may purchase equipment from the following lists with their starting m
 ### Mounts and Related Gear
 
 | Goods | Cost | Goods | Cost | Goods | Cost |
-| --- | --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 | Barding, medium creature | armor price x2 | Feed (per day) | 5cp | Saddle, riding | 10gp |
 | Barding, large creature | armor price x4 | Horse, heavy | 200gp | Saddlebags | 4gp |
 | Bit and Bridle | 2gp | Horse, light | 75gp | Stabling (per day) | 5sp |
@@ -335,7 +337,7 @@ Characters may purchase equipment from the following lists with their starting m
 Suggested starting packs for new characters (each pack uses 50 gp of a character's starting money.
 
 | Pack A | Pack B | Pack C |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | backpack | backpack | backpack |
 | belt pouch | belt pouch | belt pouch |
 | bedroll | bedroll | bedroll |
@@ -669,7 +671,7 @@ While any spells in the SRD can be available to spell casters, the following spe
 
 ### 1st-Level Illusionist Spells
 
-**Charm Person: F** orcefully makes one person your friend for 1 hour/level.
+**Charm Person:** Forcefully makes one person your friend for 1 hour/level.
 
 **Color Spray:** Incapacitates creatures within a 15ft. cone.
 
@@ -695,7 +697,7 @@ While any spells in the SRD can be available to spell casters, the following spe
 
 **Mirror Image:** Creates 1d4+1 decoys of caster for 10 rounds/level.
 
-### **3**** rd ****-Level Illusionist Spells**
+### 3rd -Level Illusionist Spells
 
 **Daylight:** 60ft. radius of daylight for 10 min./level.
 
@@ -769,9 +771,9 @@ While any spells in the SRD can be available to spell casters, the following spe
 
 **Scintillating Pattern:** A pattern of discordant colors weaves through the air. The spell affects (caster level + 1d6) creatures. Each effect lasts for 1d4 rounds. Creatures with less than 50 HP are unconscious, then stunned, then confused. 50-100 HP, stunned, then confused. Over 100 HP, confused.
 
-**Shadow Evocation** : Creates an illusory version of Mage spells of 7th level or lower. If recognized as an illusion, the spell deals only ½ damage.
+**Shadow Evocation:** Creates an illusory version of Mage spells of 7th level or lower. If recognized as an illusion, the spell deals only ½ damage.
 
-**Simulacrum** : Creates partially real double (with half HP) of a creature (same level or lower than caster), formed from water, ice, or snow.
+**Simulacrum:** Creates partially real double (with half HP) of a creature (same level or lower than caster), formed from water, ice, or snow.
 
 **Sunburst:** Creates a piercing burst of light. Blinds all within 10 ft., deals 6d6 damage.
 
@@ -863,7 +865,7 @@ While any spells in the SRD can be available to spell casters, the following spe
 
 **Repel Vermin:**  Insects, spiders, and other vermin stay 10ft. away for 10 min./level.
 
-**Spike Stones** : Creatures in area take 1d8 damage, reflex save or they are slowed.
+**Spike Stones:** Creatures in area take 1d8 damage, reflex save or they are slowed.
 
 ### 5th-Level Druid Spells
 
@@ -1083,7 +1085,7 @@ Any monster from just about any tabletop RPG may be used. The following list hel
 
 **Skills:** All creatures have a bonus to all skills (_Physical, Guile, Knowledge and Communication_) equal to their number of Hit Dice. If the creature is intelligent, add +3 to one skill. Add stat bonuses to suit and as logic dictates. This is intentionally kept open – if you need a sneaky bugbear, assign the +3 bonus to Guile; if a warrior, give +3 to Physical; for a spell-caster assign the +3 to Knowledge or Communication and give levels of Mage or Cleric (see below).
 
-**Monster Advancement:** To make a tougher monster, add more Hit Dice; each additional HD adds one to their skill and combat bonuses. For each doubling of the Hit Dice, increase the dice size for attacks (ex: d4- >d6, d6->d8, etc).
+**Monster Advancement:** To make a tougher monster, add more Hit Dice; each additional Hit Die adds one to their skill and combat bonuses. For each doubling of the Hit Dice, increase the dice size for attacks (ex: d4- >d6, d6->d8, etc).
 
 Alternatively, add class levels to intelligent monsters. Start with the base Hit Dice and add levels of Fighter, Rogue, Mage or Cleric as required.
 
@@ -1275,7 +1277,7 @@ Diseases have various symptoms and are spread through a number of ways. Several 
 
 The entries for diseases include the following information:
 
-**Name of the disease** : Type, DC, incubation, damage.
+**Name of the disease:** Type, DC, incubation, damage.
 
 **Type** lists the disease's method of delivery (contact, inhaled, or injury).
 
@@ -1377,25 +1379,25 @@ The entries for traps include the following information:
 
 **Damage:** shows the amount and type of damage the trap deals.
 
-**Save DC** : lists the phys+DEX check DC needed to either avoid the trap entirely, or to take only ½ the listed damage (if this is possible).
+**Save DC:** lists the phys+DEX check DC needed to either avoid the trap entirely, or to take only ½ the listed damage (if this is possible).
 
 **Search DC:** lists the DC for the know+MIND check necessary to find the trap without triggering it.
 
-**Disable DC** : lists the DC for the guile+DEX check necessary to disarm the trap safely.
+**Disable DC:** lists the DC for the guile+DEX check necessary to disarm the trap safely.
 
 ### 1 XP Traps
 
-**Basic Arrow Trap: ATK** +10 (1d6, arrow); Search know+MIND DC 20, Disable guile+DEX DC 20.
+**Basic Arrow Trap:** ATK +10 (1d6, arrow); Search know+MIND DC 20, Disable guile+DEX DC 20.
 
 **Camouflaged Pit Trap:** 10 ft. deep (1d6, fall); Save DC 15 to avoid; Search DC 24, Disable DC 20.
 
-**Poison Dart Trap: ATK** +8 (1d4 plus poison, dart); Search DC 20, Disable DC 18.
+**Poison Dart Trap:** ATK +8 (1d4 plus poison, dart); Search DC 20, Disable DC 18.
 
 ### 2 XP Traps
 
 **Burning Hands Trap:** spell effect (1d4, fire); Save DC 11 for ½ damage; Search DC 26, Disable DC 26.
 
-**Large Net Trap: ATK** +5 (—); Save DC 14 to avoid; Search DC 20, Disable DC 25.
+**Large Net Trap:** ATK +5 (—); Save DC 14 to avoid; Search DC 20, Disable DC 25.
 
 **Pit Trap:** 40 ft. deep (4d6, fall); Save DC 20 to avoid; Search DC 20, Disable DC 20.
 
@@ -1405,7 +1407,7 @@ The entries for traps include the following information:
 
 **Pit Trap:** 60 ft. deep (6d6, fall); Save DC 20 to avoid; Search DC 20, Disable DC 20.
 
-**Poisoned Arrow Trap: ATK** +12 (1d8 plus poison, arrow); Search DC 19, Disable DC 15.
+**Poisoned Arrow Trap:** ATK +12 (1d8 plus poison, arrow); Search DC 19, Disable DC 15.
 
 ### 4 XP Traps
 
@@ -1413,15 +1415,15 @@ The entries for traps include the following information:
 
 **Spiked Pit Trap:** 60 ft. deep (6d6, fall), ATK +10 (1d4 each, 1d4 spikes); Save DC 20 to avoid; Search DC 20, Disable DC 20.
 
-**Wall Scythe Trap: ATK** +20 (2d4+8, scythe); Search DC 21, Disable DC 18.
+**Wall Scythe Trap:** ATK +20 (2d4+8, scythe); Search DC 21, Disable DC 18.
 
 ### 5 XP Traps
 
-**Falling Block Trap: ATK** +15 (6d6, slam); Search DC 25, Disable DC 17.
+**Falling Block Trap:** ATK +15 (6d6, slam); Search DC 25, Disable DC 17.
 
 **Fireball Trap:** spell effect (1d4+7, fire); Save DC 16 for ½ damage; Search DC 29, Disable DC 29.
 
-**Poisoned Wall Spikes: ATK** +16 (1d8+4 plus poison, spikes); Search DC 17, Disable DC 21.
+**Poisoned Wall Spikes:** ATK +16 (1d8+4 plus poison, spikes); Search DC 17, Disable DC 21.
 
 **6 XP Traps**
 
@@ -1459,9 +1461,9 @@ The entries for traps include the following information:
 
 **Crushing Room:** walls move together (16d6, crush); Search DC 22, Disable DC 20.
 
-**Crushing Wall Trap: ATK** automatic (18d6, crush); Search DC 20, Disable DC 25.
+**Crushing Wall Trap:** ATK automatic (18d6, crush); Search DC 20, Disable DC 25.
 
-**Energy Drain Trap: ATK** +8 (2d4 negative levels for 24 hours); Save DC 23 to avoid; Search DC 34, Disable DC 34.
+**Energy Drain Trap:** ATK +8 (2d4 negative levels for 24 hours); Save DC 23 to avoid; Search DC 34, Disable DC 34.
 
 ## When in Doubt... Remember
 
@@ -1474,7 +1476,7 @@ Have them roll whatever check seems most appropriate. A roll of 1-10 is a failur
 If you're seriously still stuck in SRD land, here is a chart for the skills from the d20 SRD and their Microluxe20 equivalents:
 
 | | |
-|---|---|
+|:---|:---|
 | **Appraise –** com+MIND | **Jump –** phys+STR (long jump) or phys+DEX (high jump) |
 | **Balance –** phys+DEX | **Knowledge –** know+MIND |
 | **Bluff –** com+MIND | **Listen –** guile+MIND |
@@ -1492,7 +1494,7 @@ If you're seriously still stuck in SRD land, here is a chart for the skills from
 | **Hide –** guile+DEX | **Swim –** phys+STR |
 | **Intimidate –** could be phys+STR, or guile+MIND or com+STR | **Tumble –** phys+DEX |
 
-## Appendix II: Magic Items & Mass Combat
+# Appendix II: Magic Items & Mass Combat
 
 ## Magic Item Creation
 
@@ -1501,7 +1503,7 @@ Spellcasters gain the ability to make magical items at certain class levels. Thi
 Here's when Spellcasters can make stuff:
 
 | **Spellcaster's Level** | Item |
-| --- | --- |
+| :--- | :--- |
 | 1 | Scrolls |
 | 3 | Potions and Wondrous Items |
 | 5 | Wands and Armor |
@@ -1517,7 +1519,7 @@ It can be extended by adding in Combat Scale. Combat Scale is a multiplier that 
 For example, a unit of 20 Goblin warriors will have CSx5 as per the table below. The combat stats are still HD1d8+1 (5HP), AC15, Morningstar +2 (1d6) or Javelin +3 (1d4). Against anything with the same Combat Scale (for example, a unit of 15 Elves), combat is resolved normally as if it was one goblin against one elf.
 
 | Number in Unit | Combat Scale |
-| --- | --- |
+| :--- | :--- |
 | 2-5 | x3 |
 | 6-10 | x4 |
 | 11-20 | x5 |
@@ -1534,7 +1536,7 @@ If the Combat Scale becomes the same for all opponents, resolve combat normally;
 
 ## Calculating Experience
 
-Experience is gained from taking part in a battle equal to the HD of the opponent, +1 for each CS higher than your own. For example, a member of the 20-strong Grey Company (CSx5) will earn 3 XP in a battle against 35 Gnolls (a 2HD creature, CSx6).
+Experience is gained from taking part in a battle equal to the Hit Die of the opponent, +1 for each CS higher than your own. For example, a member of the 20-strong Grey Company (CSx5) will earn 3 XP in a battle against 35 Gnolls (a 2Hit Die creature, CSx6).
 
 ## Mass Combat Example
 
@@ -1562,7 +1564,7 @@ The Difficulty Class can vary depending on how the player approaches the task. W
 In general, I recommend using only four DCs, especially at low levels:
 
 | DC | Level |
-| --- | --- |
+| :--- | :--- |
 | 10 | Easy – 50/50 chance of Bob succeeding 1st time |
 | 15 | Moderate – would succeed after several attempts |
 | 20 | Difficult – would succeed only with luck on his side |
@@ -1621,5 +1623,3 @@ Ninja Monkey, 3HD (12HP), AC12, +5 Katana (1d6-1)
 Guile+6, all others @ +3
 
 STR 8, DEX 14, MIND 12
-
-Simple. See?
