@@ -1,6 +1,7 @@
 ![title-img](/src/static/logo-lore.png)
 
-# The Mythos of Terador
+# Introduction
+This document includes a brief history of Terador, starting from the world's inception to the current time period.
 
 ## Genesis
 
