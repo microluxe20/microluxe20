@@ -2,9 +2,13 @@
 
 # Introduction
 
-This is a modified and slightly shortened version of the Microlite20 rules, designed to be a more complete experience, while still continuing to be extremely easy to setup and play. The goal was to build off of the already-simplified Microlite20 rule-set, but also introduce more complete classes, additional races, and a more intuitive set of weapons, armor, and spells. It also maintains compatibility with any Primary Fantasy SRD resources.
+This is a modified version of the Microlite20 rules, designed to be a more complete experience, while still continuing to be extremely easy to setup and play. The goal is to build off of the already-simplified Microlite20 rule-set, but also introduce more complete classes, additional races, and a more intuitive set of weapons, armor, and spells. It also maintains compatibility with any Primary Fantasy SRD resources.
 
 # Basic Rules
+
+## Character Creation
+
+When creating a character in Microluxe20, you will need to decide on a race and class. After choosing your character's race and class, you can configure their stats, skills/saves, and other combat/magic information.
 
 ## Stats
 
@@ -24,7 +28,7 @@ Skill roll = d20 + skill rank + whatever stat bonus is most applicable to the us
 
 For example, Climbing would use Physical + STR bonus. Dodging a falling rock is Physical + DEX bonus. Finding a trap is Guile + MIND bonus. Disabling a trap is Guile + DEX bonus.
 
-For Fortitude and Reflex saving throws, use Physical + STR or DEX bonus. Saving against magic (Will save) is MIND bonus + your level.
+There are 3 saves: **Fortitude** , **Reflex** , and **Will**. For Fortitude and Reflex saving throws, use Physical + STR or DEX bonus. Saving against magic (Will save) is MIND bonus + your level.
 
 ## Races
 |Race|Bonus|Race|Bonus|
@@ -61,6 +65,30 @@ For Fortitude and Reflex saving throws, use Physical + STR or DEX bonus. Saving 
 
 **Psions** can use light armor, can not use shields, and can use simple weapons. They can manifest Psion powers and gain a +2 to Knowledge and Communication.
 
+## Combat
+
+**Hit Points (HP)** = STR Stat + 1d6/Level. If HP reaches zero, the player becomes "downed", or unconscious and near death. Further damage directly reduces STR. If that reaches zero, the player dies. When down, roll a d20. You have 3 chances to roll above a 10. If successful, you are stable and return to 1 HP (STR is returned to normal as well). Otherwise, if unsuccessful 3 times, the player dies.
+
+**Speed** comes in 3 tiers. You are either Slow(20ft.), Normal(30ft.) or Fast(35ft.).  Speed is determined by the game master and can be affected by spells and conditions. Typically, Fighters or Paladins with Heavy armor are Slow, Rogues and Rangers are Fast, and the rest are Normal speed.
+
+**Armor Class (AC)** = 10 + DEX bonus + Armor bonus + Racial bonus.
+
+Roll d20 + DEX bonus for **initiative** order. Everyone can move and do one action each turn (attack, cast a spell, move again, speak with someone, etc.).
+
+Melee attack bonus = STR bonus + Level
+
+Missile attack bonus = DEX bonus + Level
+
+Magic attack bonus = MIND bonus + Level
+
+Add attack bonus to d20 roll. If higher than your opponent's Armor Class (AC), it's a hit. Natural 20 is automatically a critical doing maximum damage.
+
+Fighters and Rogues can use DEX bonus + Level as Melee attack bonus instead if wielding a light weapon. Fighters, Rogues, Bards, and Rangers can wield 2 light weapons and attack with both in a round if they take a -2 penalty (Rangers don't take the penalty) on all attack rolls that round.
+
+If the total bonus is +6 or more, a second attack can be made with a -5 penalty. If the total bonus is +11 or more a third attack can be made at -10. For example, if the total bonus is +12, three attacks can be made at +12/+7/+2.
+
+Add STR bonus to Melee damage, x2 for 2-handed weapons.
+
 ## Magic
 
 Spellcasters can cast any of their class spells, with a spell level equal or below 1/2 their class level, rounded up. Casting a spell of any kind costs Hit Points. The cost is 1 + double the level of the spell being cast:
@@ -74,41 +102,17 @@ Once a spellcaster has cast a spell in an encounter, their HP **cannot** be heal
 
 There is no need to memorize spells in advance. Just because a character can cast any spell, doesn't mean that they should. Choose spells that suit the character. Select one "signature" spell per spell level from 1st upward that they prefer to use over any other. These spells are easier to cast due to familiarity, costing 2 less HP to use.
 
-The Difficulty Class (DC) for all spells is:
+**Spell Difficulty Class (DC)** for all spells: 10 + Caster Level + Caster's MIND bonus
 
-10 + Caster Level + Caster's MIND bonus
+When a spell is cast, the target of the spell must make a DC save (d20), unless the spell requires a different save. If the target scores lower than the caster's DC, they are affected by the spell.
 
 Here are three ways for spell casters to add a little more variety:
 
 **Extending** makes a spell last twice as long as it normally would. An Extended spell costs an additional 2 HP.
 
-**Empowering** makes a spell do 50% more damage than it normally would. An Empowered spell costs an additional 4 HP.
+**Empowering** makes a spell do 50% more damage than normal. An Empowered spell costs an additional 4 HP.
 
-**Widening** makes a spell's area of effect twice as big as it would normally be. A Widened spell costs an additional 6 HP.
-
-## Combat
-
-**Hit Points (HP)** = STR Stat + 1d6/Level. If HP reaches zero, the player becomes "downed", or unconscious and near death. Further damage directly reduces STR. If that reaches zero, the player dies. When down, roll a d20. You have 3 chances to roll above a 10. If successful, you are stable and return to 1 HP (STR is returned to normal as well). Otherwise, if unsuccessful 3 times, the player dies.
-
-**Speed** comes in 3 tiers. You are either Slow(15ft.), Normal(25ft.) or Fast(35ft.).  Speed is determined by the game master and can be affected by spells and conditions. Typically, Fighters or Paladins with Heavy armor are Slow, Rogues and Rangers are Fast, and the rest are Normal speed.
-
-Roll d20 + DEX bonus for initiative order.Everyone can move and do one thing each turn (attack, cast a spell, etc.).
-
-Melee attack bonus = STR bonus + Level
-
-Missile attack bonus = DEX bonus + Level
-
-Magic attack bonus = MIND bonus + Level
-
-Add attack bonus to d20 roll. If higher than your opponent's Armor Class (AC), it's a hit. Natural 20 is automatically a critical doing maximum damage.
-
-Fighters and Rogues can use DEX bonus + Level as Melee attack bonus instead if wielding a light weapon. Fighters, Rogues, Bards, and Rangers can wield 2 light weapons and attack with both in a round if they take a -2 penalty (Rangers don't take the penalty) on all attack rolls that round.
-
-If the total bonus is +6 or more a second attack can be made with a -5 penalty. If the total bonus is +11 or more a third attack can be made at -10. For example, if the total bonus is +12, three attacks can be made at +12/+7/+2.
-
-Add STR bonus to Melee damage, x2 for 2-handed weapons.
-
-**Armor Class (AC)** = 10 + DEX bonus + Armor bonus.
+**Widening** makes a spell's area of effect twice as big as normal. A Widened spell costs an additional 6 HP.
 
 ## Heroism
 
@@ -128,7 +132,9 @@ Fighters gain +1 to their attack and damage rolls at levels 5,10,15,etc.
 
 New spell levels are unlocked at levels 3,5,7,9,etc.
 
-**Example:** The 1st level adventurers have just completed a dungeonadventure, and defeated 5 1 XP encounters, a 2 XP trap and the3 XP leader. That's a total of 10 XP, so they all advance to level 2.They need to gain another 20 XP to reach Level3.
+New power levels are unlocked at levels 2,4,6,8,etc.
+
+**Example:** The 1st level adventurers have just completed a dungeon adventure, and defeated five 1 XP encounters, a 2 XP trap and the 3 XP leader. That's a total of 10 XP, so they all advance to level 2. They need to gain another 20 XP to reach Level 3.
 
 # Equipment
 
@@ -365,7 +371,7 @@ Finally, add the following, based on your Class:
 
 # Spell Lists
 
-While any spells in the SRD can be available to spell casters, the following spells are suggested for those automatically available as casters advance in level and become able to use higher level spells. With this system, additional spells in the SRD but not on this list must be discovered in the game (researched, found in treasure, etc.)
+The following spells have been customized and tweaked to make the game as smooth as possible. It is suggested to use these spells for all spell casters in the game, although spells from the SRD can also be used in Microluxe20 without any conversions. With the following spell system in place, additional spells in the SRD (but not on this list) can easily be discovered in the game as loot, research, etc., if the GM desires.
 
 ## Arcane (Mage) Spells
 
@@ -939,19 +945,23 @@ While any spells in the SRD can be available to spell casters, the following spe
 
 ## Psion Power List
 
-Psionic characters can manifest any of their powers, so long as the power level is equal or below ½ their class level, rounded down (unlike spellcasters, who round-up). Unlike spells, all aspects of a power do not automatically scale with level. Instead, they are augmented with additional
+Psionic characters can manifest any of their powers, so long as the power level is equal or below ½ their class level, rounded down (unlike spellcasters, who round-up). Unlike spells, all aspects of a power do not automatically scale with level. Instead, they are augmented with additional Hit Points (HP). The augmenting HP cost is noted under each power's entry. Like casters, Psions can select a "signature" power per power level from 1st upward, reducing its cost by 2 HP.
 
-Hit Points (HP). The augmenting HP cost is noted under each power's entry.
+The combined HP cost for manifesting and augmenting a power cannot exceed the character's psionic class level. Thus, a 3rd level psion could manifest a level 1 power by spending 1 HP, and augment it by spending 2 additional HP for a total HP cost of 3.
 
-The combined hit point cost for manifesting and augmented a power cannot exceed the character's psionic class level. Thus, a 3rd level psychic could manifest a level one power by spending 1 hit point, and augment it by spending 2 additional hit points for a total hit point cost of 3.
+Temporary HP cannot be used to manifest powers. Like casters, after casting a Psion power or spell, healing spells cast on an injured psion only heal ¼ of the given amount.
 
-Temporary hit points cannot be used to manifest powers. Like casters, healing spells cast on an injured psion only heal ¼ of the given amount.
+**Power Difficulty Class (DC):** 10 + Psionic Level + Psionic's MIND bonus
 
-**Power Difficulty Class:** The Difficulty Class (DC) for all powers is:
+**Psionic vs. Magical Effects:** Powers interact with spells and spells interact with powers in the same way a spell or normal spell-like ability interacts with another spell or spell-like ability. For example, detect magic detects psionics and dispel psionics dispels magic.
 
-10 + Psionic Level + Psionic's MIND bonus
+### 0-Level Psion Powers
 
-**Psionic vs. Magical Effects:** Powers interact with spells and spells interact with powers inthe same way a spell or normal spell-like ability interactswith another spell or spell-like ability. For example, detectmagic detects psionics and dispel psionics dispels magic.
+**Inkling:** Weakly manifest psionic power, allowing tiny objects to move unpredictably.
+
+**Contact:** Project gibberish into a target's mind. _Duration_: 1 minute.
+
+**Mental Spike:** Deal 1d4 force damage _Duration_: Instant.
 
 ### 1st-Level Psion Powers
 
@@ -1498,7 +1508,7 @@ If you're seriously still stuck in SRD land, here is a chart for the skills from
 
 ## Magic Item Creation
 
-Spellcasters gain the ability to make magical items at certain class levels. This translates to being able to buy these items, but at half their usual purchase price. This represents the raw materials required to make the item. Making items requires equipment (a forge, etc), the right skills and time as per the existing item creation rules in the SRD. Making magic items does not cost XP.
+Spellcasters gain the ability to make magical items at certain class levels. This translates to being able to buy these items, but at half their usual purchase price. This represents the raw materials required to make the item. Making items requires equipment (a forge, etc), the right skills, and time. Making magic items does not cost XP.
 
 Here's when Spellcasters can make stuff:
 
@@ -1512,9 +1522,7 @@ Here's when Spellcasters can make stuff:
 
 ## Basic Mass Combat
 
-Most combat is carried out one-on-one, with each set of stats (HP, AC, combat bonuses, etc) applying to a single character or creature.
-
-It can be extended by adding in Combat Scale. Combat Scale is a multiplier that shows the size of the unit relative to the norm. It is only applied to damage in combat between units of different size. Hit Points, AC and all other stats remain the same.
+Most combat is carried out one-on-one, with each set of stats (HP, AC, combat bonuses, etc) applying to a single character or creature. However, combat can be extended by using Combat Scale. Combat Scale is a multiplier that shows the amount of characters or creatures relative to their normal single-unit size. It is only applied to damage in combat between units of different size. Hit Points, AC and all other stats remain the same.
 
 For example, a unit of 20 Goblin warriors will have CSx5 as per the table below. The combat stats are still HD1d8+1 (5HP), AC15, Morningstar +2 (1d6) or Javelin +3 (1d4). Against anything with the same Combat Scale (for example, a unit of 15 Elves), combat is resolved normally as if it was one goblin against one elf.
 
@@ -1538,20 +1546,18 @@ If the Combat Scale becomes the same for all opponents, resolve combat normally;
 
 Experience is gained from taking part in a battle equal to the Hit Die of the opponent, +1 for each CS higher than your own. For example, a member of the 20-strong Grey Company (CSx5) will earn 3 XP in a battle against 35 Gnolls (a 2Hit Die creature, CSx6).
 
-## Mass Combat Example
+## Mass Combat Example: Knights vs Dragon
 
-### Knights vs Red Dragon
-
-The 500-strong Order of the Purple Flame stand ready against the Red Dragon. They are CSx10, while the Dragon, a single critter, is just CSx1, though formidable.
+The 500-strong Knights of the Rose stand ready against the young Dragon. They are CSx10, while the Dragon, a single creature, is just CSx1, though formidable.
 
 500 Knights: HD2d8+4 (14HP), AC18, Lance +7 (1d10+4) or Longsword +6 (1d8+2), CSx10
-Red Dragon: HD13×12+39 (123HP), AC21, Bite +20 (2d6+7) or Breath 10d10 DC24
+Dragon: HD13×12+39 (123HP), AC21, Bite +20 (2d6+7) or Breath 10d10 DC24
 
-The Dragon flies high above and breathes flame across their phalanx for 46HP damage. The knights dive for cover beneath their shields (phys+DEX to dodge DC24. They roll 25, barely making it). They take ½ damage – 23HP, divided by CSx10 for 2HP. The Knights are down to 12HP.
+The Dragon flies high above and breathes flames across their formation for 46HP damage. The knights dive for cover beneath their shields (phys+DEX to dodge DC24. They roll 25, barely making it). They take ½ damage – 23HP, divided by CSx10 for 2HP. The Knights are down to 12HP.
 
-They ready their horses to charge as the Dragon lands, the thunder of 2,000 hooves causing the young Red to pause. They hit (rolled 18+7 = 25 vs. AC21), scoring 11 damage, CSx10 for a massive 110HP damage. The Red Dragon is down to 13HP against the small army, bleeding from the impact of many lances. It roars and lunges in anger, biting savagely. It hits easily (rolled 6+20 = 26 vs. AC18) for 17 damage, divided by 10 = 2HP. The Knights are down to 10HP. If they fall below 7HP they will be at half their numbers and down to CSx9.
+They ready their horses to charge as the Dragon lands, the thunder of 2,000 hooves makes the young dragon hesitate. They hit (rolled 18+7 = 25 vs. AC21), scoring 11 damage, CSx10 for a massive 110HP damage. The Dragon is down to 13HP against the small army, bleeding from the impact of many lances. It roars and lunges in anger, biting savagely. It hits easily (rolled 6+20 = 26 vs. AC18) for 17 damage, divided by 10 = 2HP. The Knights are down to 10HP. If they fall below 7HP they will be at half their numbers and down to CSx9.
 
-They draw their Longswords and surround the downed Dragon, though their weapons to little more than scratch the drake's hide (6 + 8 = 14, a miss). The Dragon turns to bite again, and rolls a Natural 20. It's a critical, so the Knights take 19HP damage, CSx10 so 2HP lost. They are down to 8HP after watching a few more of their number be gobbled up.
+They draw their Longswords and surround the downed Dragon, though their weapons do little more than scratch the drake's hide (6 + 8 = 14, a miss). The Dragon turns to bite again, and rolls a Natural 20. It's a critical, so the Knights take 19HP damage, CSx10 so 2HP lost. They are down to 8HP after watching a few more of their number be gobbled up.
 
 Their longswords bit true (18 +6 = 24 vs. AC21), for 6HP damage, CSx10 for a total of 60HP against the drake. It's down, finally, though the Knights have lost 143 (500×4/14) of their number in the battle. They commend their souls in valor.
 
@@ -1559,7 +1565,7 @@ Their longswords bit true (18 +6 = 24 vs. AC21), for 6HP damage, CSx10 for a tot
 
 ### Setting the DC
 
-The Difficulty Class can vary depending on how the player approaches the task. When setting the DC, I think in terms of "What would Bob do?" - Bob being my imaginary 1st level commoner with no modifiers. Bob has straight 10s for all stats and no skill bonuses. He's the unheroic man on the street, and the benchmark by which heroes are measured.
+The Difficulty Class can vary depending on how the player approaches the task. When setting the DC, think in terms of "What would Bob do?" - Bob being an imaginary 1st level commoner with no modifiers. Bob has straight 10s for all stats and no skill bonuses. He's the unheroic man on the street, and the benchmark by which heroes are measured.
 
 In general, I recommend using only four DCs, especially at low levels:
 
@@ -1568,9 +1574,9 @@ In general, I recommend using only four DCs, especially at low levels:
 | 10 | Easy – 50/50 chance of Bob succeeding 1st time |
 | 15 | Moderate – would succeed after several attempts |
 | 20 | Difficult – would succeed only with luck on his side |
-| 25 | Very Difficult – Bob needs some hefty modifiers and the Gods watching over him |
+| 25 | Very Difficult – Bob needs some hefty modifiers and the Titans watching over him |
 
-Never use DC 5. if it's that easy and out of combat, keep the game flowing by having the players succeed automatically. Also, it helps if there's always an easy way to solve a problem. While each character can find at least one solution to a problem and gain the benefit of their highest attribute, there's usually a path of least resistance to be found. All the players have to do is discover it!
+Never use DC 5. If it's that easy and out of combat, keep the game flowing by having the players succeed automatically. Also, it helps if there's always an easy way to solve a problem. While each character can find at least one solution to a problem and gain the benefit of their highest attribute, there's usually a path of least resistance to be found. All the players have to do is discover it!
 
 At higher levels, encourage the players to come up with ever more heroic solutions to problems. While a barred door might be a pause for thought to 1st level characters, by 10th level it's an excuse for light relief. Your 10th level Fighter would have a +13 Phys and most likely automatically succeed at any DC15 Phys+STR checks – so encourage them to aim for DC20, at least.
 
@@ -1578,21 +1584,21 @@ At higher levels, encourage the players to come up with ever more heroic solutio
 
 Modifiers are the GM's Best Friend. Even a plus or minus 2 can make a world of difference, especially at lower levels. If your Human Rogue is trying to persuade the City Guard to let them enter the Merchant's Quarter after dark (Comm+MIND, DC15), grant them a +2 because the guard recently won at dice and is in a good mood. Alternatively, give them a minus 2 because he lost but drop hints as to the guard's weakness.
 
-If the characters need to find a path through the Troll Swamps (Know+MIND, DC20) then finding an old trail map (a +4 modifier!) might just save them from becoming Delicious Human Stew.
+If the characters need to find a path through the Deadlands (Know+MIND, DC20) then finding an old trail map (a +4 modifier!) might just save them from becoming zombified minions of a powerful Lich!
 
 Encourage the players to work for those modifiers, and reward them for clever, creative thinking. It's what the game is all about, after all.
 
 ### Fewer Skills Means More Choice
 
-Back in the days of Classic D&D, the players could do anything. With no straight-jacketed skill system to limit their choices, the players invented cool and clever solutions to problems. When faced with a 30ft. high statue with rubies for eyes they erected pulleys to lift and swing the rogue into place far above their heads. Try doing that in 3rd Edition D&D and the GM will be left scratching their head working out how to call for skill checks for that. The D&D skill system has become a list of what the characters can do, silently eliminating all other possibilities, and that's no fun.
+Back in the days of Classic D&D, players could do anything. With no straight-jacketed skill system to limit their choices, the players invented cool and clever solutions to problems. When faced with a 30ft. high statue with rubies for eyes, they erected pulleys to lift and swing the rogue into place far above their heads. Try doing that in 3rd Edition D&D and the GM will be left scratching their head. The D&D skill system has become a list of what the characters can do, silently eliminating all other possibilities, and that's no fun.
 
-Microluxe20 is the best of both worlds; rather than provide a skills list, it provides a skills framework. This give the players room to think of solutions rather than looking down a long list of skills to see what's most applicable to the task in hand.
+Microluxe20 is the best of both worlds; rather than provide a skills list, it provides a skills framework. This gives the players room to think of solutions rather than looking down a long list of skills to see what's most applicable to the task in hand.
 
 Here's another example: Climbing. In D&D, that's a skill modified by STR. That's good if you're a Fighter, but not so good if you're a Wizard. In Microluxe20, the character could use Phys+STR ("I pull myself up"), Phys+DEX ("I nimbly climb the cliff face"), Phys+MIND ("I take my time, working out the best route and carefully testing each handhold") or even Guile+STR ("I climb, quietly"). That adds much more flavor to the game and encourages each player to find their own, unique, solution.
 
 ### Using Existing D&D Monsters
 
-But what happens when you're running a published adventure, or using a Monster from the Monster Manual or SRD?
+So what happens when you're running a published adventure, or using a Monster from the Monster Manual or SRD?
 
 Simple; use them as is. It doesn't matter that the Orc makes a Listen check to see if it detects the PCs, or if the NPC fails a Spot check. The mechanics are the same (roll d20+modifiers against a DC), and the emphasis should always be on simplicity and speed of play. There's no need to convert any monsters or NPCs to Microluxe20 before you use them. Just roll, and have fun!
 
@@ -1600,26 +1606,20 @@ Simple; use them as is. It doesn't matter that the Orc makes a Listen check to s
 
 Monster Building under Microluxe20 is so fast, it's possible to do it **on the fly** , right at the game table. And I'm going to show you how, using a Ninja Monkey as an example.
 
-Start by setting the Hit Dice for our Ninja Monkeys. As these are tiny little monkeys, fighting 1st level PCs, let's give them 1HD.
-
-Quick tip: to speed monster creation further, multiply the Hit Dice by 5 for hit points; multiply Hit Dice by 7 for Dragons and Undead.
+First, let's start by setting the Hit Dice for our Ninja Monkeys. As these are tiny little monkeys, fighting 1st level PCs, let's give them 1HD. _Quick tip: to speed monster creation further, multiply the Hit Dice by 5 for hit points; multiply Hit Dice by 7 for Dragons and Undead._
 
 Remember that unlike Player Characters, Monsters and other NPCs **don't** add their STR total to their hit points. This is a special bonus for Real Heroes only. If you want a tougher Monster, increase their STR so they get an increase (equal to their STR bonus) to their HP per Hit Dice.
 
 That gives the Ninja Monkeys 1HD, 5HP, +1 to hit with their Katana and +1 with all skills. As these are intelligent Ninjas, we'll allocate their +3 to Guile. Let's give them STR 6, DEX 14 and MIND 12, allow them to use DEX (rather than STR) for their attack roll with their miniature Katanas, which do d6 damage. Factoring that in with the Hit Dice, we get:
 
 Ninja Monkey, 1HD (3HP), AC12, +3 Katana (1d6-2)
-
 Guile+4, all others @ +1
-
 STR 6, DEX 14, MIND 12
 
-DONE! If the Ninja Monkeys have any special abilities or equipment, note them down but don't bother with setting uses/day, etc; if it's Dramatically Appropriate for a monster to use its abilities then use them. No Rules Needed! That's the Microluxe20 way!
+DONE! If the Ninja Monkeys have any special abilities or equipment, note them down but don't bother with setting uses/day, etc; if it's dramatically appropriate for a monster to use its abilities then use them. No Rules Needed! That's the Microluxe20 way!
 
 If you want a more powerful Ninja Monkey, just add Hit Dice, which increases HP, attack bonus and skills. Adjust Stats if it's logical to do so. Here's a 3HD Ninja Monkey:
 
 Ninja Monkey, 3HD (12HP), AC12, +5 Katana (1d6-1)
-
 Guile+6, all others @ +3
-
 STR 8, DEX 14, MIND 12

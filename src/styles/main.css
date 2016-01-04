@@ -20,10 +20,13 @@ h2 {
 }
 
 table {
+    page-break-inside: avoid;
     margin: 0;
+    font-size: 85%;
 }
 
 table, td {
+  page-break-inside: avoid;
   padding: 2px 6px;
   border: 1px solid black;
 }
@@ -33,7 +36,7 @@ th {
 }
 
 body {
-  font-size: 85%;
+  font-size: 80%;
   font-stretch:expanded;
   font-kerning: auto;
 }
