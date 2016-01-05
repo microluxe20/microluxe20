@@ -16,14 +16,18 @@ h2 {
 }
 
 * {
-    font-family: Helvetica;
+    font-family: "Segoe UI";
+    font-stretch: extra-expanded;
 }
 
 table {
+    page-break-inside: avoid;
     margin: 0;
+    font-size: 95%;
 }
 
 table, td {
+  page-break-inside: avoid;
   padding: 2px 6px;
   border: 1px solid black;
 }
@@ -33,7 +37,7 @@ th {
 }
 
 body {
-  font-size: 85%;
-  font-stretch:expanded;
-  font-kerning: auto;
+  font-size: 84%;
+  font-stretch: extra-expanded;
+  font-kerning: none;
 }
