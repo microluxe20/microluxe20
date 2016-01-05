@@ -167,81 +167,56 @@ Here is the format for weapon entries (given as column headings on the table bel
 
 **Damage** : The damage column gives the damage dealt by the weapon on a successful hit.
 
-**Range** : Any attack at less than this distance is not penalized for range. However, each full range increment imposes a cumulative -2 penalty on the attack roll. A thrown weapon has a maximum range of five range increments. A projectile weapon can shoot out to ten range increments.
+**Range** : Any attack less than this distance is not penalized. However, every extra 5ft. imposes a -2 penalty on the attack roll.
 
 **Complexity** : Different weapons require different amount of training to use. The level of complexity relies on the player's class.
 
 
 ### Light Weapons
 
-| Weapon | Cost | Damage | Range | Complexity |
-| :--- | :--- | :--- | :--- | :--- |
-| Unarmed | — | 1d3 | — | Simple |
-| Dagger | 2gp | 1d4 | 10 ft. | Simple |
-| Mace, light | 5gp | 1d6 | — | Simple |
-| Sickle | 5gp | 1d6 | — | Simple |
-| Pick, light | 5gp | 1d4 | — | Complex |
-| Handaxe | 5gp | 1d4 | — | Complex |
-| Sap | 8gp | 1d6 | — | Complex |
-| Sword, short | 8gp | 1d6 | — | Complex |
-| Axe, throwing | 10gp | 1d6 | 10ft. | Complex |
-| Hammer, light | 12gp | 1d6 | 20ft. | Complex |
+| Weapon | Cost | Damage | Range | Complexity | Weapon | Cost | Damage | Range | Complexity |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Unarmed | — | 1d3 | — | Simple | Handaxe | 5gp | 1d4 | — | Complex |
+| Dagger | 2gp | 1d4 | 10 ft. | Simple | Sap | 8gp | 1d6 | — | Complex |
+| Mace, light | 5gp | 1d6 | — | Simple | Sword, short | 8gp | 1d6 | — | Complex |
+| Sickle | 5gp | 1d6 | — | Simple | Axe, throwing | 10gp | 1d6 | 10ft. | Complex |
+| Pick, light | 5gp | 1d4 | — | Complex | Hammer, light | 12gp | 1d6 | 20ft. | Complex |
 
 ### Ranged Weapons
 
-| Weapon | Cost | Damage | Range | Complexity |
-| :--- | :--- | :--- | :--- | :--- |
-| Dart | 5sp | 1d4 | 20ft. | Simple |
-| Sling | 1gp | 1d4 | 50ft. | Simple |
-| Javelin | 1gp | 1d6 | 30ft. | Simple |
-| Crossbow, light | 35gp | 1d8 | 80ft. | Simple |
-| Crossbow, heavy | 50gp | 1d10 | 120ft. | Simple |
-| Net | 20gp | — | 10ft. | Complex |
-| Crossbow, hand | 100gp | 1d4 | 30ft. | Complex |
-| Shortbow | 30gp | 1d6 | 60ft. | Complex |
-| Longbow | 75gp | 1d8 | 100ft. | Complex |
-| Longbow, Composite | 100gp | 1d10 | 120ft. | Complex |
-
+| Weapon | Cost | Damage | Range | Complexity | Weapon | Cost | Damage | Range | Complexity |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Dart | 5sp | 1d4 | 20ft. | Simple | Net | 20gp | — | 10ft. | Complex |
+| Sling | 1gp | 1d4 | 50ft. | Simple | Crossbow, hand | 100gp | 1d4 | 30ft. | Complex |
+| Javelin | 1gp | 1d6 | 30ft. | Simple | Shortbow | 30gp | 1d6 | 60ft. | Complex |
+| Crossbow, light | 35gp | 1d8 | 80ft. | Simple | Longbow | 75gp | 1d8 | 100ft. | Complex |
+| Crossbow, heavy | 50gp | 1d10 | 120ft. | Simple | Longbow, Composite | 100gp | 1d10 | 120ft. | Complex |
 
 ### Two-Handed Weapons
 
-| Weapon | Cost | Damage | Range | Complexity |
-| :--- | :--- | :--- | :--- | :--- |
-| Bayonet | 2gp | 1d4 | — | Simple |
-| Quarterstaff | 3gp | 1d6 | — | Simple |
-| Longspear | 5gp | 1d8 | — | Simple |
-| Spear | 8gp | 1d8 | 20ft. | Simple |
-| Falchion | 25gp | 1d6 | — | Complex |
-| Flail, heavy | 30gp | 1d8 | — | Complex |
-| Glaive | 30gp | 1d8 | — | Complex |
+| Weapon | Cost | Damage | Range | Complexity | Weapon | Cost | Damage | Range | Complexity |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Bayonet | 2gp | 1d4 | — | Simple | Lance | 30gp | 1d8 | — | Complex |
+| Quarterstaff | 3gp | 1d6 | — | Simple | Scythe | 35gp | 2d4 | — | Complex |
+| Longspear | 5gp | 1d8 | — | Simple | Chain, spiked | 35gp | 2d4 | — | Complex |
+| Spear | 8gp | 1d8 | 20ft. | Simple | Guisarme | 35gp | 2d4 | — | Complex |
+| Falchion | 25gp | 1d6 | — | Complex | Greataxe | 40gp | 1d10 | — | Complex |
+| Flail, heavy | 30gp | 1d8 | — | Complex | Halberd | 40gp | 1d10 | — | Complex |
+| Glaive | 30gp | 1d8 | — | Complex | Greatsword | 50gp | 2d6 | — | Complex |
 | Greatclub | 30gp | 1d8 | — | Complex |
-| Lance | 30gp | 1d8 | — | Complex |
-| Scythe | 35gp | 2d4 | — | Complex |
-| Chain, spiked | 35gp | 2d4 | — | Complex |
-| Guisarme | 35gp | 2d4 | — | Complex |
-| Greataxe | 40gp | 1d10 | — | Complex |
-| Halberd | 40gp | 1d10 | — | Complex |
-| Greatsword | 50gp | 2d6 | — | Complex |
 
 ### One-Handed Weapons
 
-| Weapon | Cost | Damage | Range | Complexity |
-| :--- | :--- | :--- | :--- | :--- |
-| Club | 2gp | 1d6 | 10ft. | Simple |
-| Shortspear | 4gp | 1d6 | 20ft. | Simple |
-| Mace, heavy | 12gp | 1d8 | — | Simple |
-| Morningstar | 12gp | 1d8 | — | Simple |
-| Whip | 1gp | 1d3 | — | Complex |
-| Pick, heavy | 15gp | 1d6 | — | Complex |
-| Rapier | 15gp | 1d6 | — | Complex |
+| Weapon | Cost | Damage | Range | Complexity | Weapon | Cost | Damage | Range | Complexity |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Club | 2gp | 1d6 | 10ft. | Simple | Warhammer | 20gp | 1d8 | — | Complex |
+| Shortspear | 4gp | 1d6 | 20ft. | Simple | Battleaxe | 20gp | 1d8 | — | Complex |
+| Mace, heavy | 12gp | 1d8 | — | Simple | Flail | 20gp | 1d8 | — | Complex |
+| Morningstar | 12gp | 1d8 | — | Simple | Longsword | 20gp | 1d8 | — | Complex |
+| Whip | 1gp | 1d3 | — | Complex | Trident | 25gp | 1d8 | 10ft. | Complex |
+| Pick, heavy | 15gp | 1d6 | — | Complex | Waraxe | 35gp | 1d10 | — | Complex |
+| Rapier | 15gp | 1d6 | — | Complex | Sword, bastard | 35gp | 1d10 | — | Complex |
 | Scimitar | 15gp | 1d6 | — | Complex |
-| Warhammer | 20gp | 1d8 | — | Complex |
-| Battleaxe | 20gp | 1d8 | — | Complex |
-| Flail | 20gp | 1d8 | — | Complex |
-| Longsword | 20gp | 1d8 | — | Complex |
-| Trident | 25gp | 1d8 | 10ft. | Complex |
-| Waraxe | 35gp | 1d10 | — | Complex |
-| Sword, bastard | 35gp | 1d10 | — | Complex |
 
 ## Armor & Shields
 
@@ -255,32 +230,24 @@ Here is the format for armor entries (given as column headings on the table belo
 
 ### Armor
 
-| Armor | Size | Cost | Bonus |
-| :--- | :--- | :--- | :--- |
-| Padded | Light | 2gp | +1 |
-| Leather | Light | 10gp | +2 |
-| Studded Leather | Light | 25gp | +3 |
-| Chain Shirt | Light | 100gp | +4 |
-| Hide | Medium | 15gp | +3 |
-| Scale Mail | Medium | 50gp | +4 |
-| Chainmail | Medium | 150gp | +5 |
-| Breastplate | Medium | 200gp | +5 |
-| Splint Mail | Heavy | 200gp | +6 |
-| Banded Mail | Heavy | 250gp | +6 |
-| Half-plate | Heavy | 600gp | +7 |
-| Full Plate | Heavy | 1,500gp | +8 |
+| Armor | Size | Cost | Bonus | Armor | Size | Cost | Bonus |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Padded | Light | 2gp | +1 | Chainmail | Medium | 150gp | +5 |
+| Leather | Light | 10gp | +2 | Breastplate | Medium | 200gp | +5 |
+| Studded Leather | Light | 25gp | +3 | Splint Mail | Heavy | 200gp | +6 |
+| Chain Shirt | Light | 100gp | +4 | Banded Mail | Heavy | 250gp | +6 |
+| Hide | Medium | 15gp | +3 | Half-plate | Heavy | 600gp | +7 |
+| Scale Mail | Medium | 50gp | +4 | Full Plate | Heavy | 1,500gp | +8 |
 
 ### Shields
 
-| Armor | Cost | Bonus |
-| :--- | :--- | :--- |
-| Buckler | 5gp | +1 |
-| Klar (1d4 damage) | 20gp | +1 |
-| Shield, light wooden | 3gp | +1 |
-| Shield, light steel | 9gp | +1 |
-| Shield, heavy wooden | 7gp | +2 |
-| Shield, heavy steel | 20gp | +2 |
-| Shield, tower | 30gp | +4 |
+| Armor | Cost | Bonus | Armor | Cost | Bonus |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Buckler | 5gp | +1 | Shield, medium steel | 20gp | +2 |
+| Klar (1d4 damage) | 20gp | +1 | Shield, heavy wooden | 25gp | +3 |
+| Shield, light wooden | 3gp | +1 | Shield, heavy steel | 40gp | +3 |
+| Shield, light steel | 9gp | +1 | Shield, tower | 50gp | +4 |
+| Shield, medium wooden | 12gp | +2 | Shield, kite | 150gp | +5 |
 
 ## Adventuring Equipment
 
@@ -543,7 +510,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Divine Favor:** You gain +1 per three levels on attack and damage rolls for 10 rounds.
 
-**Magic Stone:** Three stones gain +1 on attack, deal 1d6 +1 damage. Lasts for 30 minutes or until discharged.
+**Magic Stone:** Three small throwing stones are enchanted, gaining +1 on attack and dealing 1d6 +1 damage, with a range of 20ft. The enchantment lasts for 30 minutes or until discharged.
 
 **Shield of Faith:** Aura grants +2 or higher AC bonus for 10 rounds/level.
 
@@ -567,7 +534,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Cure Serious Wounds:**  Cures 3d8 damage +1/level (max +15).
 
-**Prayer:**  Allies within 40ft. get a +1 bonus on attack rolls, weapon damage rolls, saves, and skill checks, enemies take a –1 penalty for 1 round/level.
+**Prayer:**  Allies within 40ft. get a +1 bonus on attack rolls, weapon damage rolls, saves, and skill checks. Enemies take a –1 penalty on all rolls for 1 round/level.
 
 **Remove Disease:**  Cures all diseases affecting subject.
 
@@ -957,11 +924,11 @@ Temporary HP cannot be used to manifest powers. Like casters, after casting a Ps
 
 ### 0-Level Psion Powers
 
-**Inkling:** Weakly manifest psionic power, allowing tiny objects to move unpredictably.
+**Inkling:** Weakly manifest some psionic power, allowing tiny objects or creatures to be moved unpredictably.
 
-**Contact:** Project gibberish into a target's mind. _Duration_: 1 minute.
+**Contact:** Project gibberish or meaningless sounds and images into a target's mind, confusing, disorienting, and possibly frightening them. _Duration_: 1 minute.
 
-**Mental Spike:** Deal 1d4 force damage _Duration_: Instant.
+**Mental Spike:** Send a sharp mental force into a target's mind. Deal 1d4 force damage _Duration_: Instant.
 
 ### 1st-Level Psion Powers
 
@@ -1544,7 +1511,7 @@ If the Combat Scale becomes the same for all opponents, resolve combat normally;
 
 ## Calculating Experience
 
-Experience is gained from taking part in a battle equal to the Hit Die of the opponent, +1 for each CS higher than your own. For example, a member of the 20-strong Grey Company (CSx5) will earn 3 XP in a battle against 35 Gnolls (a 2Hit Die creature, CSx6).
+Experience is gained from taking part in a battle equal to the Hit Die of the opponent, +1 for each CS higher than your own. For example, a member of the 20-strong Knights of the Rose (CSx5) will earn 3 XP after defeating an army of 35 Gnolls (a 2 Hit Die creature, CSx6).
 
 ## Mass Combat Example: Knights vs Dragon
 
