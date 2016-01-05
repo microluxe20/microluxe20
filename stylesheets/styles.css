@@ -172,6 +172,7 @@ header ul {
   border-radius:5px;
   border:1px solid #e0e0e0;
   width:180px;
+  margin: auto;
 }
 
 header li {
@@ -212,7 +213,7 @@ strong {
   font-weight:700;
 }
 
-header ul li + li + li {
+header ul li + li {
   border-right:none;
   width:89px;
 }
