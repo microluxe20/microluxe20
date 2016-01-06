@@ -45,31 +45,31 @@ There are 3 saves: **Fortitude** , **Reflex** , and **Will**. For Fortitude and 
 
 ## Classes
 
-**Fighters** wear and use any kind of armor, shield, and weapon. They have a +3 bonus to Physical and add +1 to all attack and damage rolls. This increases by +1 at 5th level and every five levels onward. Fighters gain the Cleave ability at level 5. If the Fighter's melee attack drops or slays a foe, the fighter is granted one additional attack against another opponent in range that round. This ability can compound, meaning if one swing kills the second foe, the Fighter can continue to attack until he/she either misses or doesn't kill the foe with the attack.
+**Fighters** wear and use any kind of armor, shield, and weapon. They gain a +3 bonus to Physical and add +1 to all attack and damage rolls. This increases by +1 at 5th level and every five levels onward. Fighters gain the Cleave ability at level 5. If the Fighter's melee attack drops or slays a foe, the fighter is granted one additional attack against another opponent in range that round. This ability can compound, meaning if one swing kills the second foe, the Fighter can continue to attack until he/she either misses or doesn't kill the foe with the attack.
 
 **Rogues** can use light armor, can use bucklers, and can use simple weapons and complex light weapons. They have a +3 bonus to Guile. If they successfully Sneak (usually Guile+DEX, but depends on situation) up on a foe they can add their Guile skill rank to the damage of their first attack.
 
 **Mages** wear no armor, can not use shields, and can use simple weapons. They can cast arcane spells, and gain a +3 bonus to Knowledge.
 
-**Clerics** can wear light or medium armor, can not use shields, and can use simple weapons. They cast divine spells and gain +3 bonus to Communication. A Cleric can Turn Undead with a successful Magic Attack. DC is the current Hit Points of the Undead. If the DC is exceeded by 10 it is destroyed. This can be used (2 + Level + MIND Bonus) times per day.
+**Clerics** can wear light or medium armor, can not use shields, and can use simple weapons. They cast divine spells and gain +3 bonus to Communication. A Cleric can _Turn Undead_ with a successful Magic Attack. DC is the current HP of the Undead. If the DC is exceeded by 10 it is destroyed. This can be used (2 + Level + MIND Bonus) times per day.
 
-**Paladins** wear and use any kind of armor, shield, and weapon. They have a +1 bonus to Physical and a +2 bonus to Communication. They are immune to diseases and apply a +1 bonus to all saving throws (this increases by +1 at 5th level and every 5 levels onward). Paladins can _detect evil_ within 60 ft. at will and can heal up to 2 HP per level per day by _laying on hands_.
+**Paladins** wear and use any kind of armor, shield, and weapon. They gain +1 to Physical and a +2 bonus to Communication. They are immune to diseases and apply a +1 bonus to all saving throws (this increases by +1 at 5th level and every 5 levels onward). Paladins can _detect evil_ within 60 ft. at will and can heal up to 2 HP per level per day by _laying on hands_.
 
 **Rangers** wear light or medium armor, can use shields, and can use simple weapons, complex ranged weapons, and complex one-handed weapons. They gain +1 to hit and to damage with ranged weapons and only incur a -1 to hit penalty when fighting with 2 weapons. They have a +1 bonus to Guile and a +2 bonus to Physical.
 
 **Illusionists** wear no armor, can not use shields, and can use simple weapons. They can cast Illusionist spells and gain a +2 bonus to Communication and a +1 bonus to Guile.
 
-**Druids** wear any non-metal armor, can use non-metal shields, and can use simple weapons. They cast Druid spells and gain +2 to Knowledge and +2 to Physical. Druids are immune to the spell-like effects of woodland fey. At 3rd level a Druid can _pass without trace_ (be untraceable) at will. At 7th level a Druid can assume the form of any small or medium sized animal up to 3 times per day. A Druid heals 2 HP per level when changing back into his/her human form.
+**Druids** wear any non-metal armor, can use non-metal shields, and can use simple weapons. They cast Druid spells and gain +2 to Knowledge and +1 to Physical. Druids are immune to the spell-like effects of woodland fey. At 3rd level a Druid can _pass without trace_ (be untraceable) at will. At 7th level a Druid can assume the form of any small or medium sized animal up to 3 times per day. A Druid heals 2 HP per level when changing back into his/her human form.
 
-**Bards** wear light armor, can use bucklers, and can use simple weapons and complex light weapons. They gain a +2 bonus to Communication, and Guile. A Bard can counter sound-based effects within a 30 ft. radius. A Bard can use his song to _charm person_ or _remove fear_ up to 3 times (total) per day. Beginning at 6th level, a Bard casts spells as either a Druid or Illusionist (player's choice) of 5 levels lower.
+**Bards** wear light armor, can use bucklers, and can use simple weapons and complex light weapons. They gain +2 to Communication and +1 to Guile. A Bard can counter sound-based effects within a 30 ft. radius. A Bard can use his/her song to _charm person_ or _remove fear_ (vs DC) up to 3 times (total) per day. Beginning at 6th level, a Bard casts spells as either a Druid or Illusionist (player's choice) of 5 levels lower.
 
-**Psions** can use light armor, can not use shields, and can use simple weapons. They can manifest Psion powers and gain a +2 to Knowledge and Communication.
+**Psions** can use light armor, can not use shields, and can use simple weapons. They can manifest Psion powers and gain +2 to Knowledge and +1 to Communication.
 
 ## Combat
 
 **Hit Points (HP)** = STR Stat + 1d6/Level. If HP reaches zero, the player becomes "downed", or unconscious and near death. Further damage directly reduces STR. If that reaches zero, the player dies. When down, roll a d20. You have 3 chances to roll above a 10. If successful, you are stable and return to 1 HP (STR is returned to normal as well). Otherwise, if unsuccessful 3 times, the player dies.
 
-**Speed** comes in 3 tiers. You are either Slow(20ft.), Normal(30ft.) or Fast(35ft.).  Speed is determined by the game master and can be affected by spells and conditions. Typically, Fighters or Paladins with Heavy armor are Slow, Rogues and Rangers are Fast, and the rest are Normal speed.
+**Speed** comes in 3 tiers. You are either Slow(20ft.), Normal(30ft.) or Fast(35ft.).  Speed is determined by the game master and can be affected by spells and conditions. Typically, Fighters or Paladins with Heavy armor are Slow, Rogues and Rangers are Fast, and the rest are Normal speed. (5ft. is approximately 1 "Square")
 
 **Armor Class (AC)** = 10 + DEX bonus + Armor bonus + Racial bonus.
 
@@ -233,9 +233,9 @@ Here is the format for armor entries (given as column headings on the table belo
 | Armor | Size | Cost | Bonus | Armor | Size | Cost | Bonus |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Padded | Light | 2gp | +1 | Chainmail | Medium | 150gp | +5 |
-| Leather | Light | 10gp | +2 | Breastplate | Medium | 200gp | +5 |
-| Studded Leather | Light | 25gp | +3 | Splint Mail | Heavy | 200gp | +6 |
-| Chain Shirt | Light | 100gp | +4 | Banded Mail | Heavy | 250gp | +6 |
+| Leather | Light | 10gp | +2 | Breastplate | Medium | 250gp | +6 |
+| Studded Leather | Light | 25gp | +3 | Splint Mail | Heavy | 100gp | +5 |
+| Chain Shirt | Light | 100gp | +4 | Banded Mail | Heavy | 200gp | +6 |
 | Hide | Medium | 15gp | +3 | Half-plate | Heavy | 600gp | +7 |
 | Scale Mail | Medium | 50gp | +4 | Full Plate | Heavy | 1,500gp | +8 |
 
@@ -243,11 +243,11 @@ Here is the format for armor entries (given as column headings on the table belo
 
 | Armor | Cost | Bonus | Armor | Cost | Bonus |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Buckler | 5gp | +1 | Shield, medium steel | 20gp | +2 |
-| Klar (1d4 damage) | 20gp | +1 | Shield, heavy wooden | 25gp | +3 |
-| Shield, light wooden | 3gp | +1 | Shield, heavy steel | 40gp | +3 |
-| Shield, light steel | 9gp | +1 | Shield, tower | 50gp | +4 |
-| Shield, medium wooden | 12gp | +2 | Shield, kite | 150gp | +5 |
+| Buckler | 5gp | +1 | Shield, medium steel | 15gp | +2 |
+| Klar (1d4 damage) | 20gp | +1 | Shield, heavy wooden | 40gp | +3 |
+| Shield, light wooden | 10gp | +1 | Shield, heavy steel | 30gp | +3 |
+| Shield, light steel | 5gp | +1 | Shield, tower | 50gp | +4 |
+| Shield, medium wooden | 20gp | +2 | Shield, kite | 150gp | +5 |
 
 ## Adventuring Equipment
 
@@ -1276,13 +1276,13 @@ The entries for diseases include the following information:
 
 ## Extreme Heat & Cold
 
-If not wearing suitable protection, a character must make a Phys+ **STR** check once every 10 minutes (DC 15, +1 per previous check), taking 1d6 damage on each failed save.
+If not wearing suitable protection, a character must make a Phys + STR check once every 10 minutes (DC 15, +1 per previous check), taking 1d6 damage on each failed save.
 
 ## Falling Damage
 
-A falling character takes 1d6 HP of damage per 10 feet fallen. If the character makes a successful Phys+DEX roll, he takes only half damage. The DC for the phys+DEX roll is equal to the depth fallen in feet.
+A falling character takes 1d6 HP of damage per 10 feet fallen. If the character makes a successful Phys + DEX roll, he/she takes only half damage. The DC for the Phys + DEX roll is equal to the depth fallen in feet.
 
-In the event that the fall ends in an area laden with spikes or jagged rocks, add +1 HP of damage to falling damage per 10' fallen (with a maximum of +10 HP).
+In the event that the fall ends in an area laden with spikes or jagged rocks, add +1 HP of damage to falling damage per 10 feet fallen (with a maximum of +10 HP).
 
 ## Poison
 
@@ -1296,7 +1296,7 @@ Several typical poisons are summarized below. The entries for poisons include th
 
 **DC:** lists the phys+STR check DC needed to avoid the poison's damage.
 
-**Damage:** is expressed as "xdx/xdx." The first number is the initial damage, taken immediately upon failing the phys+STR check against the poison. The second number is the secondary damage, taken one minute after exposure to the poison if a second phys+STR check is failed. Ability damage is temporary unless marked with an asterisk(\*), in which case the loss is permanent. Unconsciousness lasts 1d3 hours.
+**Damage:** is expressed as "xdx/xdx." The first number is the initial damage, taken immediately upon failing the Phys + STR check against the poison. The second number is the secondary damage, taken one minute after exposure to the poison if a second Phys + STR check is failed. Ability damage is temporary unless marked with an asterisk(\*), in which case the loss is permanent. Unconsciousness lasts 1d3 hours.
 
 **Price:** lists the cost for one dose of the poison. It can usually only be obtained through less-than-reputable sources, as the possession of poisons are commonly illegal.
 
@@ -1356,11 +1356,11 @@ The entries for traps include the following information:
 
 **Damage:** shows the amount and type of damage the trap deals.
 
-**Save DC:** lists the phys+DEX check DC needed to either avoid the trap entirely, or to take only ½ the listed damage (if this is possible).
+**Save DC:** lists the Phys + DEX check DC needed to either avoid the trap entirely, or to take only ½ the listed damage (if this is possible).
 
-**Search DC:** lists the DC for the know+MIND check necessary to find the trap without triggering it.
+**Search DC:** lists the DC for the Know + MIND check necessary to find the trap without triggering it.
 
-**Disable DC:** lists the DC for the guile+DEX check necessary to disarm the trap safely.
+**Disable DC:** lists the DC for the Guile + DEX check necessary to disarm the trap safely.
 
 ### 1 XP Traps
 
@@ -1450,7 +1450,7 @@ Have them roll whatever check seems most appropriate. A roll of 1-10 is a failur
 
 # Appendix I: SRD Skills
 
-If you're seriously still stuck in SRD land, here is a chart for the skills from the d20 SRD and their Microluxe20 equivalents:
+To help with SRD conversions (and to help give some further stat + skill examples), here is a chart for the skills from the d20 SRD and their Microluxe20 equivalents:
 
 | | |
 |:---|:---|
@@ -1479,13 +1479,11 @@ Spellcasters gain the ability to make magical items at certain class levels. Thi
 
 Here's when Spellcasters can make stuff:
 
-| **Spellcaster's Level** | Item |
-| :--- | :--- |
-| 1 | Scrolls |
-| 3 | Potions and Wondrous Items |
-| 5 | Wands and Armor |
-| 9 | Rods and  Weapons |
-| 12 | Staves and Rings |
+|MAGIC ITEM CHART||||||
+|:---|:---:|:---:|:---:|:---:|:---:|
+|**Item**|Scrolls & Books|Potions & Wondrous Items|Wands & Armor|Rods & Weapons|Staves & Rings|
+|**Spellcaster's Level**|1|3|5|9|12|
+
 
 ## Basic Mass Combat
 
@@ -1493,19 +1491,12 @@ Most combat is carried out one-on-one, with each set of stats (HP, AC, combat bo
 
 For example, a unit of 20 Goblin warriors will have CSx5 as per the table below. The combat stats are still HD1d8+1 (5HP), AC15, Morningstar +2 (1d6) or Javelin +3 (1d4). Against anything with the same Combat Scale (for example, a unit of 15 Elves), combat is resolved normally as if it was one goblin against one elf.
 
-| Number in Unit | Combat Scale |
-| :--- | :--- |
-| 2-5 | x3 |
-| 6-10 | x4 |
-| 11-20 | x5 |
-| 21-40 | x6 |
-| 41-80 | x7 |
-| 81-160 | x8 |
-| 161-320 | x9 |
-| 321-640 | x10 |
-| Etc |   |
+|COMBAT SCALE CHART||||||||||
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|**Number in Unit**|2-5|6-10|11-20|21-40|41-80|81-160|161-320|321-640|etc.|
+|**Combat Scale**|x3|x4|x5|x6|x7|x8|x9|x10|etc.|
 
-Combat Scale comes into play when battling against forces of a different size. It acts as a multiplier for damage taken, and also divides any damage given. If the battle started between units of different CS, reduce the size of the Combat Scale as Hit Points as lost. For example, if the twenty Goblins above are reduced to 2HP, they have lost over half their unit, so are now CSx4. When down to just 1HP, they are CSx3 with just 5 goblins remaining.
+Combat Scale comes into play when battling against forces of a different size. It acts as a multiplier for damage taken, and also divides any damage given. If the battle started between units of different CS, reduce the size of the Combat Scale as Hit Points as lost. For example, if the twenty Goblin warriors above are reduced to 2HP, they have lost over half of their unit, so they are now CSx4. When down to just 1HP, they are CSx3 with only 5 goblins remaining.
 
 If the Combat Scale becomes the same for all opponents, resolve combat normally; the playing field is now level.
 
