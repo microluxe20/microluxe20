@@ -1479,13 +1479,11 @@ Spellcasters gain the ability to make magical items at certain class levels. Thi
 
 Here's when Spellcasters can make stuff:
 
-| **Spellcaster's Level** | Item |
-| :--- | :--- |
-| 1 | Scrolls |
-| 3 | Potions and Wondrous Items |
-| 5 | Wands and Armor |
-| 9 | Rods and  Weapons |
-| 12 | Staves and Rings |
+|MAGIC ITEM CHART||||||
+|:---|:---:|:---:|:---:|:---:|:---:|
+|**Item**|Scrolls & Books|Potions & Wondrous Items|Wands & Armor|Rods & Weapons|Staves & Rings|
+|**Spellcaster's Level**|1|3|5|9|12|
+
 
 ## Basic Mass Combat
 
@@ -1493,19 +1491,12 @@ Most combat is carried out one-on-one, with each set of stats (HP, AC, combat bo
 
 For example, a unit of 20 Goblin warriors will have CSx5 as per the table below. The combat stats are still HD1d8+1 (5HP), AC15, Morningstar +2 (1d6) or Javelin +3 (1d4). Against anything with the same Combat Scale (for example, a unit of 15 Elves), combat is resolved normally as if it was one goblin against one elf.
 
-| Number in Unit | Combat Scale |
-| :--- | :--- |
-| 2-5 | x3 |
-| 6-10 | x4 |
-| 11-20 | x5 |
-| 21-40 | x6 |
-| 41-80 | x7 |
-| 81-160 | x8 |
-| 161-320 | x9 |
-| 321-640 | x10 |
-| Etc |   |
+|COMBAT SCALE CHART||||||||||
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|**Number in Unit**|2-5|6-10|11-20|21-40|41-80|81-160|161-320|321-640|etc.|
+|**Combat Scale**|x3|x4|x5|x6|x7|x8|x9|x10|etc.|
 
-Combat Scale comes into play when battling against forces of a different size. It acts as a multiplier for damage taken, and also divides any damage given. If the battle started between units of different CS, reduce the size of the Combat Scale as Hit Points as lost. For example, if the twenty Goblins above are reduced to 2HP, they have lost over half their unit, so are now CSx4. When down to just 1HP, they are CSx3 with just 5 goblins remaining.
+Combat Scale comes into play when battling against forces of a different size. It acts as a multiplier for damage taken, and also divides any damage given. If the battle started between units of different CS, reduce the size of the Combat Scale as Hit Points as lost. For example, if the twenty Goblin warriors above are reduced to 2HP, they have lost over half of their unit, so they are now CSx4. When down to just 1HP, they are CSx3 with only 5 goblins remaining.
 
 If the Combat Scale becomes the same for all opponents, resolve combat normally; the playing field is now level.
 
