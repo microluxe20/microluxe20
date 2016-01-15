@@ -14,7 +14,7 @@ When creating a character in Microluxe20, you will need to decide on a race and 
 
 There are 3 stats: **Strength** (STR), **Dexterity** (DEX) and **Mind** (MIND).
 
-Roll 4d6, drop lowest dice. Total remaining 3 dice and allocate to one of the stats. Repeat for remaining stats. Don't feel like rolling? Allocate 16,13, and 10 to your stats.
+Roll 4d6, drop lowest dice. Total remaining 3 dice and allocate to one of the stats. Repeat for remaining stats. Don't feel like rolling? Allocate 16, 13, and 10 to your stats.
 
 Stat bonus = (STAT-10) /2, round down.
 
@@ -47,7 +47,7 @@ There are 3 saves: **Fortitude** , **Reflex** , and **Will**. For Fortitude and 
 
 **Fighters** wear and use any kind of armor, shield, and weapon. They gain a +3 bonus to Physical and add +1 to all attack and damage rolls. This increases by +1 at 5th level and every five levels onward. Fighters gain the Cleave ability at level 5. If the Fighter's melee attack drops or slays a foe, the fighter is granted one additional attack against another opponent in range that round. This ability can compound, meaning if one swing kills the second foe, the Fighter can continue to attack until he/she either misses or doesn't kill the foe with the attack.
 
-**Rogues** can use light armor, can use bucklers, and can use simple weapons and complex light weapons. They have a +3 bonus to Guile. If they successfully Sneak (usually Guile+DEX, but depends on situation) up on a foe they can add their Guile skill rank to the damage of their first attack.
+**Rogues** can use light armor, can use bucklers, and can use simple weapons and complex light weapons. They have a +3 bonus to Guile. If they successfully Sneak (usually Guile+DEX, but depends on situation) up on a foe they can add their Guile skill rank to the damage of their first attack. Rogues gain the Evade ability at level 5. Any save that a rogue succeeds cannot deal damage to the rogue. For example, some spells deal half-damage even if the target saves successfully. With Evade, the rogue would not take any damage as long as he/she saved successfully.
 
 **Mages** wear no armor, can not use shields, and can use simple weapons. They can cast arcane spells, and gain a +3 bonus to Knowledge.
 
@@ -55,7 +55,7 @@ There are 3 saves: **Fortitude** , **Reflex** , and **Will**. For Fortitude and 
 
 **Paladins** wear and use any kind of armor, shield, and weapon. They gain +1 to Physical and a +2 bonus to Communication. They are immune to diseases and apply a +1 bonus to all saving throws (this increases by +1 at 5th level and every 5 levels onward). Paladins can _detect evil_ within 60 ft. at will and can heal up to 2 HP per level per day by _laying on hands_.
 
-**Rangers** wear light or medium armor, can use shields, and can use simple weapons, complex ranged weapons, and complex one-handed weapons. They gain +1 to hit and to damage with ranged weapons and only incur a -1 to hit penalty when fighting with 2 weapons. They have a +1 bonus to Guile and a +2 bonus to Physical.
+**Rangers** wear light or medium armor, can use shields, and can use simple weapons, complex ranged weapons, and complex one-handed weapons. They gain +1 to hit and to damage with ranged weapons and only incur a -1 to hit penalty when fighting with 2 weapons. They have a +1 bonus to Guile and a +2 bonus to Physical. Rangers gain the Trapper ability at level 5. When dealing with trap-related dice rolls (such as dodging a trap or searching for traps), a ranger gains a +2 bonus.
 
 **Illusionists** wear no armor, can not use shields, and can use simple weapons. They can cast Illusionist spells and gain a +2 bonus to Communication and a +1 bonus to Guile.
 
@@ -83,11 +83,11 @@ Magic attack bonus = MIND bonus + Level
 
 Add attack bonus to d20 roll. If higher than your opponent's Armor Class (AC), it's a hit. Natural 20 is automatically a critical doing maximum damage.
 
+If the total attack bonus is +6 or more, a second attack can be made with a -5 penalty to the attack bonus. If the total bonus is +11 or more a third attack can be made at a -10 penalty. For example, if the total bonus is +12, three attacks can be made at +12/+7/+2.
+
 Fighters and Rogues can use DEX bonus + Level as Melee attack bonus instead if wielding a light weapon. Fighters, Rogues, Bards, and Rangers can wield 2 light weapons and attack with both in a round if they take a -2 penalty (Rangers don't take the penalty) on all attack rolls that round.
 
-If the total bonus is +6 or more, a second attack can be made with a -5 penalty. If the total bonus is +11 or more a third attack can be made at -10. For example, if the total bonus is +12, three attacks can be made at +12/+7/+2.
-
-Add STR bonus to Melee damage, x2 for 2-handed weapons.
+For all Melee damage with complex weapons, add your STR bonus. For 2-handed weapons, add 2x your STR bonus.
 
 ## Magic
 
@@ -126,7 +126,7 @@ Add up the  XP of every encounter you take part in. When the total = 10 x your c
 
 Each level adds:
 
-+1d6 to Hit Points, +1 to all attack rolls, +1 to all skills. If the level divides by three (ex: level 3,6,9,etc.) add 1 point to STR, DEX or MIND.
++1d6 to Hit Points, +1 to all skills. If the level divides by three (ex: level 3,6,9,etc.) add 1 point to STR, DEX or MIND. At levels 5, 10, 15, and 20, add +1 to a skill of your choice.
 
 Fighters gain +1 to their attack and damage rolls at levels 5,10,15,etc.
 
@@ -1132,13 +1132,15 @@ Alternatively, add class levels to intelligent monsters. Start with the base Hit
 
 **Earth Elemental (large):**  HD 8d8+32 (68 HP), AC 18, Slam +12 (2d8+7)
 
-**Elf:**  HD 1d8 (4 HP), AC 15, Longsword +2 (1d8+1) or longbow +3 (1d8)
+**Forest Elf:**  HD 1d8 (4 HP), AC 15, Longsword +2 (1d8+1) or longbow +3 (1d8)
 
 **Gargoyle:**  HD 4d8+19 (37 HP), AC 16, Claw +6 (1d4+2)
 
 **Gelatinous Cube:**  HD 4d10+32 (54 HP), AC 3, Slam +1 (1d6 +1d6 acid) plus engulf (paralysis + 1d6 acid/round, DC 13 phys+DEX to negate)
 
 **Ghoul:**  HD 2d12 (13 HP), AC 14, Bite +2 (1d6+1 plus paralysis) or claws +0 (1d3 plus paralysis)
+
+**Giant:**  HD 12d8+48 (102 HP), AC 20, Great-club +16 (2d8+10) or rock +8 (2d6+7)
 
 **Gnoll:**  HD 2d8+2 (11 HP), AC 15, Battleaxe +3 (1d8+2) or shortbow +1 (1d6)
 
@@ -1150,15 +1152,13 @@ Alternatively, add class levels to intelligent monsters. Start with the base Hit
 
 **Hellhound:**  HD 4d8+4 (22 HP), AC 16, Bite +5 (1d8+1 plus 1d6 fire)
 
-**Hill Giant:**  HD 12d8+48 (102 HP), AC 20, Great-club +16 (2d8+10) or rock +8 (2d6+7)
-
 **Hobgoblin:**  HD 1d8+2 (6 HP), AC 15, Longsword +2 (1d8+1) or javelin +2 (1d6+1)
 
-**Human Commoner:**  HD 1d8+1 (5 HP), AC 12, Dagger +1 (1d6+1) or sling +1 (1d4)
+**Human:**  HD 1d8+1 (5 HP), AC 12, Dagger +1 (1d6+1) or sling +1 (1d4)
 
 **Kobold:**  HD 1d8 (4 HP), AC 15, Spear +1 (1d6-1) or sling +3 (1d3)
 
-**Lizardfolk:**  HD 2d8+2 (11 HP), AC 15, Claw +2 (1d4+1) or club +2 (1d6+1) or javelin +1 (1d6+1)
+**Slaan:**  HD 2d8+2 (11 HP), AC 15, Claw +2 (1d4+1) or club +2 (1d6+1) or javelin +1 (1d6+1)
 
 **Nymph:**  HD 6d6+6 (27 HP), AC 17, Dagger +6 (1d4) or stun­ning glance (unable to act for 2d4 rounds, DC 17 phys+STR to negate)
 
@@ -1172,7 +1172,7 @@ Alternatively, add class levels to intelligent monsters. Start with the base Hit
 
 **Rust Monster:**  HD 5d8+5 (27 HP), AC 18, Antennae touch +3 (rust)
 
-Shadow:  HD 3d12 (19 HP), AC 13, Incorporeal touch +3 (1d6 STR)
+**Shadow:**  HD 3d12 (19 HP), AC 13, Incorporeal touch +3 (1d6 STR)
 
 **Shambling Mound:**  HD 8d8+24 (60 HP), AC 20, Slam +11 (2d6+5), constrict (2d6+7)
 
@@ -1186,11 +1186,9 @@ Shadow:  HD 3d12 (19 HP), AC 13, Incorporeal touch +3 (1d6 STR)
 
 **Troll:**  HD 6d8+36 (63 HP), AC 16, Claw +9 (1d6+6)
 
-**Werewolf Human Form:**  HD 3d8+7 (20 HP), AC 17, Longsword +3 (1d8+1) or light crossbow +2 (1d8)
+**Werewolf, Human Form:**  HD 3d8+7 (20 HP), AC 17, Longsword +3 (1d8+1) or light crossbow +2 (1d8)
 
-**Werewolf, Wolf Form:**  HD 3d8+7 (20 HP), AC 16, Bite +5 (1d6+3)
-
-**Werewolf, Hybrid Form:**  HD 3d8+7 (20 HP), AC 16, Claw +4 (1d4+2)
+**Werewolf, Wolf Form:**  HD 3d8+7 (20 HP), AC 16, Claw +4 (1d4+2)
 
 **Wight:**  HD 4d12 (26 HP), AC 15, Slam +3 (1d4+1 plus energy drain)
 
