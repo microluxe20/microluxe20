@@ -12,7 +12,7 @@ When creating a character in Microluxe20, you will need to decide on a race and 
 
 ## Races
 
-Terador Has a wealth of Races to choose from, each with their unique history. The Mir are the most common people in Terador, but all other races are fairly commonplace to see as well. When creating a character, your player will be one of the major Races of Terador.
+Terador has a wealth of races to choose from, each with their unique history. While the Mir are the most common race in Terador, the many other races are fairly commonplace to see as well. When creating a character, your player will be one of the major races of Terador.
 
 |Race|Bonus|Race|Bonus|
 |:---|:---|:--- |:--- |
@@ -28,7 +28,7 @@ Terador Has a wealth of Races to choose from, each with their unique history. Th
 
 ## Classes
 
-Classes define your character's way of life. Your characters' class helps shape their combat style and methods of overcoming various obstacles. Your class provides a pathway, granting special powers and features to your character.
+Classes define your character's way of life. Your character's class helps shape his/her combat style and methods of overcoming various obstacles. Your class provides a pathway, granting special powers and features for your character.
 
 **Fighters** wear and use any kind of armor, shield, and weapon. They gain a +3 bonus to Physical and add +1 to all attack and damage rolls. This increases by +1 at 5th level and every five levels onward. Fighters gain the Cleave ability at level 5. If the Fighter's melee attack drops or slays a foe, the fighter is granted one additional attack against another opponent in range that round. This ability can compound, meaning if one swing kills the second foe, the Fighter can continue to attack until he/she either misses or doesn't kill the foe with the attack.
 
@@ -54,11 +54,11 @@ Classes define your character's way of life. Your characters' class helps shape 
 
 There are 3 core stats: **Strength** (STR), **Dexterity** (DEX) and **Mind** (MIND).
 
-When creating a character, you get 10 points to freely spend on your core stats, as long as no single stat is higher than 6. For example, for a Fighter, one may decide on STR 6 (mod 3), DEX 4 (mod 2), and MIND 0 (mod 0).
+When creating a character, you get 10 points to freely spend on your core stats, as long as no single stat is higher than 6. For example, a Fighter may choose to have 6 STR, 4 DEX, and 0 MIND.
 
-Stat bonus = STAT/2, round down.
+Stat bonus = stat/2, round down.
 
-**Hit Points (HP)** = 10 + STR Stat + 1d6. If HP reaches zero, the player becomes "downed", or unconscious and near death. Further damage directly reduces STR. If that reaches zero, the player dies. When down, roll a d20. You have 3 chances to roll above a 10. If successful, you are stable and return to 1 HP (STR is returned to normal as well). Otherwise, if unsuccessful 3 times, the player dies.
+**Hit Points (HP)** = 10 + STR stat + 1d6. If a player's HP reaches zero, the player becomes "downed", or unconscious and near death. Further damage directly reduces STR. If that reaches zero, the player dies. When down, roll a d20. You have 3 chances to roll above a 10. If successful, you are stable and return to 1 HP (STR is returned to normal as well). Otherwise, if unsuccessful 3 times, the player dies.
 
 **Speed** comes in 3 tiers. You are either Slow(20ft.), Normal(30ft.) or Fast(35ft.).  Speed is determined by the game master and can be affected by spells and conditions. Typically, Fighters or Paladins with Heavy armor are Slow, Rogues and Rangers are Fast, and the rest are Normal speed. (5ft. is approximately 1 "Square")
 
@@ -84,7 +84,7 @@ Add up the  XP of every encounter you take part in. When the total = 10 x your c
 
 Each level adds:
 
-+1d6 to Hit Points (with a minimum of 3) and +2 points to spend on skills. If the level divides by three (ex: level 3,6,9,etc.) add 1 point to STR, DEX or MIND.
++1d6 to Hit Points (with a minimum of 3) and +2 points to spend on skills. When upgrading skills, you cannot add more points to a skill if it is higher than or equal to your character's level + 5. If your character's level divides by three (ex: level 3,6,9,etc.) add 1 point to STR, DEX or MIND.
 
 Fighters gain +1 to their attack and damage rolls at levels 5,10,15,etc.
 
