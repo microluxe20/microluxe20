@@ -8,29 +8,12 @@ This is a modified version of the Microlite20 rules, designed to be a more compl
 
 ## Character Creation
 
-When creating a character in Microluxe20, you will need to decide on a race and class. After choosing your character's race and class, you can configure their stats, skills/saves, and other combat/magic information.
-
-## Stats
-
-There are 3 stats: **Strength** (STR), **Dexterity** (DEX) and **Mind** (MIND).
-
-Roll 4d6, drop lowest dice. Total remaining 3 dice and allocate to one of the stats. Repeat for remaining stats. Don't feel like rolling? Allocate 16,13, and 10 to your stats.
-
-Stat bonus = (STAT-10) /2, round down.
-
-## Skills & Saves
-
-There are 4 skills: **Physical** , **Guile** , **Knowledge** , and **Communication**. Roll higher than the given Difficulty Class to succeed.
-
-Skill rank = your level + any bonus due to your class or race.
-
-Skill roll = d20 + skill rank + whatever stat bonus is most applicable to the use + situation modifiers
-
-For example, Climbing would use Physical + STR bonus. Dodging a falling rock is Physical + DEX bonus. Finding a trap is Guile + MIND bonus. Disabling a trap is Guile + DEX bonus.
-
-There are 3 saves: **Fortitude** , **Reflex** , and **Will**. For Fortitude and Reflex saving throws, use Physical + STR or DEX bonus. Saving against magic (Will save) is MIND bonus + your level.
+When creating a character in Microluxe20, you will need to decide on a race and class. After choosing your character's race and class, you can configure their stats, skills, and saves.
 
 ## Races
+
+Terador has a wealth of races to choose from, each with their unique history. While the Mir are the most common race in Terador, the many other races are fairly commonplace to see as well. When creating a character, your player will be one of the major races of Terador.
+
 |Race|Bonus|Race|Bonus|
 |:---|:---|:--- |:--- |
 | **Humans** | +1 to all skill rolls|**Goblins** | +3 DEX, -1 MIND |
@@ -45,9 +28,11 @@ There are 3 saves: **Fortitude** , **Reflex** , and **Will**. For Fortitude and 
 
 ## Classes
 
+Classes define your character's way of life. Your character's class helps shape his/her combat style and methods of overcoming various obstacles. Your class provides a pathway, granting special powers and features for your character.
+
 **Fighters** wear and use any kind of armor, shield, and weapon. They gain a +3 bonus to Physical and add +1 to all attack and damage rolls. This increases by +1 at 5th level and every five levels onward. Fighters gain the Cleave ability at level 5. If the Fighter's melee attack drops or slays a foe, the fighter is granted one additional attack against another opponent in range that round. This ability can compound, meaning if one swing kills the second foe, the Fighter can continue to attack until he/she either misses or doesn't kill the foe with the attack.
 
-**Rogues** can use light armor, can use bucklers, and can use simple weapons and complex light weapons. They have a +3 bonus to Guile. If they successfully Sneak (usually Guile+DEX, but depends on situation) up on a foe they can add their Guile skill rank to the damage of their first attack.
+**Rogues** can use light armor, can use bucklers, and can use simple weapons and complex light weapons. They have a +3 bonus to Guile. If they successfully Sneak (usually Guile+DEX, but depends on situation) up on a foe they can add their Guile skill rank to the damage of their first attack. Rogues gain the Evade ability at level 5. Any save that a rogue succeeds cannot deal damage to the rogue. For example, some spells deal half-damage even if the target saves successfully. With Evade, the rogue would not take any damage as long as he/she saved successfully.
 
 **Mages** wear no armor, can not use shields, and can use simple weapons. They can cast arcane spells, and gain a +3 bonus to Knowledge.
 
@@ -55,7 +40,7 @@ There are 3 saves: **Fortitude** , **Reflex** , and **Will**. For Fortitude and 
 
 **Paladins** wear and use any kind of armor, shield, and weapon. They gain +1 to Physical and a +2 bonus to Communication. They are immune to diseases and apply a +1 bonus to all saving throws (this increases by +1 at 5th level and every 5 levels onward). Paladins can _detect evil_ within 60 ft. at will and can heal up to 2 HP per level per day by _laying on hands_.
 
-**Rangers** wear light or medium armor, can use shields, and can use simple weapons, complex ranged weapons, and complex one-handed weapons. They gain +1 to hit and to damage with ranged weapons and only incur a -1 to hit penalty when fighting with 2 weapons. They have a +1 bonus to Guile and a +2 bonus to Physical.
+**Rangers** wear light or medium armor, can use shields, and can use simple weapons, complex ranged weapons, and complex one-handed weapons. They gain +1 to hit and to damage with ranged weapons and only incur a -1 to hit penalty when fighting with 2 weapons. They have a +1 bonus to Guile and a +2 bonus to Physical. Rangers gain the Trapper ability at level 5. When dealing with trap-related dice rolls (such as dodging a trap or searching for traps), a ranger gains a +2 bonus.
 
 **Illusionists** wear no armor, can not use shields, and can use simple weapons. They can cast Illusionist spells and gain a +2 bonus to Communication and a +1 bonus to Guile.
 
@@ -65,15 +50,51 @@ There are 3 saves: **Fortitude** , **Reflex** , and **Will**. For Fortitude and 
 
 **Psions** can use light armor, can not use shields, and can use simple weapons. They can manifest Psion powers and gain +2 to Knowledge and +1 to Communication.
 
-## Combat
+## Stats
 
-**Hit Points (HP)** = STR Stat + 1d6/Level. If HP reaches zero, the player becomes "downed", or unconscious and near death. Further damage directly reduces STR. If that reaches zero, the player dies. When down, roll a d20. You have 3 chances to roll above a 10. If successful, you are stable and return to 1 HP (STR is returned to normal as well). Otherwise, if unsuccessful 3 times, the player dies.
+There are 3 core stats: **Strength** (STR), **Dexterity** (DEX) and **Mind** (MIND).
+
+When creating a character, you get 10 points to freely spend on your core stats, as long as no single stat is higher than 6. For example, a Fighter may choose to have 6 STR, 4 DEX, and 0 MIND.
+
+Stat bonus = stat/2, round down.
+
+**Hit Points (HP)** = 10 + STR stat + 1d6. If a player's HP reaches zero, the player becomes "downed", or unconscious and near death. Further damage directly reduces STR. If that reaches zero, the player dies. When down, roll a d6. You have 3 chances to roll above a 3. If successful, you are stable and return to 1 HP (STR is returned to normal as well). Otherwise, if unsuccessful 3 times, the player dies.
 
 **Speed** comes in 3 tiers. You are either Slow(20ft.), Normal(30ft.) or Fast(35ft.).  Speed is determined by the game master and can be affected by spells and conditions. Typically, Fighters or Paladins with Heavy armor are Slow, Rogues and Rangers are Fast, and the rest are Normal speed. (5ft. is approximately 1 "Square")
 
 **Armor Class (AC)** = 10 + DEX bonus + Armor bonus + Racial bonus.
 
-Roll d20 + DEX bonus for **initiative** order. Everyone can move and do one action each turn (attack, cast a spell, move again, speak with someone, etc.).
+## Skills & Saves
+
+There are 4 skills: **Physical** , **Guile** , **Knowledge** , and **Communication**. Roll higher than the given Difficulty Class to succeed.
+
+Skill rank = any bonus due to your class or race + any allocated points (players get 2 points to spend  on skills each level).
+
+Skill roll = d20 + skill rank + whatever stat bonus is most applicable to the use + situation modifiers
+
+For example, Climbing would use Physical + STR bonus. Dodging a falling rock is Physical + DEX bonus. Finding a trap is Guile + MIND bonus. Disabling a trap is Guile + DEX bonus.
+
+There are 3 saves: **Fortitude** , **Reflex** , and **Will**. For Fortitude and Reflex saving throws, use Physical + STR or DEX bonus. Saving against magic (Will save) is MIND bonus + your level.
+
+## Level Advancement
+
+XP = Hit Dice of defeated monsters, or the given XP for the trap, situation, etc. Add +1 for each doubling of the number of foes. example: 1 kobold = 1 XP. 2 kobolds = 2 XP. 4 kobolds = 3 XP, etc.
+
+Add up the  XP of every encounter you take part in. When the total = 10 x your current level, you've advanced to the next level. Reset the total to 0 after advancing.
+
+Each level adds:
+
++1d6 to Hit Points (with a minimum of 3) and +2 points to spend on skills. When upgrading skills, you cannot add more points to a skill if it is higher than or equal to your character's level + 5. If your character's level divides by three (ex: level 3,6,9,etc.) add 1 point to STR, DEX or MIND.
+
+Fighters gain +1 to their attack and damage rolls at levels 5,10,15,etc.
+
+New spell levels are unlocked at levels 3,5,7,9,etc., and new power levels are unlocked at levels 2,4,6,8,etc.
+
+**Example:** The 1st level adventurers have just completed a dungeon adventure, and defeated five 1 XP encounters, a 2 XP trap and the 3 XP leader. That's a total of 10 XP, so they all advance to level 2. They need to gain another 20 XP to reach Level 3.
+
+## Combat
+
+Roll d20 + DEX bonus for **initiative** order (ties are settled with a re-roll). Everyone can move and do one action each turn (attack, cast a spell, move again, speak with someone, etc.).
 
 Melee attack bonus = STR bonus + Level
 
@@ -83,11 +104,11 @@ Magic attack bonus = MIND bonus + Level
 
 Add attack bonus to d20 roll. If higher than your opponent's Armor Class (AC), it's a hit. Natural 20 is automatically a critical doing maximum damage.
 
+If the total attack bonus is +6 or more, a second attack can be made with a -5 penalty to the attack bonus. If the total bonus is +11 or more a third attack can be made at a -10 penalty. For example, if the total bonus is +12, three attacks can be made at +12/+7/+2.
+
 Fighters and Rogues can use DEX bonus + Level as Melee attack bonus instead if wielding a light weapon. Fighters, Rogues, Bards, and Rangers can wield 2 light weapons and attack with both in a round if they take a -2 penalty (Rangers don't take the penalty) on all attack rolls that round.
 
-If the total bonus is +6 or more, a second attack can be made with a -5 penalty. If the total bonus is +11 or more a third attack can be made at -10. For example, if the total bonus is +12, three attacks can be made at +12/+7/+2.
-
-Add STR bonus to Melee damage, x2 for 2-handed weapons.
+For all Melee damage with complex weapons, add your STR bonus. For 2-handed weapons, add 2x your STR bonus.
 
 ## Magic
 
@@ -117,24 +138,6 @@ Here are three ways for spell casters to add a little more variety:
 ## Heroism
 
 **Heroism** is intended to relieve some of the power incompatibilities with some d20 adventure types. If you find that the party is consistently too weak, try adding Heroism. **Heroism** is a bonus equal to 1 times the characters level (1 at 1st, 2 at 2nd, etc) and may be applied to up to three of the following once per day: Attack Bonus, Damage, Saving Throw, Skill Check, Spell DC
-
-## Level Advancement
-
-XP = Hit Dice of defeated monsters, or the given XP for the trap, situation, etc. Add +1 for each doubling of the number of foes. example: 1 kobold = 1 XP. 2 kobolds = 2 XP. 4 kobolds = 3 XP, etc.
-
-Add up the  XP of every encounter you take part in. When the total = 10 x your current level, you've advanced to the next level. Reset the total to 0 after advancing.
-
-Each level adds:
-
-+1d6 to Hit Points, +1 to all attack rolls, +1 to all skills. If the level divides by three (ex: level 3,6,9,etc.) add 1 point to STR, DEX or MIND.
-
-Fighters gain +1 to their attack and damage rolls at levels 5,10,15,etc.
-
-New spell levels are unlocked at levels 3,5,7,9,etc.
-
-New power levels are unlocked at levels 2,4,6,8,etc.
-
-**Example:** The 1st level adventurers have just completed a dungeon adventure, and defeated five 1 XP encounters, a 2 XP trap and the 3 XP leader. That's a total of 10 XP, so they all advance to level 2. They need to gain another 20 XP to reach Level 3.
 
 # Equipment
 
@@ -1132,13 +1135,15 @@ Alternatively, add class levels to intelligent monsters. Start with the base Hit
 
 **Earth Elemental (large):**  HD 8d8+32 (68 HP), AC 18, Slam +12 (2d8+7)
 
-**Elf:**  HD 1d8 (4 HP), AC 15, Longsword +2 (1d8+1) or longbow +3 (1d8)
+**Forest Elf:**  HD 1d8 (4 HP), AC 15, Longsword +2 (1d8+1) or longbow +3 (1d8)
 
 **Gargoyle:**  HD 4d8+19 (37 HP), AC 16, Claw +6 (1d4+2)
 
 **Gelatinous Cube:**  HD 4d10+32 (54 HP), AC 3, Slam +1 (1d6 +1d6 acid) plus engulf (paralysis + 1d6 acid/round, DC 13 phys+DEX to negate)
 
 **Ghoul:**  HD 2d12 (13 HP), AC 14, Bite +2 (1d6+1 plus paralysis) or claws +0 (1d3 plus paralysis)
+
+**Giant:**  HD 12d8+48 (102 HP), AC 20, Great-club +16 (2d8+10) or rock +8 (2d6+7)
 
 **Gnoll:**  HD 2d8+2 (11 HP), AC 15, Battleaxe +3 (1d8+2) or shortbow +1 (1d6)
 
@@ -1150,15 +1155,13 @@ Alternatively, add class levels to intelligent monsters. Start with the base Hit
 
 **Hellhound:**  HD 4d8+4 (22 HP), AC 16, Bite +5 (1d8+1 plus 1d6 fire)
 
-**Hill Giant:**  HD 12d8+48 (102 HP), AC 20, Great-club +16 (2d8+10) or rock +8 (2d6+7)
-
 **Hobgoblin:**  HD 1d8+2 (6 HP), AC 15, Longsword +2 (1d8+1) or javelin +2 (1d6+1)
 
-**Human Commoner:**  HD 1d8+1 (5 HP), AC 12, Dagger +1 (1d6+1) or sling +1 (1d4)
+**Human:**  HD 1d8+1 (5 HP), AC 12, Dagger +1 (1d6+1) or sling +1 (1d4)
 
 **Kobold:**  HD 1d8 (4 HP), AC 15, Spear +1 (1d6-1) or sling +3 (1d3)
 
-**Lizardfolk:**  HD 2d8+2 (11 HP), AC 15, Claw +2 (1d4+1) or club +2 (1d6+1) or javelin +1 (1d6+1)
+**Slaan:**  HD 2d8+2 (11 HP), AC 15, Claw +2 (1d4+1) or club +2 (1d6+1) or javelin +1 (1d6+1)
 
 **Nymph:**  HD 6d6+6 (27 HP), AC 17, Dagger +6 (1d4) or stun­ning glance (unable to act for 2d4 rounds, DC 17 phys+STR to negate)
 
@@ -1172,7 +1175,7 @@ Alternatively, add class levels to intelligent monsters. Start with the base Hit
 
 **Rust Monster:**  HD 5d8+5 (27 HP), AC 18, Antennae touch +3 (rust)
 
-Shadow:  HD 3d12 (19 HP), AC 13, Incorporeal touch +3 (1d6 STR)
+**Shadow:**  HD 3d12 (19 HP), AC 13, Incorporeal touch +3 (1d6 STR)
 
 **Shambling Mound:**  HD 8d8+24 (60 HP), AC 20, Slam +11 (2d6+5), constrict (2d6+7)
 
@@ -1186,11 +1189,9 @@ Shadow:  HD 3d12 (19 HP), AC 13, Incorporeal touch +3 (1d6 STR)
 
 **Troll:**  HD 6d8+36 (63 HP), AC 16, Claw +9 (1d6+6)
 
-**Werewolf Human Form:**  HD 3d8+7 (20 HP), AC 17, Longsword +3 (1d8+1) or light crossbow +2 (1d8)
+**Werewolf, Human Form:**  HD 3d8+7 (20 HP), AC 17, Longsword +3 (1d8+1) or light crossbow +2 (1d8)
 
-**Werewolf, Wolf Form:**  HD 3d8+7 (20 HP), AC 16, Bite +5 (1d6+3)
-
-**Werewolf, Hybrid Form:**  HD 3d8+7 (20 HP), AC 16, Claw +4 (1d4+2)
+**Werewolf, Wolf Form:**  HD 3d8+7 (20 HP), AC 16, Claw +4 (1d4+2)
 
 **Wight:**  HD 4d12 (26 HP), AC 15, Slam +3 (1d4+1 plus energy drain)
 
@@ -1264,6 +1265,8 @@ The entries for diseases include the following information:
 
 **Damage** lists the ability damage the character takes after incubation and each day afterward.
 
+### Diseases
+
 **Cackle Fever:** Inhaled, DC 16, 1 day, –1d6 MIND.
 
 **Filth Fever:** Injury, DC 12, 1d3 days, –1d3 DEX and 1d3 STR.
@@ -1299,6 +1302,8 @@ Several typical poisons are summarized below. The entries for poisons include th
 **Damage:** is expressed as "xdx/xdx." The first number is the initial damage, taken immediately upon failing the Phys + STR check against the poison. The second number is the secondary damage, taken one minute after exposure to the poison if a second Phys + STR check is failed. Ability damage is temporary unless marked with an asterisk(\*), in which case the loss is permanent. Unconsciousness lasts 1d3 hours.
 
 **Price:** lists the cost for one dose of the poison. It can usually only be obtained through less-than-reputable sources, as the possession of poisons are commonly illegal.
+
+### Poisons
 
 **Arsenic:**  Ingested, DC 13, -1 STR/-1d8 STR, 120 gp.
 
@@ -1568,11 +1573,11 @@ First, let's start by setting the Hit Dice for our Ninja Monkeys. As these are t
 
 Remember that unlike Player Characters, Monsters and other NPCs **don't** add their STR total to their hit points. This is a special bonus for Real Heroes only. If you want a tougher Monster, increase their STR so they get an increase (equal to their STR bonus) to their HP per Hit Dice.
 
-That gives the Ninja Monkeys 1HD, 5HP, +1 to hit with their Katana and +1 with all skills. As these are intelligent Ninjas, we'll allocate their +3 to Guile. Let's give them STR 6, DEX 14 and MIND 12, allow them to use DEX (rather than STR) for their attack roll with their miniature Katanas, which do d6 damage. Factoring that in with the Hit Dice, we get:
+That gives the Ninja Monkeys 1HD, 5HP, +1 to hit with their Katana and +1 with all skills. As these are intelligent Ninjas, we'll allocate their +3 to Guile. Let's give them STR 0, DEX 4 and MIND 2, allow them to use DEX (rather than STR) for their attack roll with their miniature Katanas, which do d6 damage. Factoring that in with the Hit Dice, we get:
 
 Ninja Monkey, 1HD (3HP), AC12, +3 Katana (1d6-2)
 Guile+4, all others @ +1
-STR 6, DEX 14, MIND 12
+STR 0, DEX 4, MIND 2
 
 DONE! If the Ninja Monkeys have any special abilities or equipment, note them down but don't bother with setting uses/day, etc; if it's dramatically appropriate for a monster to use its abilities then use them. No Rules Needed! That's the Microluxe20 way!
 
@@ -1580,4 +1585,4 @@ If you want a more powerful Ninja Monkey, just add Hit Dice, which increases HP,
 
 Ninja Monkey, 3HD (12HP), AC12, +5 Katana (1d6-1)
 Guile+6, all others @ +3
-STR 8, DEX 14, MIND 12
+STR 2, DEX 4, MIND 2
