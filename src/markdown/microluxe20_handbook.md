@@ -2,7 +2,7 @@
 
 # Introduction
 
-This is a modified version of the Microlite20 rules, designed to be a more complete experience, while still continuing to be extremely easy to setup and play. The goal is to build off of the already-simplified Microlite20 rule-set, but also introduce more complete classes, additional races, and a more intuitive set of weapons, armor, and spells. It also maintains compatibility with any Primary Fantasy SRD resources.
+Microluxe20 is a tabletop role-playing game, designed to be simple, yet powerful. Based off of the popular Microlite20 ruleset, Microluxe20 uses a stat/skill framework designed to make encounters feel fluid and fun, emphasizing storytelling and player interaction over the traditional "straight-jacket" skill systems found in many modern tabletop games. The primary goal for the system is to be a complete dungeon-crawling experience, while maintaining simplicity and ease-of-use. Another goal of the system is to maintain compatibility with any Primary Fantasy SRD resources as much as possible.
 
 # Basic Rules
 
