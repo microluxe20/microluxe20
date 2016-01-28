@@ -58,7 +58,7 @@ When creating a character, you get 10 points to freely spend on your core stats,
 
 Stat bonus = stat/2, round down.
 
-**Hit Points (HP)** = 10 + STR stat + 1d6. If a player's HP reaches zero, the player becomes "downed", or unconscious and near death. Further damage directly reduces STR. If that reaches zero, the player dies. When down, roll a d20. You have 3 chances to roll above a 10. If successful, you are stable and return to 1 HP (STR is returned to normal as well). Otherwise, if unsuccessful 3 times, the player dies.
+**Hit Points (HP)** = 10 + STR stat + 1d6. If a player's HP reaches zero, the player becomes "downed", or unconscious and near death. Further damage directly reduces STR. If that reaches zero, the player dies. When down, roll a d6. You have 3 chances to roll above a 3. If successful, you are stable and return to 1 HP (STR is returned to normal as well). Otherwise, if unsuccessful 3 times, the player dies.
 
 **Speed** comes in 3 tiers. You are either Slow(20ft.), Normal(30ft.) or Fast(35ft.).  Speed is determined by the game master and can be affected by spells and conditions. Typically, Fighters or Paladins with Heavy armor are Slow, Rogues and Rangers are Fast, and the rest are Normal speed. (5ft. is approximately 1 "Square")
 
@@ -94,7 +94,7 @@ New spell levels are unlocked at levels 3,5,7,9,etc., and new power levels are u
 
 ## Combat
 
-Roll d20 + DEX bonus for **initiative** order. Everyone can move and do one action each turn (attack, cast a spell, move again, speak with someone, etc.).
+Roll d20 + DEX bonus for **initiative** order (ties are settled with a re-roll). Everyone can move and do one action each turn (attack, cast a spell, move again, speak with someone, etc.).
 
 Melee attack bonus = STR bonus + Level
 
