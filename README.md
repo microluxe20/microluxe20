@@ -13,7 +13,7 @@ The latest release can be downloaded [here](https://github.com/kgrubb/microluxe2
 
 ## Contributing
 
-**NOTICE:** OSX is currently not supported (or advised) for compiling the PDFs. This project's build process depends on gulp-markdown-pdf, which wraps markdown-pdf. When compiling the PDF files, the filesize of the PDF gets ridiculously huge. There is an open issue [here](https://github.com/alanshaw/markdown-pdf/issues/37), explaining that its an OSX-only PhantomJS issue, documented [here](https://github.com/ariya/phantomjs/issues/10373).
+**NOTICE:** OSX is currently not supported (or advised) for compiling the PDFs. This project's build process depends on gulp-markdown-pdf, which wraps markdown-pdf. When compiling the PDF files, the filesize of the PDF gets ridiculously huge. There is an issue [here](https://github.com/alanshaw/markdown-pdf/issues/37), explaining that its an OSX-only PhantomJS issue, documented [here](https://github.com/ariya/phantomjs/issues/10373).
 
 If you want to contribute to the game's handbooks, please do the following:
 
@@ -58,6 +58,14 @@ You can also use the following command to automatically build PDFs whenever chan
 gulp watch-markdown
 ```
 
+After running the `compile-markdown` task, you can craft a zipped folder with all of the latest released PDFs and documents by running the following command:
+
+```sh
+gulp release
+```
+
+This will create the completed release in a new folder named `release`. The version number is determined by the version set in the `package.json` file.
+
 ##### 5. Submit a pull request
 
 Commit your changes and submit a new pull request to the microluxe20 develop branch.
@@ -65,6 +73,7 @@ Commit your changes and submit a new pull request to the microluxe20 develop bra
 ## Authors & Contributors
 * Keli Grubb (<keligrubb324@gmail.com>)
 * Doug Rich
+* Connor Bashinski
 
 ## Licensing
 Licensed under the [Open Game License](LICENSE).
