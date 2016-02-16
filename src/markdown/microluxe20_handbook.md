@@ -237,20 +237,20 @@ Here is the format for armor entries (given as column headings on the table belo
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Padded | Light | 2gp | +1 | Chainmail | Medium | 150gp | +5 |
 | Leather | Light | 10gp | +2 | Breastplate | Medium | 250gp | +6 |
-| Studded Leather | Light | 25gp | +3 | Splint Mail | Heavy | 100gp | +5 |
+| Studded Leather | Light | 50gp | +3 | Splint Mail | Heavy | 100gp | +5 |
 | Chain Shirt | Light | 100gp | +4 | Banded Mail | Heavy | 200gp | +6 |
-| Hide | Medium | 15gp | +3 | Half-plate | Heavy | 600gp | +7 |
-| Scale Mail | Medium | 50gp | +4 | Full Plate | Heavy | 1,500gp | +8 |
+| Hide | Medium | 30gp | +3 | Half-plate | Heavy | 600gp | +7 |
+| Scale Mail | Medium | 75gp | +4 | Full Plate | Heavy | 1,500gp | +8 |
 
 ### Shields
 
 | Armor | Cost | Bonus | Armor | Cost | Bonus |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Buckler | 5gp | +1 | Shield, medium steel | 15gp | +2 |
-| Klar (1d4 damage) | 20gp | +1 | Shield, heavy wooden | 40gp | +3 |
-| Shield, light wooden | 10gp | +1 | Shield, heavy steel | 30gp | +3 |
-| Shield, light steel | 5gp | +1 | Shield, tower | 50gp | +4 |
-| Shield, medium wooden | 20gp | +2 | Shield, kite | 150gp | +5 |
+| Buckler | 5gp | +1 | Shield, medium steel | 25gp | +2 |
+| Klar (1d4 damage) | 20gp | +1 | Shield, heavy wooden | 85gp | +3 |
+| Shield, light wooden | 10gp | +1 | Shield, heavy steel | 75gp | +3 |
+| Shield, light steel | 5gp | +1 | Shield, tower | 100gp | +4 |
+| Shield, medium wooden | 35gp | +2 | Shield, kite | 150gp | +5 |
 
 ## Adventuring Equipment
 
