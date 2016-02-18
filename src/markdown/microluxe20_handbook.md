@@ -119,7 +119,7 @@ Spellcasters can cast any of their class spells, with a spell level equal or bel
 | **Spell Level** | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 | **HP Cost** | 1 | 3 | 5 | 7 | 9 | 11 | 13 | 15 | 17 | 19 |
 
-Once a spellcaster has cast a spell in an encounter, they enter a state called "arcane (or divine) influence". While in this state, their HP **cannot** be healed normally until 1 hour of rest (short rest). Healing spells cast on an injured caster under arcane influence only heal ¼ of the given amount. Spellcasters exit the influenced state after 1 hour of rest.
+Once a spellcaster has cast a spell in an encounter, they enter a state called "arcane (or divine) influence". While in this state, their HP **cannot** be healed normally until 1 hour of rest (short rest). Healing spells cast on an injured caster under arcane/divine influence only heal ¼ of the given amount. Spellcasters automatically exit their influenced state after 1 hour of rest.
 
 There is no need to memorize spells in advance. Just because a character can cast any spell, doesn't mean that they should. Choose spells that suit the character. Select one "signature" spell per spell level from 1st upward that they prefer to use over any other. These spells are easier to cast due to familiarity, costing 2 less HP to use.
 
