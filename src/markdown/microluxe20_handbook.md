@@ -30,7 +30,7 @@ Terador has a wealth of races to choose from, each with their unique history. Wh
 
 Classes define your character's way of life. Your character's class helps shape his/her combat style and methods of overcoming various obstacles. Your class provides a pathway, granting special powers and features for your character.
 
-**Fighters** wear and use any kind of armor, shield, and weapon. They gain a +3 bonus to Physical and add +1 to all attack and damage rolls. This increases by +1 at 5th level and every five levels onward. Fighters gain the Cleave ability at level 5. If the Fighter's melee attack drops or slays a foe, the fighter is granted one additional attack against another opponent in range that round. This ability can compound, meaning if one swing kills the second foe, the Fighter can continue to attack until he/she either misses or doesn't kill the foe with the attack.
+**Fighters** wear and use any kind of armor, shield, and weapon. They gain a +3 bonus to Physical and add +1 to all attack and damage rolls. This increases by +1 at 5th level and every five levels onward. Fighters gain the Cleave ability at level 5. If the Fighter's melee attack drops/slays a foe, the fighter gets one additional attack against another opponent within range. This ability can compound, meaning if one swing kills the second foe, the Fighter can continue to attack until he/she either misses or doesn't kill the foe with the attack.
 
 **Rogues** can use light armor, can use bucklers, and can use simple weapons and complex light weapons. They have a +3 bonus to Guile. If they successfully Sneak (usually Guile+DEX, but depends on situation) up on a foe they can add their Guile skill rank to the damage of their first attack. Rogues gain the Evade ability at level 5. Any save that a rogue succeeds cannot deal damage to the rogue. For example, some spells deal half-damage even if the target saves successfully. With Evade, the rogue would not take any damage as long as he/she saved successfully.
 
@@ -58,7 +58,7 @@ When creating a character, you get 10 points to freely spend on your core stats,
 
 Stat bonus = stat/2, round down.
 
-**Hit Points (HP)** = 10 + STR stat + 1d6. If a player's HP reaches zero, the player becomes "downed", or unconscious and near death. Further damage directly reduces STR. If that reaches zero, the player dies. When down, roll a d6. You have 3 chances to roll above a 3. If successful, you are stable and return to 1 HP (STR is returned to normal as well). Otherwise, if unsuccessful 3 times, the player dies.
+**Hit Points (HP)** = 10 + STR stat + 1d6(with a minimum of 3). If a player's HP reaches zero, the player becomes "downed", or unconscious and near death. Further damage directly reduces STR. If STR reaches below zero, the player dies. While down, roll a d6. You have 3 chances to roll above a 3. If successful, you are stable and return to 1 HP (STR is returned to normal as well). Otherwise, if unsuccessful 3 times, the player dies.
 
 **Speed** comes in 3 tiers. You are either Slow(20ft.), Normal(30ft.) or Fast(35ft.).  Speed is determined by the game master and can be affected by spells and conditions. Typically, Fighters or Paladins with Heavy armor are Slow, Rogues and Rangers are Fast, and the rest are Normal speed. (5ft. is approximately 1 "Square")
 
@@ -102,7 +102,7 @@ Missile attack bonus = DEX bonus + Level
 
 Magic attack bonus = MIND bonus + Level
 
-Add attack bonus to d20 roll. If higher than your opponent's Armor Class (AC), it's a hit. Natural 20 is automatically a critical doing maximum damage.
+Add attack bonus to d20 roll. If higher than your opponent's Armor Class (AC), it's a hit. Natural 20 is automatically a critical, dealing additional damage equal to your weapon/spell's maximum damage.
 
 If the total attack bonus is +6 or more, a second attack can be made with a -5 penalty to the attack bonus. If the total bonus is +11 or more a third attack can be made at a -10 penalty. For example, if the total bonus is +12, three attacks can be made at +12/+7/+2.
 
@@ -119,7 +119,7 @@ Spellcasters can cast any of their class spells, with a spell level equal or bel
 | **Spell Level** | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 | **HP Cost** | 1 | 3 | 5 | 7 | 9 | 11 | 13 | 15 | 17 | 19 |
 
-Once a spellcaster has cast a spell in an encounter, their HP **cannot** be healed normally until 8 hours of rest (long rest). Healing spells cast on an injured caster only heal ¼ of the given amount.
+Once a spellcaster has cast a spell in an encounter, they enter a state called "arcane (or divine) influence". While in this state, their HP **cannot** be healed normally until 1 hour of rest (short rest). Healing spells cast on an injured caster under arcane influence only heal ¼ of the given amount. Spellcasters exit the influenced state after 1 hour of rest.
 
 There is no need to memorize spells in advance. Just because a character can cast any spell, doesn't mean that they should. Choose spells that suit the character. Select one "signature" spell per spell level from 1st upward that they prefer to use over any other. These spells are easier to cast due to familiarity, costing 2 less HP to use.
 
@@ -405,7 +405,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 ### 4th-Level Arcane Spells
 
-**Animate Dead:**  Creates up to level\*2d4 undead skeletons or zombies (requires remains).
+**Animate Dead:**  Creates up to 4 undead skeletons or zombies (requires remains).
 
 **Arcane Eye:**  Invisible floating eye moves 30 ft./round for 10 rounds/level.
 
@@ -661,11 +661,11 @@ The following spells have been customized and tweaked to make the game as smooth
 
 ### 2nd-Level Illusionist Spells
 
-**Blur:** Caster gains +4 to AC, cannot be Sneak Attacked for 10 rounds/level.
+**Blur:** Caster gains +2 to AC, cannot be Sneak Attacked for 2 rounds/level.
 
-**Hideous Laughter:** Subject loses actions for 1 round/level.
+**Hideous Laughter:** Subject bursts into laughter, and is unable to perform any actions for 1 round/level.
 
-**Hypnotic Pattern:** Fascinates creatures within 10 point of your HP or less for Concentration+2 rounds.
+**Hypnotic Pattern:** Fascinate creature within 10 points of your HP or less for Concentration+2 rounds.
 
 **Invisibility:** Subject is invisible for 10 rounds/level or until it attacks.
 
@@ -789,13 +789,13 @@ The following spells have been customized and tweaked to make the game as smooth
 
 ### 1st-Level Druid Spells
 
-**Entangle:**  Plants entangle everyone in 40ft. radius for 10 rounds/level.
+**Entangle:**  Plants entangle everyone in a 40ft. radius for 10 rounds/level.
 
 **Faerie Fire:**  Outlines subjects with light for 1 minute/level, cancels blur, invisibility, etc.
 
-**Goodberry:**  2d4 berries each cure 1 HP (max 8 HP/day).
+**Goodberry:**  Creates 2d4 berries. Each berry can cure 1 HP (max 8 HP/day).
 
-**Obscuring Mist:**  Fog surrounds you, provides concealment for 10 rounds/level
+**Obscuring Mist:**  Fog surrounds your immediate vicinity (10ft.), providing concealment for 1 round/level.
 
 **Produce Flame:**  1d6 damage +1/level, touch or thrown.
 
@@ -803,21 +803,21 @@ The following spells have been customized and tweaked to make the game as smooth
 
 ### 2nd-Level Druid Spells
 
-**Barkskin:**  Grants +2 or higher bonus to AC for 10 min./level.
+**Barkskin:**  Grants +2 bonus to AC for 10 min./level.
 
-**Gust of Wind:**  Blows away or knocks down smaller creatures.
+**Gust of Wind:**  Blows away or knocks down small-sized creatures.
 
-**Heat Metal:**  Makes metal so hot it deals 1d4 damage +1/level to those who touch it.
+**Heat Metal:**  Makes metal so hot, it deals 1d4 damage +1/level to those who touch it.
 
-**Summon Swarm:**  Summons a swarm of bats, rats, or spiders for Knowledge + 2 rounds
+**Summon Swarm:**  Summons a swarm of bats, rats, or spiders for Knowledge + 2 rounds.
 
 **Tree Shape:**  You look exactly like a tree for 1 hour/level.
 
-**Warp Wood:**  Bends wood within 20ft. radius.
+**Warp Wood:**  Bends wood within a 20ft. radius.
 
 ### 3rd-Level Druid Spells
 
-**Call Lightning:**  Calls down a lightning bolt from the sky dealing 3d6 damage once per round for 10 rounds/level.
+**Call Lightning:**  Calls a lightning storm into an area with a 5ft. radius. Lightning bolts come down from the sky dealing 3d6 damage once per round for 1 round/level.
 
 **Protection from Energy:**  Absorb 12 points/level of damage from one kind of energy for 10 min./level.
 
@@ -825,55 +825,55 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Spike Growth:**  For 1hr/level, creatures in area take 1d4 damage per 5ft. movement, reflex save or they are slowed.
 
-**Stone Shape:**  Sculpts stone into any shape.
+**Stone Shape:**  Sculpts small or medium sized stone into any desired shape.
 
 **Water Breathing:**  Subjects can breathe under water for 2 hours/level divided by number of subjects.
 
 ### 4th-Level Druid Spells
 
-**Air Walk:**  Subject treads on air for 10 min./level.
+**Air Walk:**  Subject is able to walk horizontally on air for 10 min./level.
 
-**Anti-Plant Shell:**  Keeps animated plants at bay for 10 min./level, 10ft. radius.
+**Anti-Plant Shell:**  Keeps animated plants at bay for 10 min./level, with a 10ft. radius.
 
-**Ice Storm:**  Hail does 5d6 damage in cylinder 40ft. across
+**Ice Storm:**  Hail is called from the sky, dealing 5d6 damage in an area within a 10ft. radius for 1 round.
 
-**Reincarnate:**  Bring back a dead subject into a random body.
+**Reincarnate:**  Bring back a dead subject into a random body (a body that is nearby).
 
 **Repel Vermin:**  Insects, spiders, and other vermin stay 10ft. away for 10 min./level.
 
-**Spike Stones:** Creatures in area take 1d8 damage, reflex save or they are slowed.
+**Spike Stones:** All creatures within 15ft. take 1d8 damage. They must make a reflex save. If failed, they are slowed.
 
 ### 5th-Level Druid Spells
 
-**Awaken:**  Animal or Tree gains human intellect.
+**Awaken:**  One animal or tree gains human intellect (4 Mind).
 
 **Baleful Polymorph:**  Transforms subject into a harmless animal.
 
-**Call Lightning Storm:**  Calls down a lightning bolt from the sky dealing 5d6 damage once per round for 10 rounds/level.
+**Call Lightning Storm:**  Calls a lightning storm into an area with a 5ft. radius. Lightning bolts come down from the sky dealing 5d6 damage once per round for 1 round/level.
 
 **Insect Plague:**  Up to 6 Locust Swarms (21 HP, 18 AC, slow, 2d6 attack) attack creatures for 10 rounds/level.
 
-**Transmute Rock to Mud:**  Transforms 2 10ft. Cubes/level.
+**Transmute Rock to Mud:**  Transforms 2 10ft. Cubes/level of rock into mud.
 
-**Wall of Fire:**  Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.
+**Wall of Fire:**  Creates a 20ft. wall of fire, dealing 2d4 fire damage. Passing through the wall deals 2d6 damage +1/level.
 
 ### 6th-Level Druid Spells
 
 **Fire Seeds:**  Creates Acorn Grenades (1d6 fire damage/level divided among up to 4 seeds) that explode in a 10ft. radius and ignite combustibles.
 
-**Live Oak:**  Oak becomes treant guardian.
+**Live Oak:**  Transforms an Oak tree into a treant guardian.
 
-**Move Earth:**  Digs trenches and builds hills, in an area up to 750ft. square and 10ft. deep.
+**Move Earth:**  Magically dig trenches or build hills, in an area with up to a 50ft. radius and up to 10ft. deep.
 
 **Stone Tell:**  Talk to natural or worked stone for 10 rounds/level.
 
-**Transport via Plants:**  Move instantly from one plant to another of its type anywhere.
+**Transport via Plants:**  Instantly move once from one plant to another as long as the plants are the same type.
 
 **Wall of Stone:**  Creates a shape-able wall of stone up to 5ft./level.
 
 ### 7th-Level Druid Spells
 
-**Changestaff:**  Your staff becomes a treant on command.
+**Changestaff:**  Your staff becomes a treant guardian on command.
 
 **Control Weather:**  Changes weather in local area. Takes half an hour to cast and take effect. Weather cannot be abnormal weather (meteors or other phenomena).
 
