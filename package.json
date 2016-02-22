@@ -1,7 +1,7 @@
 {
   "name": "microluxe20",
-  "version": "1.0.0",
-  "description": "Microluxe20 Setting",
+  "version": "1.4.0",
+  "description": "A free, open source tabletop game based on the Microlite20 ruleset.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "https://github.com/kgrubb/microluxe20"
   },
-  "author": "kgrubb",
-  "license": "OGL",
+  "author": "Keli Grubb",
+  "license": "LicenseRef-LICENSE",
   "bugs": {
     "url": "https://github.com/kgrubb/microluxe20/issues"
   },
@@ -21,6 +21,7 @@
     "gulp": "^3.9.0",
     "gulp-markdown-pdf": "^3.0.0",
     "gulp-rename": "^1.2.2",
+    "gulp-zip": "^3.1.0",
     "through": "^2.3.8"
   }
 }
