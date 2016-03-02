@@ -789,15 +789,15 @@ The following spells have been customized and tweaked to make the game as smooth
 
 ### 1st-Level Druid Spells
 
-**Entangle:**  Plants entangle everyone in a 40ft. radius for 10 rounds/level.
+**Entangle:**  Plants entangle everyone in a 20ft. radius for 10 rounds/level.
 
 **Faerie Fire:**  Outlines subjects with light for 1 minute/level, cancels blur, invisibility, etc.
 
-**Goodberry:**  Creates 2d4 berries. Each berry can cure 1 HP (max 8 HP/day).
+**Goodberry:**  Creates 3d4 berries. Each berry can cure 1 HP (max 12 HP/day).
 
 **Obscuring Mist:**  Fog surrounds your immediate vicinity (10ft.), providing concealment for 1 round/level.
 
-**Produce Flame:**  1d6 damage +1/level, touch or thrown.
+**Produce Flame:**  3d6 damage +1/level, touch or thrown.
 
 **Speak with Animals:**  You can communicate with animals for 10 rounds/level.
 
@@ -807,7 +807,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Gust of Wind:**  Blows away or knocks down small-sized creatures.
 
-**Heat Metal:**  Makes metal so hot, it deals 1d4 damage +1/level to those who touch it.
+**Heat Metal:**  Makes metal so hot, it deals 2d6 damage +1/level to those who touch it.
 
 **Summon Swarm:**  Summons a swarm of bats, rats, or spiders for Knowledge + 2 rounds.
 
@@ -817,13 +817,13 @@ The following spells have been customized and tweaked to make the game as smooth
 
 ### 3rd-Level Druid Spells
 
-**Call Lightning:**  Calls a lightning storm into an area with a 5ft. radius. Lightning bolts come down from the sky dealing 3d6 damage once per round for 1 round/level.
+**Call Lightning:**  Calls a lightning storm into an area with a 5ft. radius. Lightning bolts come down from the sky dealing 3d6 + 1/level damage once per round for 1 round/level.
 
-**Protection from Energy:**  Absorb 12 points/level of damage from one kind of energy for 10 min./level.
+**Protection from Energy:**  Absorb 12 points/level of damage from one kind of energy for 10 rounds/level.
 
 **Speak with Plants:**  You can talk to normal plants and plant creatures for 10 rounds/level.
 
-**Spike Growth:**  For 1hr/level, creatures in area take 1d4 damage per 5ft. movement, reflex save or they are slowed.
+**Spike Growth:**  For 1hr/level, creatures within 20ft. take 2d6 damage per 5ft. movement, reflex save or they are slowed.
 
 **Stone Shape:**  Sculpts small or medium sized stone into any desired shape.
 
@@ -835,13 +835,13 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Anti-Plant Shell:**  Keeps animated plants at bay for 10 min./level, with a 10ft. radius.
 
-**Ice Storm:**  Hail is called from the sky, dealing 5d6 damage in an area within a 10ft. radius for 1 round.
+**Ice Storm:**  Hail is called from the sky, dealing 3d10 damage in an area within a 10ft. radius for 3 rounds.
 
 **Reincarnate:**  Bring back a dead subject into a random body (a body that is nearby).
 
 **Repel Vermin:**  Insects, spiders, and other vermin stay 10ft. away for 10 min./level.
 
-**Spike Stones:** All creatures within 15ft. take 1d8 damage. They must make a reflex save. If failed, they are slowed.
+**Spike Stones:** All creatures within 20ft. take 3d8 damage. They must make a reflex save. If failed, they are slowed.
 
 ### 5th-Level Druid Spells
 
@@ -849,19 +849,19 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Baleful Polymorph:**  Transforms subject into a harmless animal.
 
-**Call Lightning Storm:**  Calls a lightning storm into an area with a 5ft. radius. Lightning bolts come down from the sky dealing 5d6 damage once per round for 1 round/level.
+**Call Lightning Storm:**  Calls a lightning storm into an area with a 5ft. radius. Lightning bolts rain from the sky dealing 3d12 + 1/level damage once per round for 1 round/level.
 
 **Insect Plague:**  Up to 6 Locust Swarms (21 HP, 18 AC, slow, 2d6 attack) attack creatures for 10 rounds/level.
 
-**Transmute Rock to Mud:**  Transforms 2 10ft. Cubes/level of rock into mud.
+**Transmute Rock to Mud:**  Transforms 2 10ft. cubes/level of rock into mud.
 
-**Wall of Fire:**  Creates a 20ft. wall of fire, dealing 2d4 fire damage. Passing through the wall deals 2d6 damage +1/level.
+**Wall of Fire:**  Creates a 20ft. wall of fire, dealing 3d12 fire damage. Passing through the wall deals 3d6 damage +1/level.
 
 ### 6th-Level Druid Spells
 
-**Fire Seeds:**  Creates Acorn Grenades (1d6 fire damage/level divided among up to 4 seeds) that explode in a 10ft. radius and ignite combustibles.
+**Fire Seeds:**  Creates Acorn Grenades (1d12 fire damage/level divided among up to 4 seeds) that can be thrown up to 60ft. and explode in a 10ft. radius, igniting combustibles and other flammable objects within range.
 
-**Live Oak:**  Transforms an Oak tree into a treant guardian.
+**Live Oak:**  Transforms an Oak tree into a treant.
 
 **Move Earth:**  Magically dig trenches or build hills, in an area with up to a 50ft. radius and up to 10ft. deep.
 
@@ -873,15 +873,15 @@ The following spells have been customized and tweaked to make the game as smooth
 
 ### 7th-Level Druid Spells
 
-**Changestaff:**  Your staff becomes a treant guardian on command.
+**Changestaff:**  Your staff becomes a treant on command.
 
 **Control Weather:**  Changes weather in local area. Takes half an hour to cast and take effect. Weather cannot be abnormal weather (meteors or other phenomena).
 
 **TrueSight:**  Lets you see all things as they really are (decipher lies, look through secret doors, see through illusions, sense objects in the dark. etc).
 
-**Finger of Death:** Kills one creature with 100 HP or less. Must physically touch the creature.
+**Finger of Death:** Kills one creature with 150 HP or less. Must physically touch the creature.
 
-**Fire Storm:**  Create a blazing storm dealing 1d6/level fire damage to up to a 60ft. radius.
+**Fire Storm:**  Create a blazing storm dealing 1d8/level fire damage to up to a 60ft. radius.
 
 **Wind Walk:**  You and your allies turn vaporous and travel at up to 60mph for 1 hour/level.
 
@@ -893,9 +893,9 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Earthquake:**  Intense tremor shakes 80ft. radius, collapsing ceilings, opening fissures, etc.
 
-**Repel Metal or Stone:** Pushes away metal and stone, lasting 1 round/level.
+**Repel Metal or Stone:** Perpetually pushes away metal and stone, lasting 1 round/level.
 
-**Sunburst:** Creates a piercing burst of light. Blinds all within 10 ft., deals 6d6 damage.
+**Sunburst:** Creates a piercing burst of light, blinding all within 10 ft., dealing 6d8 damage.
 
 **Word of Recall:** Teleports you back to a previously designated place.
 
@@ -907,9 +907,9 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Shapechange:** Transforms you into any creature, and change forms once per round.
 
-**Storm of Vengeance:** Create an enormous black storm cloud. Creatures inside are deafened while inside. On round 2, acid rains down, dealing 1d6 acid damage (no save). On round 3, 6 bolts of lightning strike for 10d6 damage/bolt. A creature struck can attempt a Reflex save for half damage. On round 4, Hailstones rain down, dealing 5d6 damage (no save). Ranged attacks and spells within the area of the storm are disrupted, with a 50% chance of failure.
+**Storm of Vengeance:** Create an enormous black storm cloud. Creatures inside are deafened while inside. On round 2, acid rains down, dealing 3d6 acid damage (no save). On round 3, 6 bolts of lightning strike for 5d12 damage/bolt. A creature struck can attempt a Reflex save for half damage. On round 4, Hailstones rain down, dealing 5d8 damage (no save). Ranged attacks and spells within the area of the storm are disrupted, with a 50% chance of failure.
 
-**Summon Nature's Ally:** Summon a 9th-level creature, 1d3 8th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.
+**Summon Nature's Ally:** Summon a 9th-level creature, 1d4 8th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.
 
 **Sympathy:** Object or location affected by spell attracts a certain creature type.
 
@@ -1516,7 +1516,7 @@ The 500-strong Knights of the Rose stand ready against the young Dragon. They ar
 500 Knights: HD2d8+4 (14HP), AC18, Lance +7 (1d10+4) or Longsword +6 (1d8+2), CSx10
 Dragon: HD13×12+39 (123HP), AC21, Bite +20 (2d6+7) or Breath 10d10 DC24
 
-The Dragon flies high above and breathes flames across their formation for 46HP damage. The knights dive for cover beneath their shields (phys+DEX to dodge DC24. They roll 25, barely making it). They take ½ damage – 23HP, divided by CSx10 for 2HP. The Knights are down to 12HP.
+The Dragon flies high above and breathes flames across their formation for 46HP damage. The knights dive for cover beneath their shields (Physical + DEX to dodge DC24. They roll 25, barely making it). They take ½ damage – 23HP, divided by CSx10 for 2HP. The Knights are down to 12HP.
 
 They ready their horses to charge as the Dragon lands, the thunder of 2,000 hooves makes the young dragon hesitate. They hit (rolled 18+7 = 25 vs. AC21), scoring 11 damage, CSx10 for a massive 110HP damage. The Dragon is down to 13HP against the small army, bleeding from the impact of many lances. It roars and lunges in anger, biting savagely. It hits easily (rolled 6+20 = 26 vs. AC18) for 17 damage, divided by 10 = 2HP. The Knights are down to 10HP. If they fall below 7HP they will be at half their numbers and down to CSx9.
 
