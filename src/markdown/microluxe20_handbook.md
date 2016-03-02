@@ -443,7 +443,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Quest:** Commands any creature, binding it to a specific task. Lasts for 1 day/level or until discharged.
 
-**True Seeing:** Lets you see all things as they really are for 10 rounds/level.
+**True Seeing:** Lets you see all things as they really are (decipher lies, look through secret doors, see through illusions, sense objects in the dark. etc) for 10 rounds/level.
 
 ### 7th-Level Arcane Spells
 
@@ -571,7 +571,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Raise Dead:**  Restores life to subject who died as long as one day/level ago.
 
-**True Seeing:**  Lets you see all things as they really are for 10 rounds/level.
+**True Seeing:** Lets you see all things as they really are (decipher lies, look through secret doors, see through illusions, sense objects in the dark. etc) for 10 rounds/level.
 
 ### 6th-Level Divine Spells
 
@@ -649,15 +649,15 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Charm Person:** Forcefully makes one person your friend for 1 hour/level.
 
-**Color Spray:** Incapacitates creatures within a 15ft. cone.
+**Color Spray:** Blinds creatures within a 15ft. cone, incapacitating them for 1 round.
 
 **Disguise Self:** Changes your appearance for 10 min./level.
 
-**Hypnotism:** Fascinates creatures within 10 point of your HP or less for 1d4 rounds.
+**Hypnotism:** Fascinates creatures within 15 point of your HP or less for 1d4 rounds.
 
 **Silent Image:** Creates a minor illusion of your design.
 
-**Ventriloquism:** Throws voice for 10 rounds/level.
+**Ventriloquism:** Gain the ability to control one limb of a subject for 1 round.
 
 ### 2nd-Level Illusionist Spells
 
@@ -665,17 +665,17 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Hideous Laughter:** Subject bursts into laughter, and is unable to perform any actions for 1 round/level.
 
-**Hypnotic Pattern:** Fascinate creature within 10 points of your HP or less for Concentration+2 rounds.
+**Hypnotic Pattern:** Fascinate creature within 15 points of your HP or less for  1d8 rounds.
 
 **Invisibility:** Subject is invisible for 10 rounds/level or until it attacks.
 
-**Minor Image:** Creates a minor illusion of your design with sound.
+**Shadow Blade:** Creates an illusory shadow sword, dealing 3d6 + 1/level damage, with a range of 60ft.
 
 **Mirror Image:** Creates 1d4+1 decoys of caster for 10 rounds/level.
 
 ### 3rd -Level Illusionist Spells
 
-**Daylight:** 60ft. radius of daylight for 10 min./level.
+**Daylight:** Creates an area with a 60ft. radius of daylight for 10 min./level.
 
 **Deep Slumber:** Puts creatures whose HP is less than double your HP into a deep sleep for 10 rounds/level.
 
@@ -683,7 +683,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Invisibility Sphere:** Makes everyone within 10ft. invisible.
 
-**Major Image:** Creates a minor illusion of your design with sound, smell, and thermal effects.
+**Minor Image:** Creates a minor illusion of your design with sound, smell, and thermal effects.
 
 **Suggestion:** Compels subject to follow stated course of action for 1 hour/level or until completed.
 
@@ -695,11 +695,11 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Greater Invisibility:** Subject is invisible for 10 rounds/level and can attack.
 
-**Minor Creation:** Create one cloth or wood object.
+**Minor Creation:** Create one real cloth or wood object.
 
-**Phantasmal Killer:** A fearsome illusion deals 3d6 damage to one creature.
+**Phantasmal Killer:** A fearsome illusion terrifies one creature, dealing 5d8 damage.
 
-**Rainbow Pattern:** Lights Fascinate creatures whose HP is less than double your HP for Concentration+1 round/level.
+**Rainbow Pattern:** Lights Fascinate creatures whose HP is less than double your HP for 2d4 + 1 round/level.
 
 ### 5th-Level Illusionist Spells
 
@@ -707,51 +707,51 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Dominate Person:** Controls subject telepathically for 1 day/level.
 
-**Major Creation:** As minor creation, plus stone or metal.
+**Major Creation:** Create one real cloth, wood, stone, or metal object.
 
-**Persistent Image:** Creates a minor illusion of your design with sound, smell, and thermal effects with no concentration required; 10 rounds/level.
+**Persistent Image:** Creates a minor illusion of your design with sound, smell, and thermal effects for 10 rounds/level.
 
 **Seeming:** Changes appearance of 1 person per 2 levels for 12 hours.
 
-**Sending:** Delivers short message anywhere, instantly.
+**Sending:** Instantly delivers a short message to one subject located anywhere.
 
 ### 6th-Level Illusionist Spells
 
-**Mislead:** Turns you invisible and creates an illusory double.
+**Mislead:** The caster becomes invisible and creates an illusory double in his/her place.
 
-**Permanent Image:** Permanent illusion with sight, sound, and smell controlled by concentration.
+**Permanent Image:** Creates a permanent illusion with sight, sound, and smell controlled by concentration.
 
-**Programmed Image:** As major image, triggered by specific event.
+**Programmed Image:** Create one real cloth, wood, stone, or metal object that can be triggered by a specified event.
 
 **Shadow Walk:** Step into shadow and travel rapidly; 50mph for 1 hour/level.
 
-**Mass Suggestion:** As suggestion, plus one subject per level.
+**Mass Suggestion:** Compels one subject per level to follow stated course of action for 1 hour/level or until completed.
 
-**True Seeing:** Lets you see things as they truly are.
+**True Seeing:** Lets you see all things as they really are (decipher lies, look through secret doors, see through illusions, sense objects in the dark. etc) for 10 rounds/level.
 
 ### 7th-Level Illusionist Spells
 
-**Mass Invisibility:** Up to 8 allies are invisible for 10 rounds/level or until they attack
+**Mass Invisibility:** Up to 8 allies are invisible for 10 rounds/level or until they attack.
 
-**Phase Door:** Creates invisible passage through wood and stone.
+**Phase Door:** Creates an invisible passage through wood and stone.
 
-**Power Word Blind** : Blinds a creature with 200 HP or less.
+**Power Word Blind:** Permanently blinds a creature with 200 HP or less.
 
-**Prismatic Spray:** 60ft. Cone-shaped burst of rays for variety of effects.
+**Prismatic Spray:** Creates a 60ft. Cone-shaped burst of rays causing a variety of effects.
 
 **Project Image:** Illusory double (with half of the caster's HP) can talk and cast spells at medium range for 1 round/level or until it "dies".
 
-**Weird:** A fearsome illusion deals 3d6 damage to all creatures within 30 ft.
+**Weird:** A fearsome illusion terrifies all creatures within 30 ft, dealing 5d8 damage.
 
 ### 8th-Level Illusionist Spells
 
-**Scintillating Pattern:** A pattern of discordant colors weaves through the air. The spell affects (caster level + 1d6) creatures. Each effect lasts for 1d4 rounds. Creatures with less than 50 HP are unconscious, then stunned, then confused. 50-100 HP, stunned, then confused. Over 100 HP, confused.
+**Scintillating Pattern:** A pattern of discordant colors weaves through the air. The spell affects level + 1d6 creatures. Each effect lasts for 1d4 rounds. Creatures with less than 50 HP are unconscious, then stunned, then confused. Creatures with 50-100 HP are stunned, then confused. Creatures with over 100 HP are confused.
 
 **Shadow Evocation:** Creates an illusory version of Mage spells of 7th level or lower. If recognized as an illusion, the spell deals only ½ damage.
 
 **Simulacrum:** Creates partially real double (with half HP) of a creature (same level or lower than caster), formed from water, ice, or snow.
 
-**Sunburst:** Creates a piercing burst of light. Blinds all within 10 ft., deals 6d6 damage.
+**Sunburst:** Creates a piercing burst of light. Blinds all within 10 ft., dealing 5d12 damage.
 
 **Shadow Gambit:** Any shadow or illusory object becomes completely real for 3 rounds.
 
@@ -769,7 +769,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Complete Silence:** A subject becomes completely undetectable by sound.
 
-**Figmentation:** Any real object is cast into the shadow realm, making it an illusion.
+**Figmentation:** Any real object or subject is cast into the shadow realm, making it an illusion. This spell, like a wish, can only be cast without penalty the first time. After the first successful casting, if attempted again, the caster has a 50% chance of passing. If the caster fails, he/she is cast into the shadow realm, becoming an illusion.
 
 ## Divine (Druid) Spells
 
@@ -873,17 +873,17 @@ The following spells have been customized and tweaked to make the game as smooth
 
 ### 7th-Level Druid Spells
 
-**Changestaff:**  Your staff becomes a treant on command.
+**Changestaff:** Your staff becomes a treant on command.
 
-**Control Weather:**  Changes weather in local area. Takes half an hour to cast and take effect. Weather cannot be abnormal weather (meteors or other phenomena).
+**Control Weather:** Changes weather in local area. Takes half an hour to cast and take effect. Weather cannot be abnormal weather (meteors or other phenomena).
 
-**TrueSight:**  Lets you see all things as they really are (decipher lies, look through secret doors, see through illusions, sense objects in the dark. etc).
+**True Seeing:** Lets you see all things as they really are (decipher lies, look through secret doors, see through illusions, sense objects in the dark. etc) for 10 rounds/level.
 
 **Finger of Death:** Kills one creature with 150 HP or less. Must physically touch the creature.
 
-**Fire Storm:**  Create a blazing storm dealing 1d8/level fire damage to up to a 60ft. radius.
+**Fire Storm:** Create a blazing storm dealing 1d6/level fire damage to up to a 60ft. radius.
 
-**Wind Walk:**  You and your allies turn vaporous and travel at up to 60mph for 1 hour/level.
+**Wind Walk:** You and your allies turn vaporous and travel at up to 60mph for 1 hour/level.
 
 ### 8th-Level Druid Spells
 
