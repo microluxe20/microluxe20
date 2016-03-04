@@ -341,7 +341,7 @@ Finally, add the following, based on your Class:
 
 # Spell Lists
 
-The following spells have been customized and tweaked to make the game as smooth as possible. It is suggested to use these spells for all spell casters in the game, although spells from the SRD can also be used in Microluxe20 without any conversions. With the following spell system in place, additional spells in the SRD (but not on this list) can easily be discovered in the game as loot, research, etc., if the GM desires.
+The following spells have been customized and tweaked to make the game as smooth as possible. It is suggested to use these spells for all spell casters in the game, although spells from the SRD can also be used in Microluxe20 with slight modifications. With the following spell system in place, additional spells in the SRD (but not on this list) can easily be discovered in the game as loot, research, etc., if the GM desires.
 
 ## Arcane (Mage) Spells
 
@@ -367,23 +367,23 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Floating Disk:**  Creates 3ft. diameter horizontal disk that holds 100 lb./level. Lasts for 1 hour/level.
 
-**Mage Armor:**  Gives subject +4 armor bonus for 1 hour/level.
+**Mage Armor:**  Gives caster +4 armor bonus for 1 hour/level.
 
-**Magic Missile:**  1d4+1 damage; +1 missile per two levels above 1st (max of 5 missiles).
+**Magic Missile:**  3d6 damage; +1 missile per two levels above 1st (max of 5 missiles).
 
-**Sleep:**  Puts up to 4d4 of creatures whose HP is less than double your HP into magical slumber for 10 rounds/level.
+**Sleep:**  Puts up to 4d4 of creatures whose HP is less than double your HP into magical slumber for 3 rounds/level.
 
-**Shocking Grasp:**  Touch delivers 1d6/ level electricity damage (max 5d6).
+**Shocking Grasp:**  Touch delivers 1d6/level electricity damage (min of 3 damage, max of 6d6).
 
 ### 2nd-Level Arcane Spells
 
-**Acid Arrow:**  Ranged touch attack; 2d4 damage for 1 round +1 round/three levels.
+**Acid Arrow:**  Ranged touch attack; 2d4 damage for 1 round + 1 round per two levels.
 
-**Flaming Sphere:**  Creates rolling ball of fire, 2d6 damage, lasts 1 round/level.
+**Flaming Sphere:**  Creates rolling ball of fire, 3d6 damage, lasts 1 round/level.
 
 **Invisibility:**  Subject is invisible for 10 rounds/ level or until it attacks.
 
-**Knock:**  Opens locked or magically sealed door.
+**Knock:**  Opens locked or magically sealed door with a DC of 20 or lower.
 
 **Levitate:**  Subject moves up or down at your discretion for 10 rounds/level.
 
@@ -395,21 +395,21 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Dispel Magic:**  Cancels a magical spell or effect.
 
-**Fireball:**  1d6 fire damage per level, 20ft. radius.
+**Fireball:**  Creates a minor explosion up to 60ft. away in an area with a 10ft. radius, dealing 1d6 fire damage/level.
 
 **Fly:**  Subject flies at speed of 60 ft. for 10 rounds/level.
 
-**Lightning Bolt:**  Electricity deals 1d6/level damage.
+**Lightning Bolt:**  Summons a bolt of lightning from the caster's hands, dealing 3d8 + 1/level damage.
 
-**Vampiric Touch:**  Touch deals 1d6/two levels damage; caster gains half of the damage as temporary HP.
+**Vampiric Touch:**  The caster touches a subject, draining away their life force. Deals 1d6 damage per two levels and the caster gains half of the damage as HP.
 
 ### 4th-Level Arcane Spells
 
 **Animate Dead:**  Creates up to 4 undead skeletons or zombies (requires remains).
 
-**Arcane Eye:**  Invisible floating eye moves 30 ft./round for 10 rounds/level.
+**Arcane Eye:**  Creates an invisible floating eye, able to move 30 ft./round for 10 rounds/level.
 
-**Black Tentacles:**  Tentacles grapple all within 20 ft. spread for 1 round/level.
+**Black Tentacles:**  Tentacles grapple all within a 20 ft. radius for 1 round/level, making movement impossible.
 
 **Dimensional Door:**  Teleports you short distances (up to 5 miles). The doors stay open unless destroyed.
 
@@ -433,13 +433,13 @@ The following spells have been customized and tweaked to make the game as smooth
 
 ### 6th-Level Arcane Spells
 
-**Anti-magic Field:** Negates magic within 10 ft. for 10 min./level.
+**Anti-magic Field:** Negates magic within 10 ft. of the caster's location for 10 min./level.
 
-**Chain Lightning:** 1d6/level damage; 1 secondary bolt/level each deals half damage. (ex. bolt 1 deals 12, bolt 2 deals 6, bolt 3 deals 3)
+**Chain Lightning:** 2d8/level damage; 1 secondary bolt/level, each dealing half damage rounded up. (ex. bolt 1 deals 13, bolt 2 deals 7, bolt 3 deals 4)
 
 **Contingency:** Sets a trigger condition for another spell. Lasts for 1 day/level or until discharged.
 
-**Disintegrate:** A small ray strikes a creature (or object) for 2d6/level. If the target is reduced to 0 HP (or the target is an object), it is disintegrated.
+**Disintegrate:** A small ray strikes a creature (or object) for 2d6 damage/level. If the target is reduced to 0 HP (or the target is an object), it is disintegrated.
 
 **Quest:** Commands any creature, binding it to a specific task. Lasts for 1 day/level or until discharged.
 
@@ -447,11 +447,11 @@ The following spells have been customized and tweaked to make the game as smooth
 
 ### 7th-Level Arcane Spells
 
-**Delayed Blast Fireball:** 1d6/level fire damage; you can postpone the blast for 5 rounds.
+**Delayed Blast Fireball:** Creates a major explosion up to 100ft. away in an area with a 15ft. radius, dealing 1d8 fire damage/level. You can postpone the blast for 5 rounds.
 
-**Ethereal Jaunt:** You become ethereal for 1 round/level.
+**Ethereal Jaunt:** You become ethereal (ghostly) for 1 round/level. The ethereal plane is a separate plane from the material plane, invisible to creatures on the material plane. It is gravity-less and dull; a land of ghosts, shadows, and wisps.
 
-**Finger of Death:** Kills one creature with 100 HP or less. Must physically touch the creature.
+**Finger of Death:** Kills one creature with 150 HP or less. The caster must physically touch the creature.
 
 **Plane Shift:** As many as 8 targets travel to another plane.
 
@@ -463,9 +463,9 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Clone:** Creates a duplicate of yourself. The duplicate awakens when the original copy dies.
 
-**Horrid Wilting:** Deals 1d6/level nature damage within 30 ft.
+**Horrid Wilting:** Deals 1d10/level nature damage within 30 ft.
 
-**Incendiary Cloud:** Cloud deals 4d6 fire damage/round for 1 round/level.
+**Incendiary Cloud:** Cloud deals 5d6 fire damage/round for 1 round/level.
 
 **Irresistible Dance:** Forces a target to involuntarily dance for 1d4+1 rounds.
 
@@ -475,17 +475,17 @@ The following spells have been customized and tweaked to make the game as smooth
 
 ### 9th-Level Arcane Spells
 
-**Astral Projection:** Projects you and companions onto the Astral Plane (a timeless plane with changing gravity) **.**
+**Astral Projection:** Projects you and companions onto the Astral Plane. The Astral plane is the space/plane in which Terador (and other worlds) reside. Filled with a thick air-like substance called "miasma", the Astral plane is a timeless plane with ever-changing gravity, known for its magic production.
 
 **Etherealness:** Travel to Ethereal Plane with companions for 10 rounds/level.
 
 **Gate:** Connects two planes for travel or summoning. Open for 1 round/level.
 
-**Meteor Swarm:** Four exploding spheres each deal 6d6 fire damage.
+**Meteor Swarm:** Four exploding spheres each deal 6d12 fire damage.
 
 **Power Word Kill:** Kills one creature with 250 HP or less.
 
-**Soul Bind:** Traps a newly dead (within 5 rounds) soul to prevent resurrection.
+**Soul Bind:**  Traps a newly dead soul inside an item, preventing resurrection.
 
 ## Divine (Cleric) Spells
 
@@ -547,7 +547,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 ### 4th-Level Divine Spells
 
-**Cure Critical Wounds:**  Cures 4d8 damage +1/level (max +20).
+**Cure Critical Wounds:**  Cures 4d8 damage +1/level (max +30).
 
 **Discern Lies:**  Reveals deliberate falsehoods for 1 round/level or until concentration ends.
 
@@ -575,7 +575,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 ### 6th-Level Divine Spells
 
-**Banishment:**  Banishes extraplanar creatures within 10 points of your HP or less.
+**Banishment:**  Banishes extraplanar creatures within 50 points of your HP or less.
 
 **Mass Cure Moderate Wounds:**  Cures 2d8 damage +1/level for many creatures.
 
@@ -591,13 +591,13 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Mass Cure Serious Wounds:**  Cures 3d8 damage +1/level for many creatures.
 
-**Destruction:**  Kills subject with 100 HP or less, and destroys remains.
+**Destruction:**  Kills subject with 150 HP or less, and destroys remains.
 
-**Ethereal Jaunt:**  You become ethereal for 1 round/level.
+**Ethereal Jaunt:**  You become ethereal (ghostly) for 1 round/level. The ethereal plane is a separate plane from the material plane, invisible to creatures on the material plane. It is gravity-less and dull; a land of ghosts, shadows, and wisps.
 
-**Regenerate:**  Subject's severed limbs grow back, cures 4d8 damage +1/level (max +35).
+**Regenerate:**  Subject's severed limbs grow back, cures 4d8 damage +1/level (max +45).
 
-**Greater Restoration:**  As restoration, plus restores all levels and ability scores.
+**Greater Restoration:**  Restores all level and ability score drains, and restores all levels and ability scores.
 
 **Resurrection:**  Fully restores a dead subject from a small portion of the corpse.
 
@@ -613,21 +613,21 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Fire Storm:**  Deals 1d6/level fire damage.
 
-**Holy Aura:**  +4 to AC, +4 resistance, and SR 25 against evil spells for 1 round/level.
+**Holy Aura:**  +4 to AC, +4 resistance, and spell resistance of 25 against evil spells (the enemy must roll higher than a 25 just to cast the spell) for 1 round/level.
 
 ### 9th-Level Divine Spells
 
-**Astral Projection:**  Projects you and companions onto Astral Plane.
+**Astral Projection:** Projects you and companions onto the Astral Plane. The Astral plane is the space/plane in which Terador (and other worlds) reside. Filled with a thick air-like substance called "miasma", the Astral plane is a timeless plane with ever-changing gravity, known for its magic production.
 
-**Etherealness:**  Travel to Ethereal Plane with companions for 10 rounds/level.
+**Etherealness:**  Travel to the Ethereal Plane with companions for 10 rounds/level.
 
 **Gate:**  Connects two planes for travel or summoning. Open for 1 round/level.
 
-**Mass Heal:**  Same as Heal, but heals up to 8 allies.
+**Mass Heal:**  Heals up to 8 allies, curing 10 points/level of damage, all diseases and mental conditions.
 
-**Implosion:**  Kills one creature with 100 HP or less per round for 4 rounds or until concentration ends.
+**Implosion:**  Kills one creature with 150 HP or less per round for 4 rounds or until concentration ends.
 
-**Soul Bind:**  Traps newly dead soul to prevent resurrection.
+**Soul Bind:**  Traps a newly dead soul inside an item, preventing resurrection.
 
 ## Arcane (Illusionist) Spells
 
@@ -763,13 +763,13 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Shades:** Creates 1d4 illusory doubles (with 75% of the caster's HP). Can talk and cast spells at medium range for 1 round/level or until they "die".
 
-**Phantasmal Weird:** Creates a phantasmal image of a feasrsome creature. Target makes will save. If failed, target takes a Fortitude save or dies from fear. If succeeded, target takes 5d6 damage, 1d4 points of STR damage, and is stunned for 2 rounds.
+**Phantasmal Weird:** Creates a phantasmal image of a fearsome creature. Target makes will save. If failed, target takes a Fortitude save or dies from fear. If succeeded, target takes 5d6 damage, 1d4 points of STR damage, and is stunned for 2 rounds.
 
 **Shadow Craft:** An illusory object becomes permanently real.
 
 **Complete Silence:** A subject becomes completely undetectable by sound.
 
-**Figmentation:** Any real object or subject is cast into the shadow realm, making it an illusion. This spell, like a wish, can only be cast without penalty the first time. After the first successful casting, if attempted again, the caster has a 50% chance of passing. If the caster fails, he/she is cast into the shadow realm, becoming an illusion.
+**Figmentation:** Any real object or subject is cast into an unknown location in the Ethereal Plane (The ethereal plane is a separate plane from the material plane, invisible to creatures on the material plane. It is gravity-less and dull; a land of ghosts, shadows, and wisps), making it a shadowy illusion. This spell, can only be cast without penalty the first time. After the first successful casting, if attempted again, the caster has a 50% chance of passing. If the caster fails, he/she is cast into the Ethereal Plane instead, becoming an illusion.
 
 ## Divine (Druid) Spells
 
@@ -1019,7 +1019,7 @@ Temporary HP cannot be used to manifest powers. Like casters, after casting a Ps
 
 ### 7th-Level Psion Powers
 
-**Ethereal Jaunt:** Become ethereal for 1 round/level. _Duration_: 1 round/level. _Augment_: None.
+**Ethereal Jaunt:** Become ethereal (ghostly) for 1 round/level. The ethereal plane is a separate plane from the material plane, invisible to creatures on the material plane. It is gravity-less and dull; a land of ghosts, shadows, and wisps. _Duration_: 1 round/level. _Augment_: None.
 
 **Fission:** You briefly duplicate yourself. _Duration_: 1 round/level. _Augment_: None.
 
@@ -1031,7 +1031,7 @@ Temporary HP cannot be used to manifest powers. Like casters, after casting a Ps
 
 ### 8th-Level Psion Powers
 
-**Astral Seed:** You plant the seed of your rebirth from the Astral Plane. You return from death (even disintegration) after 10 days. _Duration_: Instant. _Augment_: None.
+**Astral Seed:** You plant a seed of your rebirth into the Astral Plane (The Astral plane is the space/plane in which Terador, and other worlds, reside. Filled with a thick air-like substance called "miasma", the Astral plane is a timeless plane with ever-changing gravity, known for its magic production). You return from death (even disintegration) after 10 days. _Duration_: Instant. _Augment_: None.
 
 **Hypercognition:** You can deduce almost anything. _Duration_: Instant. _Augment_: None.
 
