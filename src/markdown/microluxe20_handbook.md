@@ -139,7 +139,7 @@ Here are three ways for spell casters to add a little more variety:
 
 <h2> Heroism </h2>
 
-<strong>Heroism</strong> is intended to relieve some of the power incompatibilities with some d20 adventure types. If you find that the party is consistently too weak, try adding Heroism. **Heroism** is a bonus equal to 1 times the characters level (1 at 1st, 2 at 2nd, etc) and may be applied to up to three of the following once per day: Attack Bonus, Damage, Saving Throw, Skill Check, Spell DC
+<strong>Heroism</strong> is intended to relieve some of the power incompatibilities with some d20 adventure types. If you find that the party is consistently too weak, try adding Heroism. <strong>Heroism</strong> is a bonus equal to 1 times the characters level (1 at 1st, 2 at 2nd, etc) and may be applied to up to three of the following once per day: Attack Bonus, Damage, Saving Throw, Skill Check, Spell DC
 
 </div>
 
@@ -178,8 +178,6 @@ Here is the format for weapon entries (given as column headings on the table bel
 
 **Complexity** : Different weapons require different amount of training to use. The level of complexity relies on the player's class. For example, Mages cannot use Complex weapons.
 
-<div>
-
 ### Light Weapons
 
 | Weapon | Cost | Damage | Range | Complexity | Weapon | Cost | Damage | Range | Complexity |
@@ -190,9 +188,7 @@ Here is the format for weapon entries (given as column headings on the table bel
 | Sickle | 5gp | 1d6 | — | Simple | Axe, throwing | 10gp | 1d6 | 10ft. | Complex |
 | Pick, light | 5gp | 1d4 | — | Complex | Hammer, light | 12gp | 1d6 | 20ft. | Complex |
 
-</div>
-
-<div>
+<div markdown="1">
 
 ### Ranged Weapons
 
