@@ -6,22 +6,22 @@ img[alt=title-img] {
   page-break-after: always;
 }
 
+div.nobreak {
+page-break-inside:avoid;
+}
+
 h1 {
-  float:none;
-  page-break-after:avoid;
   border-top: 2px double black;
   border-bottom: 2px double black;
   font-weight: bolder;
 }
 
 h2 {
-  page-break-after: avoid;
   border-bottom: 1px solid black;
   font-weight: bold;
 }
 
 h3 {
-  page-break-after: avoid;
   font-weight: bold;
 }
 
@@ -29,10 +29,10 @@ h3 {
   font-family: "Open Sans";
   font-size: 95%;
   font-weight: lighter;
+  font-size-adjust: auto;
 }
 
 table {
-  page-break-before: avoid;
   page-break-inside: avoid;
   margin: 0;
   font-size: 100%;
@@ -49,5 +49,5 @@ th {
 }
 
 body {
-  font-size: 60%;
+  font-size: 55%;
 }

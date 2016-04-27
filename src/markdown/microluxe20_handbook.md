@@ -135,9 +135,13 @@ Here are three ways for spell casters to add a little more variety:
 
 **Widening** makes a spell's area of effect twice as big as normal. A Widened spell costs an additional 6 HP.
 
+<div class="nobreak">
+
 ## Heroism
 
 **Heroism** is intended to relieve some of the power incompatibilities with some d20 adventure types. If you find that the party is consistently too weak, try adding Heroism. **Heroism** is a bonus equal to 1 times the characters level (1 at 1st, 2 at 2nd, etc) and may be applied to up to three of the following once per day: Attack Bonus, Damage, Saving Throw, Skill Check, Spell DC
+
+</div>
 
 # Equipment
 
@@ -174,6 +178,7 @@ Here is the format for weapon entries (given as column headings on the table bel
 
 **Complexity** : Different weapons require different amount of training to use. The level of complexity relies on the player's class. For example, Mages cannot use Complex weapons.
 
+<div class="nobreak">
 
 ### Light Weapons
 
@@ -185,6 +190,10 @@ Here is the format for weapon entries (given as column headings on the table bel
 | Sickle | 5gp | 1d6 | — | Simple | Axe, throwing | 10gp | 1d6 | 10ft. | Complex |
 | Pick, light | 5gp | 1d4 | — | Complex | Hammer, light | 12gp | 1d6 | 20ft. | Complex |
 
+</div>
+
+<div class="nobreak">
+
 ### Ranged Weapons
 
 | Weapon | Cost | Damage | Range | Complexity | Weapon | Cost | Damage | Range | Complexity |
@@ -194,6 +203,10 @@ Here is the format for weapon entries (given as column headings on the table bel
 | Javelin | 1gp | 1d6 | 30ft. | Simple | Shortbow | 30gp | 1d6 | 60ft. | Complex |
 | Crossbow, light | 35gp | 1d8 | 80ft. | Simple | Longbow | 75gp | 1d8 | 100ft. | Complex |
 | Crossbow, heavy | 50gp | 1d10 | 120ft. | Simple | Longbow, Composite | 100gp | 1d10 | 120ft. | Complex |
+
+</div>
+
+<div class="nobreak">
 
 ### Two-Handed Weapons
 
@@ -208,6 +221,10 @@ Here is the format for weapon entries (given as column headings on the table bel
 | Glaive | 30gp | 1d8 | — | Complex | Greatsword | 50gp | 2d6 | — | Complex |
 | Greatclub | 30gp | 1d8 | — | Complex |
 
+</div>
+
+<div class="nobreak">
+
 ### One-Handed Weapons
 
 | Weapon | Cost | Damage | Range | Complexity | Weapon | Cost | Damage | Range | Complexity |
@@ -221,6 +238,10 @@ Here is the format for weapon entries (given as column headings on the table bel
 | Rapier | 15gp | 1d6 | — | Complex | Sword, bastard | 35gp | 1d10 | — | Complex |
 | Scimitar | 15gp | 1d6 | — | Complex |
 
+</div>
+
+<div class="nobreak">
+
 ## Armor & Shields
 
 Here is the format for armor entries (given as column headings on the table below):
@@ -230,6 +251,10 @@ Here is the format for armor entries (given as column headings on the table belo
 **Cost:** This value is the price for purchasing the armor.
 
 **AC Bonus:** This column gives the Armor Class bonus provided by the armor.
+
+</div>
+
+<div class="nobreak">
 
 ### Armor
 
@@ -242,6 +267,10 @@ Here is the format for armor entries (given as column headings on the table belo
 | Hide | Medium | 30gp | +3 | Half-plate | Heavy | 600gp | +7 |
 | Scale Mail | Medium | 75gp | +4 | Full Plate | Heavy | 1,500gp | +8 |
 
+</div>
+
+<div class="nobreak">
+
 ### Shields
 
 | Armor | Cost | Bonus | Armor | Cost | Bonus |
@@ -253,9 +282,17 @@ Here is the format for armor entries (given as column headings on the table belo
 | Shield, medium wooden | 35gp | +2 | Shield, Mithral | 450gp | +6 |
 | Shield, medium steel | 25gp | +2 | Shield, Adamantine | 1500gp | +7 |
 
+</div>
+
+<div class="nobreak">
+
 ## Adventuring Equipment
 
 Characters may purchase equipment from the following lists with their starting money or select one of the standard adventuring "fast packs".
+
+</div>
+
+<div class="nobreak">
 
 ### Adventuring Gear
 
@@ -289,6 +326,10 @@ Characters may purchase equipment from the following lists with their starting m
 | Flask (empty) | 3cp | Parchment (sheet) | 2sp | Water skin | 1gp |
 | Whetstone | 2cp |
 
+</div>
+
+<div class="nobreak">
+
 ### Clothing
 
 | Goods | Cost | Goods | Cost | Goods | Cost |
@@ -297,6 +338,10 @@ Characters may purchase equipment from the following lists with their starting m
 | Cleric's Vestments | 5gp | Explorer's Outfit | 10gp | Royal Outfit | 200gp |
 | Cold Weather Outfit | 8gp | Monk's Outfit | 5gp | Scholar's Outfit | 5gp |
 | Courtier's Outfit | 30gp | Noble's Outfit | 75gp | Traveler's Outfit | 1gp |
+
+</div>
+
+<div class="nobreak">
 
 ### Mounts and Related Gear
 
@@ -308,6 +353,10 @@ Characters may purchase equipment from the following lists with their starting m
 | Dog, guard | 25gp | Pony | 30gp | Warhorse, heavy | 400gp |
 | Dog, war | 75gp | Saddle, military | 20gp | Warhorse, light | 150gp |
 | Donkey or Mule | 8gp | Saddle, pack | 5gp | War pony | 100gp |
+
+</div>
+
+<div class="nobreak">
 
 ### Fast Equipment Packs
 
@@ -327,6 +376,8 @@ Suggested starting packs for new characters (each pack uses 50 gp of a character
 | pen & paper | crowbar | 50 ft. rope |
 | water skin | water skin | water skin |
 | iron rations (4 days) | iron rations (4 days) | iron rations (4 days) |
+
+</div>
 
 Finally, add the following, based on your Class:
 
