@@ -188,17 +188,88 @@ Here is the format for weapon entries (given as column headings on the table bel
 | Sickle | 5gp | 1d6 | — | Simple | Axe, throwing | 10gp | 1d6 | 10ft. | Complex |
 | Pick, light | 5gp | 1d4 | — | Complex | Hammer, light | 12gp | 1d6 | 20ft. | Complex |
 
-<div markdown="1">
+<div>
 
-### Ranged Weapons
+<h3> Ranged Weapons </h3>
 
-| Weapon | Cost | Damage | Range | Complexity | Weapon | Cost | Damage | Range | Complexity |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Dart | 5sp | 1d4 | 20ft. | Simple | Net | 20gp | — | 10ft. | Complex |
-| Sling | 1gp | 1d4 | 50ft. | Simple | Crossbow, hand | 100gp | 1d4 | 30ft. | Complex |
-| Javelin | 1gp | 1d6 | 30ft. | Simple | Shortbow | 30gp | 1d6 | 60ft. | Complex |
-| Crossbow, light | 35gp | 1d8 | 80ft. | Simple | Longbow | 75gp | 1d8 | 100ft. | Complex |
-| Crossbow, heavy | 50gp | 1d10 | 120ft. | Simple | Longbow, Composite | 100gp | 1d10 | 120ft. | Complex |
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Weapon</th>
+<th style="text-align:left">Cost</th>
+<th style="text-align:left">Damage</th>
+<th style="text-align:left">Range</th>
+<th style="text-align:left">Complexity</th>
+<th style="text-align:left">Weapon</th>
+<th style="text-align:left">Cost</th>
+<th style="text-align:left">Damage</th>
+<th style="text-align:left">Range</th>
+<th style="text-align:left">Complexity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Dart</td>
+<td style="text-align:left">5sp</td>
+<td style="text-align:left">1d4</td>
+<td style="text-align:left">20ft.</td>
+<td style="text-align:left">Simple</td>
+<td style="text-align:left">Net</td>
+<td style="text-align:left">20gp</td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">10ft.</td>
+<td style="text-align:left">Complex</td>
+</tr>
+<tr>
+<td style="text-align:left">Sling</td>
+<td style="text-align:left">1gp</td>
+<td style="text-align:left">1d4</td>
+<td style="text-align:left">50ft.</td>
+<td style="text-align:left">Simple</td>
+<td style="text-align:left">Crossbow, hand</td>
+<td style="text-align:left">100gp</td>
+<td style="text-align:left">1d4</td>
+<td style="text-align:left">30ft.</td>
+<td style="text-align:left">Complex</td>
+</tr>
+<tr>
+<td style="text-align:left">Javelin</td>
+<td style="text-align:left">1gp</td>
+<td style="text-align:left">1d6</td>
+<td style="text-align:left">30ft.</td>
+<td style="text-align:left">Simple</td>
+<td style="text-align:left">Shortbow</td>
+<td style="text-align:left">30gp</td>
+<td style="text-align:left">1d6</td>
+<td style="text-align:left">60ft.</td>
+<td style="text-align:left">Complex</td>
+</tr>
+<tr>
+<td style="text-align:left">Crossbow, light</td>
+<td style="text-align:left">35gp</td>
+<td style="text-align:left">1d8</td>
+<td style="text-align:left">80ft.</td>
+<td style="text-align:left">Simple</td>
+<td style="text-align:left">Longbow</td>
+<td style="text-align:left">75gp</td>
+<td style="text-align:left">1d8</td>
+<td style="text-align:left">100ft.</td>
+<td style="text-align:left">Complex</td>
+</tr>
+<tr>
+<td style="text-align:left">Crossbow, heavy</td>
+<td style="text-align:left">50gp</td>
+<td style="text-align:left">1d10</td>
+<td style="text-align:left">120ft.</td>
+<td style="text-align:left">Simple</td>
+<td style="text-align:left">Longbow, Composite</td>
+<td style="text-align:left">100gp</td>
+<td style="text-align:left">1d10</td>
+<td style="text-align:left">120ft.</td>
+<td style="text-align:left">Complex</td>
+</tr>
+</tbody>
+</table>
 
 </div>
 
