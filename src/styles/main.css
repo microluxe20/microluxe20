@@ -6,7 +6,7 @@ img[alt=title-img] {
   page-break-after: always;
 }
 
-div.nobreak {
+div {
 page-break-inside:avoid;
 }
 

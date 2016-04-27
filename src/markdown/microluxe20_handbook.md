@@ -135,7 +135,7 @@ Here are three ways for spell casters to add a little more variety:
 
 **Widening** makes a spell's area of effect twice as big as normal. A Widened spell costs an additional 6 HP.
 
-<div class="nobreak">
+<div>
 
 ## Heroism
 
@@ -178,7 +178,7 @@ Here is the format for weapon entries (given as column headings on the table bel
 
 **Complexity** : Different weapons require different amount of training to use. The level of complexity relies on the player's class. For example, Mages cannot use Complex weapons.
 
-<div class="nobreak">
+<div>
 
 ### Light Weapons
 
@@ -192,7 +192,7 @@ Here is the format for weapon entries (given as column headings on the table bel
 
 </div>
 
-<div class="nobreak">
+<div>
 
 ### Ranged Weapons
 
@@ -206,7 +206,7 @@ Here is the format for weapon entries (given as column headings on the table bel
 
 </div>
 
-<div class="nobreak">
+<div>
 
 ### Two-Handed Weapons
 
@@ -223,7 +223,7 @@ Here is the format for weapon entries (given as column headings on the table bel
 
 </div>
 
-<div class="nobreak">
+<div>
 
 ### One-Handed Weapons
 
@@ -240,7 +240,7 @@ Here is the format for weapon entries (given as column headings on the table bel
 
 </div>
 
-<div class="nobreak">
+<div>
 
 ## Armor & Shields
 
@@ -254,7 +254,7 @@ Here is the format for armor entries (given as column headings on the table belo
 
 </div>
 
-<div class="nobreak">
+<div>
 
 ### Armor
 
@@ -269,7 +269,7 @@ Here is the format for armor entries (given as column headings on the table belo
 
 </div>
 
-<div class="nobreak">
+<div>
 
 ### Shields
 
@@ -284,7 +284,7 @@ Here is the format for armor entries (given as column headings on the table belo
 
 </div>
 
-<div class="nobreak">
+<div>
 
 ## Adventuring Equipment
 
@@ -292,7 +292,7 @@ Characters may purchase equipment from the following lists with their starting m
 
 </div>
 
-<div class="nobreak">
+<div>
 
 ### Adventuring Gear
 
@@ -328,7 +328,7 @@ Characters may purchase equipment from the following lists with their starting m
 
 </div>
 
-<div class="nobreak">
+<div>
 
 ### Clothing
 
@@ -341,7 +341,7 @@ Characters may purchase equipment from the following lists with their starting m
 
 </div>
 
-<div class="nobreak">
+<div>
 
 ### Mounts and Related Gear
 
@@ -356,7 +356,7 @@ Characters may purchase equipment from the following lists with their starting m
 
 </div>
 
-<div class="nobreak">
+<div>
 
 ### Fast Equipment Packs
 
