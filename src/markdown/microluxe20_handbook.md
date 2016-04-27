@@ -137,9 +137,9 @@ Here are three ways for spell casters to add a little more variety:
 
 <div>
 
-## Heroism
+<h2> Heroism </h2>
 
-**Heroism** is intended to relieve some of the power incompatibilities with some d20 adventure types. If you find that the party is consistently too weak, try adding Heroism. **Heroism** is a bonus equal to 1 times the characters level (1 at 1st, 2 at 2nd, etc) and may be applied to up to three of the following once per day: Attack Bonus, Damage, Saving Throw, Skill Check, Spell DC
+<strong>Heroism</strong> is intended to relieve some of the power incompatibilities with some d20 adventure types. If you find that the party is consistently too weak, try adding Heroism. **Heroism** is a bonus equal to 1 times the characters level (1 at 1st, 2 at 2nd, etc) and may be applied to up to three of the following once per day: Attack Bonus, Damage, Saving Throw, Skill Check, Spell DC
 
 </div>
 
@@ -271,7 +271,7 @@ Here is the format for armor entries (given as column headings on the table belo
 
 <div>
 
-### Shields
+<h3> Shields </h3>
 
 | Armor | Cost | Bonus | Armor | Cost | Bonus |
 | :--- | :--- | :--- | :--- | :--- | :--- |
