@@ -16,7 +16,7 @@ var config = {
 };
 
 // compile all the
-gulp.task('compile-markdown', function () {
+gulp.task('compile', function () {
   var cwd = process.cwd();
 
   return gulp.src(config.mdPath)
@@ -48,21 +48,22 @@ gulp.task('compile-markdown', function () {
 });
 
 gulp.task('release', function () {
-  var cwd = process.cwd();
-  gulp.src('character-sheets/microluxe20-cs.pdf')
-  .pipe(gulp.dest(config.out));
-  gulp.src('map/*.png')
-  .pipe(gulp.dest(config.out));
-  gulp.src('LICENSE')
-  .pipe(gulp.dest(config.out));
-  var release = ['microluxe20_',pjson.version,'.zip'].join('');
-  return gulp.src('documents/*')
-  .pipe(zip(release))
-  .pipe(gulp.dest('./release'));
+  fs.stat('documents', function(err, stat) {
+    if(err == null) {
+      var release = ['microluxe20_',pjson.version,'.zip'].join('');
+      return gulp.src(['documents/*', 'character-sheets/microluxe20-cs.pdf', 'map/*.png', 'LICENSE'])
+      .pipe(zip(release))
+      .pipe(gulp.dest('./release'));
+    } else if(err.code == 'ENOENT') {
+      console.log('Could not find the `documents` directory. Please run `gulp compile` before building a release. ERROR:', err.code);
+    } else {
+      console.log(err.code);
+    }
+  });
 });
 
-gulp.task('watch-markdown', function () {
-  gulp.watch([config.mdPath, config.cssPath], ['compile-markdown']);
+gulp.task('watch', function () {
+  gulp.watch([config.mdPath, config.cssPath], ['compile']);
 });
 
 gulp.task('default', function () {

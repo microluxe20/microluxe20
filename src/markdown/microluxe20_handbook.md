@@ -166,13 +166,13 @@ You begin with a certain amount of acquired wealth, determined by your character
 
 Here is the format for weapon entries (given as column headings on the table below):
 
-**Cost** : This value is the price for purchasing the weapon. The cost includes miscellaneous gear that goes with the weapon.
+**Cost** : This value is the price for purchasing the weapon. The cost includes miscellaneous gear that goes with the weapon (For example, buying a bow would include a quiver as well).
 
 **Damage** : The damage column gives the damage dealt by the weapon on a successful hit.
 
 **Range** : Any attack less than this distance is not penalized. However, every extra 5ft. imposes a -2 penalty on the attack roll.
 
-**Complexity** : Different weapons require different amount of training to use. The level of complexity relies on the player's class.
+**Complexity** : Different weapons require different amount of training to use. The level of complexity relies on the player's class. For example, Mages cannot use Complex weapons.
 
 
 ### Light Weapons
@@ -225,7 +225,7 @@ Here is the format for weapon entries (given as column headings on the table bel
 
 Here is the format for armor entries (given as column headings on the table below):
 
-**Size:** This is the physical size of the armor. Different classes can only wear specific sizes of armor. Similar to armor sizes, different types of shields are only available to certain calsses as well.
+**Size:** This is the physical size of the armor. Different classes can only wear specific sizes of armor. Similar to armor sizes, different types of shields are only available to certain classes as well.
 
 **Cost:** This value is the price for purchasing the armor.
 

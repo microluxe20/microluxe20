@@ -13,9 +13,9 @@ The latest release can be downloaded [here](https://github.com/kgrubb/microluxe2
 
 ## Contributing
 
-**NOTICE:** Building on OSX and Linux both currently work without any issues. However, the font setup is still a little bit weird, so the length of the document may vary slightly between various OS's.
+**NOTICE:**. The font setup is still a little bit weird, so when compiling/bulding the pdf's, the length of the document may vary slightly between various OS's.
 
-If you want to contribute to the game's handbooks, please do the following:
+If you want to contribute to the game's handbooks, or want to craft your own release, please do the following:
 
 ##### 1. Ensure you have Node and NPM installed
 
@@ -47,7 +47,7 @@ This will create a folder called node_modules, which will contain the dependenci
 Make changes to the __markdown__ files (found in the `src/markdown` directory). Once you have finished your changes, run the following command:
 
 ```sh
-gulp compile-markdown
+gulp compile
 ```
 
 This will create a new folder named `documents` that contains the finished PDFs.
@@ -55,10 +55,10 @@ This will create a new folder named `documents` that contains the finished PDFs.
 You can also use the following command to automatically build PDFs whenever changes are saved to a markdown file:
 
 ```sh
-gulp watch-markdown
+gulp watch
 ```
 
-After running the `compile-markdown` task, you can craft a zipped folder with all of the latest released PDFs and documents by running the following command:
+For personal releases, after running the `compile` task, you can craft a zipped folder with all of the latest released PDFs and documents by running the following command:
 
 ```sh
 gulp release
