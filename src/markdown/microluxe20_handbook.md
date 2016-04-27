@@ -225,7 +225,7 @@ Here is the format for weapon entries (given as column headings on the table bel
 
 Here is the format for armor entries (given as column headings on the table below):
 
-**Size:** This is the physical size of the armor. Different classes can only wear specific sizes of armor.
+**Size:** This is the physical size of the armor. Different classes can only wear specific sizes of armor. Similar to armor sizes, different types of shields are only available to certain calsses as well.
 
 **Cost:** This value is the price for purchasing the armor.
 
@@ -246,11 +246,12 @@ Here is the format for armor entries (given as column headings on the table belo
 
 | Armor | Cost | Bonus | Armor | Cost | Bonus |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Buckler | 5gp | +1 | Shield, medium steel | 25gp | +2 |
-| Klar (1d4 damage) | 20gp | +1 | Shield, heavy wooden | 85gp | +3 |
-| Shield, light wooden | 10gp | +1 | Shield, heavy steel | 75gp | +3 |
-| Shield, light steel | 5gp | +1 | Shield, tower | 100gp | +4 |
-| Shield, medium wooden | 35gp | +2 | Shield, kite | 150gp | +5 |
+| Buckler | 5gp | +1 | Shield, heavy wooden | 85gp | +3 |
+| Klar (1d4 damage) | 20gp | +1 | Shield, heavy steel | 75gp | +3 |
+| Shield, light wooden | 10gp | +1 | Shield, tower | 100gp | +4 |
+| Shield, light steel | 5gp | +1 | Shield, kite | 150gp | +5 |
+| Shield, medium wooden | 35gp | +2 | Shield, Mithral | 450gp | +6 |
+| Shield, medium steel | 25gp | +2 | Shield, Adamantine | 1500gp | +7 |
 
 ## Adventuring Equipment
 
@@ -929,31 +930,31 @@ Temporary HP cannot be used to manifest powers. Like casters, after casting a Ps
 
 **Inkling:** Weakly manifest some psionic power, allowing tiny objects or creatures to be moved unpredictably.
 
-**Contact:** Project gibberish or meaningless sounds and images into a target's mind, confusing, disorienting, and possibly frightening them. _Duration_: 1 minute.
+**Contact:** Project gibberish or meaningless sounds and images into a target's mind, confusing, disorienting, and possibly frightening them. _Duration_: 3 rounds.
 
-**Mental Spike:** Send a sharp mental force into a target's mind. Deal 1d4 force damage _Duration_: Instant.
+**Mental Spike:** Send a sharp mental force into a target's mind. Deal 1d6 + 1 force damage _Duration_: Instant.
 
 ### 1st-Level Psion Powers
 
-**Psionic Charm:** Makes one person a friend. _Duration_: 1 hour/level. _Augment_: 4 extra HP raises duration to 1 day/level.
+**Psionic Charm:** Makes one non-aggressive (out of combat) person a friend. _Duration_: 1 hour/level. _Augment_: 4 extra HP raises duration to 1 day/level.
 
 **Control Object:** Telekinetically animate a small object. _Duration_: Knowledge, up to 1 round/level. _Augment_: None.
 
 **Detect Psionics:** Detect the presence of psionics. _Duration_: Knowledge, up to 10 rounds/level. _Augment_: None.
 
-**Mindlink:** Forge a limited mental bond with another creature. _Duration_: 10 min/level. _Augment_: Each extra HP links another creature.
+**Mindlink:** Forge a limited mental bond with another creature. _Duration_: 10 rounds/level. _Augment_: Every 2 extra HP links another creature.
 
-**Mind Thrust:** Deal 1d10 force damage. _Duration_: Instant. _Augment_: Each extra HP adds 1d10 to damage.
+**Mind Thrust:** Deal 3d6 force damage. _Duration_: Instant. _Augment_: Each extra HP adds 2d6 to damage.
 
-**Precognition:** Gain +2 insight bonus to one roll. _Duration_: 10 min/level. _Augment_: None.
+**Precognition:** Gain +2 bonus to one roll in the future. _Duration_: 10 rounds/level. _Augment_: None.
 
 ### 2nd-Level Psion Powers
 
 **Clairvoyant Sense:** See and hear a distant location. _Duration_: 10 rounds/level. _Augment_: None.
 
-**Cloud Mind:** You erase knowledge of your presence from target's mind. _Duration_: 10 rounds/level. _Augment_: None.
+**Cloud Mind:** You erase knowledge of your presence from a target's mind. _Duration_: 10 rounds/level. _Augment_: None.
 
-**Ego Whip:** Deal 1d4 MIND damage and daze for 1 round. _Duration_: Instant. _Augment_: Every 4 extra HP increases damage by 1d4 & save DC by 2.
+**Ego Whip:** Deal 1d4 MIND damage and daze a target for 1 round. _Duration_: Instant. _Augment_: Every 4 extra HP increases damage by 1d4 & save DC by 2.
 
 **Psionic Identification:** Learn the properties of a psionic item. _Duration_: Instant. _Augment_: None.
 

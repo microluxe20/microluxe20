@@ -13,7 +13,7 @@ The latest release can be downloaded [here](https://github.com/kgrubb/microluxe2
 
 ## Contributing
 
-**NOTICE:** OSX is currently not supported (or advised) for compiling the PDFs. This project's build process depends on gulp-markdown-pdf, which wraps markdown-pdf. When compiling the PDF files, the file size of the PDF gets ridiculously huge. There is an issue [here](https://github.com/alanshaw/markdown-pdf/issues/37), explaining that its an OSX-only PhantomJS issue, documented [here](https://github.com/ariya/phantomjs/issues/10373).
+**NOTICE:** Building on OSX and Linux both currently work without any issues. However, the font setup is still a little bit weird, so the length of the document may vary slightly between various OS's.
 
 If you want to contribute to the game's handbooks, please do the following:
 
