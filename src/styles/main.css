@@ -27,7 +27,7 @@ h3 {
 
 * {
   font-family: "Open Sans";
-  font-size: 95%;
+  font-size: 94%;
   font-weight: lighter;
   font-size-adjust: auto;
 }
@@ -35,7 +35,7 @@ h3 {
 table {
   page-break-inside: avoid;
   margin: 0;
-  font-size: 100%;
+  font-size: 99%;
 }
 
 table, td {
@@ -49,5 +49,5 @@ th {
 }
 
 body {
-  font-size: 55%;
+  font-size: 56%;
 }

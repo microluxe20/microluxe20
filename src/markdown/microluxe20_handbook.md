@@ -135,13 +135,9 @@ Here are three ways for spell casters to add a little more variety:
 
 **Widening** makes a spell's area of effect twice as big as normal. A Widened spell costs an additional 6 HP.
 
-<div>
+## Heroism
 
-<h2> Heroism </h2>
-
-<strong>Heroism</strong> is intended to relieve some of the power incompatibilities with some d20 adventure types. If you find that the party is consistently too weak, try adding Heroism. <strong>Heroism</strong> is a bonus equal to 1 times the characters level (1 at 1st, 2 at 2nd, etc) and may be applied to up to three of the following once per day: Attack Bonus, Damage, Saving Throw, Skill Check, Spell DC
-
-</div>
+**Heroism** is intended to relieve some of the power incompatibilities with some d20 adventure types. If you find that the party is consistently too weak, try adding Heroism. **Heroism** is a bonus equal to 1 times the characters level (1 at 1st, 2 at 2nd, etc) and may be applied to up to three of the following once per day: Attack Bonus, Damage, Saving Throw, Skill Check, Spell DC
 
 # Equipment
 
@@ -189,11 +185,13 @@ Here is the format for weapon entries (given as column headings on the table bel
 | Pick, light | 5gp | 1d4 | — | Complex | Hammer, light | 12gp | 1d6 | 20ft. | Complex |
 
 <div>
-
+<!--
+Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
+Items within the div sections must be written in markup and not markdown. The div sections
+are required to keep sections from page breaking.
+-->
 <h3> Ranged Weapons </h3>
-
 <table>
-<thead>
 <tr>
 <th style="text-align:left">Weapon</th>
 <th style="text-align:left">Cost</th>
@@ -273,8 +271,6 @@ Here is the format for weapon entries (given as column headings on the table bel
 
 </div>
 
-<div>
-
 ### Two-Handed Weapons
 
 | Weapon | Cost | Damage | Range | Complexity | Weapon | Cost | Damage | Range | Complexity |
@@ -287,10 +283,6 @@ Here is the format for weapon entries (given as column headings on the table bel
 | Flail, heavy | 30gp | 1d8 | — | Complex | Halberd | 40gp | 1d10 | — | Complex |
 | Glaive | 30gp | 1d8 | — | Complex | Greatsword | 50gp | 2d6 | — | Complex |
 | Greatclub | 30gp | 1d8 | — | Complex |
-
-</div>
-
-<div>
 
 ### One-Handed Weapons
 
@@ -305,10 +297,6 @@ Here is the format for weapon entries (given as column headings on the table bel
 | Rapier | 15gp | 1d6 | — | Complex | Sword, bastard | 35gp | 1d10 | — | Complex |
 | Scimitar | 15gp | 1d6 | — | Complex |
 
-</div>
-
-<div>
-
 ## Armor & Shields
 
 Here is the format for armor entries (given as column headings on the table below):
@@ -318,10 +306,6 @@ Here is the format for armor entries (given as column headings on the table belo
 **Cost:** This value is the price for purchasing the armor.
 
 **AC Bonus:** This column gives the Armor Class bonus provided by the armor.
-
-</div>
-
-<div>
 
 ### Armor
 
@@ -334,21 +318,74 @@ Here is the format for armor entries (given as column headings on the table belo
 | Hide | Medium | 30gp | +3 | Half-plate | Heavy | 600gp | +7 |
 | Scale Mail | Medium | 75gp | +4 | Full Plate | Heavy | 1,500gp | +8 |
 
-</div>
-
 <div>
-
+<!--
+Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
+Items within the div sections must be written in markup and not markdown. The div sections
+are required to keep sections from page breaking.
+-->
 <h3> Shields </h3>
-
-| Armor | Cost | Bonus | Armor | Cost | Bonus |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Buckler | 5gp | +1 | Shield, heavy wooden | 85gp | +3 |
-| Klar (1d4 damage) | 20gp | +1 | Shield, heavy steel | 75gp | +3 |
-| Shield, light wooden | 10gp | +1 | Shield, tower | 100gp | +4 |
-| Shield, light steel | 5gp | +1 | Shield, kite | 150gp | +5 |
-| Shield, medium wooden | 35gp | +2 | Shield, Mithral | 450gp | +6 |
-| Shield, medium steel | 25gp | +2 | Shield, Adamantine | 1500gp | +7 |
-
+<table>
+<tr>
+<th style="text-align:left">Armor</th>
+<th style="text-align:left">Cost</th>
+<th style="text-align:left">Bonus</th>
+<th style="text-align:left">Armor</th>
+<th style="text-align:left">Cost</th>
+<th style="text-align:left">Bonus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Buckler</td>
+<td style="text-align:left">5gp</td>
+<td style="text-align:left">+1</td>
+<td style="text-align:left">Shield, heavy wooden</td>
+<td style="text-align:left">85gp</td>
+<td style="text-align:left">+3</td>
+</tr>
+<tr>
+<td style="text-align:left">Klar (1d4 damage)</td>
+<td style="text-align:left">20gp</td>
+<td style="text-align:left">+1</td>
+<td style="text-align:left">Shield, heavy steel</td>
+<td style="text-align:left">75gp</td>
+<td style="text-align:left">+3</td>
+</tr>
+<tr>
+<td style="text-align:left">Shield, light wooden</td>
+<td style="text-align:left">10gp</td>
+<td style="text-align:left">+1</td>
+<td style="text-align:left">Shield, tower</td>
+<td style="text-align:left">100gp</td>
+<td style="text-align:left">+4</td>
+</tr>
+<tr>
+<td style="text-align:left">Shield, light steel</td>
+<td style="text-align:left">5gp</td>
+<td style="text-align:left">+1</td>
+<td style="text-align:left">Shield, kite</td>
+<td style="text-align:left">150gp</td>
+<td style="text-align:left">+5</td>
+</tr>
+<tr>
+<td style="text-align:left">Shield, medium wooden</td>
+<td style="text-align:left">35gp</td>
+<td style="text-align:left">+2</td>
+<td style="text-align:left">Shield, Mithral</td>
+<td style="text-align:left">450gp</td>
+<td style="text-align:left">+6</td>
+</tr>
+<tr>
+<td style="text-align:left">Shield, medium steel</td>
+<td style="text-align:left">25gp</td>
+<td style="text-align:left">+2</td>
+<td style="text-align:left">Shield, Adamantine</td>
+<td style="text-align:left">1500gp</td>
+<td style="text-align:left">+7</td>
+</tr>
+</tbody>
+</table>
 </div>
 
 <div>
@@ -806,19 +843,26 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Suggestion:** Compels subject to follow stated course of action for 1 hour/level or until completed.
 
-### 4th-Level Illusionist Spells
+<div>
+<!--
+Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
+Items within the div sections must be written in markup and not markdown. The div sections
+are required to keep sections from page breaking.
+-->
+<h3>4th-Level Illusionist Spells</h3>
+<strong>Charm Monster:</strong> Make one monster believe it is your ally for 1 day/level.
 
-**Charm Monster:** Make one monster believe it is your ally for 1 day/level.
+<strong>Confusion:</strong> Subjects behave oddly for 1 round/level.
 
-**Confusion:** Subjects behave oddly for 1 round/level.
+<strong>Greater Invisibility:</strong> Subject is invisible for 10 rounds/level and can attack.
 
-**Greater Invisibility:** Subject is invisible for 10 rounds/level and can attack.
+<strong>Minor Creation:</strong> Create one real cloth or wood object.
 
-**Minor Creation:** Create one real cloth or wood object.
+<strong>Phantasmal Killer:</strong> A fearsome illusion terrifies one creature, dealing 5d8 damage.
 
-**Phantasmal Killer:** A fearsome illusion terrifies one creature, dealing 5d8 damage.
+<strong>Rainbow Pattern:</strong> Lights Fascinate creatures whose HP is less than double your HP for 2d4 + 1 round/level.
 
-**Rainbow Pattern:** Lights Fascinate creatures whose HP is less than double your HP for 2d4 + 1 round/level.
+</div>
 
 ### 5th-Level Illusionist Spells
 
@@ -1052,19 +1096,26 @@ Temporary HP cannot be used to manifest powers. Like casters, after casting a Ps
 
 **Mental Spike:** Send a sharp mental force into a target's mind. Deal 1d6 + 1 force damage _Duration_: Instant.
 
-### 1st-Level Psion Powers
+<div>
+<!--
+Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
+Items within the div sections must be written in markup and not markdown. The div sections
+are required to keep sections from page breaking.
+-->
+<h3>1st-Level Psion Powers</h3>
+<strong>Psionic Charm:</strong> Makes one non-aggressive (out of combat) person a friend. _Duration_: 1 hour/level. _Augment_: 4 extra HP raises duration to 1 day/level.
 
-**Psionic Charm:** Makes one non-aggressive (out of combat) person a friend. _Duration_: 1 hour/level. _Augment_: 4 extra HP raises duration to 1 day/level.
+<strong>Control Object:</strong> Telekinetically animate a small object. _Duration_: Knowledge, up to 1 round/level. _Augment_: None.
 
-**Control Object:** Telekinetically animate a small object. _Duration_: Knowledge, up to 1 round/level. _Augment_: None.
+<strong>Detect Psionics:</strong> Detect the presence of psionics. _Duration_: Knowledge, up to 10 rounds/level. _Augment_: None.
 
-**Detect Psionics:** Detect the presence of psionics. _Duration_: Knowledge, up to 10 rounds/level. _Augment_: None.
+<strong>Mindlink:</strong> Forge a limited mental bond with another creature. _Duration_: 10 rounds/level. _Augment_: Every 2 extra HP links another creature.
 
-**Mindlink:** Forge a limited mental bond with another creature. _Duration_: 10 rounds/level. _Augment_: Every 2 extra HP links another creature.
+<strong>Mind Thrust:</strong> Deal 3d6 force damage. _Duration_: Instant. _Augment_: Each extra HP adds 2d6 to damage.
 
-**Mind Thrust:** Deal 3d6 force damage. _Duration_: Instant. _Augment_: Each extra HP adds 2d6 to damage.
+<strong>Precognition:</strong> Gain +2 bonus to one roll in the future. _Duration_: 10 rounds/level. _Augment_: None.
 
-**Precognition:** Gain +2 bonus to one roll in the future. _Duration_: 10 rounds/level. _Augment_: None.
+</div>
 
 ### 2nd-Level Psion Powers
 
@@ -1168,11 +1219,17 @@ Temporary HP cannot be used to manifest powers. Like casters, after casting a Ps
 
 **Timeless Body:** Ignore all harmful, and helpful, effects for 1 round. _Duration_: 1 round. _Augment_: None.
 
-## Psionic Spell Lists
+<div>
+<!--
+Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
+Items within the div sections must be written in markup and not markdown. The div sections
+are required to keep sections from page breaking.
+-->
+<h2>Psionic Spell Lists</h2>
+<h3>6th Level Arcane Spell</h3>
+<strong>Probe Thoughts:</strong> Read subject's memories, one question/round.
 
-### 6th Level Arcane Spell
-
-**Probe Thoughts:** Read subject's memories, one question/round.
+</div>
 
 ### 8th Level Divine Spell
 
@@ -1422,49 +1479,56 @@ Several typical poisons are summarized below. The entries for poisons include th
 
 **Price:** lists the cost for one dose of the poison. It can usually only be obtained through less-than-reputable sources, as the possession of poisons are commonly illegal.
 
-### Poisons
+<div>
+<!--
+Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
+Items within the div sections must be written in markup and not markdown. The div sections
+are required to keep sections from page breaking.
+-->
+<h3>Poisons</h3>
+<strong>Arsenic:</strong>  Ingested, DC 13, -1 STR/-1d8 STR, 120 gp.
 
-**Arsenic:**  Ingested, DC 13, -1 STR/-1d8 STR, 120 gp.
+<strong>Blue Whinnis:</strong>  Injury, DC 14, -1 STR/ unconsciousness, 120 gp.
 
-**Blue Whinnis:**  Injury, DC 14, -1 STR/ unconsciousness, 120 gp.
+<strong>Burnt Othur Fumes:</strong>  Inhaled, DC 18, -1 STR*/-3d6 STR, 2,100 gp.
 
-**Burnt Othur Fumes:**  Inhaled, DC 18, -1 STR\*/-3d6 STR, 2,100 gp.
+<strong>Deathblade:</strong>  Injury, DC 20, -1d6 STR/-2d6 STR, 1,800 gp.
 
-**Deathblade:**  Injury, DC 20, -1d6 STR/-2d6 STR, 1,800 gp.
+<strong>Insanity Mist:</strong>  Inhaled, DC 15, -1d4 MIND/-2d6 MIND, 1,500 gp.
 
-**Insanity Mist:**  Inhaled, DC 15, -1d4 MIND/-2d6 MIND, 1,500 gp.
+<strong>Nitharit:</strong>  Contact, DC 13, 0/-3d6 STR, 650 gp. Oil of Taggit: Ingested, DC 15, 0/unconsciousness, 90 gp.
 
-**Nitharit:**  Contact, DC 13, 0/-3d6 STR, 650 gp. Oil of Taggit: Ingested, DC 15, 0/unconsciousness, 90 gp.
+<strong>Malys Root Paste:</strong>  Contact, DC 16, -1 DEX/-2d4 DEX, 500 gp.
 
-**Malys Root Paste:**  Contact, DC 16, -1 DEX/-2d4 DEX, 500 gp.
+<strong>Monstrous Scorpion (tiny):</strong>  In­jury, DC 12, -1 STR/-1 STR, 50 gp.
 
-**Monstrous Scorpion (tiny):**  In­jury, DC 12, -1 STR/-1 STR, 50 gp.
+<strong>Monstrous Scorpion (small):</strong>  In­jury, DC 12, -1d2 STR/- 1d2 STR, 100 gp.
 
-**Monstrous Scorpion (small):**  In­jury, DC 12, -1d2 STR/- 1d2 STR, 100 gp.
+<strong>Monstrous Scorpion (large):</strong>  Injury, DC 14, -1d4 STR/- 1d4 STR, 200 gp.
 
-**Monstrous Scorpion (large):**  Injury, DC 14, -1d4 STR/- 1d4 STR, 200 gp.
+<strong>Monstrous Scorpion (huge):</strong>  Injury, DC 18, -1d6 STR/- 1d6 STR, 400 gp.
 
-**Monstrous Scorpion (huge):**  Injury, DC 18, -1d6 STR/- 1d6 STR, 400 gp.
+<strong>Monstrous Spider (tiny):</strong>  Injury, DC 10, -1d2 STR/-1d2 STR, 85 gp.
 
-**Monstrous Spider (tiny):**  Injury, DC 10, -1d2 STR/-1d2 STR, 85 gp.
+<strong>Monstrous Spider (small):</strong>  Injury, DC 10, -1d3 STR/- 1d3 STR, 125 gp.
 
-**Monstrous Spider (small):**  Injury, DC 10, -1d3 STR/- 1d3 STR, 125 gp.
+<strong>Monstrous Spider (large):</strong>  Injury, DC 13, -1d6 STR/-1d6 STR, 250 gp.
 
-**Monstrous Spider (large):**  Injury, DC 13, -1d6 STR/-1d6 STR, 250 gp.
+<strong>Monstrous Spider (huge):</strong>  Injury, DC 16, -1d8 STR/-1d8 STR, 500 gp.
 
-**Monstrous Spider (huge):**  Injury, DC 16, -1d8 STR/-1d8 STR, 500 gp.
+<strong>Sassone Leaf Residue:</strong>  Contact, DC 16, -2d12 HP/-1d8 STR, 300 gp.
 
-**Sassone Leaf Residue:**  Contact, DC 16, -2d12 HP/-1d8 STR, 300 gp.
+<strong>Sleep Poison:</strong>  Injury, DC 13, unconsciousness/ unconsciousness for 2d4 hours, 75 gp.
 
-**Sleep Poison:**  Injury, DC 13, unconsciousness/ unconsciousness for 2d4 hours, 75 gp.
+<strong>Snake (medium viper):</strong>  Injury, DC 11, -1d6 STR/-1d6 STR, 120 gp.
 
-**Snake (medium viper):**  Injury, DC 11, -1d6 STR/-1d6 STR, 120 gp.
+<strong>Snake (large viper):</strong>  Injury, DC 11, -1d6 STR/-1d6 STR, 120 gp.
 
-**Snake (large viper):**  Injury, DC 11, -1d6 STR/-1d6 STR, 120 gp.
+<strong>Snake (huge viper):</strong>  Injury, DC 14, -1d6 STR/-1d6 STR, 250 gp.
 
-**Snake (huge viper):**  Injury, DC 14, -1d6 STR/-1d6 STR, 250 gp.
+<strong>Wyvern:</strong>  Injury, DC 17, -2d6 STR/-2d6 STR, 3,000 gp.
 
-**Wyvern:**  Injury, DC 17, -2d6 STR/-2d6 STR, 3,000 gp.
+</div>
 
 ## Traps
 
@@ -1608,10 +1672,16 @@ Here's when Spellcasters can make stuff:
 |**Item**|Scrolls & Books|Potions & Wondrous Items|Wands & Armor|Rods & Weapons|Staves & Rings|
 |**Spellcaster's Level**|1|3|5|9|12|
 
-
-## Basic Mass Combat
-
+<div>
+<!--
+Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
+Items within the div sections must be written in markup and not markdown. The div sections
+are required to keep sections from page breaking.
+-->
+<h2>Basic Mass Combat</h2>
 Most combat is carried out one-on-one, with each set of stats (HP, AC, combat bonuses, etc) applying to a single character or creature. However, combat can be extended by using Combat Scale. Combat Scale is a multiplier that shows the amount of characters or creatures relative to their normal single-unit size. It is only applied to damage in combat between units of different size. Hit Points, AC and all other stats remain the same.
+
+</div>
 
 For example, a unit of 20 Goblin warriors will have CSx5 as per the table below. The combat stats are still HD1d8+1 (5HP), AC15, Morningstar +2 (1d6) or Javelin +3 (1d4). Against anything with the same Combat Scale (for example, a unit of 15 Elves), combat is resolved normally as if it was one goblin against one elf.
 
