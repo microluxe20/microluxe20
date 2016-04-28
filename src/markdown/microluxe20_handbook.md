@@ -388,15 +388,9 @@ are required to keep sections from page breaking.
 </table>
 </div>
 
-<div>
-
 ## Adventuring Equipment
 
 Characters may purchase equipment from the following lists with their starting money or select one of the standard adventuring "fast packs".
-
-</div>
-
-<div>
 
 ### Adventuring Gear
 
@@ -430,10 +424,6 @@ Characters may purchase equipment from the following lists with their starting m
 | Flask (empty) | 3cp | Parchment (sheet) | 2sp | Water skin | 1gp |
 | Whetstone | 2cp |
 
-</div>
-
-<div>
-
 ### Clothing
 
 | Goods | Cost | Goods | Cost | Goods | Cost |
@@ -442,10 +432,6 @@ Characters may purchase equipment from the following lists with their starting m
 | Cleric's Vestments | 5gp | Explorer's Outfit | 10gp | Royal Outfit | 200gp |
 | Cold Weather Outfit | 8gp | Monk's Outfit | 5gp | Scholar's Outfit | 5gp |
 | Courtier's Outfit | 30gp | Noble's Outfit | 75gp | Traveler's Outfit | 1gp |
-
-</div>
-
-<div>
 
 ### Mounts and Related Gear
 
@@ -457,10 +443,6 @@ Characters may purchase equipment from the following lists with their starting m
 | Dog, guard | 25gp | Pony | 30gp | Warhorse, heavy | 400gp |
 | Dog, war | 75gp | Saddle, military | 20gp | Warhorse, light | 150gp |
 | Donkey or Mule | 8gp | Saddle, pack | 5gp | War pony | 100gp |
-
-</div>
-
-<div>
 
 ### Fast Equipment Packs
 
@@ -480,8 +462,6 @@ Suggested starting packs for new characters (each pack uses 50 gp of a character
 | pen & paper | crowbar | 50 ft. rope |
 | water skin | water skin | water skin |
 | iron rations (4 days) | iron rations (4 days) | iron rations (4 days) |
-
-</div>
 
 Finally, add the following, based on your Class:
 
