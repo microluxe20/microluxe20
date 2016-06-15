@@ -1,4 +1,4 @@
-![title-img](/src/static/logo-handbook.png)
+![title-img](src/static/logo-handbook.png)
 
 # Introduction
 
