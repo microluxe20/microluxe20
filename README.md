@@ -5,9 +5,13 @@
 Microluxe20 attempts to be a stand-in replacement for any [SRD](https://en.wikipedia.org/wiki/System_Reference_Document) based tabletop adventure. The main goal is to utilize the simplicity of [Microlite20](http://microlite20.net/), while also adding various races, classes, and game-balancing tweaks. It also strives to clarify some of the more confusing parts of the Microlite20 system.
 
 ## Handbook
-To dive right into the game, check out the online handbook [here](src/markdown/microluxe20_handbook.md)!
+To dive right into the game, check out the following online resources:
+[Complete Handbook](src/markdown/microluxe20_handbook.md)!
+[Terador Campaign Setting](src/markdown/microluxe20_lore.md)
+[Map of Terador](map/Terador-complete.png)
+[Races of Terador](src/markdown/microluxe20_races.md)
 
-Microluxe20 comes with a pre-designed campaign setting, named "Terador". The lore/mythos can be found [here](src/markdown/microluxe20_lore.md). A complete map can be found [here](map/Terador-complete.png). If you are interested in reading about the available races of Terador, check out [this](src/markdown/microluxe20_races.md).  Otherwise, feel free to use your own setting and races!
+Microluxe20 features a pre-designed campaign setting, named "Terador" for ease-of-use. However, because of the simplicity of the rules, custom and homebrew campaign settings are very easy to implement. Definitely feel free to use your own setting, races, and other homebrew content!
 
 ## Downloads
 The latest release can be downloaded [here](https://github.com/kgrubb/microluxe20/releases/latest)!
@@ -18,7 +22,7 @@ The latest release can be downloaded [here](https://github.com/kgrubb/microluxe2
 
 If you want to contribute to the game's handbooks, or want to craft your own release, please do the following:
 
-##### 1. Ensure you have Node and NPM installed
+##### 1. Install Nodejs and npm
 
 Node and NPM are used to build the PDF documents. You can find a link to node [here](https://nodejs.org/en/).
 
