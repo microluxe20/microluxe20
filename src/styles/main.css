@@ -1,29 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700italic,700);
+
 img[alt=title-img] {
-    display: block;
-    margin: auto;
-    page-break-after: always;
+  display: block;
+  margin: auto;
+  page-break-after: always;
+}
+
+div {
+page-break-inside:avoid;
 }
 
 h1 {
-    page-break-after: avoid;
-    border-top: 2px double black;
-    border-bottom: 2px double black;
+  border-top: 2px double black;
+  border-bottom: 2px double black;
+  font-weight: bolder;
 }
 
 h2 {
-    page-break-after: avoid;
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
 }
 
 * {
-    font-family: "Segoe UI";
-    font-stretch: extra-expanded;
+  font-family: "Open Sans";
+  font-size: 94%;
+  font-weight: lighter;
+  font-size-adjust: auto;
 }
 
 table {
-    page-break-inside: avoid;
-    margin: 0;
-    font-size: 95%;
+  page-break-inside: avoid;
+  margin: 0;
+  font-size: 99%;
 }
 
 table, td {
@@ -37,7 +49,5 @@ th {
 }
 
 body {
-  font-size: 84%;
-  font-stretch: extra-expanded;
-  font-kerning: none;
+  font-size: 56%;
 }

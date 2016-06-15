@@ -11,17 +11,14 @@
     "url": "https://github.com/kgrubb/microluxe20"
   },
   "author": "Keli Grubb",
-  "license": "LicenseRef-LICENSE",
+  "license": "SEE LICENSE IN LICENSE",
   "bugs": {
     "url": "https://github.com/kgrubb/microluxe20/issues"
   },
-  "homepage": "https://github.com/kgrubb/microluxe20",
+  "homepage": "https://microluxe20.com",
   "devDependencies": {
-    "cheerio": "^0.19.0",
-    "gulp": "^3.9.0",
-    "gulp-markdown-pdf": "^3.0.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-zip": "^3.1.0",
-    "through": "^2.3.8"
+    "gulp": "^3.9.1",
+    "gulp-markdown-pdf": "^4.0.0",
+    "gulp-zip": "^3.2.0"
   }
 }

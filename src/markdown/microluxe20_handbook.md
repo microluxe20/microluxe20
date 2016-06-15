@@ -1,4 +1,4 @@
-![title-img](/src/static/logo-handbook.png)
+![title-img](https://raw.githubusercontent.com/kgrubb/microluxe20/master/src/static/logo-handbook.png)
 
 # Introduction
 
@@ -166,14 +166,13 @@ You begin with a certain amount of acquired wealth, determined by your character
 
 Here is the format for weapon entries (given as column headings on the table below):
 
-**Cost** : This value is the price for purchasing the weapon. The cost includes miscellaneous gear that goes with the weapon.
+**Cost** : This value is the price for purchasing the weapon. The cost includes miscellaneous gear that goes with the weapon (For example, buying a bow would include a quiver as well).
 
 **Damage** : The damage column gives the damage dealt by the weapon on a successful hit.
 
 **Range** : Any attack less than this distance is not penalized. However, every extra 5ft. imposes a -2 penalty on the attack roll.
 
-**Complexity** : Different weapons require different amount of training to use. The level of complexity relies on the player's class.
-
+**Complexity** : Different weapons require different amount of training to use. The level of complexity relies on the player's class. For example, Mages cannot use Complex weapons.
 
 ### Light Weapons
 
@@ -185,15 +184,92 @@ Here is the format for weapon entries (given as column headings on the table bel
 | Sickle | 5gp | 1d6 | — | Simple | Axe, throwing | 10gp | 1d6 | 10ft. | Complex |
 | Pick, light | 5gp | 1d4 | — | Complex | Hammer, light | 12gp | 1d6 | 20ft. | Complex |
 
-### Ranged Weapons
+<div>
+<!--
+Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
+Items within the div sections must be written in markup and not markdown. The div sections
+are required to keep sections from page breaking.
+-->
+<h3> Ranged Weapons </h3>
+<table>
+<tr>
+<th style="text-align:left">Weapon</th>
+<th style="text-align:left">Cost</th>
+<th style="text-align:left">Damage</th>
+<th style="text-align:left">Range</th>
+<th style="text-align:left">Complexity</th>
+<th style="text-align:left">Weapon</th>
+<th style="text-align:left">Cost</th>
+<th style="text-align:left">Damage</th>
+<th style="text-align:left">Range</th>
+<th style="text-align:left">Complexity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Dart</td>
+<td style="text-align:left">5sp</td>
+<td style="text-align:left">1d4</td>
+<td style="text-align:left">20ft.</td>
+<td style="text-align:left">Simple</td>
+<td style="text-align:left">Net</td>
+<td style="text-align:left">20gp</td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">10ft.</td>
+<td style="text-align:left">Complex</td>
+</tr>
+<tr>
+<td style="text-align:left">Sling</td>
+<td style="text-align:left">1gp</td>
+<td style="text-align:left">1d4</td>
+<td style="text-align:left">50ft.</td>
+<td style="text-align:left">Simple</td>
+<td style="text-align:left">Crossbow, hand</td>
+<td style="text-align:left">100gp</td>
+<td style="text-align:left">1d4</td>
+<td style="text-align:left">30ft.</td>
+<td style="text-align:left">Complex</td>
+</tr>
+<tr>
+<td style="text-align:left">Javelin</td>
+<td style="text-align:left">1gp</td>
+<td style="text-align:left">1d6</td>
+<td style="text-align:left">30ft.</td>
+<td style="text-align:left">Simple</td>
+<td style="text-align:left">Shortbow</td>
+<td style="text-align:left">30gp</td>
+<td style="text-align:left">1d6</td>
+<td style="text-align:left">60ft.</td>
+<td style="text-align:left">Complex</td>
+</tr>
+<tr>
+<td style="text-align:left">Crossbow, light</td>
+<td style="text-align:left">35gp</td>
+<td style="text-align:left">1d8</td>
+<td style="text-align:left">80ft.</td>
+<td style="text-align:left">Simple</td>
+<td style="text-align:left">Longbow</td>
+<td style="text-align:left">75gp</td>
+<td style="text-align:left">1d8</td>
+<td style="text-align:left">100ft.</td>
+<td style="text-align:left">Complex</td>
+</tr>
+<tr>
+<td style="text-align:left">Crossbow, heavy</td>
+<td style="text-align:left">50gp</td>
+<td style="text-align:left">1d10</td>
+<td style="text-align:left">120ft.</td>
+<td style="text-align:left">Simple</td>
+<td style="text-align:left">Longbow, Composite</td>
+<td style="text-align:left">100gp</td>
+<td style="text-align:left">1d10</td>
+<td style="text-align:left">120ft.</td>
+<td style="text-align:left">Complex</td>
+</tr>
+</tbody>
+</table>
 
-| Weapon | Cost | Damage | Range | Complexity | Weapon | Cost | Damage | Range | Complexity |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Dart | 5sp | 1d4 | 20ft. | Simple | Net | 20gp | — | 10ft. | Complex |
-| Sling | 1gp | 1d4 | 50ft. | Simple | Crossbow, hand | 100gp | 1d4 | 30ft. | Complex |
-| Javelin | 1gp | 1d6 | 30ft. | Simple | Shortbow | 30gp | 1d6 | 60ft. | Complex |
-| Crossbow, light | 35gp | 1d8 | 80ft. | Simple | Longbow | 75gp | 1d8 | 100ft. | Complex |
-| Crossbow, heavy | 50gp | 1d10 | 120ft. | Simple | Longbow, Composite | 100gp | 1d10 | 120ft. | Complex |
+</div>
 
 ### Two-Handed Weapons
 
@@ -225,7 +301,7 @@ Here is the format for weapon entries (given as column headings on the table bel
 
 Here is the format for armor entries (given as column headings on the table below):
 
-**Size:** This is the physical size of the armor. Different classes can only wear specific sizes of armor.
+**Size:** This is the physical size of the armor. Different classes can only wear specific sizes of armor. Similar to armor sizes, different types of shields are only available to certain classes as well.
 
 **Cost:** This value is the price for purchasing the armor.
 
@@ -242,15 +318,75 @@ Here is the format for armor entries (given as column headings on the table belo
 | Hide | Medium | 30gp | +3 | Half-plate | Heavy | 600gp | +7 |
 | Scale Mail | Medium | 75gp | +4 | Full Plate | Heavy | 1,500gp | +8 |
 
-### Shields
-
-| Armor | Cost | Bonus | Armor | Cost | Bonus |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Buckler | 5gp | +1 | Shield, medium steel | 25gp | +2 |
-| Klar (1d4 damage) | 20gp | +1 | Shield, heavy wooden | 85gp | +3 |
-| Shield, light wooden | 10gp | +1 | Shield, heavy steel | 75gp | +3 |
-| Shield, light steel | 5gp | +1 | Shield, tower | 100gp | +4 |
-| Shield, medium wooden | 35gp | +2 | Shield, kite | 150gp | +5 |
+<div>
+<!--
+Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
+Items within the div sections must be written in markup and not markdown. The div sections
+are required to keep sections from page breaking.
+-->
+<h3> Shields </h3>
+<table>
+<tr>
+<th style="text-align:left">Armor</th>
+<th style="text-align:left">Cost</th>
+<th style="text-align:left">Bonus</th>
+<th style="text-align:left">Armor</th>
+<th style="text-align:left">Cost</th>
+<th style="text-align:left">Bonus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Buckler</td>
+<td style="text-align:left">5gp</td>
+<td style="text-align:left">+1</td>
+<td style="text-align:left">Shield, heavy wooden</td>
+<td style="text-align:left">85gp</td>
+<td style="text-align:left">+3</td>
+</tr>
+<tr>
+<td style="text-align:left">Klar (1d4 damage)</td>
+<td style="text-align:left">20gp</td>
+<td style="text-align:left">+1</td>
+<td style="text-align:left">Shield, heavy steel</td>
+<td style="text-align:left">75gp</td>
+<td style="text-align:left">+3</td>
+</tr>
+<tr>
+<td style="text-align:left">Shield, light wooden</td>
+<td style="text-align:left">10gp</td>
+<td style="text-align:left">+1</td>
+<td style="text-align:left">Shield, tower</td>
+<td style="text-align:left">100gp</td>
+<td style="text-align:left">+4</td>
+</tr>
+<tr>
+<td style="text-align:left">Shield, light steel</td>
+<td style="text-align:left">5gp</td>
+<td style="text-align:left">+1</td>
+<td style="text-align:left">Shield, kite</td>
+<td style="text-align:left">150gp</td>
+<td style="text-align:left">+5</td>
+</tr>
+<tr>
+<td style="text-align:left">Shield, medium wooden</td>
+<td style="text-align:left">35gp</td>
+<td style="text-align:left">+2</td>
+<td style="text-align:left">Shield, Mithral</td>
+<td style="text-align:left">450gp</td>
+<td style="text-align:left">+6</td>
+</tr>
+<tr>
+<td style="text-align:left">Shield, medium steel</td>
+<td style="text-align:left">25gp</td>
+<td style="text-align:left">+2</td>
+<td style="text-align:left">Shield, Adamantine</td>
+<td style="text-align:left">1500gp</td>
+<td style="text-align:left">+7</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 ## Adventuring Equipment
 
@@ -341,7 +477,7 @@ Finally, add the following, based on your Class:
 
 # Spell Lists
 
-The following spells have been customized and tweaked to make the game as smooth as possible. It is suggested to use these spells for all spell casters in the game, although spells from the SRD can also be used in Microluxe20 without any conversions. With the following spell system in place, additional spells in the SRD (but not on this list) can easily be discovered in the game as loot, research, etc., if the GM desires.
+The following spells have been customized and tweaked to make the game as smooth as possible. It is suggested to use these spells for all spell casters in the game, although spells from the SRD can also be used in Microluxe20 with slight modifications. With the following spell system in place, additional spells in the SRD (but not on this list) can easily be discovered in the game as loot, research, etc., if the GM desires.
 
 ## Arcane (Mage) Spells
 
@@ -367,23 +503,23 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Floating Disk:**  Creates 3ft. diameter horizontal disk that holds 100 lb./level. Lasts for 1 hour/level.
 
-**Mage Armor:**  Gives subject +4 armor bonus for 1 hour/level.
+**Mage Armor:**  Gives caster +4 armor bonus for 1 hour/level.
 
-**Magic Missile:**  1d4+1 damage; +1 missile per two levels above 1st (max of 5 missiles).
+**Magic Missile:**  3d6 damage; +1 missile per two levels above 1st (max of 5 missiles).
 
-**Sleep:**  Puts up to 4d4 of creatures whose HP is less than double your HP into magical slumber for 10 rounds/level.
+**Sleep:**  Puts up to 4d4 of creatures whose HP is less than double your HP into magical slumber for 3 rounds/level.
 
-**Shocking Grasp:**  Touch delivers 1d6/ level electricity damage (max 5d6).
+**Shocking Grasp:**  Touch delivers 1d6/level electricity damage (min of 3 damage, max of 6d6).
 
 ### 2nd-Level Arcane Spells
 
-**Acid Arrow:**  Ranged touch attack; 2d4 damage for 1 round +1 round/three levels.
+**Acid Arrow:**  Ranged touch attack; 2d4 damage for 1 round + 1 round per two levels.
 
-**Flaming Sphere:**  Creates rolling ball of fire, 2d6 damage, lasts 1 round/level.
+**Flaming Sphere:**  Creates rolling ball of fire, 3d6 damage, lasts 1 round/level.
 
 **Invisibility:**  Subject is invisible for 10 rounds/ level or until it attacks.
 
-**Knock:**  Opens locked or magically sealed door.
+**Knock:**  Opens locked or magically sealed door with a DC of 20 or lower.
 
 **Levitate:**  Subject moves up or down at your discretion for 10 rounds/level.
 
@@ -395,21 +531,21 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Dispel Magic:**  Cancels a magical spell or effect.
 
-**Fireball:**  1d6 fire damage per level, 20ft. radius.
+**Fireball:**  Creates a minor explosion up to 60ft. away in an area with a 10ft. radius, dealing 1d6 fire damage/level.
 
 **Fly:**  Subject flies at speed of 60 ft. for 10 rounds/level.
 
-**Lightning Bolt:**  Electricity deals 1d6/level damage.
+**Lightning Bolt:**  Summons a bolt of lightning from the caster's hands, dealing 3d8 + 1/level damage.
 
-**Vampiric Touch:**  Touch deals 1d6/two levels damage; caster gains half of the damage as temporary HP.
+**Vampiric Touch:**  The caster touches a subject, draining away their life force. Deals 1d6 damage per two levels and the caster gains half of the damage as HP.
 
 ### 4th-Level Arcane Spells
 
 **Animate Dead:**  Creates up to 4 undead skeletons or zombies (requires remains).
 
-**Arcane Eye:**  Invisible floating eye moves 30 ft./round for 10 rounds/level.
+**Arcane Eye:**  Creates an invisible floating eye, able to move 30 ft./round for 10 rounds/level.
 
-**Black Tentacles:**  Tentacles grapple all within 20 ft. spread for 1 round/level.
+**Black Tentacles:**  Tentacles grapple all within a 20 ft. radius for 1 round/level, making movement impossible.
 
 **Dimensional Door:**  Teleports you short distances (up to 5 miles). The doors stay open unless destroyed.
 
@@ -433,25 +569,25 @@ The following spells have been customized and tweaked to make the game as smooth
 
 ### 6th-Level Arcane Spells
 
-**Anti-magic Field:** Negates magic within 10 ft. for 10 min./level.
+**Anti-magic Field:** Negates magic within 10 ft. of the caster's location for 10 min./level.
 
-**Chain Lightning:** 1d6/level damage; 1 secondary bolt/level each deals half damage. (ex. bolt 1 deals 12, bolt 2 deals 6, bolt 3 deals 3)
+**Chain Lightning:** 2d8/level damage; 1 secondary bolt/level, each dealing half damage rounded up. (ex. bolt 1 deals 13, bolt 2 deals 7, bolt 3 deals 4)
 
 **Contingency:** Sets a trigger condition for another spell. Lasts for 1 day/level or until discharged.
 
-**Disintegrate:** A small ray strikes a creature (or object) for 2d6/level. If the target is reduced to 0 HP (or the target is an object), it is disintegrated.
+**Disintegrate:** A small ray strikes a creature (or object) for 2d6 damage/level. If the target is reduced to 0 HP (or the target is an object), it is disintegrated.
 
 **Quest:** Commands any creature, binding it to a specific task. Lasts for 1 day/level or until discharged.
 
-**True Seeing:** Lets you see all things as they really are for 10 rounds/level.
+**True Seeing:** Lets you see all things as they really are (decipher lies, look through secret doors, see through illusions, sense objects in the dark. etc) for 10 rounds/level.
 
 ### 7th-Level Arcane Spells
 
-**Delayed Blast Fireball:** 1d6/level fire damage; you can postpone the blast for 5 rounds.
+**Delayed Blast Fireball:** Creates a major explosion up to 100ft. away in an area with a 15ft. radius, dealing 1d8 fire damage/level. You can postpone the blast for 5 rounds.
 
-**Ethereal Jaunt:** You become ethereal for 1 round/level.
+**Ethereal Jaunt:** You become ethereal (ghostly) for 1 round/level. The ethereal plane is a separate plane from the material plane, invisible to creatures on the material plane. It is gravity-less and dull; a land of ghosts, shadows, and wisps.
 
-**Finger of Death:** Kills one creature with 100 HP or less. Must physically touch the creature.
+**Finger of Death:** Kills one creature with 150 HP or less. The caster must physically touch the creature.
 
 **Plane Shift:** As many as 8 targets travel to another plane.
 
@@ -463,9 +599,9 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Clone:** Creates a duplicate of yourself. The duplicate awakens when the original copy dies.
 
-**Horrid Wilting:** Deals 1d6/level nature damage within 30 ft.
+**Horrid Wilting:** Deals 1d10/level nature damage within 30 ft.
 
-**Incendiary Cloud:** Cloud deals 4d6 fire damage/round for 1 round/level.
+**Incendiary Cloud:** Cloud deals 5d6 fire damage/round for 1 round/level.
 
 **Irresistible Dance:** Forces a target to involuntarily dance for 1d4+1 rounds.
 
@@ -475,17 +611,17 @@ The following spells have been customized and tweaked to make the game as smooth
 
 ### 9th-Level Arcane Spells
 
-**Astral Projection:** Projects you and companions onto the Astral Plane (a timeless plane with changing gravity) **.**
+**Astral Projection:** Projects you and companions onto the Astral Plane. The Astral plane is the space/plane in which Terador (and other worlds) reside. Filled with a thick air-like substance called "miasma", the Astral plane is a timeless plane with ever-changing gravity, known for its magic production.
 
 **Etherealness:** Travel to Ethereal Plane with companions for 10 rounds/level.
 
 **Gate:** Connects two planes for travel or summoning. Open for 1 round/level.
 
-**Meteor Swarm:** Four exploding spheres each deal 6d6 fire damage.
+**Meteor Swarm:** Four exploding spheres each deal 6d12 fire damage.
 
 **Power Word Kill:** Kills one creature with 250 HP or less.
 
-**Soul Bind:** Traps a newly dead (within 5 rounds) soul to prevent resurrection.
+**Soul Bind:**  Traps a newly dead soul inside an item, preventing resurrection.
 
 ## Divine (Cleric) Spells
 
@@ -547,7 +683,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 ### 4th-Level Divine Spells
 
-**Cure Critical Wounds:**  Cures 4d8 damage +1/level (max +20).
+**Cure Critical Wounds:**  Cures 4d8 damage +1/level (max +30).
 
 **Discern Lies:**  Reveals deliberate falsehoods for 1 round/level or until concentration ends.
 
@@ -571,11 +707,11 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Raise Dead:**  Restores life to subject who died as long as one day/level ago.
 
-**True Seeing:**  Lets you see all things as they really are for 10 rounds/level.
+**True Seeing:** Lets you see all things as they really are (decipher lies, look through secret doors, see through illusions, sense objects in the dark. etc) for 10 rounds/level.
 
 ### 6th-Level Divine Spells
 
-**Banishment:**  Banishes extraplanar creatures within 10 points of your HP or less.
+**Banishment:**  Banishes extraplanar creatures within 50 points of your HP or less.
 
 **Mass Cure Moderate Wounds:**  Cures 2d8 damage +1/level for many creatures.
 
@@ -591,13 +727,13 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Mass Cure Serious Wounds:**  Cures 3d8 damage +1/level for many creatures.
 
-**Destruction:**  Kills subject with 100 HP or less, and destroys remains.
+**Destruction:**  Kills subject with 150 HP or less, and destroys remains.
 
-**Ethereal Jaunt:**  You become ethereal for 1 round/level.
+**Ethereal Jaunt:**  You become ethereal (ghostly) for 1 round/level. The ethereal plane is a separate plane from the material plane, invisible to creatures on the material plane. It is gravity-less and dull; a land of ghosts, shadows, and wisps.
 
-**Regenerate:**  Subject's severed limbs grow back, cures 4d8 damage +1/level (max +35).
+**Regenerate:**  Subject's severed limbs grow back, cures 4d8 damage +1/level (max +45).
 
-**Greater Restoration:**  As restoration, plus restores all levels and ability scores.
+**Greater Restoration:**  Restores all level and ability score drains, and restores all levels and ability scores.
 
 **Resurrection:**  Fully restores a dead subject from a small portion of the corpse.
 
@@ -613,21 +749,21 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Fire Storm:**  Deals 1d6/level fire damage.
 
-**Holy Aura:**  +4 to AC, +4 resistance, and SR 25 against evil spells for 1 round/level.
+**Holy Aura:**  +4 to AC, +4 resistance, and spell resistance of 25 against evil spells (the enemy must roll higher than a 25 just to cast the spell) for 1 round/level.
 
 ### 9th-Level Divine Spells
 
-**Astral Projection:**  Projects you and companions onto Astral Plane.
+**Astral Projection:** Projects you and companions onto the Astral Plane. The Astral plane is the space/plane in which Terador (and other worlds) reside. Filled with a thick air-like substance called "miasma", the Astral plane is a timeless plane with ever-changing gravity, known for its magic production.
 
-**Etherealness:**  Travel to Ethereal Plane with companions for 10 rounds/level.
+**Etherealness:**  Travel to the Ethereal Plane with companions for 10 rounds/level.
 
 **Gate:**  Connects two planes for travel or summoning. Open for 1 round/level.
 
-**Mass Heal:**  Same as Heal, but heals up to 8 allies.
+**Mass Heal:**  Heals up to 8 allies, curing 10 points/level of damage, all diseases and mental conditions.
 
-**Implosion:**  Kills one creature with 100 HP or less per round for 4 rounds or until concentration ends.
+**Implosion:**  Kills one creature with 150 HP or less per round for 4 rounds or until concentration ends.
 
-**Soul Bind:**  Traps newly dead soul to prevent resurrection.
+**Soul Bind:**  Traps a newly dead soul inside an item, preventing resurrection.
 
 ## Arcane (Illusionist) Spells
 
@@ -649,15 +785,15 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Charm Person:** Forcefully makes one person your friend for 1 hour/level.
 
-**Color Spray:** Incapacitates creatures within a 15ft. cone.
+**Color Spray:** Blinds creatures within a 15ft. cone, incapacitating them for 1 round.
 
 **Disguise Self:** Changes your appearance for 10 min./level.
 
-**Hypnotism:** Fascinates creatures within 10 point of your HP or less for 1d4 rounds.
+**Hypnotism:** Fascinates creatures within 15 point of your HP or less for 1d4 rounds.
 
 **Silent Image:** Creates a minor illusion of your design.
 
-**Ventriloquism:** Throws voice for 10 rounds/level.
+**Ventriloquism:** Gain the ability to control one limb of a subject for 1 round.
 
 ### 2nd-Level Illusionist Spells
 
@@ -665,17 +801,17 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Hideous Laughter:** Subject bursts into laughter, and is unable to perform any actions for 1 round/level.
 
-**Hypnotic Pattern:** Fascinate creature within 10 points of your HP or less for Concentration+2 rounds.
+**Hypnotic Pattern:** Fascinate creature within 15 points of your HP or less for  1d8 rounds.
 
 **Invisibility:** Subject is invisible for 10 rounds/level or until it attacks.
 
-**Minor Image:** Creates a minor illusion of your design with sound.
+**Shadow Blade:** Creates an illusory shadow sword, dealing 3d6 + 1/level damage, with a range of 60ft.
 
 **Mirror Image:** Creates 1d4+1 decoys of caster for 10 rounds/level.
 
 ### 3rd -Level Illusionist Spells
 
-**Daylight:** 60ft. radius of daylight for 10 min./level.
+**Daylight:** Creates an area with a 60ft. radius of daylight for 10 min./level.
 
 **Deep Slumber:** Puts creatures whose HP is less than double your HP into a deep sleep for 10 rounds/level.
 
@@ -683,23 +819,30 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Invisibility Sphere:** Makes everyone within 10ft. invisible.
 
-**Major Image:** Creates a minor illusion of your design with sound, smell, and thermal effects.
+**Minor Image:** Creates a minor illusion of your design with sound, smell, and thermal effects.
 
 **Suggestion:** Compels subject to follow stated course of action for 1 hour/level or until completed.
 
-### 4th-Level Illusionist Spells
+<div>
+<!--
+Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
+Items within the div sections must be written in markup and not markdown. The div sections
+are required to keep sections from page breaking.
+-->
+<h3>4th-Level Illusionist Spells</h3>
+<strong>Charm Monster:</strong> Make one monster believe it is your ally for 1 day/level.
 
-**Charm Monster:** Make one monster believe it is your ally for 1 day/level.
+<strong>Confusion:</strong> Subjects behave oddly for 1 round/level.
 
-**Confusion:** Subjects behave oddly for 1 round/level.
+<strong>Greater Invisibility:</strong> Subject is invisible for 10 rounds/level and can attack.
 
-**Greater Invisibility:** Subject is invisible for 10 rounds/level and can attack.
+<strong>Minor Creation:</strong> Create one real cloth or wood object.
 
-**Minor Creation:** Create one cloth or wood object.
+<strong>Phantasmal Killer:</strong> A fearsome illusion terrifies one creature, dealing 5d8 damage.
 
-**Phantasmal Killer:** A fearsome illusion deals 3d6 damage to one creature.
+<strong>Rainbow Pattern:</strong> Lights Fascinate creatures whose HP is less than double your HP for 2d4 + 1 round/level.
 
-**Rainbow Pattern:** Lights Fascinate creatures whose HP is less than double your HP for Concentration+1 round/level.
+</div>
 
 ### 5th-Level Illusionist Spells
 
@@ -707,51 +850,51 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Dominate Person:** Controls subject telepathically for 1 day/level.
 
-**Major Creation:** As minor creation, plus stone or metal.
+**Major Creation:** Create one real cloth, wood, stone, or metal object.
 
-**Persistent Image:** Creates a minor illusion of your design with sound, smell, and thermal effects with no concentration required; 10 rounds/level.
+**Persistent Image:** Creates a minor illusion of your design with sound, smell, and thermal effects for 10 rounds/level.
 
 **Seeming:** Changes appearance of 1 person per 2 levels for 12 hours.
 
-**Sending:** Delivers short message anywhere, instantly.
+**Sending:** Instantly delivers a short message to one subject located anywhere.
 
 ### 6th-Level Illusionist Spells
 
-**Mislead:** Turns you invisible and creates an illusory double.
+**Mislead:** The caster becomes invisible and creates an illusory double in his/her place.
 
-**Permanent Image:** Permanent illusion with sight, sound, and smell controlled by concentration.
+**Permanent Image:** Creates a permanent illusion with sight, sound, and smell controlled by concentration.
 
-**Programmed Image:** As major image, triggered by specific event.
+**Programmed Image:** Create one real cloth, wood, stone, or metal object that can be triggered by a specified event.
 
 **Shadow Walk:** Step into shadow and travel rapidly; 50mph for 1 hour/level.
 
-**Mass Suggestion:** As suggestion, plus one subject per level.
+**Mass Suggestion:** Compels one subject per level to follow stated course of action for 1 hour/level or until completed.
 
-**True Seeing:** Lets you see things as they truly are.
+**True Seeing:** Lets you see all things as they really are (decipher lies, look through secret doors, see through illusions, sense objects in the dark. etc) for 10 rounds/level.
 
 ### 7th-Level Illusionist Spells
 
-**Mass Invisibility:** Up to 8 allies are invisible for 10 rounds/level or until they attack
+**Mass Invisibility:** Up to 8 allies are invisible for 10 rounds/level or until they attack.
 
-**Phase Door:** Creates invisible passage through wood and stone.
+**Phase Door:** Creates an invisible passage through wood and stone.
 
-**Power Word Blind** : Blinds a creature with 200 HP or less.
+**Power Word Blind:** Permanently blinds a creature with 200 HP or less.
 
-**Prismatic Spray:** 60ft. Cone-shaped burst of rays for variety of effects.
+**Prismatic Spray:** Creates a 60ft. Cone-shaped burst of rays causing a variety of effects.
 
 **Project Image:** Illusory double (with half of the caster's HP) can talk and cast spells at medium range for 1 round/level or until it "dies".
 
-**Weird:** A fearsome illusion deals 3d6 damage to all creatures within 30 ft.
+**Weird:** A fearsome illusion terrifies all creatures within 30 ft, dealing 5d8 damage.
 
 ### 8th-Level Illusionist Spells
 
-**Scintillating Pattern:** A pattern of discordant colors weaves through the air. The spell affects (caster level + 1d6) creatures. Each effect lasts for 1d4 rounds. Creatures with less than 50 HP are unconscious, then stunned, then confused. 50-100 HP, stunned, then confused. Over 100 HP, confused.
+**Scintillating Pattern:** A pattern of discordant colors weaves through the air. The spell affects level + 1d6 creatures. Each effect lasts for 1d4 rounds. Creatures with less than 50 HP are unconscious, then stunned, then confused. Creatures with 50-100 HP are stunned, then confused. Creatures with over 100 HP are confused.
 
 **Shadow Evocation:** Creates an illusory version of Mage spells of 7th level or lower. If recognized as an illusion, the spell deals only ½ damage.
 
 **Simulacrum:** Creates partially real double (with half HP) of a creature (same level or lower than caster), formed from water, ice, or snow.
 
-**Sunburst:** Creates a piercing burst of light. Blinds all within 10 ft., deals 6d6 damage.
+**Sunburst:** Creates a piercing burst of light. Blinds all within 10 ft., dealing 5d12 damage.
 
 **Shadow Gambit:** Any shadow or illusory object becomes completely real for 3 rounds.
 
@@ -763,13 +906,13 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Shades:** Creates 1d4 illusory doubles (with 75% of the caster's HP). Can talk and cast spells at medium range for 1 round/level or until they "die".
 
-**Phantasmal Weird:** Creates a phantasmal image of a feasrsome creature. Target makes will save. If failed, target takes a Fortitude save or dies from fear. If succeeded, target takes 5d6 damage, 1d4 points of STR damage, and is stunned for 2 rounds.
+**Phantasmal Weird:** Creates a phantasmal image of a fearsome creature. Target makes will save. If failed, target takes a Fortitude save or dies from fear. If succeeded, target takes 5d6 damage, 1d4 points of STR damage, and is stunned for 2 rounds.
 
 **Shadow Craft:** An illusory object becomes permanently real.
 
 **Complete Silence:** A subject becomes completely undetectable by sound.
 
-**Figmentation:** Any real object is cast into the shadow realm, making it an illusion.
+**Figmentation:** Any real object or subject is cast into an unknown location in the Ethereal Plane (The ethereal plane is a separate plane from the material plane, invisible to creatures on the material plane. It is gravity-less and dull; a land of ghosts, shadows, and wisps), making it a shadowy illusion. This spell, can only be cast without penalty the first time. After the first successful casting, if attempted again, the caster has a 50% chance of passing. If the caster fails, he/she is cast into the Ethereal Plane instead, becoming an illusion.
 
 ## Divine (Druid) Spells
 
@@ -789,15 +932,15 @@ The following spells have been customized and tweaked to make the game as smooth
 
 ### 1st-Level Druid Spells
 
-**Entangle:**  Plants entangle everyone in a 40ft. radius for 10 rounds/level.
+**Entangle:**  Plants entangle everyone in a 20ft. radius for 10 rounds/level.
 
 **Faerie Fire:**  Outlines subjects with light for 1 minute/level, cancels blur, invisibility, etc.
 
-**Goodberry:**  Creates 2d4 berries. Each berry can cure 1 HP (max 8 HP/day).
+**Goodberry:**  Creates 3d4 berries. Each berry can cure 1 HP (max 12 HP/day).
 
 **Obscuring Mist:**  Fog surrounds your immediate vicinity (10ft.), providing concealment for 1 round/level.
 
-**Produce Flame:**  1d6 damage +1/level, touch or thrown.
+**Produce Flame:**  3d6 damage +1/level, touch or thrown.
 
 **Speak with Animals:**  You can communicate with animals for 10 rounds/level.
 
@@ -807,7 +950,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Gust of Wind:**  Blows away or knocks down small-sized creatures.
 
-**Heat Metal:**  Makes metal so hot, it deals 1d4 damage +1/level to those who touch it.
+**Heat Metal:**  Makes metal so hot, it deals 2d6 damage +1/level to those who touch it.
 
 **Summon Swarm:**  Summons a swarm of bats, rats, or spiders for Knowledge + 2 rounds.
 
@@ -817,13 +960,13 @@ The following spells have been customized and tweaked to make the game as smooth
 
 ### 3rd-Level Druid Spells
 
-**Call Lightning:**  Calls a lightning storm into an area with a 5ft. radius. Lightning bolts come down from the sky dealing 3d6 damage once per round for 1 round/level.
+**Call Lightning:**  Calls a lightning storm into an area with a 5ft. radius. Lightning bolts come down from the sky dealing 3d6 + 1/level damage once per round for 1 round/level.
 
-**Protection from Energy:**  Absorb 12 points/level of damage from one kind of energy for 10 min./level.
+**Protection from Energy:**  Absorb 12 points/level of damage from one kind of energy for 10 rounds/level.
 
 **Speak with Plants:**  You can talk to normal plants and plant creatures for 10 rounds/level.
 
-**Spike Growth:**  For 1hr/level, creatures in area take 1d4 damage per 5ft. movement, reflex save or they are slowed.
+**Spike Growth:**  For 1hr/level, creatures within 20ft. take 2d6 damage per 5ft. movement, reflex save or they are slowed.
 
 **Stone Shape:**  Sculpts small or medium sized stone into any desired shape.
 
@@ -835,13 +978,13 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Anti-Plant Shell:**  Keeps animated plants at bay for 10 min./level, with a 10ft. radius.
 
-**Ice Storm:**  Hail is called from the sky, dealing 5d6 damage in an area within a 10ft. radius for 1 round.
+**Ice Storm:**  Hail is called from the sky, dealing 3d10 damage in an area within a 10ft. radius for 3 rounds.
 
 **Reincarnate:**  Bring back a dead subject into a random body (a body that is nearby).
 
 **Repel Vermin:**  Insects, spiders, and other vermin stay 10ft. away for 10 min./level.
 
-**Spike Stones:** All creatures within 15ft. take 1d8 damage. They must make a reflex save. If failed, they are slowed.
+**Spike Stones:** All creatures within 20ft. take 3d8 damage. They must make a reflex save. If failed, they are slowed.
 
 ### 5th-Level Druid Spells
 
@@ -849,19 +992,19 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Baleful Polymorph:**  Transforms subject into a harmless animal.
 
-**Call Lightning Storm:**  Calls a lightning storm into an area with a 5ft. radius. Lightning bolts come down from the sky dealing 5d6 damage once per round for 1 round/level.
+**Call Lightning Storm:**  Calls a lightning storm into an area with a 5ft. radius. Lightning bolts rain from the sky dealing 3d12 + 1/level damage once per round for 1 round/level.
 
 **Insect Plague:**  Up to 6 Locust Swarms (21 HP, 18 AC, slow, 2d6 attack) attack creatures for 10 rounds/level.
 
-**Transmute Rock to Mud:**  Transforms 2 10ft. Cubes/level of rock into mud.
+**Transmute Rock to Mud:**  Transforms 2 10ft. cubes/level of rock into mud.
 
-**Wall of Fire:**  Creates a 20ft. wall of fire, dealing 2d4 fire damage. Passing through the wall deals 2d6 damage +1/level.
+**Wall of Fire:**  Creates a 20ft. wall of fire, dealing 3d12 fire damage. Passing through the wall deals 3d6 damage +1/level.
 
 ### 6th-Level Druid Spells
 
-**Fire Seeds:**  Creates Acorn Grenades (1d6 fire damage/level divided among up to 4 seeds) that explode in a 10ft. radius and ignite combustibles.
+**Fire Seeds:**  Creates Acorn Grenades (1d12 fire damage/level divided among up to 4 seeds) that can be thrown up to 60ft. and explode in a 10ft. radius, igniting combustibles and other flammable objects within range.
 
-**Live Oak:**  Transforms an Oak tree into a treant guardian.
+**Live Oak:**  Transforms an Oak tree into a treant.
 
 **Move Earth:**  Magically dig trenches or build hills, in an area with up to a 50ft. radius and up to 10ft. deep.
 
@@ -873,17 +1016,17 @@ The following spells have been customized and tweaked to make the game as smooth
 
 ### 7th-Level Druid Spells
 
-**Changestaff:**  Your staff becomes a treant guardian on command.
+**Changestaff:** Your staff becomes a treant on command.
 
-**Control Weather:**  Changes weather in local area. Takes half an hour to cast and take effect. Weather cannot be abnormal weather (meteors or other phenomena).
+**Control Weather:** Changes weather in local area. Takes half an hour to cast and take effect. Weather cannot be abnormal weather (meteors or other phenomena).
 
-**TrueSight:**  Lets you see all things as they really are (decipher lies, look through secret doors, see through illusions, sense objects in the dark. etc).
+**True Seeing:** Lets you see all things as they really are (decipher lies, look through secret doors, see through illusions, sense objects in the dark. etc) for 10 rounds/level.
 
-**Finger of Death:** Kills one creature with 100 HP or less. Must physically touch the creature.
+**Finger of Death:** Kills one creature with 150 HP or less. Must physically touch the creature.
 
-**Fire Storm:**  Create a blazing storm dealing 1d6/level fire damage to up to a 60ft. radius.
+**Fire Storm:** Create a blazing storm dealing 1d6/level fire damage to up to a 60ft. radius.
 
-**Wind Walk:**  You and your allies turn vaporous and travel at up to 60mph for 1 hour/level.
+**Wind Walk:** You and your allies turn vaporous and travel at up to 60mph for 1 hour/level.
 
 ### 8th-Level Druid Spells
 
@@ -893,9 +1036,9 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Earthquake:**  Intense tremor shakes 80ft. radius, collapsing ceilings, opening fissures, etc.
 
-**Repel Metal or Stone:** Pushes away metal and stone, lasting 1 round/level.
+**Repel Metal or Stone:** Perpetually pushes away metal and stone, lasting 1 round/level.
 
-**Sunburst:** Creates a piercing burst of light. Blinds all within 10 ft., deals 6d6 damage.
+**Sunburst:** Creates a piercing burst of light, blinding all within 10 ft., dealing 6d8 damage.
 
 **Word of Recall:** Teleports you back to a previously designated place.
 
@@ -907,9 +1050,9 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Shapechange:** Transforms you into any creature, and change forms once per round.
 
-**Storm of Vengeance:** Create an enormous black storm cloud. Creatures inside are deafened while inside. On round 2, acid rains down, dealing 1d6 acid damage (no save). On round 3, 6 bolts of lightning strike for 10d6 damage/bolt. A creature struck can attempt a Reflex save for half damage. On round 4, Hailstones rain down, dealing 5d6 damage (no save). Ranged attacks and spells within the area of the storm are disrupted, with a 50% chance of failure.
+**Storm of Vengeance:** Create an enormous black storm cloud. Creatures inside are deafened while inside. On round 2, acid rains down, dealing 3d6 acid damage (no save). On round 3, 6 bolts of lightning strike for 5d12 damage/bolt. A creature struck can attempt a Reflex save for half damage. On round 4, Hailstones rain down, dealing 5d8 damage (no save). Ranged attacks and spells within the area of the storm are disrupted, with a 50% chance of failure.
 
-**Summon Nature's Ally:** Summon a 9th-level creature, 1d3 8th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.
+**Summon Nature's Ally:** Summon a 9th-level creature, 1d4 8th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.
 
 **Sympathy:** Object or location affected by spell attracts a certain creature type.
 
@@ -929,31 +1072,38 @@ Temporary HP cannot be used to manifest powers. Like casters, after casting a Ps
 
 **Inkling:** Weakly manifest some psionic power, allowing tiny objects or creatures to be moved unpredictably.
 
-**Contact:** Project gibberish or meaningless sounds and images into a target's mind, confusing, disorienting, and possibly frightening them. _Duration_: 1 minute.
+**Contact:** Project gibberish or meaningless sounds and images into a target's mind, confusing, disorienting, and possibly frightening them. _Duration_: 3 rounds.
 
-**Mental Spike:** Send a sharp mental force into a target's mind. Deal 1d4 force damage _Duration_: Instant.
+**Mental Spike:** Send a sharp mental force into a target's mind. Deal 1d6 + 1 force damage _Duration_: Instant.
 
-### 1st-Level Psion Powers
+<div>
+<!--
+Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
+Items within the div sections must be written in markup and not markdown. The div sections
+are required to keep sections from page breaking.
+-->
+<h3>1st-Level Psion Powers</h3>
+<strong>Psionic Charm:</strong> Makes one non-aggressive (out of combat) person a friend. _Duration_: 1 hour/level. _Augment_: 4 extra HP raises duration to 1 day/level.
 
-**Psionic Charm:** Makes one person a friend. _Duration_: 1 hour/level. _Augment_: 4 extra HP raises duration to 1 day/level.
+<strong>Control Object:</strong> Telekinetically animate a small object. _Duration_: Knowledge, up to 1 round/level. _Augment_: None.
 
-**Control Object:** Telekinetically animate a small object. _Duration_: Knowledge, up to 1 round/level. _Augment_: None.
+<strong>Detect Psionics:</strong> Detect the presence of psionics. _Duration_: Knowledge, up to 10 rounds/level. _Augment_: None.
 
-**Detect Psionics:** Detect the presence of psionics. _Duration_: Knowledge, up to 10 rounds/level. _Augment_: None.
+<strong>Mindlink:</strong> Forge a limited mental bond with another creature. _Duration_: 10 rounds/level. _Augment_: Every 2 extra HP links another creature.
 
-**Mindlink:** Forge a limited mental bond with another creature. _Duration_: 10 min/level. _Augment_: Each extra HP links another creature.
+<strong>Mind Thrust:</strong> Deal 3d6 force damage. _Duration_: Instant. _Augment_: Each extra HP adds 2d6 to damage.
 
-**Mind Thrust:** Deal 1d10 force damage. _Duration_: Instant. _Augment_: Each extra HP adds 1d10 to damage.
+<strong>Precognition:</strong> Gain +2 bonus to one roll in the future. _Duration_: 10 rounds/level. _Augment_: None.
 
-**Precognition:** Gain +2 insight bonus to one roll. _Duration_: 10 min/level. _Augment_: None.
+</div>
 
 ### 2nd-Level Psion Powers
 
 **Clairvoyant Sense:** See and hear a distant location. _Duration_: 10 rounds/level. _Augment_: None.
 
-**Cloud Mind:** You erase knowledge of your presence from target's mind. _Duration_: 10 rounds/level. _Augment_: None.
+**Cloud Mind:** You erase knowledge of your presence from a target's mind. _Duration_: 10 rounds/level. _Augment_: None.
 
-**Ego Whip:** Deal 1d4 MIND damage and daze for 1 round. _Duration_: Instant. _Augment_: Every 4 extra HP increases damage by 1d4 & save DC by 2.
+**Ego Whip:** Deal 1d4 MIND damage and daze a target for 1 round. _Duration_: Instant. _Augment_: Every 4 extra HP increases damage by 1d4 & save DC by 2.
 
 **Psionic Identification:** Learn the properties of a psionic item. _Duration_: Instant. _Augment_: None.
 
@@ -1019,7 +1169,7 @@ Temporary HP cannot be used to manifest powers. Like casters, after casting a Ps
 
 ### 7th-Level Psion Powers
 
-**Ethereal Jaunt:** Become ethereal for 1 round/level. _Duration_: 1 round/level. _Augment_: None.
+**Ethereal Jaunt:** Become ethereal (ghostly) for 1 round/level. The ethereal plane is a separate plane from the material plane, invisible to creatures on the material plane. It is gravity-less and dull; a land of ghosts, shadows, and wisps. _Duration_: 1 round/level. _Augment_: None.
 
 **Fission:** You briefly duplicate yourself. _Duration_: 1 round/level. _Augment_: None.
 
@@ -1031,7 +1181,7 @@ Temporary HP cannot be used to manifest powers. Like casters, after casting a Ps
 
 ### 8th-Level Psion Powers
 
-**Astral Seed:** You plant the seed of your rebirth from the Astral Plane. You return from death (even disintegration) after 10 days. _Duration_: Instant. _Augment_: None.
+**Astral Seed:** You plant a seed of your rebirth into the Astral Plane (The Astral plane is the space/plane in which Terador, and other worlds, reside. Filled with a thick air-like substance called "miasma", the Astral plane is a timeless plane with ever-changing gravity, known for its magic production). You return from death (even disintegration) after 10 days. _Duration_: Instant. _Augment_: None.
 
 **Hypercognition:** You can deduce almost anything. _Duration_: Instant. _Augment_: None.
 
@@ -1049,11 +1199,17 @@ Temporary HP cannot be used to manifest powers. Like casters, after casting a Ps
 
 **Timeless Body:** Ignore all harmful, and helpful, effects for 1 round. _Duration_: 1 round. _Augment_: None.
 
-## Psionic Spell Lists
+<div>
+<!--
+Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
+Items within the div sections must be written in markup and not markdown. The div sections
+are required to keep sections from page breaking.
+-->
+<h2>Psionic Spell Lists</h2>
+<h3>6th Level Arcane Spell</h3>
+<strong>Probe Thoughts:</strong> Read subject's memories, one question/round.
 
-### 6th Level Arcane Spell
-
-**Probe Thoughts:** Read subject's memories, one question/round.
+</div>
 
 ### 8th Level Divine Spell
 
@@ -1303,49 +1459,56 @@ Several typical poisons are summarized below. The entries for poisons include th
 
 **Price:** lists the cost for one dose of the poison. It can usually only be obtained through less-than-reputable sources, as the possession of poisons are commonly illegal.
 
-### Poisons
+<div>
+<!--
+Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
+Items within the div sections must be written in markup and not markdown. The div sections
+are required to keep sections from page breaking.
+-->
+<h3>Poisons</h3>
+<strong>Arsenic:</strong>  Ingested, DC 13, -1 STR/-1d8 STR, 120 gp.
 
-**Arsenic:**  Ingested, DC 13, -1 STR/-1d8 STR, 120 gp.
+<strong>Blue Whinnis:</strong>  Injury, DC 14, -1 STR/ unconsciousness, 120 gp.
 
-**Blue Whinnis:**  Injury, DC 14, -1 STR/ unconsciousness, 120 gp.
+<strong>Burnt Othur Fumes:</strong>  Inhaled, DC 18, -1 STR*/-3d6 STR, 2,100 gp.
 
-**Burnt Othur Fumes:**  Inhaled, DC 18, -1 STR\*/-3d6 STR, 2,100 gp.
+<strong>Deathblade:</strong>  Injury, DC 20, -1d6 STR/-2d6 STR, 1,800 gp.
 
-**Deathblade:**  Injury, DC 20, -1d6 STR/-2d6 STR, 1,800 gp.
+<strong>Insanity Mist:</strong>  Inhaled, DC 15, -1d4 MIND/-2d6 MIND, 1,500 gp.
 
-**Insanity Mist:**  Inhaled, DC 15, -1d4 MIND/-2d6 MIND, 1,500 gp.
+<strong>Nitharit:</strong>  Contact, DC 13, 0/-3d6 STR, 650 gp. Oil of Taggit: Ingested, DC 15, 0/unconsciousness, 90 gp.
 
-**Nitharit:**  Contact, DC 13, 0/-3d6 STR, 650 gp. Oil of Taggit: Ingested, DC 15, 0/unconsciousness, 90 gp.
+<strong>Malys Root Paste:</strong>  Contact, DC 16, -1 DEX/-2d4 DEX, 500 gp.
 
-**Malys Root Paste:**  Contact, DC 16, -1 DEX/-2d4 DEX, 500 gp.
+<strong>Monstrous Scorpion (tiny):</strong>  In­jury, DC 12, -1 STR/-1 STR, 50 gp.
 
-**Monstrous Scorpion (tiny):**  In­jury, DC 12, -1 STR/-1 STR, 50 gp.
+<strong>Monstrous Scorpion (small):</strong>  In­jury, DC 12, -1d2 STR/- 1d2 STR, 100 gp.
 
-**Monstrous Scorpion (small):**  In­jury, DC 12, -1d2 STR/- 1d2 STR, 100 gp.
+<strong>Monstrous Scorpion (large):</strong>  Injury, DC 14, -1d4 STR/- 1d4 STR, 200 gp.
 
-**Monstrous Scorpion (large):**  Injury, DC 14, -1d4 STR/- 1d4 STR, 200 gp.
+<strong>Monstrous Scorpion (huge):</strong>  Injury, DC 18, -1d6 STR/- 1d6 STR, 400 gp.
 
-**Monstrous Scorpion (huge):**  Injury, DC 18, -1d6 STR/- 1d6 STR, 400 gp.
+<strong>Monstrous Spider (tiny):</strong>  Injury, DC 10, -1d2 STR/-1d2 STR, 85 gp.
 
-**Monstrous Spider (tiny):**  Injury, DC 10, -1d2 STR/-1d2 STR, 85 gp.
+<strong>Monstrous Spider (small):</strong>  Injury, DC 10, -1d3 STR/- 1d3 STR, 125 gp.
 
-**Monstrous Spider (small):**  Injury, DC 10, -1d3 STR/- 1d3 STR, 125 gp.
+<strong>Monstrous Spider (large):</strong>  Injury, DC 13, -1d6 STR/-1d6 STR, 250 gp.
 
-**Monstrous Spider (large):**  Injury, DC 13, -1d6 STR/-1d6 STR, 250 gp.
+<strong>Monstrous Spider (huge):</strong>  Injury, DC 16, -1d8 STR/-1d8 STR, 500 gp.
 
-**Monstrous Spider (huge):**  Injury, DC 16, -1d8 STR/-1d8 STR, 500 gp.
+<strong>Sassone Leaf Residue:</strong>  Contact, DC 16, -2d12 HP/-1d8 STR, 300 gp.
 
-**Sassone Leaf Residue:**  Contact, DC 16, -2d12 HP/-1d8 STR, 300 gp.
+<strong>Sleep Poison:</strong>  Injury, DC 13, unconsciousness/ unconsciousness for 2d4 hours, 75 gp.
 
-**Sleep Poison:**  Injury, DC 13, unconsciousness/ unconsciousness for 2d4 hours, 75 gp.
+<strong>Snake (medium viper):</strong>  Injury, DC 11, -1d6 STR/-1d6 STR, 120 gp.
 
-**Snake (medium viper):**  Injury, DC 11, -1d6 STR/-1d6 STR, 120 gp.
+<strong>Snake (large viper):</strong>  Injury, DC 11, -1d6 STR/-1d6 STR, 120 gp.
 
-**Snake (large viper):**  Injury, DC 11, -1d6 STR/-1d6 STR, 120 gp.
+<strong>Snake (huge viper):</strong>  Injury, DC 14, -1d6 STR/-1d6 STR, 250 gp.
 
-**Snake (huge viper):**  Injury, DC 14, -1d6 STR/-1d6 STR, 250 gp.
+<strong>Wyvern:</strong>  Injury, DC 17, -2d6 STR/-2d6 STR, 3,000 gp.
 
-**Wyvern:**  Injury, DC 17, -2d6 STR/-2d6 STR, 3,000 gp.
+</div>
 
 ## Traps
 
@@ -1489,10 +1652,16 @@ Here's when Spellcasters can make stuff:
 |**Item**|Scrolls & Books|Potions & Wondrous Items|Wands & Armor|Rods & Weapons|Staves & Rings|
 |**Spellcaster's Level**|1|3|5|9|12|
 
-
-## Basic Mass Combat
-
+<div>
+<!--
+Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
+Items within the div sections must be written in markup and not markdown. The div sections
+are required to keep sections from page breaking.
+-->
+<h2>Basic Mass Combat</h2>
 Most combat is carried out one-on-one, with each set of stats (HP, AC, combat bonuses, etc) applying to a single character or creature. However, combat can be extended by using Combat Scale. Combat Scale is a multiplier that shows the amount of characters or creatures relative to their normal single-unit size. It is only applied to damage in combat between units of different size. Hit Points, AC and all other stats remain the same.
+
+</div>
 
 For example, a unit of 20 Goblin warriors will have CSx5 as per the table below. The combat stats are still HD1d8+1 (5HP), AC15, Morningstar +2 (1d6) or Javelin +3 (1d4). Against anything with the same Combat Scale (for example, a unit of 15 Elves), combat is resolved normally as if it was one goblin against one elf.
 
@@ -1516,7 +1685,7 @@ The 500-strong Knights of the Rose stand ready against the young Dragon. They ar
 500 Knights: HD2d8+4 (14HP), AC18, Lance +7 (1d10+4) or Longsword +6 (1d8+2), CSx10
 Dragon: HD13×12+39 (123HP), AC21, Bite +20 (2d6+7) or Breath 10d10 DC24
 
-The Dragon flies high above and breathes flames across their formation for 46HP damage. The knights dive for cover beneath their shields (phys+DEX to dodge DC24. They roll 25, barely making it). They take ½ damage – 23HP, divided by CSx10 for 2HP. The Knights are down to 12HP.
+The Dragon flies high above and breathes flames across their formation for 46HP damage. The knights dive for cover beneath their shields (Physical + DEX to dodge DC24. They roll 25, barely making it). They take ½ damage – 23HP, divided by CSx10 for 2HP. The Knights are down to 12HP.
 
 They ready their horses to charge as the Dragon lands, the thunder of 2,000 hooves makes the young dragon hesitate. They hit (rolled 18+7 = 25 vs. AC21), scoring 11 damage, CSx10 for a massive 110HP damage. The Dragon is down to 13HP against the small army, bleeding from the impact of many lances. It roars and lunges in anger, biting savagely. It hits easily (rolled 6+20 = 26 vs. AC18) for 17 damage, divided by 10 = 2HP. The Knights are down to 10HP. If they fall below 7HP they will be at half their numbers and down to CSx9.
 
