@@ -1,6 +1,7 @@
 <p align="center">
   <img src="src/static/logo.png" alt="Microluxe 20">
 </p>
+
 Microluxe20 attempts to be a stand-in replacement for any [SRD](https://en.wikipedia.org/wiki/System_Reference_Document) based tabletop adventure. The main goal is to utilize the simplicity of [Microlite20](http://microlite20.net/), while also adding various races, classes, and game-balancing tweaks. It also strives to clarify some of the more confusing parts of the Microlite20 system.
 
 ## Handbook
@@ -13,7 +14,7 @@ The latest release can be downloaded [here](https://github.com/kgrubb/microluxe2
 
 ## Contributing
 
-**NOTICE:**. The font setup is still a little bit weird, so when compiling/bulding the pdf's, the length of the document may vary slightly between various OS's.
+**NOTICE:** With the 7.0.0 release of markdown-pdf, compiling on Windows is now broken (but OSX and linux builds work). While the document compiles, the custom css isn't loaded correctly. The open issue can be found [here](https://github.com/alanshaw/markdown-pdf/issues/82).
 
 If you want to contribute to the game's handbooks, or want to craft your own release, please do the following:
 
