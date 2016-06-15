@@ -1,6 +1,6 @@
 {
   "name": "microluxe20",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "A free, open source tabletop game based on the Microlite20 ruleset.",
   "main": "index.js",
   "scripts": {
