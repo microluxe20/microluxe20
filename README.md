@@ -11,7 +11,7 @@ To dive right into the game, check out the following online resources:
 
 [Terador Campaign Setting](src/markdown/microluxe20_lore.md)
 
-[Map of Terador](https://raw.githubusercontent.com/kgrubb/microluxe20/master/src/static/Terador-complete.png)
+[Map of Terador](https://raw.githubusercontent.com/kgrubb/microluxe20/master/map/Terador-complete.png)
 
 [Races of Terador](src/markdown/microluxe20_races.md)
 
