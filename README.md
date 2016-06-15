@@ -6,9 +6,13 @@ Microluxe20 attempts to be a stand-in replacement for any [SRD](https://en.wikip
 
 # Handbook
 To dive right into the game, check out the following online resources:
-[Complete Handbook](src/markdown/microluxe20_handbook.md)!
+
+[Complete Handbook](src/markdown/microluxe20_handbook.md)
+
 [Terador Campaign Setting](src/markdown/microluxe20_lore.md)
+
 [Map of Terador](map/Terador-complete.png)
+
 [Races of Terador](src/markdown/microluxe20_races.md)
 
 Microluxe20 features a pre-designed campaign setting, named "Terador" for ease-of-use. However, because of the simplicity of the rules, custom and homebrew campaign settings are very easy to implement. Definitely feel free to use your own setting, races, and other homebrew content!
