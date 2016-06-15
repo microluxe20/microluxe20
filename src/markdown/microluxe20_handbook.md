@@ -1,4 +1,4 @@
-![title-img](src/static/logo-handbook.png)
+![title-img](https://raw.githubusercontent.com/kgrubb/microluxe20/master/src/static/logo-handbook.png)
 
 # Introduction
 

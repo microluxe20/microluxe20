@@ -1,4 +1,4 @@
-![title-img](src/static/logo-lore.png)
+![title-img](https://raw.githubusercontent.com/kgrubb/microluxe20/master/src/static/logo-lore.png)
 
 # Introduction
 This document includes a brief history of Terador, starting from the world's inception to the current time period.
