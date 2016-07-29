@@ -46,13 +46,13 @@ This will globally install gulp, which is used for building the PDFs. It will al
 
 ### 4. Making changes and building PDFs
 
-All of the rules are written in the __markdown__ files (found in the `src/markdown` directory). After making changes to these files, you can use the following gulp tasks to make new PDFs:
+All of the rules are written in the __markdown__ files (found in the "src/markdown" directory). After making changes to these files, you can use the following gulp tasks to make new PDFs:
 
-`gulp compile` - This will create a new folder named `documents` and will compile new PDFs.
+`gulp compile` - This will create a new folder named "documents" and will compile new PDFs.
 
-`gulp watch` - This will automatically build PDFs whenever changes are saved to a markdown file located in the `src/markdown` directory.
+`gulp watch` - This will automatically build PDFs whenever changes are saved to a markdown file located in the "src/markdown" directory.
 
-`gulp release` - After running the `gulp compile` task, this task will craft a zipped folder with all of the latest released PDFs and documents. The completed release zip can be found in the `release` directory. The version number is determined by the version set in the `package.json` file.
+`gulp release` - After running the `gulp compile` task, this task will craft a zipped folder with all of the latest released PDFs and documents. The completed release zip can be found in the "release" directory. The version number is determined by the version set in the `package.json` file.
 
 ### 5. Submit a pull request
 
