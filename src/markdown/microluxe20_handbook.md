@@ -30,7 +30,7 @@ Terador has a wealth of races to choose from, each with their unique history. Wh
 
 Classes define your character's way of life. Your character's class helps shape his/her combat style and methods of overcoming various obstacles. Your class provides a pathway, granting special powers and features for your character.
 
-**Fighters** wear and use any kind of armor, shield, and weapon. They gain a +3 bonus to Physical and add +1 to all attack and damage rolls. This increases by +1 at 5th level and every five levels onward. Fighters gain the Cleave ability at level 5. If the Fighter's melee attack drops/slays a foe, the fighter gets one additional attack against another opponent within range. This ability can compound, meaning if one swing kills the second foe, the Fighter can continue to attack until he/she either misses or doesn't kill the foe with the attack.
+**Fighters** wear and use any kind of armor, shield, and weapon. They gain a +3 bonus to Physical and add +1 to all attack and damage rolls. This increases by +1 at 5th level and every five levels onward. They also gain additional HP equal to their STR bonus every time they level up. Fighters gain the Cleave ability at level 5. If the Fighter's melee attack drops/slays a foe, the fighter gets one additional attack against another opponent within range. This ability can compound, meaning if one swing kills the second foe, the Fighter can continue to attack until he/she either misses or doesn't kill the foe with the attack.
 
 **Rogues** can use light armor, can use bucklers, and can use simple weapons and complex light weapons. They have a +3 bonus to Guile. If they successfully Sneak (usually Guile+DEX, but depends on situation) up on a foe they can add their Guile skill rank to the damage of their first attack. Rogues gain the Evade ability at level 5. Any save that a rogue succeeds cannot deal damage to the rogue. For example, some spells deal half-damage even if the target saves successfully. With Evade, the rogue would not take any damage as long as he/she saved successfully.
 
@@ -82,15 +82,19 @@ XP = Hit Dice of defeated monsters, or the given XP for the trap, situation, etc
 
 Add up the  XP of every encounter you take part in. When the total = 10 x your current level, you've advanced to the next level. Reset the total to 0 after advancing.
 
+**Example:** The 1st level adventurers have just completed a dungeon adventure, and defeated five 1 XP encounters, a 2 XP trap and the 3 XP leader. That's a total of 10 XP, so they all advance to level 2. They need to gain another 20 XP to reach Level 3.
+
 Each level adds:
 
-+1d6 to Hit Points (with a minimum of 3) and +2 points to spend on skills. When upgrading skills, you cannot add more points to a skill if it is higher than or equal to your character's level + 5. If your character's level divides by three (ex: level 3,6,9,etc.) add 1 point to STR, DEX or MIND.
++1d6 to Hit Points (with a minimum of 3). Fighters also get additional HP equal to their STR bonus.
+
++2 points to spend on skills. When upgrading skills, you cannot add more points to a skill if it is higher than or equal to your character's level + 5.
+
+If your character's level divides by three (ex: level 3,6,9,etc.) add 1 point to STR, DEX or MIND.
 
 Fighters gain +1 to their attack and damage rolls at levels 5,10,15,etc.
 
 New spell levels are unlocked at levels 3,5,7,9,etc., and new power levels are unlocked at levels 2,4,6,8,etc.
-
-**Example:** The 1st level adventurers have just completed a dungeon adventure, and defeated five 1 XP encounters, a 2 XP trap and the 3 XP leader. That's a total of 10 XP, so they all advance to level 2. They need to gain another 20 XP to reach Level 3.
 
 ## Combat
 
@@ -623,9 +627,16 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Soul Bind:**  Traps a newly dead soul inside an item, preventing resurrection.
 
-## Divine (Cleric) Spells
+<div>
+<!--
+Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
+Items within the div sections must be written in markup and not markdown. The div sections
+are required to keep sections from page breaking.
+-->
+<h2> Divine (Cleric) Spells </h2>
 
-### 0-Level Divine Spells: Orisons
+<h3> 0-Level Divine Spells: Orisons </h3>
+</div>
 
 **Create Water:** Creates 2 gallons/level of pure water.
 
@@ -809,7 +820,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Mirror Image:** Creates 1d4+1 decoys of caster for 10 rounds/level.
 
-### 3rd -Level Illusionist Spells
+### 3rd-Level Illusionist Spells
 
 **Daylight:** Creates an area with a 60ft. radius of daylight for 10 min./level.
 
@@ -830,19 +841,19 @@ Items within the div sections must be written in markup and not markdown. The di
 are required to keep sections from page breaking.
 -->
 <h3>4th-Level Illusionist Spells</h3>
+
 <strong>Charm Monster:</strong> Make one monster believe it is your ally for 1 day/level.
-
-<strong>Confusion:</strong> Subjects behave oddly for 1 round/level.
-
-<strong>Greater Invisibility:</strong> Subject is invisible for 10 rounds/level and can attack.
-
-<strong>Minor Creation:</strong> Create one real cloth or wood object.
-
-<strong>Phantasmal Killer:</strong> A fearsome illusion terrifies one creature, dealing 5d8 damage.
-
-<strong>Rainbow Pattern:</strong> Lights Fascinate creatures whose HP is less than double your HP for 2d4 + 1 round/level.
-
 </div>
+
+**Confusion:** Subjects behave oddly for 1 round/level.
+
+**Greater Invisibility:** Subject is invisible for 10 rounds/level and can attack.
+
+**Minor Creation:** Create one real cloth or wood object.
+
+**Phantasmal Killer:** A fearsome illusion terrifies one creature, dealing 5d8 damage.
+
+**Rainbow Pattern:** Lights Fascinate creatures whose HP is less than double your HP for 2d4 + 1 round/level.
 
 ### 5th-Level Illusionist Spells
 
@@ -1117,9 +1128,9 @@ are required to keep sections from page breaking.
 
 **Dispel Psionics:** Cancel psionic powers and effects. _Duration_: Instant. _Augment_: Each extra HP raises dispel check by 2.
 
-**False Sensory Input:** Subject sees what isn't there. _Duration_: Knowledge, up to 10 rounds/level. _Augment_: Every 2 extra HP affects another target.
+**False Sensory Input:** The subject thinks they see, hear, smell, taste, or feel something other than what their senses actually report. _Duration_: Knowledge, up to 10 rounds/level. _Augment_: Every 2 extra HP affects another target.
 
-**Fate Link:** Link the fates of two targets. _Duration_: 10 min/level. _Augment_: Every 2 extra HP raises DC by 1.
+**Fate Link:** Link the fates of two targets. When one loses hit points, the other loses the same amount. If one dies, the other must immediately succeed on a Fortitude save against this power’s save DC or lose two levels. _Duration_: 10 min/level. _Augment_: Every 2 extra HP raises DC by 1.
 
 **Psionic Blast:** Stun creatures in 30ft. cone for 1 round. _Duration_: Instant. _Augment_: Every 2 extra HP raises duration by 1 round.
 
@@ -1137,7 +1148,7 @@ are required to keep sections from page breaking.
 
 **Schism:** Split your mind into two independent entities. _Duration_: 1 round/level. _Augment_: None.
 
-**Telekinetic Maneuver:** Telekinetically bull rush, disarm, grapple, or trip your target. _Duration_: Knowledge, up to 1 round/level. _Augment_: Every 2 extra HP grants a +1 bonus to maneuver checks.
+**Telekinetic Maneuver:** Telekinetically bull rush(push an opponent back one space), disarm, grapple (vs STR), or trip your target. _Duration_: Knowledge, up to 1 round/level. _Augment_: Every 2 extra HP grants a +1 bonus to maneuver checks.
 
 ### 5th-Level Psion Powers
 
@@ -1145,27 +1156,27 @@ are required to keep sections from page breaking.
 
 **Psychic Crush:** Crush subject's mind, reducing subject to -1 hit points. _Duration_: Instant. _Augment_: Every two extra hit points increases save damage by 1d6 (base 3d6).
 
-**Second Chance:** Gain a re-roll. _Duration_: 1 round/level, until discharged. _Augment_: None.
+**Second Chance:** Gain one free re-roll. _Duration_: 1 round/level, until discharged. _Augment_: None.
 
-**Shatter Mind Blank:** Cancels target's _mind blank_. _Duration_: Instant. _Augment_: None.
+**Trace:** Sense the destination of a subject's teleportation or dimensional shift. _Duration_: Instant. _Augment_: None.
 
 **Psionic Teleportation:** Instantly teleport up to 100 miles/level. _Duration_: Instant. _Augment_: None.
 
-**Psionic Sight:** See all things as they really are. _Duration_: 10 rounds/level. _Augment_: None.
+**Psionic Sight:** Lets you see all things as they really are (decipher lies, look through secret doors, see through illusions, sense objects in the dark. etc). _Duration_: 10 rounds/level. _Augment_: None.
 
 ### 6th-Level Psion Powers
 
 **Mass Cloud Mind:** Erase knowledge of your presence from the minds of one creature/level. _Duration_: 10 rounds/level. _Augment_: None.
 
-**Co-opt Concentration:** Take control of foe's power. _Duration_: Knowledge, up to 1 round/level. _Augment_: None.
+**Retrieve:** Teleport an item in your sight weighing 10lbs. or smaller directly into your hand. If an opponent has the item, it teleports only if the foe fails a Will save. _Duration_: Instant. _Augment_: Every 4 extra HP increases weight allowance by 10lbs.
 
-**Crystallize:** Turn subject permanently to crystal. _Duration_: Permanent. _Augment_: None.
+**Crystallize:** Turns a subject into crystal. The subject appears to be lifeless, but is not dead. Dispelling psionics or spells can return to the subject to its previous state (non-crystal). _Duration_: Permanent. _Augment_: None.
 
 **Null Psionics Field:** Create a field where psionic power does not function. _Duration_: 10 min/level. _Augment_: None.
 
-**Psionic Restoration:** Restores level and stats from drains. _Duration_: Permanent. _Augment_: None.
+**Metabolize:** Restores level and stats from drains. _Duration_: Permanent. _Augment_: None.
 
-**Temporal Acceleration:** Your time frame accelerates for 1 round. _Duration_: 1 round. (apparent time). _Augment_: Every 4 extra HP raises duration by 1 round.
+**Temporal Acceleration:** Your time frame accelerates for 1 round, making you speed up so much that everything else seems motionless. While Accelerated, you may use 2 actions and movements instead of 1 on each round. _Duration_: 1 round. (apparent time). _Augment_: Every 4 extra HP raises duration by 1 round.
 
 ### 7th-Level Psion Powers
 
@@ -1173,7 +1184,7 @@ are required to keep sections from page breaking.
 
 **Fission:** You briefly duplicate yourself. _Duration_: 1 round/level. _Augment_: None.
 
-**Insanity:** Subject is permanently confused. _Duration_: Instant. _Augment_: Every 2 extra HP raises save DC by 1 and affects another creature.
+**Insanity:** Subject is permanently confused. On their turn, they roll 1d10. If they roll a 1, they act normally. 2-3, they do nothing but babble incoherently. 4-6, they flee as far away from the caster as possible. 7-10, they attack the nearest creature. _Duration_: Instant. _Augment_: Every 2 extra HP raises save DC by 1 and affects another creature.
 
 **Moment of Prescience:** You gain an insight bonus equal to your psionic character level on a single attack roll, check, or save. _Duration_: 1 round/level, until discharged. _Augment_: None.
 
@@ -1187,7 +1198,7 @@ are required to keep sections from page breaking.
 
 **Mind Blank:** Subject is immune to mental/emotional effects, scrying, and remote viewing. _Duration_: 1 day. _Augment_: None.
 
-**Mass Time Hop:** Willing subjects hop forward in time. _Duration_: 1 hr/level. _Augment_: 6 extra HP to instantly manifest the power (even when it's not your turn).
+**Mass Time Hop:** Willing subjects can hop forward in time. _Duration_: 1 hr/level. _Augment_: 6 extra HP to instantly manifest the power (even when it's not your turn).
 
 ### 9th-Level Psion Powers
 
@@ -1195,25 +1206,9 @@ are required to keep sections from page breaking.
 
 **Psionic Etherealness:** You and 1 creature/3 levels become ethereal. _Duration_: 10 rounds/level. _Augment_: None.
 
-**Microcosm:** One creature (100 HP or less) or group of creatures (each 30 HP or less, totaling to 300 HP maximum) is trapped forevermore in world of own imagination (no saving throw). _Duration_: Instant. _Augment_: Each extra HP raises the hit point limit of target by 10.
+**Microcosm:** One creature (100 HP or less) or a group of creatures (each 30 HP or less, totaling to 300 HP maximum) is indefinitely trapped inside a world of its own imagination (no saving throw). _Duration_: Instant. _Augment_: Each extra HP raises the hit point limit of target by 10.
 
 **Timeless Body:** Ignore all harmful, and helpful, effects for 1 round. _Duration_: 1 round. _Augment_: None.
-
-<div>
-<!--
-Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
-Items within the div sections must be written in markup and not markdown. The div sections
-are required to keep sections from page breaking.
--->
-<h2>Psionic Spell Lists</h2>
-<h3>6th Level Arcane Spell</h3>
-<strong>Probe Thoughts:</strong> Read subject's memories, one question/round.
-
-</div>
-
-### 8th Level Divine Spell
-
-**Brain Spider:** Hear thoughts of up to eight other creatures.
 
 # Monster List
 
@@ -1403,10 +1398,17 @@ Alternatively, add class levels to intelligent monsters. Start with the base Hit
 
 **Monstrous Spider (huge):**  HD 8d8+16 (52 HP), AC 16, Bite +9 (2d6+6 plus poison)
 
-# Game Master's Guide
+<div>
+<!--
+Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
+Items within the div sections must be written in markup and not markdown. The div sections
+are required to keep sections from page breaking.
+-->
+<h1> Game Master's Guide</h1>
 
-## Disease
 
+<h2> Disease</h2>
+</div>
 Diseases have various symptoms and are spread through a number of ways. Several typical diseases are summarized below.
 
 The entries for diseases include the following information:
