@@ -2,11 +2,39 @@
 
 # Introduction
 
-Microluxe20 is a tabletop role-playing game, designed to be simple, yet powerful. Based off of the popular Microlite20 ruleset, Microluxe20 uses a stat/skill framework designed to make encounters feel fluid and fun, emphasizing storytelling and player interaction over the traditional "straight-jacket" skill systems found in many modern tabletop games. The primary goal for the system is to be a complete dungeon-crawling experience, while maintaining simplicity and ease-of-use. Another goal of the system is to maintain compatibility with any Primary Fantasy SRD resources as much as possible.
+Microluxe20 is a minimalist tabletop role-playing game designed with simplicity in mind. Using an easy-to-grasp, yet extremely robust stat/skill framework, Microluxe20 allows for crafting exciting encounters that are fun and fluid, emphasizing storytelling and player interaction over the traditional "straight-jacket" skill systems found in many modern tabletop games. Keeping compatibility in mind, OGL/d20 supplements should work out of the box, without any conversions; in fact, SRD/OGL adventures with any incompatibilities can be converted _on the fly_ with almost no effort! The entire character sheet fits on one sheet of paper, meaning character creation and management is extremely quick and easy. Microluxe20 is great for one-shot adventures, or teaching new players about tabletop gaming. However, unlike many one-shot styled tabletop games, it is also robust enough to cater to full-fledged campaign-style games as well, especially because of its compatibility with other OGL/d20 content.
 
-# Basic Rules
+# First Steps
 
-## Character Creation
+## What is a Role-Playing Game?
+
+A role-playing game (RPG) is a cooperative narration game in which players assume the roles of characters in a fictional setting, deciding freely which action let them do and acting as their fictional alter-ego. The Game Master(GM), the main narrator of the game, describes the game world and its inhabitants. The other players describe the intended actions of their characters, and the GM describes the outcomes. Actions taken within the game succeed or fail according to a formal system of rules and guidelines. For example:
+
+**GM:** “You’re walking along a path in a small wood when you hear noises coming from behind a large bush of vegetation. A sparkle of light reveals something shiny...”
+
+**Now it’s your turn:** Are you a fearful adventurer that decides to run for his life? Are you brave enough to search in the wood? Maybe you’re a warrior that grabs his sword, sure that this is an ambush. Or maybe you’re a smart and cunning rogue, climbing silently on a tree to look at what’s behind the plants. Maybe you’re a powerful wizard that casts a spell to clearly see through all obstacles in front of you. The possibilities are limitless! It’s up to you to decide!
+
+## How to Play
+
+When playing Microluxe20, the game will follow a basic pattern:
+
+1. The GM shows or describes the world. The GM tells the players where they are and what they are doing, explaining any lore or recent happenings. For example, the GM may describe a small town that the players have just entered, telling them that they see a small stable, an inn and a few farm houses. The GM may elaborate, saying there are mountains in the distance, or bloody footprints on the ground near one of the farm house entrances.
+
+2. The players decide on what they want to do, and describe their actions to the GM. Outside of combat, one player may speak for the whole party, or maybe each player has their own plans on what they want to do or investigate. The players don't necessarily need to take turns, but the GM still needs to be able to listen to each player's decision and resolve it. Decision resolution can be simple (for example, if the player simply wants to open the farm door, the GM can just tell the player what they see inside) or complex (perhaps the door is locked and the player must work out a way to get inside). In more complex situations, the GM may make use of dice rolls to determine the outcome of the player's action.
+
+3. After the player decides on their action and describes it, the GM responds with the results of the player's action. Once the GM describes the outcome, the pattern starts over again, returning to step 1.
+
+This pattern is used for any conflict resolution, aside from combat. Once combat begins in a situation, the game switches to a more rigid and structured ruleset, where players take turns deciding on and completing actions. Outside of combat, this basic pattern continues to keep everything fluid and simple, continually adapting to the adventure's storyline.
+
+## Items Needed
+
+To play Microluxe20, you will need **paper**, **pencils**, and a conventional set of **d20 tabletop dice**. The dice required to play are a 4-sided die (d4), 6-sided die (d6), 8-sided die (d8), 10-sided die (d10), 12-sided die (d12), 20-sided die (d20), and a Percentile 10-sided die (d10 showing 00/10/20/30, etc).
+
+When referencing dice in the game, dice rolls are often abbreviated to something like "d6" or "d20", where the number after the "d" represents the number of sides on the die. Numbers in front of the "d" dictate how many times the die should be rolled.
+
+For example, “3d6 + 5” means you roll three 6-sided dice, add their results together, then add 5 to the total.
+
+# Character Creation
 
 When creating a character in Microluxe20, you will need to decide on a race and class. After choosing your character's race and class, you can configure their stats, skills, and saves.
 
@@ -52,13 +80,23 @@ Classes define your character's way of life. Your character's class helps shape 
 
 ## Stats
 
-There are 3 core stats: **Strength** (STR), **Dexterity** (DEX) and **Mind** (MIND).
+There are 3 core stats that define a character:
+
+**Strength** (STR): Strength represents the physical prowess of the character. It defines their resilience and toughness as well as how hard they can hit.
+**Dexterity** (DEX): Dexterity represents the character's coordination, precision, agility, reflexes, balance and movement.
+**Mind** (MIND): Mind represents the character's analytical thinking, as well as their wisdom, memory, knowledge of lore, and general intelligence.
 
 When creating a character, you get 10 points to freely spend on your core stats, as long as no single stat is higher than 6. For example, a Fighter may choose to have 6 STR, 4 DEX, and 0 MIND.
 
+To determine your player's stat bonuses, use the following equation:
+
 Stat bonus = stat/2, round down.
 
-**Hit Points (HP)** = 10 + STR stat + 1d6(with a minimum of 3). If a player's HP reaches zero, the player becomes "downed", or unconscious and near death. Further damage directly reduces STR. If STR reaches below zero, the player dies. While down, roll a d6. You have 3 chances to roll above a 3. If successful, you are stable and return to 1 HP (STR is returned to normal as well). Otherwise, if unsuccessful 3 times, the player dies.
+**Hit Points (HP)**: Hit Points determine how healthy a character is. As they are injured or hurt, their HP depletes. To determine HP, use the following:
+
+HP = 10 + STR stat + 1d6(with a minimum of 3).
+
+If a player is damaged to the point where their HP reaches zero (or below zero), the player becomes "downed", or unconscious and near death, with 0 HP. Further damage directly reduces STR. If STR reaches below zero, the player dies. While down, at the start of your turn, roll a d6. You have 3 chances (1 chance per turn) to roll above a 3. If successful, you are stable and return to 1 HP (STR is returned to normal as well). Otherwise, if unsuccessful 3 turns, the player dies.
 
 **Speed** comes in 3 tiers. You are either Slow(20ft.), Normal(30ft.) or Fast(35ft.).  Speed is determined by the game master and can be affected by spells and conditions. Typically, Fighters or Paladins with Heavy armor are Slow, Rogues and Rangers are Fast, and the rest are Normal speed. (5ft. is approximately 1 "Square")
 
@@ -1408,10 +1446,11 @@ are required to keep sections from page breaking.
 
 
 <h2> Disease</h2>
-</div>
-Diseases have various symptoms and are spread through a number of ways. Several typical diseases are summarized below.
 
-The entries for diseases include the following information:
+<p> Diseases have various symptoms and are spread through a number of ways. Several typical diseases are summarized below.</p>
+
+<p> The entries for diseases include the following information:</p>
+</div>
 
 **Name of the disease:** Type, DC, incubation, damage.
 
