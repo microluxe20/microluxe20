@@ -6,13 +6,13 @@ This document includes a brief history of Terador, starting from the world's inc
 
 ## Genesis
 
-![image](https://raw.githubusercontent.com/kgrubb/microluxe20/master/src/static/artwork/genesis.jpg)
+![image](https://raw.githubusercontent.com/kgrubb/microluxe20/develop/src/static/artwork/genesis.jpg)
 
 The world of Terador was not always the place it is today. Eons ago, before it had formed into the world it is today, Terador was a great cosmic entity. It spent eternities traveling through the great void, along with other beings of similar size and power. After many eternities of wandering, Terador decided to abandon its flock of similar entities. Instead of wandering endlessly, it sought at a place within the nothingness that no others had claimed, a space to call its own. Once settled, Terador began to unravel, forming the world of Terador.
 
 First, Terador released its hopes, faith, and dreams, forming the Titan of Light, Luxian. Along with the creation of Luxian, stars began to form in the nothingness around Terador and light shone upon it. As soon as the first beam of light was cast upon Terador, the first shadow was also created, and the Titan of Shadows, Umbris, was formed, crafted from the fears, doubts, and hatred within Terador. For a brief moment, Terador wondered to itself, had it released this darkness willingly? Or was the creation of Umbris merely a natural piece of its process of unraveling. Terador saw the creation of light and shadow and rejoiced, but only for a moment. It looked upon the expanse and begun to feel hollow. Nothing truly existed within the world still. With this realization, Terador began the process of birthing the material world.
 
-![image](https://raw.githubusercontent.com/kgrubb/microluxe20/master/src/static/artwork/light_and_dark.jpg)
+![image](https://raw.githubusercontent.com/kgrubb/microluxe20/develop/src/static/artwork/light_and_dark.jpg)
 
 Terador then released its stubbornness, creativity, and determination. This formed the great Titan of Earth, Thunn, who began to craft looming mountains and deep chasms across Terador's expanse. After seeing the masterful creations of Thunn, Terador released its serenity, tranquility, and wit, forming the Titan of Water, Aquanas. Aquanas began to fill many of the chasms with water. It filled the sky with pockets of floating water, forming clouds. To Terador's glee, it saw that life had begun to sprout. Various organisms begun to grow in the areas where earth and water met, nourished by the heat of the light and the darkness of the shadow. As only a few attributes remained, Terador's consciousness began to wane.
 

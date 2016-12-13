@@ -1,4 +1,6 @@
-[![Microluxe 20](src/static/logo.png)](http://microluxe20.com)
+<p align="center">
+  <a href="http://microluxe20.com"><img src="src/static/logo.png" alt="Microluxe 20"></a>
+</p>
 
 Microluxe20 is designed to be a stand-in replacement for any
 [SRD](https://en.wikipedia.org/wiki/System_Reference_Document) based tabletop
