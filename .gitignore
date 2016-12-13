@@ -1,3 +1,5 @@
 documents/*
 .DS_Store
 node_modules/*
+release/*
+src/*
