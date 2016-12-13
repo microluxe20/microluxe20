@@ -4,9 +4,9 @@
 
 Microluxe20 is a minimalist tabletop role-playing game designed with simplicity in mind. Using an easy-to-grasp, yet extremely robust stat/skill framework, Microluxe20 allows for crafting exciting encounters that are fun and fluid, emphasizing storytelling and player interaction over the traditional "straight-jacket" skill systems found in many modern tabletop games. Keeping compatibility in mind, OGL/d20 supplements should work out of the box, without any conversions; in fact, SRD/OGL adventures with any incompatibilities can be converted _on the fly_ with almost no effort! The entire character sheet fits on one sheet of paper, meaning character creation and management is extremely quick and easy. Microluxe20 is great for one-shot adventures, or teaching new players about tabletop gaming. However, unlike many one-shot styled tabletop games, it is also robust enough to cater to full-fledged campaign-style games as well, especially because of its compatibility with other OGL/d20 content.
 
-# First Steps
+## First Steps
 
-## What is a Role-Playing Game?
+### What is a Role-Playing Game?
 
 A role-playing game (RPG) is a cooperative narration game in which players assume the roles of characters in a fictional setting, deciding freely which action let them do and acting as their fictional alter-ego. The Game Master(GM), the main narrator of the game, describes the game world and its inhabitants. The other players describe the intended actions of their characters, and the GM describes the outcomes. Actions taken within the game succeed or fail according to a formal system of rules and guidelines. For example:
 
@@ -14,7 +14,7 @@ A role-playing game (RPG) is a cooperative narration game in which players assum
 
 **Now it’s your turn:** Are you a fearful adventurer that decides to run for his life? Are you brave enough to search in the wood? Maybe you’re a warrior that grabs his sword, sure that this is an ambush. Or maybe you’re a smart and cunning rogue, climbing silently on a tree to look at what’s behind the plants. Maybe you’re a powerful wizard that casts a spell to clearly see through all obstacles in front of you. The possibilities are limitless! It’s up to you to decide!
 
-## How to Play
+### How to Play
 
 When playing Microluxe20, the game will follow a basic pattern:
 
@@ -26,7 +26,7 @@ When playing Microluxe20, the game will follow a basic pattern:
 
 This pattern is used for any conflict resolution, aside from combat. Once combat begins in a situation, the game switches to a more rigid and structured ruleset, where players take turns deciding on and completing actions. Outside of combat, this basic pattern continues to keep everything fluid and simple, continually adapting to the adventure's storyline.
 
-## Items Needed
+### Items Needed
 
 To play Microluxe20, you will need **paper**, **pencils**, and a conventional set of **d20 tabletop dice**. The dice required to play are a 4-sided die (d4), 6-sided die (d6), 8-sided die (d8), 10-sided die (d10), 12-sided die (d12), 20-sided die (d20), and a Percentile 10-sided die (d10 showing 00/10/20/30, etc).
 
@@ -83,14 +83,14 @@ Classes define your character's way of life. Your character's class helps shape 
 There are 3 core stats that define a character:
 
 **Strength** (STR): Strength represents the physical prowess of the character. It defines their resilience and toughness as well as how hard they can hit.
+
 **Dexterity** (DEX): Dexterity represents the character's coordination, precision, agility, reflexes, balance and movement.
+
 **Mind** (MIND): Mind represents the character's analytical thinking, as well as their wisdom, memory, knowledge of lore, and general intelligence.
 
 When creating a character, you get 10 points to freely spend on your core stats, as long as no single stat is higher than 6. For example, a Fighter may choose to have 6 STR, 4 DEX, and 0 MIND.
 
-To determine your player's stat bonuses, use the following equation:
-
-Stat bonus = stat/2, round down.
+**Stat Bonus** = stat/2, round down.
 
 **Hit Points (HP)**: Hit Points determine how healthy a character is. As they are injured or hurt, their HP depletes. To determine HP, use the following:
 
@@ -106,13 +106,13 @@ If a player is damaged to the point where their HP reaches zero (or below zero),
 
 There are 4 skills: **Physical** , **Guile** , **Knowledge** , and **Communication**. Roll higher than the given Difficulty Class to succeed.
 
-Skill rank = any bonus due to your class or race + any allocated points (players get 2 points to spend  on skills each level).
+**Skill Rank** = any bonus due to your class or race + any allocated points.
 
 Skill roll = d20 + skill rank + whatever stat bonus is most applicable to the use + situation modifiers
 
 For example, Climbing would use Physical + STR bonus. Dodging a falling rock is Physical + DEX bonus. Finding a trap is Guile + MIND bonus. Disabling a trap is Guile + DEX bonus.
 
-There are 3 saves: **Fortitude** , **Reflex** , and **Will**. For Fortitude and Reflex saving throws, use Physical + STR or DEX bonus. Saving against magic (Will save) is MIND bonus + your level.
+There are 3 common saves (often called "saving throws"): **Fortitude** , **Reflex** , and **Will**. For Fortitude and Reflex saving throws, use Physical + STR or DEX bonus. Saving against magic (Will save) is MIND bonus + your level.
 
 ## Level Advancement
 
@@ -144,7 +144,7 @@ Missile attack bonus = DEX bonus + Level
 
 Magic attack bonus = MIND bonus + Level
 
-Add attack bonus to d20 roll. If higher than your opponent's Armor Class (AC), it's a hit. Natural 20 is automatically a critical, dealing additional damage equal to your weapon/spell's maximum damage.
+Add attack bonus to d20 roll. If higher than your opponent's Armor Class (AC), it's a hit. Natural 20 is automatically a critical, dealing additional damage equal to your weapon's maximum damage. Melee attack bonuses are used for matial weapons, Missile attack bonuses are used for ranged combat, and Magic attack bonuses are used for staves and other magical items with special powers.
 
 If the total attack bonus is +6 or more, a second attack can be made with a -5 penalty to the attack bonus. If the total bonus is +11 or more a third attack can be made at a -10 penalty. For example, if the total bonus is +12, three attacks can be made at +12/+7/+2.
 
@@ -167,7 +167,7 @@ There is no need to memorize spells in advance. Just because a character can cas
 
 **Spell Difficulty Class (DC)** for all spells: 10 + Caster Level + Caster's MIND bonus
 
-When a spell is cast, the target of the spell must make a DC save (d20), unless the spell requires a different save. If the target scores lower than the caster's DC, they are affected by the spell.
+When a spell is cast, the target of the spell must make a DC save (d20), unless the spell states that it requires a different save. If the target scores lower than the caster's DC, they are affected by the spell.
 
 Here are three ways for spell casters to add a little more variety:
 
@@ -220,98 +220,24 @@ Here is the format for weapon entries (given as column headings on the table bel
 
 | Weapon | Cost | Damage | Range | Complexity | Weapon | Cost | Damage | Range | Complexity |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Unarmed | — | 1d3 | — | Simple | Handaxe | 5gp | 1d4 | — | Complex |
+| Unarmed | — | 1d2 | — | Simple | Handaxe | 5gp | 1d4 | — | Complex |
+| Cestus | 5gp | 1d4 | — | Simple | Hook | 8gp | 1d6 | — | Complex |
 | Dagger | 2gp | 1d4 | 10 ft. | Simple | Sap | 8gp | 1d6 | — | Complex |
-| Mace, light | 5gp | 1d6 | — | Simple | Sword, short | 8gp | 1d6 | — | Complex |
+| Mace, light | 5gp | 1d6 | — | Simple | Gladius | 8gp | 1d6 | — | Complex |
 | Sickle | 5gp | 1d6 | — | Simple | Axe, throwing | 10gp | 1d6 | 10ft. | Complex |
 | Pick, light | 5gp | 1d4 | — | Complex | Hammer, light | 12gp | 1d6 | 20ft. | Complex |
 
-<div>
-<!--
-Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
-Items within the div sections must be written in markup and not markdown. The div sections
-are required to keep sections from page breaking.
--->
-<h3> Ranged Weapons </h3>
-<table>
-<tr>
-<th style="text-align:left">Weapon</th>
-<th style="text-align:left">Cost</th>
-<th style="text-align:left">Damage</th>
-<th style="text-align:left">Range</th>
-<th style="text-align:left">Complexity</th>
-<th style="text-align:left">Weapon</th>
-<th style="text-align:left">Cost</th>
-<th style="text-align:left">Damage</th>
-<th style="text-align:left">Range</th>
-<th style="text-align:left">Complexity</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Dart</td>
-<td style="text-align:left">5sp</td>
-<td style="text-align:left">1d4</td>
-<td style="text-align:left">20ft.</td>
-<td style="text-align:left">Simple</td>
-<td style="text-align:left">Net</td>
-<td style="text-align:left">20gp</td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">10ft.</td>
-<td style="text-align:left">Complex</td>
-</tr>
-<tr>
-<td style="text-align:left">Sling</td>
-<td style="text-align:left">1gp</td>
-<td style="text-align:left">1d4</td>
-<td style="text-align:left">50ft.</td>
-<td style="text-align:left">Simple</td>
-<td style="text-align:left">Crossbow, hand</td>
-<td style="text-align:left">100gp</td>
-<td style="text-align:left">1d4</td>
-<td style="text-align:left">30ft.</td>
-<td style="text-align:left">Complex</td>
-</tr>
-<tr>
-<td style="text-align:left">Javelin</td>
-<td style="text-align:left">1gp</td>
-<td style="text-align:left">1d6</td>
-<td style="text-align:left">30ft.</td>
-<td style="text-align:left">Simple</td>
-<td style="text-align:left">Shortbow</td>
-<td style="text-align:left">30gp</td>
-<td style="text-align:left">1d6</td>
-<td style="text-align:left">60ft.</td>
-<td style="text-align:left">Complex</td>
-</tr>
-<tr>
-<td style="text-align:left">Crossbow, light</td>
-<td style="text-align:left">35gp</td>
-<td style="text-align:left">1d8</td>
-<td style="text-align:left">80ft.</td>
-<td style="text-align:left">Simple</td>
-<td style="text-align:left">Longbow</td>
-<td style="text-align:left">75gp</td>
-<td style="text-align:left">1d8</td>
-<td style="text-align:left">100ft.</td>
-<td style="text-align:left">Complex</td>
-</tr>
-<tr>
-<td style="text-align:left">Crossbow, heavy</td>
-<td style="text-align:left">50gp</td>
-<td style="text-align:left">1d10</td>
-<td style="text-align:left">120ft.</td>
-<td style="text-align:left">Simple</td>
-<td style="text-align:left">Longbow, Composite</td>
-<td style="text-align:left">100gp</td>
-<td style="text-align:left">1d10</td>
-<td style="text-align:left">120ft.</td>
-<td style="text-align:left">Complex</td>
-</tr>
-</tbody>
-</table>
+### Ranged Weapons
 
-</div>
+| Weapon | Cost | Damage | Range | Complexity | Weapon | Cost | Damage | Range | Complexity |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Dart | 5sp | 1d4 | 20ft. | Simple | Net | 20gp | — | 10ft. | Complex |
+| Sling | 1gp | 1d4 | 40ft. | Simple | Crossbow, hand | 100gp | 1d4 | 30ft. | Complex |
+| Kunai | 2gp | 1d4 | 60ft. | Simple | Shuriken | 10gp | 1d6 | 30ft. | Complex |
+| Javelin | 10gp | 1d6 | 30ft. | Simple | Showtbow | 30gp | 1d6 | 60ft. | Complex |
+| Crossbow, light | 35gp | 1d8 | 80ft. | Simple | Shortbow, composite | 55gp | 1d8 | 80ft. | Complex |
+| Crossbow, medium | 50gp | 1d10 | 120ft. | Simple | Longbow | 75gp | 1d10 | 100ft. | Complex |
+| Crossbow, heavy | 85gp | 2d6 | 160ft. | Complex | Longbow, composite | 100gp | 2d6 | 120ft. | Complex |
 
 ### Two-Handed Weapons
 
@@ -360,75 +286,16 @@ Here is the format for armor entries (given as column headings on the table belo
 | Hide | Medium | 30gp | +3 | Half-plate | Heavy | 600gp | +7 |
 | Scale Mail | Medium | 75gp | +4 | Full Plate | Heavy | 1,500gp | +8 |
 
-<div>
-<!--
-Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
-Items within the div sections must be written in markup and not markdown. The div sections
-are required to keep sections from page breaking.
--->
-<h3> Shields </h3>
-<table>
-<tr>
-<th style="text-align:left">Armor</th>
-<th style="text-align:left">Cost</th>
-<th style="text-align:left">Bonus</th>
-<th style="text-align:left">Armor</th>
-<th style="text-align:left">Cost</th>
-<th style="text-align:left">Bonus</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Buckler</td>
-<td style="text-align:left">5gp</td>
-<td style="text-align:left">+1</td>
-<td style="text-align:left">Shield, heavy wooden</td>
-<td style="text-align:left">85gp</td>
-<td style="text-align:left">+3</td>
-</tr>
-<tr>
-<td style="text-align:left">Klar (1d4 damage)</td>
-<td style="text-align:left">20gp</td>
-<td style="text-align:left">+1</td>
-<td style="text-align:left">Shield, heavy steel</td>
-<td style="text-align:left">75gp</td>
-<td style="text-align:left">+3</td>
-</tr>
-<tr>
-<td style="text-align:left">Shield, light wooden</td>
-<td style="text-align:left">10gp</td>
-<td style="text-align:left">+1</td>
-<td style="text-align:left">Shield, tower</td>
-<td style="text-align:left">100gp</td>
-<td style="text-align:left">+4</td>
-</tr>
-<tr>
-<td style="text-align:left">Shield, light steel</td>
-<td style="text-align:left">5gp</td>
-<td style="text-align:left">+1</td>
-<td style="text-align:left">Shield, kite</td>
-<td style="text-align:left">150gp</td>
-<td style="text-align:left">+5</td>
-</tr>
-<tr>
-<td style="text-align:left">Shield, medium wooden</td>
-<td style="text-align:left">35gp</td>
-<td style="text-align:left">+2</td>
-<td style="text-align:left">Shield, Mithral</td>
-<td style="text-align:left">450gp</td>
-<td style="text-align:left">+6</td>
-</tr>
-<tr>
-<td style="text-align:left">Shield, medium steel</td>
-<td style="text-align:left">25gp</td>
-<td style="text-align:left">+2</td>
-<td style="text-align:left">Shield, Adamantine</td>
-<td style="text-align:left">1500gp</td>
-<td style="text-align:left">+7</td>
-</tr>
-</tbody>
-</table>
-</div>
+### Shields
+
+| Armor | Cost | Bonus | Armor | Cost | Bonus |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Buckler | 5gp | +1 | Shield, heavy wooden | 85gp | +3 |
+| Klar (1d4 damage) | 20gp | +1 | Shield, heavy steel | 75gp | +3 |
+| Shield, light wooden | 10gp | +1 | Shield, tower | 100gp | +4 |
+| Shield, light steel | 5gp | +1 | Shield, kite | 150gp | +5 |
+| Shield, medium wooden | 35gp | +2 | Shield, Mithral | 450gp | +6 |
+| Shield, medium steel | 25gp | +2 | Shield, Adamantine | 1,500gp | +7 |
 
 ## Adventuring Equipment
 
@@ -490,7 +357,7 @@ Characters may purchase equipment from the following lists with their starting m
 
 Suggested starting packs for new characters (each pack uses 50 gp of a character's starting money.
 
-| Pack A | Pack B | Pack C |
+| __Pack A__ | __Pack B__ | __Pack C__ |
 | :--- | :--- | :--- |
 | backpack | backpack | backpack |
 | belt pouch | belt pouch | belt pouch |
@@ -504,18 +371,6 @@ Suggested starting packs for new characters (each pack uses 50 gp of a character
 | pen & paper | crowbar | 50 ft. rope |
 | water skin | water skin | water skin |
 | iron rations (4 days) | iron rations (4 days) | iron rations (4 days) |
-
-Finally, add the following, based on your Class:
-
-**Cleric:** Silver Holy symbol, 5 Gold Pieces
-
-**Fighter, Psion, Paladin:** Vial of Holy Water, 5 Gold Pieces
-
-**Mage, Illusionist, Druid:** Spellbook, 2 Spell Pouches, 5 Gold Pieces
-
-**Rogue, Bard:** Thieves Tools
-
-**Ranger:** 5ft. Rope, 5 Gold Pieces
 
 # Spell Lists
 
@@ -665,16 +520,9 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Soul Bind:**  Traps a newly dead soul inside an item, preventing resurrection.
 
-<div>
-<!--
-Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
-Items within the div sections must be written in markup and not markdown. The div sections
-are required to keep sections from page breaking.
--->
-<h2> Divine (Cleric) Spells </h2>
+## Divine (Cleric) Spells
 
-<h3> 0-Level Divine Spells: Orisons </h3>
-</div>
+### 0-Level Divine Spells: Orisons
 
 **Create Water:** Creates 2 gallons/level of pure water.
 
@@ -716,9 +564,16 @@ are required to keep sections from page breaking.
 
 **Lesser Restoration:** Dispels any magical ability penalty or cures 1d4 points of temporary ability damage.
 
-### 3rd-Level Divine Spells
+<div>
+<!--
+Unfortunately, to appease both github flavored markdown, as well as the
+markdown-pdf task, Items within the div sections must be written in markup and
+not markdown. The div sections are required to keep sections from page breaking.
+-->
+<h3> 3rd-Level Divine Spells </h3>
 
-**Create Food and Water:** Feeds three humans (or one horse)/level.
+<strong>Create Food and Water:<strong> Feeds three humans (or one horse)/level.
+</div>
 
 **Cure Serious Wounds:**  Cures 3d8 damage +1/level (max +15).
 
@@ -872,16 +727,9 @@ are required to keep sections from page breaking.
 
 **Suggestion:** Compels subject to follow stated course of action for 1 hour/level or until completed.
 
-<div>
-<!--
-Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
-Items within the div sections must be written in markup and not markdown. The div sections
-are required to keep sections from page breaking.
--->
-<h3>4th-Level Illusionist Spells</h3>
+### 4th-Level Illusionist Spells
 
-<strong>Charm Monster:</strong> Make one monster believe it is your ally for 1 day/level.
-</div>
+**Charm Monster:** Make one monster believe it is your ally for 1 day/level.
 
 **Confusion:** Subjects behave oddly for 1 round/level.
 
@@ -979,9 +827,16 @@ are required to keep sections from page breaking.
 
 **Resistance:**  Subject gains +1 on saving throws for 10 rounds.
 
-### 1st-Level Druid Spells
+<div>
+<!--
+Unfortunately, to appease both github flavored markdown, as well as the
+markdown-pdf task, Items within the div sections must be written in markup and
+not markdown. The div sections are required to keep sections from page breaking.
+-->
+<h3> 1st-Level Druid Spells </h3>
 
-**Entangle:**  Plants entangle everyone in a 20ft. radius for 10 rounds/level.
+<strong>Entangle:</strong>  Plants entangle everyone in a 20ft. radius for 10 rounds/level.
+</div>
 
 **Faerie Fire:**  Outlines subjects with light for 1 minute/level, cancels blur, invisibility, etc.
 
@@ -1125,26 +980,19 @@ Temporary HP cannot be used to manifest powers. Like casters, after casting a Ps
 
 **Mental Spike:** Send a sharp mental force into a target's mind. Deal 1d6 + 1 force damage _Duration_: Instant.
 
-<div>
-<!--
-Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
-Items within the div sections must be written in markup and not markdown. The div sections
-are required to keep sections from page breaking.
--->
-<h3>1st-Level Psion Powers</h3>
-<strong>Psionic Charm:</strong> Makes one non-aggressive (out of combat) person a friend. _Duration_: 1 hour/level. _Augment_: 4 extra HP raises duration to 1 day/level.
+### 1st-Level Psion Powers
 
-<strong>Control Object:</strong> Telekinetically animate a small object. _Duration_: Knowledge, up to 1 round/level. _Augment_: None.
+**Psionic Charm:** Makes one non-aggressive (out of combat) person a friend. _Duration_: 1 hour/level. _Augment_: 4 extra HP raises duration to 1 day/level.
 
-<strong>Detect Psionics:</strong> Detect the presence of psionics. _Duration_: Knowledge, up to 10 rounds/level. _Augment_: None.
+**Control Object:** Telekinetically animate a small object. _Duration_: Knowledge, up to 1 round/level. _Augment_: None.
 
-<strong>Mindlink:</strong> Forge a limited mental bond with another creature. _Duration_: 10 rounds/level. _Augment_: Every 2 extra HP links another creature.
+**Detect Psionics:** Detect the presence of psionics. _Duration_: Knowledge, up to 10 rounds/level. _Augment_: None.
 
-<strong>Mind Thrust:</strong> Deal 3d6 force damage. _Duration_: Instant. _Augment_: Each extra HP adds 2d6 to damage.
+**Mindlink:** Forge a limited mental bond with another creature. _Duration_: 10 rounds/level. _Augment_: Every 2 extra HP links another creature.
 
-<strong>Precognition:</strong> Gain +2 bonus to one roll in the future. _Duration_: 10 rounds/level. _Augment_: None.
+**Mind Thrust:** Deal 3d6 force damage. _Duration_: Instant. _Augment_: Each extra HP adds 2d6 to damage.
 
-</div>
+**Precognition:** Gain +2 bonus to one roll in the future. _Duration_: 10 rounds/level. _Augment_: None.
 
 ### 2nd-Level Psion Powers
 
@@ -1308,10 +1156,16 @@ Alternatively, add class levels to intelligent monsters. Start with the base Hit
 
 **Wolf:**  HD 2d8+4 (13 HP), AC 14, Bite +3 (1d6+1)
 
-## Creatures
+<div>
+<!--
+Unfortunately, to appease both github flavored markdown, as well as the
+markdown-pdf task, Items within the div sections must be written in markup and
+not markdown. The div sections are required to keep sections from page breaking.
+-->
+<h2> Creatures </h2>
 
-**Ankheg:**  HD 3d10+12 (28HP), AC 18, Bite +7 (2d6+7 plus 1d4 acid)
-
+<strong>Ankheg:</strong>  HD 3d10+12 (28HP), AC 18, Bite +7 (2d6+7 plus 1d4 acid)
+</div>
 **Assassin Vine:**  HD 4d8+12 (30 HP), AC 15, Slam +7 (1d6+7), constrict (1d6+7)
 
 **Bugbear:**  HD 3d8+3 (16 HP), AC 17, Morningstar +5 (1d8+2) or javelin +3 (1d6+2)
@@ -1436,21 +1290,11 @@ Alternatively, add class levels to intelligent monsters. Start with the base Hit
 
 **Monstrous Spider (huge):**  HD 8d8+16 (52 HP), AC 16, Bite +9 (2d6+6 plus poison)
 
-<div>
-<!--
-Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
-Items within the div sections must be written in markup and not markdown. The div sections
-are required to keep sections from page breaking.
--->
-<h1> Game Master's Guide</h1>
+# Game Master's Guide
 
+## Disease
 
-<h2> Disease</h2>
-
-<p> Diseases have various symptoms and are spread through a number of ways. Several typical diseases are summarized below.</p>
-
-<p> The entries for diseases include the following information:</p>
-</div>
+Diseases have various symptoms and are spread through a number of ways. Several typical diseases are summarized below. The entries for diseases include the following information:
 
 **Name of the disease:** Type, DC, incubation, damage.
 
@@ -1502,54 +1346,53 @@ Several typical poisons are summarized below. The entries for poisons include th
 
 <div>
 <!--
-Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
-Items within the div sections must be written in markup and not markdown. The div sections
-are required to keep sections from page breaking.
+Unfortunately, to appease both github flavored markdown, as well as the
+markdown-pdf task, Items within the div sections must be written in markup and
+not markdown. The div sections are required to keep sections from page breaking.
 -->
 <h3>Poisons</h3>
 <strong>Arsenic:</strong>  Ingested, DC 13, -1 STR/-1d8 STR, 120 gp.
-
-<strong>Blue Whinnis:</strong>  Injury, DC 14, -1 STR/ unconsciousness, 120 gp.
-
-<strong>Burnt Othur Fumes:</strong>  Inhaled, DC 18, -1 STR*/-3d6 STR, 2,100 gp.
-
-<strong>Deathblade:</strong>  Injury, DC 20, -1d6 STR/-2d6 STR, 1,800 gp.
-
-<strong>Insanity Mist:</strong>  Inhaled, DC 15, -1d4 MIND/-2d6 MIND, 1,500 gp.
-
-<strong>Nitharit:</strong>  Contact, DC 13, 0/-3d6 STR, 650 gp. Oil of Taggit: Ingested, DC 15, 0/unconsciousness, 90 gp.
-
-<strong>Malys Root Paste:</strong>  Contact, DC 16, -1 DEX/-2d4 DEX, 500 gp.
-
-<strong>Monstrous Scorpion (tiny):</strong>  In­jury, DC 12, -1 STR/-1 STR, 50 gp.
-
-<strong>Monstrous Scorpion (small):</strong>  In­jury, DC 12, -1d2 STR/- 1d2 STR, 100 gp.
-
-<strong>Monstrous Scorpion (large):</strong>  Injury, DC 14, -1d4 STR/- 1d4 STR, 200 gp.
-
-<strong>Monstrous Scorpion (huge):</strong>  Injury, DC 18, -1d6 STR/- 1d6 STR, 400 gp.
-
-<strong>Monstrous Spider (tiny):</strong>  Injury, DC 10, -1d2 STR/-1d2 STR, 85 gp.
-
-<strong>Monstrous Spider (small):</strong>  Injury, DC 10, -1d3 STR/- 1d3 STR, 125 gp.
-
-<strong>Monstrous Spider (large):</strong>  Injury, DC 13, -1d6 STR/-1d6 STR, 250 gp.
-
-<strong>Monstrous Spider (huge):</strong>  Injury, DC 16, -1d8 STR/-1d8 STR, 500 gp.
-
-<strong>Sassone Leaf Residue:</strong>  Contact, DC 16, -2d12 HP/-1d8 STR, 300 gp.
-
-<strong>Sleep Poison:</strong>  Injury, DC 13, unconsciousness/ unconsciousness for 2d4 hours, 75 gp.
-
-<strong>Snake (medium viper):</strong>  Injury, DC 11, -1d6 STR/-1d6 STR, 120 gp.
-
-<strong>Snake (large viper):</strong>  Injury, DC 11, -1d6 STR/-1d6 STR, 120 gp.
-
-<strong>Snake (huge viper):</strong>  Injury, DC 14, -1d6 STR/-1d6 STR, 250 gp.
-
-<strong>Wyvern:</strong>  Injury, DC 17, -2d6 STR/-2d6 STR, 3,000 gp.
-
 </div>
+
+**Blue Whinnis:**  Injury, DC 14, -1 STR/ unconsciousness, 120 gp.
+
+**Burnt Othur Fumes:**  Inhaled, DC 18, -1 STR*/-3d6 STR, 2,100 gp.
+
+**Deathblade:**  Injury, DC 20, -1d6 STR/-2d6 STR, 1,800 gp.
+
+**Insanity Mist:**  Inhaled, DC 15, -1d4 MIND/-2d6 MIND, 1,500 gp.
+
+**Nitharit:**  Contact, DC 13, 0/-3d6 STR, 650 gp. Oil of Taggit: Ingested, DC 15, 0/unconsciousness, 90 gp.
+
+**Malys Root Paste:**  Contact, DC 16, -1 DEX/-2d4 DEX, 500 gp.
+
+**Monstrous Scorpion (tiny):**  In­jury, DC 12, -1 STR/-1 STR, 50 gp.
+
+**Monstrous Scorpion (small):**  In­jury, DC 12, -1d2 STR/- 1d2 STR, 100 gp.
+
+**Monstrous Scorpion (large):**  Injury, DC 14, -1d4 STR/- 1d4 STR, 200 gp.
+
+**Monstrous Scorpion (huge):**  Injury, DC 18, -1d6 STR/- 1d6 STR, 400 gp.
+
+**Monstrous Spider (tiny):**  Injury, DC 10, -1d2 STR/-1d2 STR, 85 gp.
+
+**Monstrous Spider (small):**  Injury, DC 10, -1d3 STR/- 1d3 STR, 125 gp.
+
+**Monstrous Spider (large):**  Injury, DC 13, -1d6 STR/-1d6 STR, 250 gp.
+
+**Monstrous Spider (huge):**  Injury, DC 16, -1d8 STR/-1d8 STR, 500 gp.
+
+**Sassone Leaf Residue:**  Contact, DC 16, -2d12 HP/-1d8 STR, 300 gp.
+
+**Sleep Poison:**  Injury, DC 13, unconsciousness/ unconsciousness for 2d4 hours, 75 gp.
+
+**Snake (medium viper):**  Injury, DC 11, -1d6 STR/-1d6 STR, 120 gp.
+
+**Snake (large viper):**  Injury, DC 11, -1d6 STR/-1d6 STR, 120 gp.
+
+**Snake (huge viper):**  Injury, DC 14, -1d6 STR/-1d6 STR, 250 gp.
+
+**Wyvern:**  Injury, DC 17, -2d6 STR/-2d6 STR, 3,000 gp.
 
 ## Traps
 
@@ -1657,7 +1500,9 @@ Whenever the players want to try something that goes around, through, or above a
 
 Have them roll whatever check seems most appropriate. A roll of 1-10 is a failure, a roll of 11-20 is a success. If you feel that the situation warrants that you favor them, assign a +2 bonus to their roll. If the situation determines that they be hindered, then assign a –2 penalty.
 
-# Appendix I: SRD Skills
+# Appendix
+
+## SRD Skills
 
 To help with SRD conversions (and to help give some further stat + skill examples), here is a chart for the skills from the d20 SRD and their Microluxe20 equivalents:
 
@@ -1680,8 +1525,6 @@ To help with SRD conversions (and to help give some further stat + skill example
 | **Hide –** guile+DEX | **Swim –** phys+STR |
 | **Intimidate –** could be phys+STR, or guile+MIND or com+STR | **Tumble –** phys+DEX |
 
-# Appendix II: Magic Items & Mass Combat
-
 ## Magic Item Creation
 
 Spellcasters gain the ability to make magical items at certain class levels. This translates to being able to buy these items, but at half their usual purchase price. This represents the raw materials required to make the item. Making items requires equipment (a forge, etc), the right skills, and time. Making magic items does not cost XP.
@@ -1693,16 +1536,8 @@ Here's when Spellcasters can make stuff:
 |**Item**|Scrolls & Books|Potions & Wondrous Items|Wands & Armor|Rods & Weapons|Staves & Rings|
 |**Spellcaster's Level**|1|3|5|9|12|
 
-<div>
-<!--
-Unfortunately, to appease both github flavored markdown, as well as the markdown-pdf task,
-Items within the div sections must be written in markup and not markdown. The div sections
-are required to keep sections from page breaking.
--->
-<h2>Basic Mass Combat</h2>
+## Basic Mass Combat
 Most combat is carried out one-on-one, with each set of stats (HP, AC, combat bonuses, etc) applying to a single character or creature. However, combat can be extended by using Combat Scale. Combat Scale is a multiplier that shows the amount of characters or creatures relative to their normal single-unit size. It is only applied to damage in combat between units of different size. Hit Points, AC and all other stats remain the same.
-
-</div>
 
 For example, a unit of 20 Goblin warriors will have CSx5 as per the table below. The combat stats are still HD1d8+1 (5HP), AC15, Morningstar +2 (1d6) or Javelin +3 (1d4). Against anything with the same Combat Scale (for example, a unit of 15 Elves), combat is resolved normally as if it was one goblin against one elf.
 
@@ -1734,7 +1569,7 @@ They draw their Longswords and surround the downed Dragon, though their weapons 
 
 Their longswords bit true (18 +6 = 24 vs. AC21), for 6HP damage, CSx10 for a total of 60HP against the drake. It's down, finally, though the Knights have lost 143 (500×4/14) of their number in the battle. They commend their souls in valor.
 
-# Designer's Notes
+## Designer's Notes
 
 ### Setting the DC
 
