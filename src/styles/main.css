@@ -1,53 +1,60 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700italic,700);
-
 img[alt=title-img] {
-  display: block;
-  margin: auto;
-  page-break-after: always;
+    display: block;
+    margin: auto;
+}
+
+img[alt=image] {
+    display: block;
+    margin: auto;
 }
 
 div {
-page-break-inside:avoid;
+    page-break-inside: avoid;
 }
 
 h1 {
-  border-top: 2px double black;
-  border-bottom: 2px double black;
-  font-weight: bolder;
+    page-break-before: always;
+    border-top: 2px double black;
+    border-bottom: 2px double black;
+    font-weight: bolder;
 }
 
 h2 {
-  border-bottom: 1px solid black;
-  font-weight: bold;
+    border-bottom: 1px solid black;
+    font-weight: bold;
 }
 
 h3 {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 * {
-  font-family: "Open Sans";
-  font-size: 94%;
-  font-weight: lighter;
-  font-size-adjust: auto;
+    font-family: "Open Sans";
+    font-size: 94%;
+    font-weight: lighter;
+    font-size-adjust: auto;
 }
 
 table {
-  page-break-inside: avoid;
-  margin: 0;
-  font-size: 99%;
+    page-break-inside: avoid;
+    margin: 0;
 }
 
 table, td {
-  page-break-inside: avoid;
-  padding: 2px 6px;
-  border: 1px solid black;
+    page-break-inside: avoid;
+    padding: 2px 6px;
+    border: 1px solid black;
 }
 
 th {
-  padding: 2px 6px;
+    padding: 2px 6px;
 }
 
 body {
-  font-size: 56%;
+    font-size: 56%;
+}
+
+strong {
+    font-size: 100%;
 }
