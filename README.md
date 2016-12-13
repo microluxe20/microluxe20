@@ -34,9 +34,9 @@ The latest official release can be downloaded
 # Contributing
 
 **NOTICE:** _With the 7.0.0 release of markdown-pdf, compiling on Windows is
-**currently broken (OSX/linux builds are working). While the document compiles,
-**custom css isn't loading properly. The open issue can be found
-**[here](https://github.com/alanshaw/markdown-pdf/issues/82)._
+currently broken (OSX/linux builds are working). While the document compiles,
+custom css isn't loading properly. The open issue can be found
+[here](https://github.com/alanshaw/markdown-pdf/issues/82)._
 
 If you want to contribute to the game's handbooks, or want to craft your own
 custom release, please do the following:
@@ -87,7 +87,11 @@ branch.
 
 # Authors & Contributors
 
-- Keli Grubb (<keligrubb324@gmail.com>) Doug Rich Connor Bashinski
+Keli Grubb (<keligrubb324@gmail.com>)
+
+Doug Rich
+
+Connor Bashinski
 
 # Licensing
 
