@@ -1,4 +1,5 @@
 @import url("http://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic");
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds');
 
 /* Reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1659,12 +1660,12 @@ input[type="button"].alt:hover, input[type="submit"].alt:hover, input[type="rese
 }
 
 #header header h1 {
-    font-size: 3.25em;
-    font-weight: 900;
-    font-family: Tahoma, fantasy;
+    font-size: 4em;
+    font-weight: 500;
+    font-family: 'Trade Winds', fantasy;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    line-height: 1.25em;
+    line-height: 0.5em;
     margin-bottom: 0;
 }
 
