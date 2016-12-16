@@ -1660,8 +1660,8 @@ input[type="button"].alt:hover, input[type="submit"].alt:hover, input[type="rese
 }
 
 #header header h1 {
-    font-size: 3.5em;
-    font-weight: 500;
+    font-size: 3.25em;
+    font-weight: 400;
     font-family: 'Trade Winds', fantasy;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
