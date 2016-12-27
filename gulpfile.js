@@ -18,7 +18,7 @@ gulp.task('compile', function() {
     return gulp.src(config.mdPath)
         .pipe(markdownpdf({
             cwd: cwd,
-            cssPath: config.cssPath,
+            cssPath: config.cssPath
         }))
         .pipe(gulp.dest(config.out));
 });
