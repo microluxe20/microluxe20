@@ -43,12 +43,12 @@ table {
 
 table, td {
     page-break-inside: avoid;
-    padding: 2px 6px;
+    padding: 2px 3px;
     border: 1px solid black;
 }
 
 th {
-    padding: 2px 6px;
+    padding: 2px 3px;
 }
 
 body {

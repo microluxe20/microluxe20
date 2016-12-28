@@ -177,7 +177,17 @@ Here are three ways for spell casters to add a little more variety:
 
 **Widening** makes a spell's area of effect twice as big as normal. A Widened spell costs an additional 6 HP.
 
-## Heroism
+<div>
+<!--
+Unfortunately, to appease both github flavored markdown, as well as the
+markdown-pdf task, Items within the div sections must be written in markup and
+not markdown. The div sections are required to keep sections from page breaking.
+-->
+<h2> Heroism </h2>
+
+<strong>Heroism</strong> is intended to relieve some of the power incompatibilities with some d20 adventure types. If you find that the party is consistently too weak, try adding Heroism. **Heroism** is a bonus equal to 1 times the characters level (1 at 1st, 2 at 2nd, etc) and may be applied to up to three of the following once per day: Attack Bonus, Damage, Saving Throw, Skill Check, Spell DC
+
+</div>
 
 **Heroism** is intended to relieve some of the power incompatibilities with some d20 adventure types. If you find that the party is consistently too weak, try adding Heroism. **Heroism** is a bonus equal to 1 times the characters level (1 at 1st, 2 at 2nd, etc) and may be applied to up to three of the following once per day: Attack Bonus, Damage, Saving Throw, Skill Check, Spell DC
 
@@ -218,52 +228,52 @@ Here is the format for weapon entries (given as column headings on the table bel
 
 ### Light Weapons
 
-| Weapon | Cost | Damage | Range | Complexity | Weapon | Cost | Damage | Range | Complexity |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Unarmed | — | 1d2 | — | Simple | Handaxe | 5gp | 1d4 | — | Complex |
-| Cestus | 5gp | 1d4 | — | Simple | Hook | 8gp | 1d6 | — | Complex |
-| Dagger | 2gp | 1d4 | 10 ft. | Simple | Sap | 8gp | 1d6 | — | Complex |
-| Mace, light | 5gp | 1d6 | — | Simple | Gladius | 8gp | 1d6 | — | Complex |
-| Sickle | 5gp | 1d6 | — | Simple | Axe, throwing | 10gp | 1d6 | 10ft. | Complex |
-| Pick, light | 5gp | 1d4 | — | Complex | Hammer, light | 12gp | 1d6 | 20ft. | Complex |
+| Weapon | Cost | Damage | Range | Complexity | Weight | Weapon | Cost | Damage | Range | Complexity | Weight |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Unarmed | — | 1d2 | — | Simple | — | Handaxe | 5gp | 1d4 | — | Complex | 3 lbs. |
+| Cestus | 5gp | 1d4 | — | Simple | 1 lb. | Hook | 8gp | 1d6 | — | Complex | 2 lbs. |
+| Dagger | 2gp | 1d4 | 10 ft. | Simple | 1 lb. | Sap | 8gp | 1d6 | — | Complex | 2 lbs. |
+| Mace, light | 5gp | 1d6 | — | Simple | 4 lbs. | Gladius | 8gp | 1d6 | — | Complex | 3 lbs. |
+| Sickle | 5gp | 1d6 | — | Simple | 2 lbs. | Axe, throwing | 10gp | 1d6 | 10ft. | Complex | 2 lbs. |
+| Pick, light | 5gp | 1d4 | — | Complex | 3 lbs. | Hammer, light | 12gp | 1d6 | 20ft. | Complex | 2 lbs. |
 
 ### Ranged Weapons
 
-| Weapon | Cost | Damage | Range | Complexity | Weapon | Cost | Damage | Range | Complexity |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Dart | 5sp | 1d4 | 20ft. | Simple | Net | 20gp | — | 10ft. | Complex |
-| Sling | 1gp | 1d4 | 40ft. | Simple | Crossbow, hand | 100gp | 1d4 | 30ft. | Complex |
-| Kunai | 2gp | 1d4 | 60ft. | Simple | Shuriken | 10gp | 1d6 | 30ft. | Complex |
-| Javelin | 10gp | 1d6 | 30ft. | Simple | Showtbow | 30gp | 1d6 | 60ft. | Complex |
-| Crossbow, light | 35gp | 1d8 | 80ft. | Simple | Shortbow, composite | 55gp | 1d8 | 80ft. | Complex |
-| Crossbow, medium | 50gp | 1d10 | 120ft. | Simple | Longbow | 75gp | 1d10 | 100ft. | Complex |
-| Crossbow, heavy | 85gp | 2d6 | 160ft. | Complex | Longbow, composite | 100gp | 2d6 | 120ft. | Complex |
+| Weapon | Cost | Damage | Range | Complexity | Weight | Weapon | Cost | Damage | Range | Complexity | Weight |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Dart | 5sp | 1d4 | 20ft. | Simple | 0.5 lbs. | Net | 20gp | — | 10ft. | Complex | 6 lbs. |
+| Sling | 1gp | 1d4 | 40ft. | Simple | — | Crossbow, hand | 100gp | 1d4 | 30ft. | Complex | 2 lbs. |
+| Kunai | 2gp | 1d4 | 60ft. | Simple | 1 lb. | Shuriken | 10gp | 1d6 | 30ft. | Complex | 0.25 lbs. |
+| Javelin | 10gp | 1d6 | 30ft. | Simple | 2 lbs. | Showtbow | 30gp | 1d6 | 60ft. | Complex | 2 lbs. |
+| Crossbow, light | 35gp | 1d8 | 80ft. | Simple | 4 lbs. | Shortbow, composite | 55gp | 1d8 | 80ft. | Complex | 2 lbs. |
+| Crossbow, medium | 50gp | 1d10 | 120ft. | Simple | 6 lbs. | Longbow | 75gp | 1d10 | 100ft. | Complex | 3 lbs. |
+| Crossbow, heavy | 85gp | 2d6 | 160ft. | Complex | 8 lbs. | Longbow, composite | 100gp | 2d6 | 120ft. | Complex | 3 lbs. |
 
 ### Two-Handed Weapons
 
-| Weapon | Cost | Damage | Range | Complexity | Weapon | Cost | Damage | Range | Complexity |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Bayonet | 2gp | 1d4 | — | Simple | Lance | 30gp | 1d8 | — | Complex |
-| Quarterstaff | 3gp | 1d6 | — | Simple | Scythe | 35gp | 2d4 | — | Complex |
-| Longspear | 5gp | 1d8 | — | Simple | Chain, spiked | 35gp | 2d4 | — | Complex |
-| Spear | 8gp | 1d8 | 20ft. | Simple | Guisarme | 35gp | 2d4 | — | Complex |
-| Falchion | 25gp | 1d6 | — | Complex | Greataxe | 40gp | 1d10 | — | Complex |
-| Flail, heavy | 30gp | 1d8 | — | Complex | Halberd | 40gp | 1d10 | — | Complex |
-| Glaive | 30gp | 1d8 | — | Complex | Greatsword | 50gp | 2d6 | — | Complex |
-| Greatclub | 30gp | 1d8 | — | Complex |
+| Weapon | Cost | Damage | Range | Complexity | Weight | Weapon | Cost | Damage | Range | Complexity | Weight |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Bayonet | 2gp | 1d4 | — | Simple | 1 lb. | Lance | 30gp | 1d8 | — | Complex | 10 lbs. |
+| Quarterstaff | 3gp | 1d6 | — | Simple | 4 lbs. | Scythe | 35gp | 2d4 | — | Complex | 10 lbs. |
+| Longspear | 5gp | 1d8 | — | Simple | 9 lbs. | Chain, spiked | 35gp | 2d4 | — | Complex | 10 lbs. |
+| Spear | 8gp | 1d8 | 20ft. | Simple | 6 lbs. | Guisarme | 35gp | 2d4 | — | Complex | 12 lbs. |
+| Falchion | 25gp | 1d6 | — | Complex | 8 lbs. | Greataxe | 40gp | 1d10 | — | Complex | 12 lbs. |
+| Flail, heavy | 30gp | 1d8 | — | Complex | 10 lbs. | Halberd | 40gp | 1d10 | — | Complex | 12 lbs. |
+| Glaive | 30gp | 1d8 | — | Complex | 10 lbs. | Greatsword | 50gp | 2d6 | — | Complex | 8 lbs. |
+| Greatclub | 30gp | 1d8 | — | Complex | 8 lbs. |
 
 ### One-Handed Weapons
 
-| Weapon | Cost | Damage | Range | Complexity | Weapon | Cost | Damage | Range | Complexity |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Club | 2gp | 1d6 | 10ft. | Simple | Warhammer | 20gp | 1d8 | — | Complex |
-| Shortspear | 4gp | 1d6 | 20ft. | Simple | Battleaxe | 20gp | 1d8 | — | Complex |
-| Mace, heavy | 12gp | 1d8 | — | Simple | Flail | 20gp | 1d8 | — | Complex |
-| Morningstar | 12gp | 1d8 | — | Simple | Longsword | 20gp | 1d8 | — | Complex |
-| Whip | 1gp | 1d3 | — | Complex | Trident | 25gp | 1d8 | 10ft. | Complex |
-| Pick, heavy | 15gp | 1d6 | — | Complex | Waraxe | 35gp | 1d10 | — | Complex |
-| Rapier | 15gp | 1d6 | — | Complex | Sword, bastard | 35gp | 1d10 | — | Complex |
-| Scimitar | 15gp | 1d6 | — | Complex |
+| Weapon | Cost | Damage | Range | Complexity | Weight | Weapon | Cost | Damage | Range | Complexity | Weight |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Club | 2gp | 1d6 | 10ft. | Simple | 3 lbs. | Warhammer | 20gp | 1d8 | — | Complex | 5 lbs. |
+| Shortspear | 4gp | 1d6 | 20ft. | Simple | 3 lbs. | Battleaxe | 20gp | 1d8 | — | Complex | 6 lbs. |
+| Mace, heavy | 12gp | 1d8 | — | Simple | 8 lbs. | Flail | 20gp | 1d8 | — | Complex | 5 lbs. |
+| Morningstar | 12gp | 1d8 | — | Simple | 6 lbs. | Longsword | 20gp | 1d8 | — | Complex | 4 lbs. |
+| Whip | 1gp | 1d3 | — | Complex | 2 lbs. | Trident | 25gp | 1d8 | 10ft. | Complex | 4 lbs. |
+| Pick, heavy | 15gp | 1d6 | — | Complex | 6 lbs. | Waraxe | 35gp | 1d10 | — | Complex | 8 lbs. |
+| Rapier | 15gp | 1d6 | — | Complex | 2 lbs. | Sword, bastard | 35gp | 1d10 | — | Complex | 6 lbs. |
+| Scimitar | 15gp | 1d6 | — | Complex | 4 lbs. |
 
 ## Armor & Shields
 
@@ -277,61 +287,68 @@ Here is the format for armor entries (given as column headings on the table belo
 
 ### Armor
 
-| Armor | Size | Cost | Bonus | Armor | Size | Cost | Bonus |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Padded | Light | 2gp | +1 | Chainmail | Medium | 150gp | +5 |
-| Leather | Light | 10gp | +2 | Breastplate | Medium | 250gp | +6 |
-| Studded Leather | Light | 50gp | +3 | Splint Mail | Heavy | 100gp | +5 |
-| Chain Shirt | Light | 100gp | +4 | Banded Mail | Heavy | 200gp | +6 |
-| Hide | Medium | 30gp | +3 | Half-plate | Heavy | 600gp | +7 |
-| Scale Mail | Medium | 75gp | +4 | Full Plate | Heavy | 1,500gp | +8 |
+| Armor | Size | Cost | Bonus | Weight | Armor | Size | Cost | Bonus | Weight |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Padded | Light | 2gp | +1 | 10 lbs. | Chainmail | Medium | 150gp | +5 | 40 lbs. |
+| Leather | Light | 10gp | +2 | 15 lbs. | Breastplate | Medium | 250gp | +6 | 30 lbs. |
+| Studded Leather | Light | 50gp | +3 | 20 lbs. | Splint Mail | Heavy | 100gp | +5 | 45 lbs. |
+| Chain Shirt | Light | 100gp | +4 | 25 lbs. | Banded Mail | Heavy | 200gp | +6 | 35 lbs. |
+| Hide | Medium | 30gp | +3 | 18 lbs. | Half-plate | Heavy | 600gp | +7 | 50 lbs. |
+| Scale Mail | Medium | 75gp | +4 | 30 lbs. | Full Plate | Heavy | 1,500gp | +8 | 50 lbs. |
 
 ### Shields
 
-| Armor | Cost | Bonus | Armor | Cost | Bonus |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Buckler | 5gp | +1 | Shield, heavy wooden | 85gp | +3 |
-| Klar (1d4 damage) | 20gp | +1 | Shield, heavy steel | 75gp | +3 |
-| Shield, light wooden | 10gp | +1 | Shield, tower | 100gp | +4 |
-| Shield, light steel | 5gp | +1 | Shield, kite | 150gp | +5 |
-| Shield, medium wooden | 35gp | +2 | Shield, Mithral | 450gp | +6 |
-| Shield, medium steel | 25gp | +2 | Shield, Adamantine | 1,500gp | +7 |
+| Armor | Cost | Bonus | Weight | Armor | Cost | Bonus | Weight |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Buckler | 5gp | +1 | 5 lbs. | Shield, heavy wooden | 85gp | +3 | 10 lbs. |
+| Klar (1d4 damage) | 20gp | +1 | 6 lbs. | Shield, heavy steel | 75gp | +3 | 15 lbs. |
+| Shield, light wooden | 10gp | +1 | 5 lbs. | Shield, tower | 100gp | +4 | 25 lbs. |
+| Shield, light steel | 5gp | +1 | 6 lbs. | Shield, kite | 150gp | +5 | 35 lbs. |
+| Shield, medium wooden | 35gp | +2 | 7 lbs. | Shield, Mithral | 450gp | +6 | 45 lbs. |
+| Shield, medium steel | 25gp | +2 | 10 lbs. | Shield, Adamantine | 1,500gp | +7 | 25 lbs. |
 
-## Adventuring Equipment
+<div>
+<!--
+Unfortunately, to appease both github flavored markdown, as well as the
+markdown-pdf task, Items within the div sections must be written in markup and
+not markdown. The div sections are required to keep sections from page breaking.
+-->
+<h2> Adventuring Equipment </h2>
 
 Characters may purchase equipment from the following lists with their starting money or select one of the standard adventuring "fast packs".
+</div>
 
 ### Adventuring Gear
 
-| Goods | Cost | Goods | Cost | Goods | Cost |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Acid (flask) | 10gp | Flint and Steel | 1gp | Pick, miner's | 3gp |
-| Antitoxin (vial) | 50gp | Grappling Hook | 1gp | Pitcher, clay | 2cp |
-| Artisan's Tools | 5gp | Hammer | 5sp | Piton | 1sp |
-| Backpack (empty) | 2gp | Healer's Kit | 50gp | Pole, 10 ft. | 2sp |
-| Barrel (empty) | 2gp | Holy Symbol, wooden | 1gp | Pot, iron | 5sp |
-| Basket (empty) | 4sp | Holy Symbol, silver | 25gp | Pouch, belt (empty) | 1gp |
-| Bedroll | 1sp | Holy Water (flask) | 25gp | Ram, portable | 10gp |
-| Bell | 1gp | Hourglass | 25gp | Rations, trail (per day) | 5sp |
-| Blanket, winter | 5sp | Ink (1 oz. Vial) | 8gp | Rope, hempen (50 ft.) | 1gp |
-| Block and Tackle | 5gp | Ink pen | 1sp | Rope, silk (50 ft.) | 10gp |
-| Bottle, wine, glass (empty) | 2gp | Jug, clay | 3cp | Sack (empty) | 1sp |
-| Bucket (empty) | 5sp | Ladder, 10 ft. | 5cp | Sealing Wax | 1gp |
-| Caltrops | 1gp | Lamp, common | 1sp | Sewing Needle | 5sp |
-| Candle | 1cp | Lantern, bulls eye | 12gp | Signal Whistle | 8sp |
-| Canvas (sq. yd.) | 1sp | Lantern, hooded | 7gp | Signet Ring | 5gp |
-| Case, map or scroll | 1gp | Lock, simple | 20gp | Sledge | 1gp |
-| Chain (10 ft.) | 30gp | Lock, average | 40gp | Soap (per lb.) | 5sp |
-| Chalk, 1 piece | 1cp | Lock, good | 80gp | Spade or Shovel | 2gp |
-| Chest (empty) | 2gp | Magnifying Glass | 100gp | Spell Component Pouch | 5gp |
-| Craftsman's Tools | 5gp | Manacles | 15gp | Spellbook, wizard's (blank) | 15gp |
-| Crowbar | 2gp | Mirror, small steel | 10gp | Spyglass | 1,000gp |
-| Disguise Kit | 50gp | Mug/Tankard, clay | 2cp | Tent | 10gp |
-| Firewood (per day) | 1cp | Musical Instrument | 5gp | Thieves' Tools | 30gp |
-| Fishhook | 1sp | Oil, pint flask | 1sp | Torch | 1cp |
-| Fishing net (25 sq. ft.) | 4gp | Paper (sheet) | 4sp | Vial, ink or potion | 1gp |
-| Flask (empty) | 3cp | Parchment (sheet) | 2sp | Water skin | 1gp |
-| Whetstone | 2cp |
+| Goods | Cost | Weight | Goods | Cost | Weight | Goods | Cost | Weight |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Acid (flask) | 10gp | 1 lb. | Flint & Steel | 1gp | - | Pick, miner's | 3gp | 10 lbs. |
+| Antitoxin (vial) | 50gp | 1 lb. | Grappling Hook | 1gp | 4 lbs. | Pitcher, clay | 2cp | 5 lbs. |
+| Artisan's Tools | 5gp | 5 lbs. | Hammer | 5sp | 2 lbs. | Piton | 1sp | 0.5 lbs. |
+| Backpack (empty) | 2gp | 2 lbs. | Healer's Kit | 50gp | 1 lb. | Pole, 10 ft. | 2sp | 8 lbs. |
+| Barrel (empty) | 2gp | 30 lbs. | Holy Symbol, wooden | 1gp | - | Pot, iron | 5sp | 10 lbs. |
+| Basket (empty) | 4sp | 1 lb. | Holy Symbol, silver | 25gp | 1 lb. | Pouch, belt (empty) | 1gp | 0.5 lbs. |
+| Bedroll | 1sp | 5 lb. | Holy Water (flask) | 25gp | 1 lb. | Ram, portable | 10gp | 20 lbs. |
+| Bell | 1gp | - | Hourglass | 25gp | 1 lb. | Rations, trail (per day) | 5sp | 1 lb. |
+| Blanket, winter | 5sp | 3 lbs. | Ink (1 oz. Vial) | 8gp | - | Rope, hempen (50 ft.) | 1gp | 10 lbs. |
+| Block and Tackle | 5gp | 5 lbs. | Ink pen | 1sp | - | Rope, silk (50 ft.) | 10gp | 5 lbs. |
+| Bottle, wine, glass (empty) | 2gp | - | Jug, clay | 3cp | 9 lbs. | Sack (empty) | 1sp | 0.5 lbs. |
+| Bucket (empty) | 5sp | 2 lbs. | Ladder, 10 ft. | 5cp | 20 lbs. | Sealing Wax | 1gp | 1 lb. |
+| Caltrops | 1gp | 2 lbs. | Lamp, common | 1sp | 1 lb. | Sewing Needle | 5sp | - |
+| Candle | 1cp | - | Lantern, bulls eye | 12gp | 3 lbs. | Signal Whistle | 8sp | - |
+| Canvas (sq. yd.) | 1sp | 1 lb. | Lantern, hooded | 7gp | 2 lbs. | Signet Ring | 5gp | - |
+| Case, map or scroll | 1gp | 0.5 lbs. | Lock, simple | 20gp | 1 lb. | Sledge | 1gp | 10 lbs. |
+| Chain (10 ft.) | 30gp | 2 lbs. | Lock, average | 40gp | 1 lb. | Soap (per lb.) | 5sp | 1 lb. |
+| Chalk, 1 piece | 1cp | - | Lock, good | 80gp | 1 lb. | Spade or Shovel | 2gp | 8 lb. |
+| Chest (empty) | 2gp | 25 lbs. | Magnifying Glass | 100gp | - | Spell Component Pouch | 5gp | 2 lbs. |
+| Craftsman's Tools | 5gp | 5 lbs. | Manacles | 15gp | 2 lbs. | Spellbook, wizard's (blank) | 15gp | 3 lbs. |
+| Crowbar | 2gp | 5 lbs. | Mirror, small steel | 10gp | 0.5 lbs. | Spyglass | 1,000gp | 1 lb. |
+| Disguise Kit | 50gp | 8 lbs. | Mug/Tankard, clay | 2cp | 1 lb. | Tent | 10gp | 20 lbs. |
+| Firewood (per day) | 1cp | 20 lbs. | Musical Instrument | 5gp | 3 lbs. | Thieves' Tools | 30gp | 1 lb. |
+| Fishhook | 1sp | - | Oil, pint flask | 1sp | 1 lb. | Torch | 1cp | 1 lb. |
+| Fishing net (25 sq. ft.) | 4gp | 5 lbs. | Paper (sheet) | 4sp | - | Vial, ink or potion | 1gp | 0.1 lbs. |
+| Flask (empty) | 3cp | 1 lb. | Parchment (sheet) | 2sp | - | Water skin | 1gp | 4 lbs. |
+| Whetstone | 2cp | 1 lb. |
 
 ### Clothing
 
@@ -355,22 +372,24 @@ Characters may purchase equipment from the following lists with their starting m
 
 ### Fast Equipment Packs
 
-Suggested starting packs for new characters (each pack uses 50 gp of a character's starting money.
+Suggested starting packs for new characters. Each pack uses 35gp of a character's starting money.
 
 | __Pack A__ | __Pack B__ | __Pack C__ |
 | :--- | :--- | :--- |
 | backpack | backpack | backpack |
 | belt pouch | belt pouch | belt pouch |
 | bedroll | bedroll | bedroll |
-| hooded lantern | 10 torches | tent |
-| 10 oil flasks | 10 oil flasks | 10 torches |
+| hooded lantern | 10 torches | 10 torches |
+| 10 oil flasks | 10 oil flasks | tent |
 | flint & steel | flint & steel | flint & steel |
 | shovel | chalk | hammer |
 | 2 sets of caltrops | 10 ft. pole | 10 iron spikes |
 | signal whistle | mirror | grappling hook |
 | pen & paper | crowbar | 50 ft. rope |
 | water skin | water skin | water skin |
-| iron rations (4 days) | iron rations (4 days) | iron rations (4 days) |
+| rations (4 days) | rations (4 days) | rations (4 days) |
+
+Characters that use magic & spells are advised to purchase a spell component pouch and a Spellbook in order to cast spells. Likewise, Rogues are advised to purchase Thieves tools if they want to pick locks, disarm traps, etc.
 
 # Spell Lists
 
@@ -572,7 +591,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 -->
 <h3> 3rd-Level Divine Spells </h3>
 
-<strong>Create Food and Water:<strong> Feeds three humans (or one horse)/level.
+<strong>Create Food and Water:</strong> Feeds three humans (or one horse)/level.
 </div>
 
 **Cure Serious Wounds:**  Cures 3d8 damage +1/level (max +15).
