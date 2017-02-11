@@ -4,9 +4,9 @@ language: node_js
 node_js:
   - '6'
 sudo: false
-before_script:
-  - npm install
-script: npm run compile && npm run release
+script:
+  - npm run compile
+  - npm run release
 deploy:
   provider: releases
   api_key:
