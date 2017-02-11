@@ -1,0 +1,17 @@
+git:
+  depth: 10
+language: node_js
+node_js:
+  - '6'
+sudo: false
+before_script:
+  - npm install
+script: npm run compile && npm run release
+deploy:
+  provider: releases
+  api_key:
+    secure: E1WEBp7q40yrgzwkhU49/zqcfpWt4A+W7hj/3rJBPAsDy+NlHolDNtMLBPw6HzLQ1RDstLEP9vCF77lEbReenVk/vgCKprMVxuvdoVYcRGYi9Mqme7mDBLA/RWB1XQc8D45nPCSRRA6X9Ag6uPRGVdLoiQDROOFpDeYv1QTabLWkFL54BybR3X6hkSzkTmE5cbO+GSDCkLf6sYco2XYYuTnSv5pvbgy6kRseL6D2avpVLajB3MlIHNiLGxqqpDFGtAe5bGS89qwnZQ14aht90l6wX69Y9eUIGLcOGLt5YurSF722ZbPG0xDcgMm1PeFAoDpQF8YfY6T9RdMW9auwwYureTKjL+d3KyImEnF5f5p4t5JLPjm1NgSFOjOabirNK5a+8+8ujoELj21S4439uKlOA0FqtwszQHb54ooPWUl76hymRFS3/+CHMMr4k09TRJI8kPWOEzwioM82egM45c4p8febGJlxwQcBVXw7xAdSCazEtVgm1aUVnejldAYd3tDqrqeLkEep3UYM2kX0pnHrV/l8aLL5m5L84RAZqYxrM8vmw/S8YuxvcsvxkreeoWsEOfsJTbhSA+UgweX1opBAsatkgdbtPQMA6/Wot6a/f4a0ZeQWcWatzCPso1J3CATIQjAk4F/YXQiz84NtzE43DKjMAQuna3GIogxBlQg=
+  file: release/microluxe20_$TRAVIS_TAG.zip
+  on:
+    repo: kgrubb/microluxe20
+    tags: true

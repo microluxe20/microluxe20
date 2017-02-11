@@ -4,7 +4,9 @@
     "description": "A free, open source tabletop game based on the Microlite20 ruleset.",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "compile": "PATH=$(npm bin):$PATH gulp compile",
+        "watch": "PATH=$(npm bin):$PATH gulp watch",
+        "release": "PATH=$(npm bin):$PATH gulp release"
     },
     "repository": {
         "type": "git",
