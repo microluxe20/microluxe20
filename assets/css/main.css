@@ -1725,7 +1725,7 @@ input[type="button"].alt:hover, input[type="submit"].alt:hover, input[type="rese
 }
 
 .main>.content.style2 {
-    background-image: url("images/overlay.png"), url("../../images/guard.jpg");
+    background-image: url("images/overlay.png"), url("../../images/footer.jpg");
     background-size: auto, cover;
 }
 
