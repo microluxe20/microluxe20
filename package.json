@@ -1,12 +1,12 @@
 {
     "name": "microluxe20",
-    "version": "1.7.1",
+    "version": "1.7.2",
     "description": "A free, open source tabletop game based on the Microlite20 ruleset.",
     "main": "index.js",
     "scripts": {
-        "compile": "PATH=$(npm bin):$PATH gulp compile",
-        "watch": "PATH=$(npm bin):$PATH gulp watch",
-        "release": "PATH=$(npm bin):$PATH gulp release"
+        "compile": "npm install && gulp compile",
+        "watch": "npm install && gulp watch",
+        "release": "npm install && gulp release"
     },
     "repository": {
         "type": "git",
@@ -21,6 +21,6 @@
     "devDependencies": {
         "gulp": "^3.9.1",
         "gulp-markdown-pdf": "^4.0.0",
-        "gulp-zip": "^3.2.0"
+        "gulp-zip": "^4.0.0"
     }
 }

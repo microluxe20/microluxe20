@@ -36,7 +36,7 @@ For example, “3d6 + 5” means you roll three 6-sided dice, add their results 
 
 # Character Creation
 
-When creating a character in Microluxe20, you will need to decide on a race and class. After choosing your character's race and class, you can configure their stats, skills, and saves.
+When creating a character in Microluxe20, you will need to decide on a race and class. After choosing your character's race and class, you can configure their stats and skills.
 
 ## Races
 
@@ -58,23 +58,23 @@ Terador has a wealth of races to choose from, each with their unique history. Wh
 
 Classes define your character's way of life. Your character's class helps shape his/her combat style and methods of overcoming various obstacles. Your class provides a pathway, granting special powers and features for your character.
 
-**Fighters** wear and use any kind of armor, shield, and weapon. They gain a +3 bonus to Physical and add +1 to all attack and damage rolls. This increases by +1 at 5th level and every five levels onward. They also gain additional HP equal to their STR bonus every time they level up. Fighters gain the Cleave ability at level 5. If the Fighter's melee attack drops/slays a foe, the fighter gets one additional attack against another opponent within range. This ability can compound, meaning if one swing kills the second foe, the Fighter can continue to attack until he/she either misses or doesn't kill the foe with the attack.
+**Fighters** wear and use any kind of armor, shield, and weapon. They gain a +3 bonus to Physical and add +1 to all attack and damage rolls. This increases by +1 at 5th level and every five levels onward. They also gain additional HP equal to their STR bonus every time they level up. Fighters gain the _Cleave_ ability at level 5. If the Fighter's melee attack drops/slays a foe, the fighter gets one additional attack against another opponent within range. This ability can compound, meaning if one swing kills the second foe, the Fighter can continue to attack until he/she either misses or doesn't kill the foe with the attack.
 
-**Rogues** can use light armor, can use bucklers, and can use simple weapons and complex light weapons. They have a +3 bonus to Guile. If they successfully Sneak (usually Guile+DEX, but depends on situation) up on a foe they can add their Guile skill rank to the damage of their first attack. Rogues gain the Evade ability at level 5. Any save that a rogue succeeds cannot deal damage to the rogue. For example, some spells deal half-damage even if the target saves successfully. With Evade, the rogue would not take any damage as long as he/she saved successfully.
+**Rogues** can use light armor, can use bucklers, and can use simple weapons and complex light weapons. They have a +3 bonus to Guile. Rogues can _Sneak Attack_. If they successfully sneak (usually Guile+DEX, but depends on situation) up on a foe they can add their Guile skill rank to the damage of their first attack. Rogues gain the _Evade_ ability at level 5. Any save that a rogue succeeds cannot deal damage to the rogue. For example, some spells deal half-damage even if the target saves successfully. With Evade, the rogue would not take any damage as long as he/she saved successfully.
 
-**Mages** wear no armor, can not use shields, and can use simple weapons. They can cast arcane spells, and gain a +3 bonus to Knowledge.
+**Mages** wear no armor, can not use shields, and can use simple weapons. They can cast arcane spells (Mage), and gain a +3 bonus to Knowledge.
 
-**Clerics** can wear light or medium armor, can not use shields, and can use simple weapons. They cast divine spells and gain +3 bonus to Communication. A Cleric can _Turn Undead_ with a successful Magic Attack. DC is the current HP of the Undead. If the DC is exceeded by 10 it is destroyed. This can be used (2 + Level + MIND Bonus) times per day.
+**Clerics** can wear light or medium armor, can not use shields, and can use simple weapons. They cast divine spells (Cleric) and gain +3 bonus to Communication. A Cleric can _Turn Undead_ with a successful Magic Attack. DC is the current HP of the Undead. If the DC is exceeded by 10 it is destroyed. This can be used (2 + Level + MIND Bonus) times per day.
 
-**Paladins** wear and use any kind of armor, shield, and weapon. They gain +1 to Physical and a +2 bonus to Communication. They are immune to diseases and apply a +1 bonus to all saving throws (this increases by +1 at 5th level and every 5 levels onward). Paladins can _detect evil_ within 60 ft. at will and can heal up to 2 HP per level per day by _laying on hands_.
+**Paladins** wear and use any kind of armor, shield, and weapon. They gain +1 to Physical and a +2 bonus to Communication. They are immune to diseases and apply a +1 bonus to all saving throws (this increases by +1 at 5th level and every 5 levels onward). Paladins can _Detect Evil_ within 60 ft. at will and can heal up to 2 HP per level per day by _Laying on Hands_.
 
-**Rangers** wear light or medium armor, can use shields, and can use simple weapons, complex ranged weapons, and complex one-handed weapons. They gain +1 to hit and to damage with ranged weapons and only incur a -1 to hit penalty when fighting with 2 weapons. They have a +1 bonus to Guile and a +2 bonus to Physical. Rangers gain the Trapper ability at level 5. When dealing with trap-related dice rolls (such as dodging a trap or searching for traps), a ranger gains a +2 bonus.
+**Rangers** wear light or medium armor, can use shields, and can use simple weapons, complex ranged weapons, and complex one-handed weapons. They gain +1 to hit and to damage with ranged weapons and only incur a -1 to hit penalty when fighting with 2 weapons. They have a +1 bonus to Guile and a +2 bonus to Physical. Rangers gain the _Trapper_ ability at level 5. When dealing with trap-related dice rolls (such as dodging a trap or searching for traps), a ranger gains a +2 bonus.
 
-**Illusionists** wear no armor, can not use shields, and can use simple weapons. They can cast Illusionist spells and gain a +2 bonus to Communication and a +1 bonus to Guile.
+**Illusionists** wear no armor, can not use shields, and can use simple weapons. They can cast arcane spells (Illusionist) and gain a +2 bonus to Communication and a +1 bonus to Guile.
 
-**Druids** wear any non-metal armor, can use non-metal shields, and can use simple weapons. They cast Druid spells and gain +2 to Knowledge and +1 to Physical. Druids are immune to the spell-like effects of woodland fey. At 3rd level a Druid can _pass without trace_ (be untraceable) at will. At 7th level a Druid can assume the form of any small or medium sized animal up to 3 times per day. A Druid heals 2 HP per level when changing back into his/her human form.
+**Druids** wear any non-metal armor, can use non-metal shields, and can use simple weapons. They cast divine spells (Druid) and gain +2 to Knowledge and +1 to Physical. Druids are immune to the spell-like effects of woodland fey. At 3rd level a Druid can _Pass Without Trace_ (be untraceable) at will. At 7th level a Druid can assume the form of any small or medium sized animal up to 3 times per day. A Druid heals 2 HP per level when changing back into his/her human form.
 
-**Bards** wear light armor, can use bucklers, and can use simple weapons and complex light weapons. They gain +2 to Communication and +1 to Guile. A Bard can counter sound-based effects within a 30 ft. radius. A Bard can use his/her song to _charm person_ or _remove fear_ (vs DC) up to 3 times (total) per day. Beginning at 6th level, a Bard casts spells as either a Druid or Illusionist (player's choice) of 5 levels lower.
+**Bards** wear light armor, can use bucklers, and can use simple weapons and complex light weapons. They gain +2 to Communication and +1 to Guile. A Bard has the _Performance_ ability, allowing him/her to counter sound-based effects within a 30 ft. radius. A Bard can use his/her song to _Charm Person_ or _Remove Fear_ (vs DC) up to 3 times (total) per day. Beginning at 6th level, a Bard casts spells as either a Druid or Illusionist (player's choice) of 5 levels lower.
 
 **Psions** can use light armor, can not use shields, and can use simple weapons. They can manifest Psion powers and gain +2 to Knowledge and +1 to Communication.
 
@@ -96,7 +96,7 @@ When creating a character, you get 10 points to freely spend on your core stats,
 
 HP = 10 + STR stat + 1d6(with a minimum of 3).
 
-If a player is damaged to the point where their HP reaches zero (or below zero), the player becomes "downed", or unconscious and near death, with 0 HP. Further damage directly reduces STR. If STR reaches below zero, the player dies. While down, at the start of your turn, roll a d6. You have 3 chances (1 chance per turn) to roll above a 3. If successful, you are stable and return to 1 HP (STR is returned to normal as well). Otherwise, if unsuccessful 3 turns, the player dies.
+If a player is damaged to the point where their HP reaches zero (or below zero), the player becomes "downed", or unconscious and near death, with 0 HP. Further damage directly reduces their highest stat (STR, DEX, or MIND). If that stat reaches below zero, the player dies. While down, at the start of your turn, roll a d6. You have 3 chances (1 chance per turn) to roll above a 3. If successful, you are stable and return to 1 HP (STR is returned to normal as well). Otherwise, if unsuccessful 3 turns, the player dies.
 
 **Speed** comes in 3 tiers. You are either Slow(20ft.), Normal(30ft.) or Fast(35ft.).  Speed is determined by the game master and can be affected by spells and conditions. Typically, Fighters or Paladins with Heavy armor are Slow, Rogues and Rangers are Fast, and the rest are Normal speed. (5ft. is approximately 1 "Square")
 
@@ -112,7 +112,9 @@ Skill roll = d20 + skill rank + whatever stat bonus is most applicable to the us
 
 For example, Climbing would use Physical + STR bonus. Dodging a falling rock is Physical + DEX bonus. Finding a trap is Guile + MIND bonus. Disabling a trap is Guile + DEX bonus.
 
-There are 3 common saves (often called "saving throws"): **Fortitude** , **Reflex** , and **Will**. For Fortitude and Reflex saving throws, use Physical + STR or DEX bonus. Saving against magic (Will save) is MIND bonus + your level.
+Save Rolls = d20 + stat bonus + situation modifiers
+
+For compatibility purposes, the 3 saves in Microluxe20 (STR save, DEX save, and MIND save), directly match Fortitude, Reflex, and Will saves (often called "saving throws") found in other SRD-based games.
 
 ## Level Advancement
 
@@ -132,7 +134,7 @@ If your character's level divides by three (ex: level 3,6,9,etc.) add 1 point to
 
 Fighters gain +1 to their attack and damage rolls at levels 5,10,15,etc.
 
-New spell levels are unlocked at levels 3,5,7,9,etc., and new power levels are unlocked at levels 2,4,6,8,etc.
+New spell and power levels are unlocked at levels 2,4,6,8,etc.
 
 ## Combat
 
@@ -144,22 +146,17 @@ Missile attack bonus = DEX bonus + Level
 
 Magic attack bonus = MIND bonus + Level
 
-Add attack bonus to d20 roll. If higher than your opponent's Armor Class (AC), it's a hit. Natural 20 is automatically a critical, dealing additional damage equal to your weapon's maximum damage. Melee attack bonuses are used for matial weapons, Missile attack bonuses are used for ranged combat, and Magic attack bonuses are used for staves and other magical items with special powers.
+Add attack bonus to d20 roll. If higher than your opponent's Armor Class (AC), it's a hit. Natural 20 is automatically a critical, dealing additional damage equal to your weapon's maximum damage. Melee attack bonuses are used for martial weapons, Missile attack bonuses are used for ranged combat, and Magic attack bonuses are used for staves and other magical items with special powers.
 
 If the total attack bonus is +6 or more, a second attack can be made with a -5 penalty to the attack bonus. If the total bonus is +11 or more a third attack can be made at a -10 penalty. For example, if the total bonus is +12, three attacks can be made at +12/+7/+2.
 
-Fighters and Rogues can use DEX bonus + Level as Melee attack bonus instead if wielding a light weapon. Fighters, Rogues, Bards, and Rangers can wield 2 light weapons and attack with both in a round if they take a -2 penalty (Rangers don't take the penalty) on all attack rolls that round.
+Fighters and Rogues can use DEX bonus + Level (Missile attack bonus) as Melee attack bonus instead if wielding a light weapon. Fighters, Rogues, Bards, and Rangers can wield 2 light weapons and attack with both in a round if they take a -2 penalty on all attack rolls that round (Rangers don't take the penalty).
 
-For all Melee damage with complex weapons, add your STR bonus. For 2-handed weapons, add 2x your STR bonus.
+For all Melee damage with complex weapons, add your STR bonus.
 
 ## Magic
 
-Spellcasters can cast any of their class spells, with a spell level equal or below 1/2 their class level, rounded up. Casting a spell of any kind costs Hit Points. The cost is 1 + double the level of the spell being cast:
-
-|Spell Cost Table|||||||||||
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Spell Level** | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-| **HP Cost** | 1 | 3 | 5 | 7 | 9 | 11 | 13 | 15 | 17 | 19 |
+Spellcasters can cast any of their class spells, as long as the spell level is equal to or below their class level. Casting a spell of any kind costs Hit Points. The cost is equal to the level of the spell being cast:
 
 Once a spellcaster has cast a spell in an encounter, they enter a state called "arcane (or divine) influence". While in this state, their HP **cannot** be healed normally until 1 hour of rest (short rest). Healing spells cast on an injured caster under arcane/divine influence only heal ¼ of the given amount. Spellcasters automatically exit their influenced state after 1 hour of rest.
 
@@ -395,9 +392,9 @@ Characters that use magic & spells are advised to purchase a spell component pou
 
 The following spells have been customized and tweaked to make the game as smooth as possible. It is suggested to use these spells for all spell casters in the game, although spells from the SRD can also be used in Microluxe20 with slight modifications. With the following spell system in place, additional spells in the SRD (but not on this list) can easily be discovered in the game as loot, research, etc., if the GM desires.
 
-## Arcane (Mage) Spells
+## Arcane Spells (Mage)
 
-### 0-Level Arcane Spells: Cantrips
+### 1st-Level Arcane Spells: Cantrips
 
 **Arcane Mark:**  Inscribes a permanent personal rune (visible or invisible).
 
@@ -413,7 +410,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Read Magic:**  Read scrolls and spellbooks for 10 min./level.
 
-### 1st-Level Arcane Spells
+### 2nd-Level Arcane Spells
 
 **Feather Fall:**  Objects or creatures fall slowly for 1 round/level or until landing.
 
@@ -427,7 +424,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Shocking Grasp:**  Touch delivers 1d6/level electricity damage (min of 3 damage, max of 6d6).
 
-### 2nd-Level Arcane Spells
+### 4th-Level Arcane Spells
 
 **Acid Arrow:**  Ranged touch attack; 2d4 damage for 1 round + 1 round per two levels.
 
@@ -441,7 +438,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Spider Climb:**  Grants ability to walk on walls and ceilings for 10 min./level.
 
-### 3rd-Level Arcane Spells
+### 6th-Level Arcane Spells
 
 **Clairvoyance:**  Hear or see at a distance up to 100 ft. for 10 rounds/level.
 
@@ -455,7 +452,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Vampiric Touch:**  The caster touches a subject, draining away their life force. Deals 1d6 damage per two levels and the caster gains half of the damage as HP.
 
-### 4th-Level Arcane Spells
+### 8th-Level Arcane Spells
 
 **Animate Dead:**  Creates up to 4 undead skeletons or zombies (requires remains).
 
@@ -469,7 +466,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Stoneskin:**  Ignore 10 points of damage per attack, up to 100 points total. Lasts for 10 min./level or until discharged.
 
-### 5th-Level Arcane Spells
+### 10th-Level Arcane Spells
 
 **Cloudkill:**  Creatures in a 20ft. radius with HP less than ½ your HP are killed; between ½ and double your HP must save or die; more than double your HP take STR damage. Lasts for 1 round/level.
 
@@ -483,7 +480,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Break Enchantment:** Frees targets from all enchantments, alterations, curses, and petrification.
 
-### 6th-Level Arcane Spells
+### 12th-Level Arcane Spells
 
 **Anti-magic Field:** Negates magic within 10 ft. of the caster's location for 10 min./level.
 
@@ -497,7 +494,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **True Seeing:** Lets you see all things as they really are (decipher lies, look through secret doors, see through illusions, sense objects in the dark. etc) for 10 rounds/level.
 
-### 7th-Level Arcane Spells
+### 14th-Level Arcane Spells
 
 **Delayed Blast Fireball:** Creates a major explosion up to 100ft. away in an area with a 15ft. radius, dealing 1d8 fire damage/level. You can postpone the blast for 5 rounds.
 
@@ -511,7 +508,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Spell Turning:** Reflect 1d4+6 spell levels back at caster for 10 rounds/level or until the spell is expended.
 
-### 8th-Level Arcane Spells
+### 16th-Level Arcane Spells
 
 **Clone:** Creates a duplicate of yourself. The duplicate awakens when the original copy dies.
 
@@ -525,7 +522,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Trap the Soul:** Imprisons a target's soul and material body within a gem.
 
-### 9th-Level Arcane Spells
+### 18th-Level Arcane Spells
 
 **Astral Projection:** Projects you and companions onto the Astral Plane. The Astral plane is the space/plane in which Terador (and other worlds) reside. Filled with a thick air-like substance called "miasma", the Astral plane is a timeless plane with ever-changing gravity, known for its magic production.
 
@@ -539,9 +536,9 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Soul Bind:**  Traps a newly dead soul inside an item, preventing resurrection.
 
-## Divine (Cleric) Spells
+## Divine Spells (Cleric)
 
-### 0-Level Divine Spells: Orisons
+### 1st-Level Divine Spells: Orisons
 
 **Create Water:** Creates 2 gallons/level of pure water.
 
@@ -555,7 +552,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Virtue:** Subject gains 1 temporary HP for 10 rounds.
 
-### 1st-Level Divine Spells
+### 2nd-Level Divine Spells
 
 **Bless:** Allies gain +1 on attack rolls and Communication + MIND checks against fear for 10 rounds/level.
 
@@ -569,7 +566,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Shield of Faith:** Aura grants +2 or higher AC bonus for 10 rounds/level.
 
-### 2nd-Level Divine Spells
+### 4th-Level Divine Spells
 
 **Aid:** +1 on attack rolls and saves against fear, 1d8 temporary HP +1/level (max +10).
 
@@ -589,7 +586,7 @@ Unfortunately, to appease both github flavored markdown, as well as the
 markdown-pdf task, Items within the div sections must be written in markup and
 not markdown. The div sections are required to keep sections from page breaking.
 -->
-<h3> 3rd-Level Divine Spells </h3>
+<h3> 6th-Level Divine Spells </h3>
 
 <strong>Create Food and Water:</strong> Feeds three humans (or one horse)/level.
 </div>
@@ -604,7 +601,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Speak with Dead:**  Corpse answers one question/two levels. Lasts for 10 rounds/level.
 
-### 4th-Level Divine Spells
+### 8th-Level Divine Spells
 
 **Cure Critical Wounds:**  Cures 4d8 damage +1/level (max +30).
 
@@ -618,7 +615,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Tongues:**  Speak any language for 10 min./level.
 
-### 5th-Level Divine Spells
+### 10th-Level Divine Spells
 
 **Atonement:**  Removes burden of misdeeds from subject (ex: a druid who has used metal objects can be forgiven by his/her deity).
 
@@ -632,7 +629,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **True Seeing:** Lets you see all things as they really are (decipher lies, look through secret doors, see through illusions, sense objects in the dark. etc) for 10 rounds/level.
 
-### 6th-Level Divine Spells
+### 12th-Level Divine Spells
 
 **Banishment:**  Banishes extraplanar creatures within 50 points of your HP or less.
 
@@ -646,7 +643,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Quest:**  Commands any creature, binding it to a specific task. Lasts for 1 day/level or until discharged.
 
-### 7th-Level Divine Spells
+### 14th-Level Divine Spells
 
 **Mass Cure Serious Wounds:**  Cures 3d8 damage +1/level for many creatures.
 
@@ -660,7 +657,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Resurrection:**  Fully restores a dead subject from a small portion of the corpse.
 
-### 8th-Level Divine Spells
+### 16th-Level Divine Spells
 
 **Anti-magic Field:**  Negates magic within 10 ft. for 10 min./ level.
 
@@ -674,7 +671,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Holy Aura:**  +4 to AC, +4 resistance, and spell resistance of 25 against evil spells (the enemy must roll higher than a 25 just to cast the spell) for 1 round/level.
 
-### 9th-Level Divine Spells
+### 18th-Level Divine Spells
 
 **Astral Projection:** Projects you and companions onto the Astral Plane. The Astral plane is the space/plane in which Terador (and other worlds) reside. Filled with a thick air-like substance called "miasma", the Astral plane is a timeless plane with ever-changing gravity, known for its magic production.
 
@@ -688,9 +685,9 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Soul Bind:**  Traps a newly dead soul inside an item, preventing resurrection.
 
-## Arcane (Illusionist) Spells
+## Arcane Spells (Illusionist)
 
-### 0-Level Illusionist Spells
+### 1st-Level Illusionist Spells: Cantrips
 
 **Arcane Mark:** Inscribes a permanent personal rune (visible or invisible).
 
@@ -704,7 +701,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Read Magic:** Read Scrolls and Spellbooks for 10 min./level.
 
-### 1st-Level Illusionist Spells
+### 2nd-Level Illusionist Spells
 
 **Charm Person:** Forcefully makes one person your friend for 1 hour/level.
 
@@ -718,7 +715,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Ventriloquism:** Gain the ability to control one limb of a subject for 1 round.
 
-### 2nd-Level Illusionist Spells
+### 4th-Level Illusionist Spells
 
 **Blur:** Caster gains +2 to AC, cannot be Sneak Attacked for 2 rounds/level.
 
@@ -732,7 +729,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Mirror Image:** Creates 1d4+1 decoys of caster for 10 rounds/level.
 
-### 3rd-Level Illusionist Spells
+### 6th-Level Illusionist Spells
 
 **Daylight:** Creates an area with a 60ft. radius of daylight for 10 min./level.
 
@@ -746,7 +743,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Suggestion:** Compels subject to follow stated course of action for 1 hour/level or until completed.
 
-### 4th-Level Illusionist Spells
+### 8th-Level Illusionist Spells
 
 **Charm Monster:** Make one monster believe it is your ally for 1 day/level.
 
@@ -760,7 +757,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Rainbow Pattern:** Lights Fascinate creatures whose HP is less than double your HP for 2d4 + 1 round/level.
 
-### 5th-Level Illusionist Spells
+### 10th-Level Illusionist Spells
 
 **Break Enchantment:** Frees subjects from enchantments, alterations, curses, and petrification.
 
@@ -774,7 +771,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Sending:** Instantly delivers a short message to one subject located anywhere.
 
-### 6th-Level Illusionist Spells
+### 12th-Level Illusionist Spells
 
 **Mislead:** The caster becomes invisible and creates an illusory double in his/her place.
 
@@ -788,7 +785,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **True Seeing:** Lets you see all things as they really are (decipher lies, look through secret doors, see through illusions, sense objects in the dark. etc) for 10 rounds/level.
 
-### 7th-Level Illusionist Spells
+### 14th-Level Illusionist Spells
 
 **Mass Invisibility:** Up to 8 allies are invisible for 10 rounds/level or until they attack.
 
@@ -802,7 +799,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Weird:** A fearsome illusion terrifies all creatures within 30 ft, dealing 5d8 damage.
 
-### 8th-Level Illusionist Spells
+### 16th-Level Illusionist Spells
 
 **Scintillating Pattern:** A pattern of discordant colors weaves through the air. The spell affects level + 1d6 creatures. Each effect lasts for 1d4 rounds. Creatures with less than 50 HP are unconscious, then stunned, then confused. Creatures with 50-100 HP are stunned, then confused. Creatures with over 100 HP are confused.
 
@@ -816,7 +813,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Prismatic Wall:** Creates a vertical, opaque 20 ft. wall that can be walked through, which protects from all forms of attack. Creatures with under 70 HP are blinded for 2d4 rounds if they are within 20ft. of the wall. Wall lasts for 10 rounds.
 
-### 9th-Level Illusionist Spells
+### 18th-Level Illusionist Spells
 
 **Moon Realm:** A creature that makes eye contact with the caster must make a will save. If failed, the creature is entrapped inside an illusory dimension under the complete control of the caster. If succeeded, the creature is permanently blinded.
 
@@ -830,9 +827,9 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Figmentation:** Any real object or subject is cast into an unknown location in the Ethereal Plane (The ethereal plane is a separate plane from the material plane, invisible to creatures on the material plane. It is gravity-less and dull; a land of ghosts, shadows, and wisps), making it a shadowy illusion. This spell, can only be cast without penalty the first time. After the first successful casting, if attempted again, the caster has a 50% chance of passing. If the caster fails, he/she is cast into the Ethereal Plane instead, becoming an illusion.
 
-## Divine (Druid) Spells
+## Divine Spells (Druid)
 
-### 0-Level Druid Spells
+### 1st-Level Druid Spells: Orisons
 
 **Create Water:**  Creates 2 gallons/level of pure water.
 
@@ -852,7 +849,7 @@ Unfortunately, to appease both github flavored markdown, as well as the
 markdown-pdf task, Items within the div sections must be written in markup and
 not markdown. The div sections are required to keep sections from page breaking.
 -->
-<h3> 1st-Level Druid Spells </h3>
+<h3> 2nd-Level Druid Spells </h3>
 
 <strong>Entangle:</strong>  Plants entangle everyone in a 20ft. radius for 10 rounds/level.
 </div>
@@ -867,7 +864,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Speak with Animals:**  You can communicate with animals for 10 rounds/level.
 
-### 2nd-Level Druid Spells
+### 4th-Level Druid Spells
 
 **Barkskin:**  Grants +2 bonus to AC for 10 min./level.
 
@@ -881,7 +878,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Warp Wood:**  Bends wood within a 20ft. radius.
 
-### 3rd-Level Druid Spells
+### 6th-Level Druid Spells
 
 **Call Lightning:**  Calls a lightning storm into an area with a 5ft. radius. Lightning bolts come down from the sky dealing 3d6 + 1/level damage once per round for 1 round/level.
 
@@ -895,7 +892,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Water Breathing:**  Subjects can breathe under water for 2 hours/level divided by number of subjects.
 
-### 4th-Level Druid Spells
+### 8th-Level Druid Spells
 
 **Air Walk:**  Subject is able to walk horizontally on air for 10 min./level.
 
@@ -909,7 +906,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Spike Stones:** All creatures within 20ft. take 3d8 damage. They must make a reflex save. If failed, they are slowed.
 
-### 5th-Level Druid Spells
+### 10th-Level Druid Spells
 
 **Awaken:**  One animal or tree gains human intellect (4 Mind).
 
@@ -923,7 +920,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Wall of Fire:**  Creates a 20ft. wall of fire, dealing 3d12 fire damage. Passing through the wall deals 3d6 damage +1/level.
 
-### 6th-Level Druid Spells
+### 12th-Level Druid Spells
 
 **Fire Seeds:**  Creates Acorn Grenades (1d12 fire damage/level divided among up to 4 seeds) that can be thrown up to 60ft. and explode in a 10ft. radius, igniting combustibles and other flammable objects within range.
 
@@ -937,7 +934,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Wall of Stone:**  Creates a shape-able wall of stone up to 5ft./level.
 
-### 7th-Level Druid Spells
+### 14th-Level Druid Spells
 
 **Changestaff:** Your staff becomes a treant on command.
 
@@ -951,7 +948,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Wind Walk:** You and your allies turn vaporous and travel at up to 60mph for 1 hour/level.
 
-### 8th-Level Druid Spells
+### 16th-Level Druid Spells
 
 **Animal Shapes:** One ally/level polymorphs into a chosen animal.
 
@@ -965,7 +962,7 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Word of Recall:** Teleports you back to a previously designated place.
 
-### 9th-Level Druid Spells
+### 18th-Level Druid Spells
 
 **Antipathy:** Object or location affected by spell repels a certain creature type.
 
@@ -979,19 +976,15 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 **Sympathy:** Object or location affected by spell attracts a certain creature type.
 
-## Psion Power List
+## Psionic Powers (Psion)
 
-Psionic characters can manifest any of their powers, so long as the power level is equal or below ½ their class level, rounded down (unlike spellcasters, who round-up). Unlike spells, all aspects of a power do not automatically scale with level. Instead, they are augmented with additional Hit Points (HP). The augmenting HP cost is noted under each power's entry. Like casters, Psions can select a "signature" power per power level from 1st upward, reducing its cost by 2 HP.
+Psionic characters can manifest any of their powers, so long as the power level is equal to or below their class level. Unlike spells, all aspects of a power do not automatically scale with level. Instead, they are augmented with additional Hit Points (HP). The augmenting HP cost is noted under each power's entry. Psions are casters, so they can select a "signature" power per power level from 1st upward, reducing its cost by 2 HP. This also means healing spells cast on an injured psion only heal ¼ of the given amount.
 
-The combined HP cost for manifesting and augmenting a power cannot exceed the character's psionic class level. Thus, a 3rd level psion could manifest a level 1 power by spending 1 HP, and augment it by spending 2 additional HP for a total HP cost of 3.
-
-Temporary HP cannot be used to manifest powers. Like casters, after casting a Psion power or spell, healing spells cast on an injured psion only heal ¼ of the given amount.
-
-**Power Difficulty Class (DC):** 10 + Psionic Level + Psionic's MIND bonus
+The combined HP cost for manifesting and augmenting a power cannot exceed the character's psionic class level. Thus, a 3rd level psion could manifest a level 1 power by spending 1 HP, and augment it by spending 2 additional HP for a total HP cost of 3. Temporary HP cannot be used to manifest powers.
 
 **Psionic vs. Magical Effects:** Powers interact with spells and spells interact with powers in the same way a spell or normal spell-like ability interacts with another spell or spell-like ability. For example, detect magic detects psionics and dispel psionics dispels magic.
 
-### 0-Level Psion Powers
+### 1st-Level Psion Powers: Mantles
 
 **Inkling:** Weakly manifest some psionic power, allowing tiny objects or creatures to be moved unpredictably.
 
@@ -999,7 +992,7 @@ Temporary HP cannot be used to manifest powers. Like casters, after casting a Ps
 
 **Mental Spike:** Send a sharp mental force into a target's mind. Deal 1d6 + 1 force damage _Duration_: Instant.
 
-### 1st-Level Psion Powers
+### 2nd-Level Psion Powers
 
 **Psionic Charm:** Makes one non-aggressive (out of combat) person a friend. _Duration_: 1 hour/level. _Augment_: 4 extra HP raises duration to 1 day/level.
 
@@ -1013,7 +1006,7 @@ Temporary HP cannot be used to manifest powers. Like casters, after casting a Ps
 
 **Precognition:** Gain +2 bonus to one roll in the future. _Duration_: 10 rounds/level. _Augment_: None.
 
-### 2nd-Level Psion Powers
+### 4th-Level Psion Powers
 
 **Clairvoyant Sense:** See and hear a distant location. _Duration_: 10 rounds/level. _Augment_: None.
 
@@ -1027,7 +1020,7 @@ Temporary HP cannot be used to manifest powers. Like casters, after casting a Ps
 
 **Sensitivity to Psychic Impressions:** Find out about an area's past. _Duration_: Knowledge, up to 10 min/level. _Augment_: None.
 
-### 3rd-Level Psion Powers
+### 6th-Level Psion Powers
 
 **Body Adjustment:** You heal 1d12 damage. _Duration_: Instant. _Augment_: Every 2 extra HP heals an extra 1d12.
 
@@ -1041,7 +1034,7 @@ Temporary HP cannot be used to manifest powers. Like casters, after casting a Ps
 
 **Telekinetic Force:** Move an object (up to 250 lbs.) with your mind. _Duration_: Knowledge, up to 1 round/level. _Augment_: Each extra HP raises weight limit by 25 lbs.
 
-### 4th-Level Psion Powers
+### 8th-Level Psion Powers
 
 **Control Body:** Take rudimentary control of foe's limbs. _Duration_: Knowledge, up to 10 rounds/level. _Augment_: Every 2 extra HP affects a target one size larger.
 
@@ -1055,7 +1048,7 @@ Temporary HP cannot be used to manifest powers. Like casters, after casting a Ps
 
 **Telekinetic Maneuver:** Telekinetically bull rush(push an opponent back one space), disarm, grapple (vs STR), or trip your target. _Duration_: Knowledge, up to 1 round/level. _Augment_: Every 2 extra HP grants a +1 bonus to maneuver checks.
 
-### 5th-Level Psion Powers
+### 10th-Level Psion Powers
 
 **Mind Probe:** You discover the subject's secret thoughts. _Duration_: 1 round/level. _Augment_: None.
 
@@ -1069,7 +1062,7 @@ Temporary HP cannot be used to manifest powers. Like casters, after casting a Ps
 
 **Psionic Sight:** Lets you see all things as they really are (decipher lies, look through secret doors, see through illusions, sense objects in the dark. etc). _Duration_: 10 rounds/level. _Augment_: None.
 
-### 6th-Level Psion Powers
+### 12th-Level Psion Powers
 
 **Mass Cloud Mind:** Erase knowledge of your presence from the minds of one creature/level. _Duration_: 10 rounds/level. _Augment_: None.
 
@@ -1083,7 +1076,7 @@ Temporary HP cannot be used to manifest powers. Like casters, after casting a Ps
 
 **Temporal Acceleration:** Your time frame accelerates for 1 round, making you speed up so much that everything else seems motionless. While Accelerated, you may use 2 actions and movements instead of 1 on each round. _Duration_: 1 round. (apparent time). _Augment_: Every 4 extra HP raises duration by 1 round.
 
-### 7th-Level Psion Powers
+### 14th-Level Psion Powers
 
 **Ethereal Jaunt:** Become ethereal (ghostly) for 1 round/level. The ethereal plane is a separate plane from the material plane, invisible to creatures on the material plane. It is gravity-less and dull; a land of ghosts, shadows, and wisps. _Duration_: 1 round/level. _Augment_: None.
 
@@ -1095,7 +1088,7 @@ Temporary HP cannot be used to manifest powers. Like casters, after casting a Ps
 
 **Reddopsi:** Powers targeting you rebound back. _Duration_: 10 min/level. _Augment_: None.
 
-### 8th-Level Psion Powers
+### 16th-Level Psion Powers
 
 **Astral Seed:** You plant a seed of your rebirth into the Astral Plane (The Astral plane is the space/plane in which Terador, and other worlds, reside. Filled with a thick air-like substance called "miasma", the Astral plane is a timeless plane with ever-changing gravity, known for its magic production). You return from death (even disintegration) after 10 days. _Duration_: Instant. _Augment_: None.
 
@@ -1105,7 +1098,7 @@ Temporary HP cannot be used to manifest powers. Like casters, after casting a Ps
 
 **Mass Time Hop:** Willing subjects can hop forward in time. _Duration_: 1 hr/level. _Augment_: 6 extra HP to instantly manifest the power (even when it's not your turn).
 
-### 9th-Level Psion Powers
+### 18th-Level Psion Powers
 
 **Assimilate:** Inflict 20d6 damage and incorporate creature (fully or partially) into your own body. _Duration_: Instant or 1 hr. _Augment_: None.
 

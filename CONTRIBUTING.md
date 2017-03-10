@@ -6,9 +6,9 @@ currently broken (OSX/linux builds are working). While the document compiles,
 custom css isn't loading properly. The open issue can be found
 [here](https://github.com/alanshaw/markdown-pdf/issues/82)._
 
-## 1\. Install Nodejs and npm on your system
+## 1\. Install Nodejs on your system
 
-Node and NPM are used to build the PDF documents. You can find a link to node
+Node is used to build the PDF documents. You can find a link to node
 [here](https://nodejs.org/en/).
 
 ## 2\. Fork the repository and clone locally
@@ -16,18 +16,7 @@ Node and NPM are used to build the PDF documents. You can find a link to node
 Contributions follow github's [pull request
 model](https://help.github.com/articles/using-pull-requests/).
 
-## 3\. npm install
-
-Run the following:
-
-```sh
-npm install
-```
-
-This will create a folder called `node_modules`, which will contain the
-dependencies needed to build the PDFs.
-
-## 4\. Making changes and building PDFs
+## 3\. Making changes and building PDFs
 
 All of the rules are written in the **markdown** files (found in the
 "src/markdown" directory). After making changes to these files, you can use the
@@ -44,7 +33,7 @@ craft a zipped folder with all of the latest released PDFs and documents. The
 completed release zip can be found in the "release" directory. The version
 number is determined by the version set in the `package.json` file.
 
-## 5\. Submit a pull request
+## 4\. Submit a pull request
 
 Commit your changes and submit a new pull request to the microluxe20 `develop`
 branch.
