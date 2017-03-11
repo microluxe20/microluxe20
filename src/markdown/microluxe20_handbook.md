@@ -158,7 +158,7 @@ For all Melee damage with complex weapons, add your STR bonus.
 
 Spellcasters can cast any of their class spells, as long as the spell level is equal to or below their class level. Casting a spell of any kind costs Hit Points. The cost is equal to the level of the spell being cast:
 
-Once a spellcaster has cast a spell in an encounter, they enter a state called "arcane (or divine) influence". While in this state, their HP **cannot** be healed normally until 1 hour of rest (short rest). Healing spells cast on an injured caster under arcane/divine influence only heal ¼ of the given amount. Spellcasters automatically exit their influenced state after 1 hour of rest.
+Once a spellcaster has cast a spell in an encounter, they enter a state called "arcane (or divine) influence". While in this state, their HP **cannot** be healed normally until they have a short rest. Healing spells cast on an injured caster under arcane/divine influence only heal ¼ of the given amount. Spellcasters automatically exit their influenced state after 1 hour of rest.
 
 There is no need to memorize spells in advance. Just because a character can cast any spell, doesn't mean that they should. Choose spells that suit the character. Select one "signature" spell per spell level from 1st upward that they prefer to use over any other. These spells are easier to cast due to familiarity, costing 2 less HP to use.
 
@@ -180,11 +180,16 @@ Unfortunately, to appease both github flavored markdown, as well as the
 markdown-pdf task, Items within the div sections must be written in markup and
 not markdown. The div sections are required to keep sections from page breaking.
 -->
-<h2> Heroism </h2>
+<h2> Resting & Recuperating </h2>
 
-<strong>Heroism</strong> is intended to relieve some of the power incompatibilities with some d20 adventure types. If you find that the party is consistently too weak, try adding Heroism. **Heroism** is a bonus equal to 1 times the characters level (1 at 1st, 2 at 2nd, etc) and may be applied to up to three of the following once per day: Attack Bonus, Damage, Saving Throw, Skill Check, Spell DC
+After combat, players must rest to regain their stamina. There are 2 forms of resting:
 
+<strong>Short Rest:</strong> Resting for 1-4 hours constitutes a short rest. Characters heal up to 1/4 of their HP (rounded up). Spellcasters are no longer under arcane/divine influence.
+
+<strong>Long Rest:</strong> Resting for over 4 hours constitutes a long rest. Characters heal all of their HP and short-term side effects. Spellcasters also lose their arcane/divine influence.
 </div>
+
+## Heroism
 
 **Heroism** is intended to relieve some of the power incompatibilities with some d20 adventure types. If you find that the party is consistently too weak, try adding Heroism. **Heroism** is a bonus equal to 1 times the characters level (1 at 1st, 2 at 2nd, etc) and may be applied to up to three of the following once per day: Attack Bonus, Damage, Saving Throw, Skill Check, Spell DC
 
@@ -390,7 +395,7 @@ Characters that use magic & spells are advised to purchase a spell component pou
 
 # Spell Lists
 
-The following spells have been customized and tweaked to make the game as smooth as possible. It is suggested to use these spells for all spell casters in the game, although spells from the SRD can also be used in Microluxe20 with slight modifications. With the following spell system in place, additional spells in the SRD (but not on this list) can easily be discovered in the game as loot, research, etc., if the GM desires.
+The following spells have been customized and tweaked to make the game as smooth as possible. It is suggested to use these spells for all spell casters in the game, although spells from the SRD can also be used in Microluxe20 with slight modifications. With the following spell system in place, additional spells in the SRD (but not on this list) can easily be discovered in the game as loot, research, etc. if the GM desires.
 
 ## Arcane Spells (Mage)
 
