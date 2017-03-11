@@ -176,9 +176,8 @@ Here are three ways for spell casters to add a little more variety:
 
 <div>
 <!--
-Unfortunately, to appease both github flavored markdown, as well as the
-markdown-pdf task, Items within the div sections must be written in markup and
-not markdown. The div sections are required to keep sections from page breaking.
+To keep sections from page-breaking & to appease both github flavored markdown &
+the markdown-pdf task, div sections must be written in markup.
 -->
 <h2> Resting & Recuperating </h2>
 
@@ -311,9 +310,8 @@ Here is the format for armor entries (given as column headings on the table belo
 
 <div>
 <!--
-Unfortunately, to appease both github flavored markdown, as well as the
-markdown-pdf task, Items within the div sections must be written in markup and
-not markdown. The div sections are required to keep sections from page breaking.
+To keep sections from page-breaking & to appease both github flavored markdown &
+the markdown-pdf task, div sections must be written in markup.
 -->
 <h2> Adventuring Equipment </h2>
 
@@ -587,9 +585,8 @@ The following spells have been customized and tweaked to make the game as smooth
 
 <div>
 <!--
-Unfortunately, to appease both github flavored markdown, as well as the
-markdown-pdf task, Items within the div sections must be written in markup and
-not markdown. The div sections are required to keep sections from page breaking.
+To keep sections from page-breaking & to appease both github flavored markdown &
+the markdown-pdf task, div sections must be written in markup.
 -->
 <h3> 6th-Level Divine Spells </h3>
 
@@ -850,9 +847,8 @@ not markdown. The div sections are required to keep sections from page breaking.
 
 <div>
 <!--
-Unfortunately, to appease both github flavored markdown, as well as the
-markdown-pdf task, Items within the div sections must be written in markup and
-not markdown. The div sections are required to keep sections from page breaking.
+To keep sections from page-breaking & to appease both github flavored markdown &
+the markdown-pdf task, div sections must be written in markup.
 -->
 <h3> 2nd-Level Druid Spells </h3>
 
@@ -1175,9 +1171,8 @@ Alternatively, add class levels to intelligent monsters. Start with the base Hit
 
 <div>
 <!--
-Unfortunately, to appease both github flavored markdown, as well as the
-markdown-pdf task, Items within the div sections must be written in markup and
-not markdown. The div sections are required to keep sections from page breaking.
+To keep sections from page-breaking & to appease both github flavored markdown &
+the markdown-pdf task, div sections must be written in markup.
 -->
 <h2> Creatures </h2>
 
@@ -1363,9 +1358,8 @@ Several typical poisons are summarized below. The entries for poisons include th
 
 <div>
 <!--
-Unfortunately, to appease both github flavored markdown, as well as the
-markdown-pdf task, Items within the div sections must be written in markup and
-not markdown. The div sections are required to keep sections from page breaking.
+To keep sections from page-breaking & to appease both github flavored markdown &
+the markdown-pdf task, div sections must be written in markup.
 -->
 <h3>Poisons</h3>
 <strong>Arsenic:</strong>  Ingested, DC 13, -1 STR/-1d8 STR, 120 gp.
