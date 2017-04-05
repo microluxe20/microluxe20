@@ -120,7 +120,7 @@ For compatibility purposes, the 3 saves in Microluxe20 (STR save, DEX save, and 
 
 XP = Hit Dice of defeated monsters, or the given XP for the trap, situation, etc. Add +1 for each doubling of the number of foes.
 
-**Example:** Kobolds have 1 hit die, so 1 kobold = 1 XP. 2 kobolds is double the amount of kobolds, so 2 kobolds = 2 XP. 4 kobolds is double the amount of kobolds again, so 4 kobolds = 3 XP, etc.
+**Examples:** Kobolds have 1 hit die, so 1 kobold = 1 XP. 2 kobolds is double the amount of kobolds, so 2 kobolds = 2 XP. 4 kobolds is double the amount of kobolds again, so 4 kobolds = 3 XP, etc. A Black Bear has 3 hit die, so 1 black bear = 3 XP. 2 Black Bears = 4 XP. 4 Black Bears = 5 XP.
 
 Add up the  XP of every encounter you take part in. When the total = 10 x your current level, you've advanced to the next level. Reset the total to 0 after advancing.
 
