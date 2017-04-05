@@ -9,7 +9,6 @@
 <p align="center">
   <a href="https://travis-ci.org/kgrubb/microluxe20"><img alt="Travis Status" src="https://travis-ci.org/kgrubb/microluxe20.svg"></a>
    <a href="https://github.com/kgrubb/microluxe20/releases/latest"><img alt="Latest Release" src="https://img.shields.io/github/release/kgrubb/microluxe20.svg"></a>
-
   <a href="https://discord.gg/fG36f6M"><img alt="Discord Chat" src="https://discordapp.com/api/guilds/278725721151504384/widget.png"></a>
 </p>
 
