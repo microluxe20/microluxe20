@@ -5,11 +5,11 @@ This is an introduction to the most predominant races of Terador. There are othe
 
 ## Humans
 
-**Leader:** The Queen of Roses (Queen Thalassa)
+**Leader:** The Queen of Roses (Queen Talisa)
 
 **Capital:** Garrant
 
-**Info:** The Humans are currently led by Queen Thalassa, a mysterious Queen who has recently been conveniently absent amid one of the greatest plagues ever to exist in all of Terador. Her military, The Knights of the Rose, have restricted all sighting and meetings with her, making it nearly impossible to speak with the Queen. These knights keep control throughout the kingdom ruling the land with an iron fist. The land to the northeast of Garrant has begun to die, granting it the name "The Deadlands". While the reason for the decay is unknown, it has caused hard times for the kingdom, bringing forth a plague of evil and rot. Many Humans have requested to speak with the queen on the matter, but to no avail. The Knights of the Rose are steadfast in restricting any access to the Queen. Recently, the semi-tyrannical decisions of the once noble Knights of the Rose have caused century old alliances with the Elves and Dwarves to wane and fall apart.
+**Info:** The Humans are currently led by Queen Talisa, a mysterious Queen who has recently been conveniently absent amid one of the greatest plagues ever to exist in all of Terador. Her military, The Knights of the Rose, have restricted all sighting and meetings with her, making it nearly impossible to speak with the Queen. These knights keep control throughout the kingdom ruling the land with an iron fist. The land to the northeast of Garrant has begun to die, granting it the name "The Deadlands". While the reason for the decay is unknown, it has caused hard times for the kingdom, bringing forth a plague of evil and rot. Many Humans have requested to speak with the queen on the matter, but to no avail. The Knights of the Rose are steadfast in restricting any access to the Queen. Recently, the semi-tyrannical decisions of the once noble Knights of the Rose have caused century old alliances with the Elves and Dwarves to wane and fall apart.
 
 ## Great Elves
 

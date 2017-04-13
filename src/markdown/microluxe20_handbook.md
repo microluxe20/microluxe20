@@ -118,7 +118,9 @@ For compatibility purposes, the 3 saves in Microluxe20 (STR save, DEX save, and 
 
 ## Level Advancement
 
-XP = Hit Dice of defeated monsters, or the given XP for the trap, situation, etc. Add +1 for each doubling of the number of foes. example: 1 kobold = 1 XP. 2 kobolds = 2 XP. 4 kobolds = 3 XP, etc.
+XP = Hit Dice of defeated monsters, or the given XP for the trap, situation, etc. Add +1 for each doubling of the number of foes.
+
+**Examples:** Kobolds have 1 hit die, so 1 kobold = 1 XP. 2 kobolds is double the amount, so 2 kobolds = 2 XP (1 XP for first kobold + 1 XP for doubling). 4 kobolds is double the amount again, so 4 kobolds = 3 XP ( 1 XP for first kobold + 1 XP for doubling to 2 + 1 XP for doubling from 2 to 4). A Black Bear has 3 hit die, so 1 Black Bear = 3 XP. 2 Black Bears = 4 XP. 4 Black Bears = 5 XP.
 
 Add up the  XP of every encounter you take part in. When the total = 10 x your current level, you've advanced to the next level. Reset the total to 0 after advancing.
 
@@ -1115,11 +1117,11 @@ Any monster from just about any tabletop RPG may be used. The following list hel
 
 **Skills:** All creatures have a bonus to all skills (_Physical, Guile, Knowledge and Communication_) equal to their number of Hit Dice. If the creature is intelligent, add +3 to one skill. Add stat bonuses to suit and as logic dictates. This is intentionally kept open – if you need a sneaky bugbear, assign the +3 bonus to Guile; if a warrior, give +3 to Physical; for a spell-caster assign the +3 to Knowledge or Communication and give levels of Mage or Cleric (see below).
 
-**Monster Advancement:** To make a tougher monster, add more Hit Dice; each additional Hit Die adds one to their skill and combat bonuses. For each doubling of the Hit Dice, increase the dice size for attacks (ex: d4- >d6, d6->d8, etc).
+**Hit Die & Monster Advancement:** Hit Dice (HD) determine the toughness of a monster. The parenthetical HP is the average HP from the Hit Dice. To make a tougher monster, add more Hit Dice or add a numbered bonus to the Hit Dice; each additional Hit Die adds one to their skill and combat bonuses. For each doubling of the Hit Dice, increase the dice size for attacks (ex: d4- >d6, d6->d8, etc).
 
-Alternatively, add class levels to intelligent monsters. Start with the base Hit Dice and add levels of Fighter, Rogue, Mage or Cleric as required.
+Alternatively, add class levels to intelligent monsters. Start with the base Hit Dice and add levels of Fighter, Rogue, Mage, Cleric, or other class as required.
 
-**Create your own:** Assign Hit Dice (d8 for most things, d12 for Dragons and Undead). Attack bonus and skill level = number of Hit Dice. If it's an intelligent critter, add a +3 bonus to one skill. Add stat bonuses to suit.
+**Create Your Own:** Assign Hit Dice (d8 for most things, d12 for Dragons and Undead). Attack bonus and skill level = number of Hit Dice. If it's an intelligent critter, add a +3 bonus to one skill. Add stat bonuses to suit.
 
 ## Animal
 
@@ -1131,7 +1133,7 @@ Alternatively, add class levels to intelligent monsters. Start with the base Hit
 
 **Boar:**  HD 3d8+12 (25 HP), AC 16, Gore +4 (1d8+3)
 
-**Cat:**  HD ½d8 (2 HP), AC 14, Claw +4 (1d2–4)
+**Cat:**  HD 1d4 (2 HP), AC 14, Claw +4 (1d2–4)
 
 **Crocodile:**  HD 3d8+9 (22 HP), AC 16, Bite +6 (1d8+6) or tail slap +6 (1d12+6)
 
