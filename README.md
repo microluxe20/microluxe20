@@ -14,7 +14,8 @@
 
 ---
 
-Microluxe20 is designed to be a stand-in replacement for any
+Microluxe20 is a minimalist tabletop role-playing game designed with simplicity
+in mind. It is designed to be a stand-in replacement for any
 [SRD](https://en.wikipedia.org/wiki/System_Reference_Document) based tabletop
 adventure. The main goal is to utilize the simplicity of
 [Microlite20](http://microlite20.net/), while also adding various races,
