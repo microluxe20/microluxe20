@@ -176,19 +176,19 @@ Here are three ways for spell casters to add a little more variety:
 
 **Widening** makes a spell's area of effect twice as big as normal. A Widened spell costs an additional 6 HP.
 
-<div>
+<div class="page-break">
 <!--
 To keep sections from page-breaking & to appease both github flavored markdown &
 the markdown-pdf task, div sections must be written in markup.
 -->
 <h2> Resting & Recuperating </h2>
+</div>
 
 After combat, players must rest to regain their stamina. There are 2 forms of resting:
 
-<strong>Short Rest:</strong> Resting for 1-4 hours constitutes a short rest. Characters heal up to 1/4 of their HP (rounded up). Spellcasters are no longer under arcane/divine influence.
+**Short Rest:** Resting for 1-4 hours constitutes a short rest. Characters heal up to 1/4 of their HP (rounded up). Spellcasters are no longer under arcane/divine influence.
 
-<strong>Long Rest:</strong> Resting for over 4 hours constitutes a long rest. Characters heal all of their HP and short-term side effects. Spellcasters also lose their arcane/divine influence.
-</div>
+**Long Rest:** Resting for over 4 hours constitutes a long rest. Characters heal all of their HP and short-term side effects. Spellcasters also lose their arcane/divine influence.
 
 ## Heroism
 
@@ -310,15 +310,15 @@ Here is the format for armor entries (given as column headings on the table belo
 | Shield, medium wooden | 35gp | +2 | 7 lbs. | Shield, Mithral | 450gp | +6 | 45 lbs. |
 | Shield, medium steel | 25gp | +2 | 10 lbs. | Shield, Adamantine | 1,500gp | +7 | 25 lbs. |
 
-<div>
+<div class="page-break">
 <!--
 To keep sections from page-breaking & to appease both github flavored markdown &
 the markdown-pdf task, div sections must be written in markup.
 -->
 <h2> Adventuring Equipment </h2>
+</div>
 
 Characters may purchase equipment from the following lists with their starting money or select one of the standard adventuring "fast packs".
-</div>
 
 ### Adventuring Gear
 
@@ -585,15 +585,15 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Lesser Restoration:** Dispels any magical ability penalty or cures 1d4 points of temporary ability damage.
 
-<div>
+<div class="page-break">
 <!--
 To keep sections from page-breaking & to appease both github flavored markdown &
 the markdown-pdf task, div sections must be written in markup.
 -->
 <h3> 6th-Level Divine Spells </h3>
-
-<strong>Create Food and Water:</strong> Feeds three humans (or one horse)/level.
 </div>
+
+**Create Food and Water:** Feeds three humans (or one horse)/level.
 
 **Cure Serious Wounds:**  Cures 3d8 damage +1/level (max +15).
 
@@ -847,15 +847,15 @@ the markdown-pdf task, div sections must be written in markup.
 
 **Resistance:**  Subject gains +1 on saving throws for 10 rounds.
 
-<div>
+<div class="page-break">
 <!--
 To keep sections from page-breaking & to appease both github flavored markdown &
 the markdown-pdf task, div sections must be written in markup.
 -->
 <h3> 2nd-Level Druid Spells </h3>
-
-<strong>Entangle:</strong>  Plants entangle everyone in a 20ft. radius for 10 rounds/level.
 </div>
+
+**Entangle:**  Plants entangle everyone in a 20ft. radius for 10 rounds/level.
 
 **Faerie Fire:**  Outlines subjects with light for 1 minute/level, cancels blur, invisibility, etc.
 
@@ -1171,15 +1171,16 @@ Alternatively, add class levels to intelligent monsters. Start with the base Hit
 
 **Wolf:**  HD 2d8+4 (13 HP), AC 14, Bite +3 (1d6+1)
 
-<div>
+<div class="page-break">
 <!--
 To keep sections from page-breaking & to appease both github flavored markdown &
 the markdown-pdf task, div sections must be written in markup.
 -->
 <h2> Creatures </h2>
-
-<strong>Ankheg:</strong>  HD 3d10+12 (28HP), AC 18, Bite +7 (2d6+7 plus 1d4 acid)
 </div>
+
+**Ankheg:**  HD 3d10+12 (28HP), AC 18, Bite +7 (2d6+7 plus 1d4 acid)
+
 **Assassin Vine:**  HD 4d8+12 (30 HP), AC 15, Slam +7 (1d6+7), constrict (1d6+7)
 
 **Bugbear:**  HD 3d8+3 (16 HP), AC 17, Morningstar +5 (1d8+2) or javelin +3 (1d6+2)
@@ -1358,14 +1359,15 @@ Several typical poisons are summarized below. The entries for poisons include th
 
 **Price:** lists the cost for one dose of the poison. It can usually only be obtained through less-than-reputable sources, as the possession of poisons are commonly illegal.
 
-<div>
+<div class="page-break">
 <!--
 To keep sections from page-breaking & to appease both github flavored markdown &
 the markdown-pdf task, div sections must be written in markup.
 -->
 <h3>Poisons</h3>
-<strong>Arsenic:</strong>  Ingested, DC 13, -1 STR/-1d8 STR, 120 gp.
 </div>
+
+**Arsenic:**  Ingested, DC 13, -1 STR/-1d8 STR, 120 gp.
 
 **Blue Whinnis:**  Injury, DC 14, -1 STR/ unconsciousness, 120 gp.
 

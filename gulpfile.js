@@ -1,6 +1,7 @@
 var gulp = require('gulp'),
     markdownpdf = require('gulp-markdown-pdf'),
     zip = require('gulp-zip'),
+    changed = require('gulp-changed'),
     fs = require('fs'),
     pjson = require('./package.json');
 
@@ -15,6 +16,7 @@ var config = {
 gulp.task('compile', function() {
     var cwd = process.cwd();
     return gulp.src(config.mdPath)
+        .pipe(changed(config.out, {extension: '.pdf'}))
         .pipe(markdownpdf({
             cwd: cwd,
             cssPath: config.cssPath

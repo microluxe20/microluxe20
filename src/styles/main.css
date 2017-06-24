@@ -13,6 +13,10 @@ div {
     page-break-inside: avoid;
 }
 
+.page-break {
+    page-break-before: always;
+}
+
 h1 {
     page-break-before: always;
     border-top: 2px double black;
