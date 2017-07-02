@@ -176,13 +176,7 @@ Here are three ways for spell casters to add a little more variety:
 
 **Widening** makes a spell's area of effect twice as big as normal. A Widened spell costs an additional 6 HP.
 
-<div class="page-break">
-<!--
-To keep sections from page-breaking & to appease both github flavored markdown &
-the markdown-pdf task, div sections must be written in markup.
--->
-<h2> Resting & Recuperating </h2>
-</div>
+<h2 class="page-break"> Resting & Recuperating </h2>
 
 After combat, players must rest to regain their stamina. There are 2 forms of resting:
 
@@ -310,13 +304,7 @@ Here is the format for armor entries (given as column headings on the table belo
 | Shield, medium wooden | 35gp | +2 | 7 lbs. | Shield, Mithral | 450gp | +6 | 45 lbs. |
 | Shield, medium steel | 25gp | +2 | 10 lbs. | Shield, Adamantine | 1,500gp | +7 | 25 lbs. |
 
-<div class="page-break">
-<!--
-To keep sections from page-breaking & to appease both github flavored markdown &
-the markdown-pdf task, div sections must be written in markup.
--->
-<h2> Adventuring Equipment </h2>
-</div>
+<h2 class="page-break"> Adventuring Equipment </h2>
 
 Characters may purchase equipment from the following lists with their starting money or select one of the standard adventuring "fast packs".
 
@@ -585,13 +573,7 @@ The following spells have been customized and tweaked to make the game as smooth
 
 **Lesser Restoration:** Dispels any magical ability penalty or cures 1d4 points of temporary ability damage.
 
-<div class="page-break">
-<!--
-To keep sections from page-breaking & to appease both github flavored markdown &
-the markdown-pdf task, div sections must be written in markup.
--->
-<h3> 6th-Level Divine Spells </h3>
-</div>
+<h3 class="page-break"> 6th-Level Divine Spells </h3>
 
 **Create Food and Water:** Feeds three humans (or one horse)/level.
 
@@ -847,13 +829,7 @@ the markdown-pdf task, div sections must be written in markup.
 
 **Resistance:**  Subject gains +1 on saving throws for 10 rounds.
 
-<div class="page-break">
-<!--
-To keep sections from page-breaking & to appease both github flavored markdown &
-the markdown-pdf task, div sections must be written in markup.
--->
-<h3> 2nd-Level Druid Spells </h3>
-</div>
+<h3 class="page-break"> 2nd-Level Druid Spells </h3>
 
 **Entangle:**  Plants entangle everyone in a 20ft. radius for 10 rounds/level.
 
@@ -1171,13 +1147,7 @@ Alternatively, add class levels to intelligent monsters. Start with the base Hit
 
 **Wolf:**  HD 2d8+4 (13 HP), AC 14, Bite +3 (1d6+1)
 
-<div class="page-break">
-<!--
-To keep sections from page-breaking & to appease both github flavored markdown &
-the markdown-pdf task, div sections must be written in markup.
--->
-<h2> Creatures </h2>
-</div>
+<h2 class="page-break"> Creatures </h2>
 
 **Ankheg:**  HD 3d10+12 (28HP), AC 18, Bite +7 (2d6+7 plus 1d4 acid)
 
@@ -1359,13 +1329,7 @@ Several typical poisons are summarized below. The entries for poisons include th
 
 **Price:** lists the cost for one dose of the poison. It can usually only be obtained through less-than-reputable sources, as the possession of poisons are commonly illegal.
 
-<div class="page-break">
-<!--
-To keep sections from page-breaking & to appease both github flavored markdown &
-the markdown-pdf task, div sections must be written in markup.
--->
-<h3>Poisons</h3>
-</div>
+<h3 class="page-break">Poisons</h3>
 
 **Arsenic:**  Ingested, DC 13, -1 STR/-1d8 STR, 120 gp.
 

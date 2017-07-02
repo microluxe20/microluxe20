@@ -9,10 +9,6 @@ img[alt=image] {
     margin: auto;
 }
 
-div {
-    page-break-inside: avoid;
-}
-
 .page-break {
     page-break-before: always;
 }
