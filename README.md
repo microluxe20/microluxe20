@@ -57,6 +57,8 @@ Doug Rich
 
 Connor Bashinski
 
+Webster Sheets
+
 # Licensing
 
 Licensed under the [Open Game License](LICENSE).
