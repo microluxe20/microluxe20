@@ -55,6 +55,10 @@ body {
     font-size: 56%;
 }
 
+ul, ol {
+	font-size: 100%;
+}
+
 strong {
     font-size: 100%;
 }
