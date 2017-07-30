@@ -8,7 +8,7 @@ Microluxe20 is a minimalist tabletop role-playing game designed with simplicity 
 
 ### What is a Role-Playing Game?
 
-A role-playing game (RPG) is a cooperative narration game in which players assume the roles of characters in a fictional setting, deciding freely which action let them do and acting as their fictional alter-ego. The Game Master(GM), the main narrator of the game, describes the game world and its inhabitants. The other players describe the intended actions of their characters, and the GM describes the outcomes. Actions taken within the game succeed or fail according to a formal system of rules and guidelines. For example:
+A role-playing game (RPG) is a cooperative narration game in which players assume the roles of characters in a fictional setting, deciding freely which actions to take as their fictional alter-ego. The Game Master(GM), the main narrator of the game, describes the game world and its inhabitants. The other players describe the intended actions of their characters, and the GM describes the outcomes. Actions taken within the game succeed or fail according to a formal system of rules and guidelines. For example:
 
 **GM:** “You’re walking along a path in a small wood when you hear noises coming from behind a large bush of vegetation. A sparkle of light reveals something shiny...”
 
@@ -64,11 +64,11 @@ Classes define your character's way of life. Your character's class helps shape 
 
 **Mages** wear no armor, can not use shields, and can use simple weapons. They can cast arcane spells (Mage), and gain a +3 bonus to Knowledge.
 
-**Clerics** can wear light or medium armor, can not use shields, and can use simple weapons. They cast divine spells (Cleric) and gain +3 bonus to Communication. A Cleric can _Turn Undead_ with a successful Magic Attack. DC is the current HP of the Undead. If the DC is exceeded by 10 it is destroyed. This can be used (2 + Level + MIND Bonus) times per day.
+**Clerics** can wear light or medium armor, can not use shields, and can use simple weapons. They cast divine spells (Cleric) and gain a +3 bonus to Communication. A Cleric can _Turn Undead_ with a successful Magic Attack. The DC for the action is the current HP of the Undead. If the DC is exceeded by 10 it is destroyed. This can be used (2 + Level + MIND Bonus) times per day.
 
 **Paladins** wear and use any kind of armor, shield, and weapon. They gain +1 to Physical and a +2 bonus to Communication. They are immune to diseases and apply a +1 bonus to all saving throws (this increases by +1 at 5th level and every 5 levels onward). Paladins can _Detect Evil_ within 60 ft. at will and can heal up to 2 HP per level per day by _Laying on Hands_.
 
-**Rangers** wear light or medium armor, can use shields, and can use simple weapons, complex ranged weapons, and complex one-handed weapons. They gain +1 to hit and to damage with ranged weapons and only incur a -1 to hit penalty when fighting with 2 weapons. They have a +1 bonus to Guile and a +2 bonus to Physical. Rangers gain the _Trapper_ ability at level 5. When dealing with trap-related dice rolls (such as dodging a trap or searching for traps), a ranger gains a +2 bonus.
+**Rangers** wear light or medium armor, can use shields, and can use simple weapons, complex ranged weapons, and complex one-handed weapons. They gain +1 to hit and +1 damage with ranged weapons and only incur a -1 to hit penalty when fighting with 2 weapons. They have a +1 bonus to Guile and a +2 bonus to Physical. Rangers gain the _Trapper_ ability at level 5. When dealing with trap-related dice rolls (such as dodging a trap or searching for traps), a ranger gains a +2 bonus.
 
 **Illusionists** wear no armor, can not use shields, and can use simple weapons. They can cast arcane spells (Illusionist) and gain a +2 bonus to Communication and a +1 bonus to Guile.
 
@@ -92,81 +92,91 @@ When creating a character, you get 10 points to freely spend on your core stats,
 
 **Stat Bonus** = stat/2, round down.
 
-**Hit Points (HP)**: Hit Points determine how healthy a character is. As they are injured or hurt, their HP depletes. To determine HP, use the following:
+**Hit Points (HP)**: Hit Points determine how healthy a character is. As they are injured or hurt, their HP depletes. To determine a character's starting HP, use the following formula:
 
 HP = 10 + STR stat + 1d6(with a minimum of 3).
 
-If a player is damaged to the point where their HP reaches zero (or below zero), the player becomes "downed", or unconscious and near death, with 0 HP. Further damage directly reduces their highest stat (STR, DEX, or MIND). If that stat reaches below zero, the player dies. While down, at the start of your turn, roll a d6. You have 3 chances (1 chance per turn) to roll above a 3. If successful, you are stable and return to 1 HP (STR is returned to normal as well). Otherwise, if unsuccessful 3 turns, the player dies.
+If a player is damaged to the point where their HP reaches zero (or below zero), the player becomes "downed", or unconscious and near death, with 0 HP. Further damage directly reduces their highest stat (STR, DEX, or MIND). If that stat reaches below zero, the player dies. While down, at the start of your turn, roll a d6. You have 3 chances (1 chance per turn) to roll above a 3. If successful, you are stable and return to 1 HP (Damaged stats are returned to normal as well). Otherwise, if unsuccessful 3 turns, the player dies.
 
-**Speed** comes in 3 tiers. You are either Slow(20ft.), Normal(30ft.) or Fast(35ft.).  Speed is determined by the game master and can be affected by spells and conditions. Typically, Fighters or Paladins with Heavy armor are Slow, Rogues and Rangers are Fast, and the rest are Normal speed. (5ft. is approximately 1 "Square")
+**Speed** comes in 3 tiers. You are either Slow(20ft.), Normal(30ft.) or Fast(35ft.). Speed is determined by the game master and can be affected by spells and conditions. Typically, Fighters or Paladins with Heavy armor are Slow, Rogues and Rangers are Fast, and the rest are Normal speed. (5ft. is approximately 1 "Square")
 
 **Armor Class (AC)** = 10 + DEX bonus + Armor bonus + Racial bonus.
 
+A character's Armor Class represents their ability to evade or block physical attacks. The higher a character's AC, the more difficult it is to land a damaging blow.
+
 ## Skills & Saves
 
-There are 4 skills: **Physical** , **Guile** , **Knowledge** , and **Communication**. Roll higher than the given Difficulty Class to succeed.
+There are 4 skills: **Physical**, **Guile**, **Knowledge**, and **Communication**. Roll higher than the given Difficulty Class to succeed.
 
 **Skill Rank** = any bonus due to your class or race + any allocated points.
 
-Skill roll = d20 + skill rank + whatever stat bonus is most applicable to the use + situation modifiers
+**Skill Roll** = d20 + skill rank + whatever stat bonus is most applicable to the use + situation modifiers
 
 For example, Climbing would use Physical + STR bonus. Dodging a falling rock is Physical + DEX bonus. Finding a trap is Guile + MIND bonus. Disabling a trap is Guile + DEX bonus.
 
-Save Rolls = d20 + stat bonus + situation modifiers
+**Save Roll** = d20 + stat bonus + situation modifiers
 
 For compatibility purposes, the 3 saves in Microluxe20 (STR save, DEX save, and MIND save), directly match Fortitude, Reflex, and Will saves (often called "saving throws") found in other SRD-based games.
 
 ## Level Advancement
 
-XP = Hit Dice of defeated monsters, or the given XP for the trap, situation, etc. Add +1 for each doubling of the number of foes.
+Characters gain XP (or Experience Points) from defeating monsters, disarming traps, or from handling situations in innovative ways, at the GM's discretion. XP is awarded to all characters who take part in the encounter.
 
-**Examples:** Kobolds have 1 hit die, so 1 kobold = 1 XP. 2 kobolds is double the amount, so 2 kobolds = 2 XP (1 XP for first kobold + 1 XP for doubling). 4 kobolds is double the amount again, so 4 kobolds = 3 XP ( 1 XP for first kobold + 1 XP for doubling to 2 + 1 XP for doubling from 2 to 4). A Black Bear has 3 hit die, so 1 Black Bear = 3 XP. 2 Black Bears = 4 XP. 4 Black Bears = 5 XP.
+**XP Gained** = Hit Dice of defeated monsters, or the given XP for the trap, situation, etc. Add +1 for each doubling of the number of foes.
 
-Add up the  XP of every encounter you take part in. When the total = 10 x your current level, you've advanced to the next level. Reset the total to 0 after advancing.
+**Examples:** Kobolds have 1 hit die, so 1 kobold = 1 XP. 2 kobolds are double the amount, so 2 kobolds = 2 XP (1 XP for first kobold + 1 XP for doubling). 4 kobolds are double the amount again, so 4 kobolds = 3 XP ( 1 XP for first kobold + 1 XP for doubling to 2 + 1 XP for doubling from 2 to 4). A Black Bear has 3 hit die, so 1 Black Bear = 3 XP. 2 Black Bears = 4 XP. 4 Black Bears = 5 XP.
+
+As characters participate in encounters, they will begin to accumulate XP. Characters advance to the next level when they have gained XP equal to 10 times their current level. After advancing, the total XP is reset to 0. If a character has more XP than is required for the next level, keep the excess XP and add it after resetting the character's XP to 0. For example, if a level 1 character has 8XP and is awarded 4XP, the character advances to level 2 with 2XP.
 
 **Example:** The 1st level adventurers have just completed a dungeon adventure, and defeated five 1 XP encounters, a 2 XP trap and the 3 XP leader. That's a total of 10 XP, so they all advance to level 2. They need to gain another 20 XP to reach Level 3.
 
 Each level adds:
 
-+1d6 to Hit Points (with a minimum of 3). Fighters also get additional HP equal to their STR bonus.
+* +1d6 to Hit Points (with a minimum of 3). Fighters also get additional HP equal to their STR bonus.
 
-+2 points to spend on skills. When upgrading skills, you cannot add more points to a skill if it is higher than or equal to your character's level + 5.
+* +2 points to spend on skills. When upgrading skills, you cannot add more points to a skill if it is higher than or equal to your character's level + 5.
 
-If your character's level divides by three (ex: level 3,6,9,etc.) add 1 point to STR, DEX or MIND.
+* If your character's level divides by three (ex: level 3,6,9,etc.) add 1 point to STR, DEX or MIND.
 
-Fighters gain +1 to their attack and damage rolls at levels 5,10,15,etc.
+* Fighters gain +1 to their attack and damage rolls at levels 5,10,15,etc.
 
-New spell and power levels are unlocked at levels 2,4,6,8,etc.
+* New spell and power levels are unlocked at levels 2,4,6,8,etc.
 
 ## Combat
 
-Roll d20 + DEX bonus for **initiative** order (ties are settled with a re-roll). Everyone can move and do one action each turn (attack, cast a spell, move again, speak with someone, etc.).
+When entering combat, the pace of the game shifts from the free-form nature of exploration to tightly structured units of time called 'rounds', in which each character gets one turn. On their turn, characters may move up to their maximum speed and take one additional action (attack, cast a spell, move again, speak with someone, etc.), unless they are immobilized, unconscious, or otherwise incapacitated.
 
-Melee attack bonus = STR bonus + Level
+The order in which characters take their turns in combat is determined by rolling d20 + DEX bonus for **initiative** at the start of each round (ties are settled with a re-roll).
 
-Missile attack bonus = DEX bonus + Level
+When making an attack, roll a d20, adding the appropriate **attack bonus** for the action. If the resulting total is greater than your opponent's Armor Class (AC), it's a hit. Natural 20 is automatically a critical, dealing additional damage equal to your weapon's maximum damage. Melee attack bonuses are used for martial weapons, Missile attack bonuses are used for ranged combat, and Magic attack bonuses are used for staves and other magical items with special powers.
 
-Magic attack bonus = MIND bonus + Level
+**Melee attack bonus** = STR bonus + Character Level
 
-Add attack bonus to d20 roll. If higher than your opponent's Armor Class (AC), it's a hit. Natural 20 is automatically a critical, dealing additional damage equal to your weapon's maximum damage. Melee attack bonuses are used for martial weapons, Missile attack bonuses are used for ranged combat, and Magic attack bonuses are used for staves and other magical items with special powers.
+**Missile attack bonus** = DEX bonus + Character Level
+
+**Magic attack bonus** = MIND bonus + Character Level
 
 If the total attack bonus is +6 or more, a second attack can be made with a -5 penalty to the attack bonus. If the total bonus is +11 or more a third attack can be made at a -10 penalty. For example, if the total bonus is +12, three attacks can be made at +12/+7/+2.
 
-Fighters and Rogues can use DEX bonus + Level (Missile attack bonus) as Melee attack bonus instead if wielding a light weapon. Fighters, Rogues, Bards, and Rangers can wield 2 light weapons and attack with both in a round if they take a -2 penalty on all attack rolls that round (Rangers don't take the penalty).
+Fighters and Rogues may use DEX bonus + Level (Missile attack bonus) as Melee attack bonus instead when wielding a light weapon. Fighters, Rogues, Bards, and Rangers may wield 2 light weapons and attack with both in a round, if they take a -2 penalty on all attack rolls that round. Rangers take a -1 penalty instead.
 
-For all Melee damage with complex weapons, add your STR bonus.
+For each attack that hits, roll the damage die code on your weapon and subtract the resulting total from your opponent's HP. When wielding a Complex Melee weapon, add your STR bonus to the damage total.
 
-## Magic
+**Example:** Your Human Paladin has hit an enemy Orc with his Greatsword (2d6, Complex). He rolls two six-sided die, getting 4+5 for a total of 9. Since it is a Complex weapon, he adds his strength bonus of +2, for 11 damage total. The Orc, having a meager 9 HP left, is killed instantly.
 
-Spellcasters can cast any of their class spells, as long as the spell level is equal to or below their class level. Casting a spell of any kind costs Hit Points. The cost is equal to the level of the spell being cast:
+When all characters (including Gamemaster's characters) have taken their turn, the round is over. If there are any opponents left alive or not incapacitated, a new round begins. Otherwise, combat is over.
 
-Once a spellcaster has cast a spell in an encounter, they enter a state called "arcane (or divine) influence". While in this state, their HP **cannot** be healed normally until they have a short rest. Healing spells cast on an injured caster under arcane/divine influence only heal ¼ of the given amount. Spellcasters automatically exit their influenced state after 1 hour of rest.
+<h2 class="page-break">Spells</h2>
+
+Spellcasters may cast any of their class spells as long as the spell level is equal to or below their class level. Casting a spell of any kind costs Hit Points. The cost is equal to the level of the spell being cast. Unless specified otherwise, spellcasting does not require the player to make a dice roll.
+
+Once a spellcaster has cast a spell in an encounter, they enter a state called "arcane (or divine) influence". While in this state, their HP *cannot* be healed normally until they have a short rest. Healing spells cast on an injured caster under arcane/divine influence only heal ¼ of the given amount. Spellcasters automatically exit their influenced state after 1 hour of rest.
 
 There is no need to memorize spells in advance. Just because a character can cast any spell, doesn't mean that they should. Choose spells that suit the character. Select one "signature" spell per spell level from 1st upward that they prefer to use over any other. These spells are easier to cast due to familiarity, costing 2 less HP to use.
 
 **Spell Difficulty Class (DC)** for all spells: 10 + Caster Level + Caster's MIND bonus
 
-When a spell is cast, the target of the spell must make a DC save (d20), unless the spell states that it requires a different save. If the target scores lower than the caster's DC, they are affected by the spell.
+When a spell is cast, the target of the spell must make a DC save (d20), unless the spell states that it requires a different save. If the target scores lower than the spell's DC, they are affected by the spell.
 
 Here are three ways for spell casters to add a little more variety:
 
@@ -176,7 +186,7 @@ Here are three ways for spell casters to add a little more variety:
 
 **Widening** makes a spell's area of effect twice as big as normal. A Widened spell costs an additional 6 HP.
 
-<h2 class="page-break"> Resting & Recuperating </h2>
+## Resting & Recuperating
 
 After combat, players must rest to regain their stamina. There are 2 forms of resting:
 
@@ -1477,7 +1487,7 @@ The entries for traps include the following information:
 
 Whenever the players want to try something that goes around, through, or above and beyond the rules as written, you can always use the "GM's Friend"...the 50% chance.
 
-Have them roll whatever check seems most appropriate. A roll of 1-10 is a failure, a roll of 11-20 is a success. If you feel that the situation warrants that you favor them, assign a +2 bonus to their roll. If the situation determines that they be hindered, then assign a –2 penalty.
+Have them roll whatever check seems most appropriate. A roll of 1-10 is a failure, a roll of 11-20 is a success. If you feel that the situation warrants that you favor them, assign a +2 bonus to their roll. If the situation requires that they be hindered, then assign a –2 penalty.
 
 # Appendix
 
@@ -1529,11 +1539,11 @@ Combat Scale comes into play when battling against forces of a different size. I
 
 If the Combat Scale becomes the same for all opponents, resolve combat normally; the playing field is now level.
 
-## Calculating Experience
+### Calculating Experience
 
 Experience is gained from taking part in a battle equal to the Hit Die of the opponent, +1 for each CS higher than your own. For example, a member of the 20-strong Knights of the Rose (CSx5) will earn 3 XP after defeating an army of 35 Gnolls (a 2 Hit Die creature, CSx6).
 
-## Mass Combat Example: Knights vs Dragon
+### Mass Combat Example: Knights vs Dragon
 
 The 500-strong Knights of the Rose stand ready against the young Dragon. They are CSx10, while the Dragon, a single creature, is just CSx1, though formidable.
 
