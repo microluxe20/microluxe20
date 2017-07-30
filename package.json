@@ -21,7 +21,7 @@
     "devDependencies": {
         "gulp": "^3.9.1",
         "gulp-changed": "^3.1.0",
-        "gulp-markdown-pdf": "^4.0.0",
+        "gulp-markdown-pdf": "^5.0.0",
         "gulp-zip": "^4.0.0"
     }
 }
