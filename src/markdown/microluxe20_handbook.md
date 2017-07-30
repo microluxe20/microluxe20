@@ -126,7 +126,7 @@ Characters gain XP (or Experience Points) from defeating monsters, disarming tra
 
 **Examples:** Kobolds have 1 hit die, so 1 kobold = 1 XP. 2 kobolds are double the amount, so 2 kobolds = 2 XP (1 XP for first kobold + 1 XP for doubling). 4 kobolds are double the amount again, so 4 kobolds = 3 XP ( 1 XP for first kobold + 1 XP for doubling to 2 + 1 XP for doubling from 2 to 4). A Black Bear has 3 hit die, so 1 Black Bear = 3 XP. 2 Black Bears = 4 XP. 4 Black Bears = 5 XP.
 
-Characters advance to the next level when they have gained XP equal to 10 times their current level. Add up the XP of every encounter you take part in. When the total = 10x your current level, you've advanced to the next level. Reset the total to 0 after advancing. If you have more XP than is required for the next level, you keep the excess XP.
+As characters participate in encounters, they will begin to accumulate XP. Characters advance to the next level when they have gained XP equal to 10 times their current level. After advancing, the total XP is reset to 0. If a character has more XP than is required for the next level, keep the excess XP and add it after resetting the character's XP to 0. For example, if a level 1 character has 8XP and is awarded 4XP, the character advances to level 2 with 2XP.
 
 **Example:** The 1st level adventurers have just completed a dungeon adventure, and defeated five 1 XP encounters, a 2 XP trap and the 3 XP leader. That's a total of 10 XP, so they all advance to level 2. They need to gain another 20 XP to reach Level 3.
 
