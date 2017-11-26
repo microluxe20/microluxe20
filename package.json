@@ -1,27 +1,31 @@
 {
-    "name": "microluxe20",
-    "version": "1.7.3",
-    "description": "A free, open source tabletop game based on the Microlite20 ruleset.",
-    "main": "index.js",
-    "scripts": {
-        "compile": "npm install && gulp compile",
-        "watch": "npm install && gulp watch",
-        "release": "npm install && gulp release"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/kgrubb/microluxe20"
-    },
-    "author": "Keli Grubb",
-    "license": "SEE LICENSE IN LICENSE",
-    "bugs": {
-        "url": "https://github.com/kgrubb/microluxe20/issues"
-    },
-    "homepage": "https://microluxe20.com",
-    "devDependencies": {
-        "gulp": "^3.9.1",
-        "gulp-changed": "^3.1.0",
-        "gulp-markdown-pdf": "^5.0.0",
-        "gulp-zip": "^4.0.0"
-    }
+  "name": "microluxe20",
+  "version": "1.7.3",
+  "description": "A free, open source tabletop game based on the Microlite20 ruleset.",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint .",
+    "compile": "gulp compile",
+    "watch": "gulp watch",
+    "release": "gulp release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kgrubb/microluxe20"
+  },
+  "author": "Keli Grubb",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/kgrubb/microluxe20/issues"
+  },
+  "homepage": "https://microluxe20.com",
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "gulp": "^3.9.1",
+    "gulp-changed": "^3.1.0",
+    "gulp-markdown-pdf": "^5.0.0",
+    "gulp-zip": "^4.0.0"
+  }
 }
