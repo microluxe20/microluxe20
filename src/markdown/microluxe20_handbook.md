@@ -176,7 +176,7 @@ There is no need to memorize spells in advance. Just because a character can cas
 
 **Spell Difficulty Class (DC)** for all spells: 10 + Caster Level + Caster's MIND bonus
 
-When a spell is cast, the target of the spell must make a DC save (d20), unless the spell states that it requires a different save. If the target scores lower than the spell's DC, they are affected by the spell.
+When a spell is cast, the target of the spell must make a relevant DC save (d20 + relevant stat bonus), unless the spell states that it requires a different or more specific save. If the target scores lower than the spell's DC, they are affected by the spell. For example, if the spell forms spikes that protrude from the ground, the target may make a DEX save to try and escape the spell's effects. 
 
 Here are three ways for spell casters to add a little more variety:
 
