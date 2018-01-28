@@ -62,3 +62,16 @@ ul, ol {
 strong {
     font-size: 100%;
 }
+
+code {
+	color: #333;
+	background-color: #ddd;
+	border-radius: 2px;
+}
+
+pre {
+	border-radius: 5px;
+	background-color: #ddd;
+	padding: 0.5em;
+	padding-left: 1em;
+}
