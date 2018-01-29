@@ -22,6 +22,7 @@ gulp.task('compile', () => {
     .pipe(markdownpdf({
       cwd,
       cssPath: config.cssPath,
+      preProcessMd: function() { return require('./src/process-md.js') }
     }))
     .pipe(gulp.dest(config.out));
 });
