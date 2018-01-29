@@ -1,4 +1,5 @@
-![title-img](https://raw.githubusercontent.com/kgrubb/microluxe20/master/src/static/logo-races.png)
+![title-img](https://github.com/kgrubb/microluxe20/raw/master/src/static/logo-plain.png)
+<h1 class="title">Microluxe 20 <br/> Races of Terador</h1>
 
 # Introduction
 This is an introduction to the most predominant races of Terador. There are other races and animals native to Terador, but those other races play a significantly smaller role.

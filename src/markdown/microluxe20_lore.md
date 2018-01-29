@@ -1,4 +1,5 @@
-![title-img](https://raw.githubusercontent.com/kgrubb/microluxe20/master/src/static/logo-lore.png)
+![title-img](https://github.com/kgrubb/raw/microluxe20/master/src/static/logo-plain.png)
+<h1 class="title">Microluxe 20 <br/> Mythos of Terador</h1>
 
 # Genesis
 
