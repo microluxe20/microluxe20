@@ -170,7 +170,7 @@ For each attack that hits, roll the damage die code on your weapon and subtract 
 
 When all characters (including Gamemaster's characters) have taken their turn, the round is over. If there are any opponents left alive or not incapacitated, a new round begins. Otherwise, combat is over.
 
-<h2 class="page-break">Spells</h2>
+## Spells
 
 Spellcasters may cast any of their class spells as long as the spell level is equal to or below their class level. Casting a spell of any kind costs Hit Points. The cost is equal to the level of the spell being cast. Unless specified otherwise, spellcasting does not require the player to make a dice roll.
 
@@ -189,6 +189,30 @@ Here are three ways for spell casters to add a little more variety:
 **Empowering** makes a spell do 50% more damage than normal. An Empowered spell costs an additional 4 HP.
 
 **Widening** makes a spell's area of effect twice as big as normal. A Widened spell costs an additional 6 HP.
+
+## Magic Items
+
+*Author's Note:* This section is intended to establish a common baseline for magical items. Gamemasters are encouraged to customize or even ignore this section as needed to fit their setting.
+
+Magical items can be broadly divided into two categories: Active and Passive. Active magical items require some action on the part of the character to make use of their magical effects, while passive items provide their effect at all times. Using an active item may require a skill check of some sort, and may sometimes consume HP in the same fasion spellcasting does.
+
+### Common Active Items:
+
+**Staves:** The main tool of a spellcaster, the staff is a focus used to harness magical energy. Spellcasters usually require a staff to cast a spell. Staves may also contain one or more spells that the caster would not normally have access to; these spells can only be cast while wielding the staff.
+
+**Rods:** Usually employed for easier metamagic, rods may contain a single spell or magical effect. This spell can be cast by anyone for the appropriate HP cost, but non-spellcasting characters do so at +2 or more to the difficulty. Rods with a metamagic effect may be used in tandem with staves when casting a spell.
+
+**Wands:** Sometimes described as "magic-in-a-bottle", a wand contains a combination of a single spell and a set amount of charges. While there are charges left, any character may use the wand to cast the contained spell at the expense of a charge. Wands can be recharged, but usually require a significant HP cost for each charge.
+
+**Potions:** A single-use magical item, potions consist of a bottled magical liquid. When consumed, a potion confers a magical effect on the character that drank it.
+
+**Scrolls:** Similar to Potions, scrolls are a single-use item that allow any character to cast a single spell simply by reading it. Spellcasters may use Read Magic to decifer a scroll without casting it.
+
+### Common Passive Items:
+
+**Amulets, Charms, Rings, etc:** Various items of jewelery may be enchanted to provide a magical effect. Most items of this sort provide a bonus to a stat or skill, but more spectacular effects are possible.
+
+**Armor and Weapons:** Enchanted armor and weapons are usually the mark of a wealthy adventurer or noble, and usually provide some form of passive effect, ranging from a simple 'torchlight' effect to damage reduction, elemental resistances, and more.
 
 ## Resting & Recuperating
 
