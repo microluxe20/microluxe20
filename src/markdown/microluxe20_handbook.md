@@ -340,8 +340,8 @@ Characters may purchase equipment from the following lists with their starting m
 | Case, map or scroll | 1gp | 0.5 lbs. | Lock, simple | 20gp | 1 lb. | Sledge | 1gp | 10 lbs. |
 | Chain (10 ft.) | 30gp | 2 lbs. | Lock, average | 40gp | 1 lb. | Soap (per lb.) | 5sp | 1 lb. |
 | Chalk, 1 piece | 1cp | - | Lock, good | 80gp | 1 lb. | Spade or Shovel | 2gp | 8 lb. |
-| Chest (empty) | 2gp | 25 lbs. | Magnifying Glass | 100gp | - | Spell Component Pouch | 5gp | 2 lbs. |
-| Craftsman's Tools | 5gp | 5 lbs. | Manacles | 15gp | 2 lbs. | Spellbook, wizard's (blank) | 15gp | 3 lbs. |
+| Chest (empty) | 2gp | 25 lbs. | Magnifying Glass | 100gp | - | - | - | - |
+| Craftsman's Tools | 5gp | 5 lbs. | Manacles | 15gp | 2 lbs. | Spellbook (blank) | 15gp | 3 lbs. |
 | Crowbar | 2gp | 5 lbs. | Mirror, small steel | 10gp | 0.5 lbs. | Spyglass | 1,000gp | 1 lb. |
 | Disguise Kit | 50gp | 8 lbs. | Mug/Tankard, clay | 2cp | 1 lb. | Tent | 10gp | 20 lbs. |
 | Firewood (per day) | 1cp | 20 lbs. | Musical Instrument | 5gp | 3 lbs. | Thieves' Tools | 30gp | 1 lb. |
@@ -389,7 +389,7 @@ Suggested starting packs for new characters. Each pack uses 35gp of a character'
 | water skin | water skin | water skin |
 | rations (4 days) | rations (4 days) | rations (4 days) |
 
-Characters that use magic & spells are advised to purchase a spell component pouch and a Spellbook in order to cast spells. Likewise, Rogues are advised to purchase Thieves tools if they want to pick locks, disarm traps, etc.
+Rogues are advised to purchase Thieves tools if they want to pick locks, disarm traps, etc.
 
 # Spell Lists
 
