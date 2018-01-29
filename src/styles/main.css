@@ -1,7 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700italic,700);
-img[alt=title-img] {
+
+@font-face {
+  font-family: 'Trade Winds';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../static/TradeWinds.ttf') format('truetype');
+}
+
+/* Horribly hacky. */
+img[alt=title-img], img.title-img {
     display: block;
-    margin: auto;
+    margin: 0 auto;
+    width: 12rem;
+}
+
+.title {
+	font-family: 'Trade Winds';
+	font-weight: 700;
+	font-size: 5em;
+	text-align: center;
 }
 
 img[alt=image] {
@@ -13,7 +30,7 @@ img[alt=image] {
     page-break-before: always;
 }
 
-h1 {
+h1:not(.title) {
     page-break-before: always;
     border-top: 2px double black;
     border-bottom: 2px double black;
