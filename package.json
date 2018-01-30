@@ -20,12 +20,12 @@
   },
   "homepage": "https://microluxe20.com",
   "devDependencies": {
-    "eslint": "^4.11.0",
+    "eslint": "^4.16.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
-    "gulp": "^3.9.1",
-    "gulp-changed": "^3.1.0",
-    "gulp-markdown-pdf": "^5.0.0",
-    "gulp-zip": "^4.0.0"
+    "gulp": "^4.0.0",
+    "gulp-changed": "^3.2.0",
+    "gulp-markdown-pdf": "^6.0.0",
+    "gulp-zip": "^4.1.0"
   }
 }
