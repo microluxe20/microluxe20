@@ -1,22 +1,22 @@
 ---
-
 id: coins
 header:
-	- Exchange		| CP	| SP	| GP	| PP
+    - Exchange		| CP	| SP	| GP	| PP
+    - :--- | :--- | :--- | :--- | :---
 data:
-	- Copper piece	| 1		| 1/10	| 1/100	| 1/1,000
-	- Silver piece	| 10	| 1		| 1/10	| 1/1,00
-	- Gold piece	| 100	| 10	| 1		| 1/10
-	- Platinum piece| 1,000	| 100	| 10	| 1
+    - Copper piece	| 1		| 1/10	| 1/100	| 1/1,000
+    - Silver piece	| 10	| 1		| 1/10	| 1/1,00
+    - Gold piece	| 100	| 10	| 1		| 1/10
+    - Platinum piece| 1,000	| 100	| 10	| 1
 
 ---
-
 id: class_wealth
 header:
-	- Class | Amount
+    - Class | Amount
+    - :--- | :---
 data:
-	- Fighter, Paladin | 150 gp
-	- Rogue, Ranger | 125 gp
-	- Mage, Illusionist, Psion | 75 gp
-	- Cleric, Druid | 120 gp
-	- Bard | 100 gp
+    - Fighter, Paladin | 150 gp
+    - Rogue, Ranger | 125 gp
+    - Mage, Illusionist, Psion | 75 gp
+    - Cleric, Druid | 120 gp
+    - Bard | 100 gp

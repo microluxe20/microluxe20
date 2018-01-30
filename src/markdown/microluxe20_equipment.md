@@ -27,52 +27,19 @@ Here is the format for weapon entries (given as column headings on the table bel
 
 ### Light Weapons
 
-| Weapon | Cost | Damage | Range | Complexity | Weight | Weapon | Cost | Damage | Range | Complexity | Weight |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Unarmed | — | 1d2 | — | Simple | — | Handaxe | 5gp | 1d4 | — | Complex | 3 lbs. |
-| Cestus | 5gp | 1d4 | — | Simple | 1 lb. | Hook | 8gp | 1d6 | — | Complex | 2 lbs. |
-| Dagger | 2gp | 1d4 | 10 ft. | Simple | 1 lb. | Sap | 8gp | 1d6 | — | Complex | 2 lbs. |
-| Mace, light | 5gp | 1d6 | — | Simple | 4 lbs. | Gladius | 8gp | 1d6 | — | Complex | 3 lbs. |
-| Sickle | 5gp | 1d6 | — | Simple | 2 lbs. | Axe, throwing | 10gp | 1d6 | 10ft. | Complex | 2 lbs. |
-| Pick, light | 5gp | 1d4 | — | Complex | 3 lbs. | Hammer, light | 12gp | 1d6 | 20ft. | Complex | 2 lbs. |
+<!-- $data weapons.yml light -->
 
 ### Ranged Weapons
 
-| Weapon | Cost | Damage | Range | Complexity | Weight | Weapon | Cost | Damage | Range | Complexity | Weight |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Dart | 5sp | 1d4 | 20ft. | Simple | 0.5 lbs. | Net | 20gp | — | 10ft. | Complex | 6 lbs. |
-| Sling | 1gp | 1d4 | 40ft. | Simple | — | Crossbow, hand | 100gp | 1d4 | 30ft. | Complex | 2 lbs. |
-| Kunai | 2gp | 1d4 | 60ft. | Simple | 1 lb. | Shuriken | 10gp | 1d6 | 30ft. | Complex | 0.25 lbs. |
-| Javelin | 10gp | 1d6 | 30ft. | Simple | 2 lbs. | Showtbow | 30gp | 1d6 | 60ft. | Complex | 2 lbs. |
-| Crossbow, light | 35gp | 1d8 | 80ft. | Simple | 4 lbs. | Shortbow, composite | 55gp | 1d8 | 80ft. | Complex | 2 lbs. |
-| Crossbow, medium | 50gp | 1d10 | 120ft. | Simple | 6 lbs. | Longbow | 75gp | 1d10 | 100ft. | Complex | 3 lbs. |
-| Crossbow, heavy | 85gp | 2d6 | 160ft. | Complex | 8 lbs. | Longbow, composite | 100gp | 2d6 | 120ft. | Complex | 3 lbs. |
+<!-- $data weapons.yml ranged -->
 
 ### Two-Handed Weapons
 
-| Weapon | Cost | Damage | Range | Complexity | Weight | Weapon | Cost | Damage | Range | Complexity | Weight |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Bayonet | 2gp | 1d4 | — | Simple | 1 lb. | Lance | 30gp | 1d8 | — | Complex | 10 lbs. |
-| Quarterstaff | 3gp | 1d6 | — | Simple | 4 lbs. | Scythe | 35gp | 2d4 | — | Complex | 10 lbs. |
-| Longspear | 5gp | 1d8 | — | Simple | 9 lbs. | Chain, spiked | 35gp | 2d4 | — | Complex | 10 lbs. |
-| Spear | 8gp | 1d8 | 20ft. | Simple | 6 lbs. | Guisarme | 35gp | 2d4 | — | Complex | 12 lbs. |
-| Falchion | 25gp | 1d6 | — | Complex | 8 lbs. | Greataxe | 40gp | 1d10 | — | Complex | 12 lbs. |
-| Flail, heavy | 30gp | 1d8 | — | Complex | 10 lbs. | Halberd | 40gp | 1d10 | — | Complex | 12 lbs. |
-| Glaive | 30gp | 1d8 | — | Complex | 10 lbs. | Greatsword | 50gp | 2d6 | — | Complex | 8 lbs. |
-| Greatclub | 30gp | 1d8 | — | Complex | 8 lbs. |
+<!-- $data weapons.yml two-handed -->
 
 ### One-Handed Weapons
 
-| Weapon | Cost | Damage | Range | Complexity | Weight | Weapon | Cost | Damage | Range | Complexity | Weight |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Club | 2gp | 1d6 | 10ft. | Simple | 3 lbs. | Warhammer | 20gp | 1d8 | — | Complex | 5 lbs. |
-| Shortspear | 4gp | 1d6 | 20ft. | Simple | 3 lbs. | Battleaxe | 20gp | 1d8 | — | Complex | 6 lbs. |
-| Mace, heavy | 12gp | 1d8 | — | Simple | 8 lbs. | Flail | 20gp | 1d8 | — | Complex | 5 lbs. |
-| Morningstar | 12gp | 1d8 | — | Simple | 6 lbs. | Longsword | 20gp | 1d8 | — | Complex | 4 lbs. |
-| Whip | 1gp | 1d3 | — | Complex | 2 lbs. | Trident | 25gp | 1d8 | 10ft. | Complex | 4 lbs. |
-| Pick, heavy | 15gp | 1d6 | — | Complex | 6 lbs. | Waraxe | 35gp | 1d10 | — | Complex | 8 lbs. |
-| Rapier | 15gp | 1d6 | — | Complex | 2 lbs. | Sword, bastard | 35gp | 1d10 | — | Complex | 6 lbs. |
-| Scimitar | 15gp | 1d6 | — | Complex | 4 lbs. |
+<!-- $data weapons.yml one-handed -->
 
 ## Armor & Shields
 
