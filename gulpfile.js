@@ -16,59 +16,63 @@ const config = {
   readme: 'README.md',
 };
 
-var dataFiles = {};
+let dataFiles = {};
 
 // Transform markdown document by parsing and including data tables.
-var processData = through.obj(function transform(data, e, cb) {
+const processData = through.obj((data, e, cb) => {
   // Scan for HTML comments starting with '!data'.
-  var regex = /<!\-\-\s*\$data\s*(\S+)\s*(\S*)\s*\-\->/g;
+  const regex = /<!--\s*\$data\s*(\S+)\s*(\S*)\s*-->/g;
 
   // Parse the directive: !data <file> [key]
-  var replace = function (match, file, key) {
+  function replace(match, fname, key) {
     // Load the appropriate YAML file.
-    if (!(file in files)){
-      var p = path.join(config.dataPath, file);
-      var d = fs.readFileSync(p);
-      dataFiles[file] = yaml.safeLoadAll(d);
+    if (!(fname in dataFiles)) {
+      const p = path.join(config.dataPath, fname);
+      const d = fs.readFileSync(p);
+      dataFiles[fname] = yaml.safeLoadAll(d);
     }
 
-    file = dataFiles[file];
+    const file = dataFiles[fname];
 
     // Get the table YAML document matching the key, or the first if no key.
-    var doc;
-    for (var d of file) if (d.id === key) doc = d;
+    let doc;
+    for (const d of file) if (d.id === key) doc = d;
     if (doc === undefined) return match;
 
     // Convert it into markdown, optionally combining multiple columns.
-    var header = "", body = "", columns = doc.columns || 1;
-	for (var h of doc.header) header += "| " + (h + " | ").repeat(columns-1) + h + "\n";
+    let header = '';
+    let body = '';
 
-	var size = doc.data.length / columns;
-	var extra = Math.round((size - Math.floor(size)) * columns);
+    const columns = doc.columns || 1;
+    for (const h of doc.header) header += '| ' + (`${h} | `.repeat(columns - 1)) + `${h}\n`;
 
-	for (var i = 0; i < Math.ceil(size); i++) {
-	  var d = "| ";
-	  for (var c = 0; c < columns; c++) {
-	    var offset = extra > 0 ? c : 0;
-	    var idx = i + offset + c * Math.floor(size);
-	    if (idx >= doc.data.length) break;
-	    d += (c > 0 ? " | " : "") + doc.data[idx];
-	  }
-	  body += d + "\n";
-	}
+    const size = doc.data.length / columns;
+    const extra = Math.round((size - Math.floor(size)) * columns);
 
-	return header + body;
-  };
+    for (let i = 0; i < Math.ceil(size); i++) {
+      let d = '| ';
+      for (let c = 0; c < columns; c++) {
+        const offset = extra > 0 ? c : 0;
+        const idx = i + offset + (c * Math.floor(size));
+        if (idx >= doc.data.length) break;
+        d += (c > 0 ? ' | ' : '') + doc.data[idx];
+      }
+      body += `${d}\n`;
+    }
 
-  data = data.toString().replace(regex, replace);
+    return header + body;
+  }
+
+  const newData = data.toString().replace(regex, replace);
   // Insert into page, replacing the comment.
-  cb(null, Buffer.from(data));
+  cb(null, Buffer.from(newData));
 });
 
 
 // compile all the documents
 gulp.task('compile', () => {
   const cwd = process.cwd();
+  // clear the file buffer between compiles.
   dataFiles = {};
   return gulp.src(config.mdPath)
     .pipe(changed(config.out, {
@@ -77,9 +81,8 @@ gulp.task('compile', () => {
     .pipe(markdownpdf({
       cwd,
       cssPath: config.cssPath,
-      preProcessMd: function() { return processData; }
+      preProcessMd() { return processData; },
     }))
-	// clear the file buffer between compiles.
     .pipe(gulp.dest(config.out));
 });
 
