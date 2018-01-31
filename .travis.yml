@@ -2,7 +2,7 @@ git:
   depth: 1
 language: node_js
 node_js:
-  - 'lts'
+  - '8'
   - 'node'
 sudo: false
 script:
