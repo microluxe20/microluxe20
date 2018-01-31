@@ -91,19 +91,22 @@ There are 3 core stats that define a character:
 
 When creating a character, you get 10 points to freely spend on your core stats, as long as no single stat is higher than 6. For example, a Fighter may choose to have 6 STR, 4 DEX, and 0 MIND.
 
-**Stat Bonus** = stat/2, round down.
+**Stat Bonus:** For any stat, the Stat Bonus is that stat's value divided by two, rounding down. If the stat is negative, round towards negative infinity.
 
 **Hit Points (HP)**: Hit Points determine how healthy a character is. As they are injured or hurt, their HP depletes. To determine a character's starting HP, use the following formula:
 
-HP = 10 + STR stat + 1d6(with a minimum of 3).
+	10 + STR stat + 1d6(with a minimum of 3).
 
-If a player is damaged to the point where their HP reaches zero (or below zero), the player becomes "downed", or unconscious and near death, with 0 HP. Further damage directly reduces their highest stat (STR, DEX, or MIND). If that stat reaches below zero, the player dies. While down, at the start of your turn, roll a d6. You have 3 chances (1 chance per turn) to roll above a 3. If successful, you are stable and return to 1 HP (Damaged stats are returned to normal as well). Otherwise, if unsuccessful 3 turns, the player dies.
+If a player's character is damaged to the point where their HP reaches zero (or below zero), the character becomes "downed", or unconscious and near death, with 0 HP. Further damage directly reduces their normally highest stat (either STR, DEX, or MIND). If that stat drops below -10, the character dies. While down, at the start of your turn, roll a d6. You have 3 chances (1 chance per turn) to roll above a 3. If successful, you are stable and return to 1 HP. Otherwise, if unsuccessful 3 turns, the character dies.
+
+Sometimes damage in combat is dealt directly to a character's Stats instead of Hit Points. If any stat reaches -10 or below, the character is downed and treated as if they were reduced to 0 HP. Stats damaged directly or while downed will return to their normal levels after a long rest (4 hours).
 
 **Speed** comes in 3 tiers. You are either Slow(20ft.), Normal(30ft.) or Fast(35ft.). Speed is determined by the game master and can be affected by spells and conditions. Typically, Fighters or Paladins with Heavy armor are Slow, Rogues and Rangers are Fast, and the rest are Normal speed. (5ft. is approximately 1 "Square")
 
-**Armor Class (AC)** = 10 + DEX bonus + Armor bonus + Racial bonus.
+**Armor Class (AC):** A character's Armor Class represents their ability to evade or block physical attacks. The higher a character's AC, the more difficult it is to land a damaging blow. A character's Armor Class is determined by this formula:
 
-A character's Armor Class represents their ability to evade or block physical attacks. The higher a character's AC, the more difficult it is to land a damaging blow.
+	10 + DEX bonus + Armor bonus + Racial bonus (if applicable).
+
 
 ## Skills & Saves
 
