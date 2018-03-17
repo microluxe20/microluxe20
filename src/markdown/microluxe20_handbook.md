@@ -1,5 +1,6 @@
 ![title-img](https://github.com/kgrubb/microluxe20/raw/master/src/static/logo-plain.png)
-<h1 class="title">Microluxe 20 <br/> Handbook</h1>
+<h1 class="title" align="center">Microluxe 20</h1>
+<h1 class="title" align="center">Handbook</h1>
 
 # Introduction
 
