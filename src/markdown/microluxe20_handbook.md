@@ -180,7 +180,7 @@ There is no need to memorize spells in advance. Just because a character can cas
 
 **Spell Difficulty Class (DC)** for all spells: 10 + Caster Level + Caster's MIND bonus
 
-When a spell is cast, the target of the spell must make a relevant DC save (d20 + relevant stat bonus), unless the spell states that it requires a different or more specific save. If the target scores lower than the spell's DC, they are affected by the spell. For example, if the spell forms spikes that protrude from the ground, the target may make a DEX save to try and escape the spell's effects. 
+When a spell is cast, the target of the spell must make a relevant DC save (d20 + relevant stat bonus), unless the spell states that it requires a different or more specific save. If the target scores lower than the spell's DC, they are affected by the spell. For example, if the spell forms spikes that protrude from the ground, the target may make a DEX save to try and escape the spell's effects.
 
 Here are three ways for spell casters to add a little more variety:
 
@@ -194,7 +194,7 @@ Here are three ways for spell casters to add a little more variety:
 
 *Author's Note:* This section is intended to establish a common baseline for magical items. Gamemasters are encouraged to customize or even ignore this section as needed to fit their setting.
 
-Magical items can be broadly divided into two categories: Active and Passive. Active magical items require some action on the part of the character to make use of their magical effects, while passive items provide their effect at all times. Using an active item may require a skill check of some sort, and may sometimes consume HP in the same fasion spellcasting does.
+Magical items can be broadly divided into two categories: Active and Passive. Active magical items require some action on the part of the character to make use of their magical effects, while passive items provide their effect at all times. Using an active item may require a skill check of some sort, and may sometimes consume HP in the same fashion spellcasting does.
 
 ### Common Active Items:
 
@@ -206,13 +206,37 @@ Magical items can be broadly divided into two categories: Active and Passive. Ac
 
 **Potions:** A single-use magical item, potions consist of a bottled magical liquid. When consumed, a potion confers a magical effect on the character that drank it.
 
-**Scrolls:** Similar to Potions, scrolls are a single-use item that allow any character to cast a single spell simply by reading it. Spellcasters may use Read Magic to decifer a scroll without casting it.
+**Scrolls:** Similar to Potions, scrolls are a single-use item that allow any character to cast a single spell simply by reading it. Spellcasters may use Read Magic to decipher a scroll without casting it.
 
 ### Common Passive Items:
 
 **Amulets, Charms, Rings, etc:** Various items of jewelery may be enchanted to provide a magical effect. Most items of this sort provide a bonus to a stat or skill, but more spectacular effects are possible.
 
-**Armor and Weapons:** Enchanted armor and weapons are usually the mark of a wealthy adventurer or noble, and usually provide some form of passive effect, ranging from a simple 'torchlight' effect to damage reduction, elemental resistances, and more.
+**Armor and Weapons:** Enchanted armor and weapons are usually the mark of a wealthy adventurer or noble, and usually provide some form of passive effect, ranging from a simple 'torchlight' effect to damage reduction, elemental resistances or bonuses, and more.
+
+### Creating Magic Items
+
+The process to enchant an item with a magical effect differs slightly from item to item (and at the Gamemaster's discretion) but they all follow a similar pattern in their creation. Most enchantments will require access to special tools of some kind - potions will require a cauldron and beakers, wands and rods require tools to carve the magical trace-work into their surface, and jewelery requires fine tools to shape the item and socket gems into their proper places.
+
+To begin the process, the player needs to have the base form of the item and purchase materials to perform the enchantment, and the spellcaster performing the enchantment must know the spell or use a scroll with the wanted spell. All materials used in the process are consumed, as well as any scrolls used as a source.
+
+The enchantment process will require a spellcaster to infuse the item with HP equal to 10 times the cost of the spell or effect being enchanted with. A spellcaster can infuse up to 50% of their maximum HP into items each day; it takes a full hour to infuse 5 HP, and the character cannot regain HP lost until taking a long rest. Only one character may infuse an item at a time.
+
+When creating a scroll, the infusion cost is reduced to 5 times the HP cost of the spell being written on them.
+
+When creating an item with magical charges, the maximum number of charges the item can hold is determined by rolling 1d20 + Level. Each charge requires 5 times the HP cost of the spell, but the item may be recharged at any point.
+
+When the infusion process is finished, the player rolls MIND+Knowledge, and the result of the roll determines the effectiveness of the enchantment.
+
+| Result: | Effect |
+| :------ | :----- |
+| Natural 1 | Critical Failure! The item is destroyed and the enchanter is reduced to 0 HP and is Unconscious. |
+| 2-9 | Failure! All materials used are destroyed, but the base item is undamaged. |
+| 10-15 | Minor Success! The item is enchanted, but the user must make a DC 15 Magic roll to use the item. |
+| 15+ | Success! The item is successfully enchanted, and no other effect occurs. |
+| Natural 20 | Critical Success! The item is successfully enchanted, and gains +50% to its effectiveness. |
+
+**Example:** Your 3rd-level elven Mage wants to imbue a wand with Prestidigitation. This is a 1st-level Mage spell, so it will take 10 HP to enchant the wand. You also want to infuse it with one charge to start, bringing the total HP cost to 15. Your Mage has a 30 HP maximum, so it will only one day to complete, and he must focus on infusing the wand for a full three hours. You roll 1d20 + your Mage's level, getting an 11 for the maximum number of charges the wand can hold. You roll MIND+Knowledge when he has finished infusing the wand and - Presto! - you get a 17! The wand is successfully crafted, holding 1 / 11 charges.
 
 ## Resting & Recuperating
 
@@ -224,7 +248,7 @@ After combat, players must rest to regain their stamina. There are 2 forms of re
 
 ## Heroism
 
-**Heroism** is intended to relieve some of the power incompatibilities with some d20 adventure types. If you find that the party is consistently too weak, try adding Heroism. **Heroism** is a bonus equal to 1 times the characters level (1 at 1st, 2 at 2nd, etc) and may be applied to up to three of the following once per day: Attack Bonus, Damage, Saving Throw, Skill Check, Spell DC
+**Heroism** is intended to relieve some of the power incompatibilities with some d20 adventure types. If you find that the party is consistently too weak, try adding Heroism. **Heroism** is a bonus equal to the character's level that may be applied to one of the following actions three times per day: Attack Bonus, Damage, Saving Throw, Skill Check, or Spell DC.
 
 # Equipment
 
