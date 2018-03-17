@@ -3,11 +3,8 @@ git:
 language: node_js
 node_js:
   - '8'
-  - 'node'
 sudo: false
 script:
-  # install dependencies
-  - npm i
   # run linting rules
   - npm t
   # compile the documents
