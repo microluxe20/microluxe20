@@ -1,0 +1,39 @@
+---
+id: skills
+columns: 2
+header:
+    - Skill
+    - :----
+data:
+    - "**Appraise –** com+MIND"
+    - "**Balance –** phys+DEX"
+    - "**Bluff –** com+MIND"
+    - "**Climb –** phys+DEX or STR, whichever is highest"
+    - "**Concentration –** doesn't apply. GM's fiat applies"
+    - "**Decipher Script –** know+MIND or com+MIND"
+    - "**Diplomacy –** com+MIND"
+    - "**Disable Device –** guile+MIND or guile+DEX"
+    - "**Disguise –** guile+MIND"
+    - "**Escape Artist –** guile+DEX or guile+STR"
+    - "**Forgery –** com+DEX"
+    - "**Gather Information –** com+MIND"
+    - "**Handle Animal –** com+MIND or com+STR if the animal is bigger"
+    - "**Heal –** know+MIND"
+    - "**Hide –** guile+DEX"
+    - "**Intimidate –** could be phys+STR, or guile+MIND or com+STR"
+    - "**Jump –** phys+STR (long jump) or phys+DEX (high jump)"
+    - "**Knowledge –** know+MIND"
+    - "**Listen –** guile+MIND"
+    - "**Move Silently –** guile+DEX"
+    - "**Open Lock –** guile+DEX"
+    - "**Perform –** com+MIND, or DEX if juggling, or STR if weightlifting"
+    - "**Profession –** com+MIND, usually"
+    - "**Ride –** com+DEX"
+    - "**Search –** guile+MIND"
+    - "**Sense Motive –** com+MIND"
+    - "**Sleight of Hand –** guile+DEX"
+    - "**Spell craft –** MIND only"
+    - "**Spot –** guile+MIND"
+    - "**Survival –** phys+STR to survive, or guile+DEX or STR to hunt"
+    - "**Swim –** phys+STR"
+    - "**Tumble –** phys+DEX"

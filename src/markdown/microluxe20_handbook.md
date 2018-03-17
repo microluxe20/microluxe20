@@ -1,6 +1,4 @@
-![title-img](https://github.com/kgrubb/microluxe20/raw/master/src/static/logo-plain.png)
-<h1 class="title" align="center">Microluxe 20</h1>
-<h1 class="title" align="center">Handbook</h1>
+<!-- $header-main Microluxe 20 <br> <br> Handbook -->
 
 # Introduction
 
@@ -44,17 +42,7 @@ When creating a character in Microluxe20, you will need to decide on a race and 
 
 Terador has a wealth of races to choose from, each with their unique history. While the Mir are the most common race in Terador, the many other races are fairly commonplace to see as well. When creating a character, your player will be one of the major races of Terador.
 
-|Race|Bonus|Race|Bonus|
-|:---|:---|:--- |:--- |
-| **Humans** | +1 to all skill rolls|**Goblins** | +3 DEX, -1 MIND |
-| **Great Elves** | +2 MIND | **Giants** | +3 STR, -1 DEX |
-| **Forest Elves** | +2 DEX | **Orcs** | +3 STR, -1 MIND |
-| **Halflings** | +1 DEX, +1 STR | **Dwarmir** | +1 STR, +1 to any 1 Skill & can use a Waraxe, regardless of class |
-| **Gnomes** | +1 DEX, +1 MIND | **Elvir** | +1 DEX, and +1 to any 1 Skill |
-| **Forged** | +2 natural armor bonus to AC | **Orkeir** | +2 STR, -1 MIND, +1 to Physical skill |
-| **Dwarves** | +2 STR & can use a Waraxe, regardless of class | **Tauremir** | +2 STR, -1 MIND,  +1 to any 1 Skill |
-| **Minotaurs** | +3 STR, -1 MIND | **Gorimir** | a +1 DEX, and +1 to any 1 Skill |
-| **Lycanthropes** | +1 DEX, +1 to Guile skill | **Slaan** | +2 MIND, +1 DEX, -1 to STR |
+<!-- $data races.yml races -->
 
 ## Classes
 
@@ -215,7 +203,7 @@ Magical items can be broadly divided into two categories: Active and Passive. Ac
 
 **Armor and Weapons:** Enchanted armor and weapons are usually the mark of a wealthy adventurer or noble, and usually provide some form of passive effect, ranging from a simple 'torchlight' effect to damage reduction, elemental resistances or bonuses, and more.
 
-### Creating Magic Items
+<h3 class="page-break"> Creating Magic Items </h3>
 
 The process to enchant an item with a magical effect differs slightly from item to item (and at the Gamemaster's discretion) but they all follow a similar pattern in their creation. Most enchantments will require access to special tools of some kind - potions will require a cauldron and beakers, wands and rods require tools to carve the magical trace-work into their surface, and jewelery requires fine tools to shape the item and socket gems into their proper places.
 
@@ -239,6 +227,14 @@ When the infusion process is finished, the player rolls MIND+Knowledge, and the 
 
 **Example:** Your 3rd-level elven Mage wants to imbue a wand with Prestidigitation. This is a 1st-level Mage spell, so it will take 10 HP to enchant the wand. You also want to infuse it with one charge to start, bringing the total HP cost to 15. Your Mage has a 30 HP maximum, so it will take only one day to complete, and he must focus on infusing the wand for a full three hours. You roll 1d20 + your Mage's level, getting an 11 for the maximum number of charges the wand can hold. You roll MIND+Knowledge when he has finished infusing the wand and - Presto! - you get a 17! The wand is successfully crafted, holding 1 / 11 charges.
 
+<!-- TODO: rework this in a way that makes sense: -->
+<div style="display:none">
+|MAGIC ITEM CHART||||||
+|:---|:---:|:---:|:---:|:---:|:---:|
+|**Item**|Scrolls & Books|Potions & Wondrous Items|Wands & Armor|Rods & Weapons|Staves & Rings|
+|**Spellcaster's Level**|1|3|5|9|12|
+</div>
+
 ## Resting & Recuperating
 
 After combat, players must rest to regain their stamina. There are 2 forms of resting:
@@ -252,40 +248,6 @@ After combat, players must rest to regain their stamina. There are 2 forms of re
 **Heroism** is intended to relieve some of the power incompatibilities with some d20 adventure types. If you find that the party is consistently too weak, try adding Heroism. **Heroism** is a bonus equal to the character's level that may be applied to one of the following actions three times per day: Attack Bonus, Damage, Saving Throw, Skill Check, or Spell DC.
 
 # Appendix
-
-## SRD Skills
-
-To help with SRD conversions (and to help give some further stat + skill examples), here is a chart for the skills from the d20 SRD and their Microluxe20 equivalents:
-
-| | |
-|:---|:---|
-| **Appraise –** com+MIND | **Jump –** phys+STR (long jump) or phys+DEX (high jump) |
-| **Balance –** phys+DEX | **Knowledge –** know+MIND |
-| **Bluff –** com+MIND | **Listen –** guile+MIND |
-| **Climb –** phys+DEX or STR, whichever is highest | **Move Silently –** guile+DEX |
-| **Concentration –** doesn't apply. GM's fiat applies | **Open Lock –** guile+DEX |
-| **Decipher Script –** know+MIND or com+MIND | **Perform –** com+MIND, or DEX if juggling, or STR if weightlifting |
-| **Diplomacy –** com+MIND | **Profession –** com+MIND, usually |
-| **Disable Device –** guile+MIND or guile+DEX | **Ride –** com+DEX |
-| **Disguise –** guile+MIND | **Search –** guile+MIND |
-| **Escape Artist –** guile+DEX or guile+STR | **Sense Motive –** com+MIND |
-| **Forgery –** com+DEX | **Sleight of Hand –** guile+DEX |
-| **Gather Information –** com+MIND | **Spell craft –** MIND only |
-| **Handle Animal –** com+MIND or com+STR if the animal is bigger | **Spot –** guile+MIND |
-| **Heal –** know+MIND | **Survival –** phys+STR to survive, or guile+DEX or STR to hunt |
-| **Hide –** guile+DEX | **Swim –** phys+STR |
-| **Intimidate –** could be phys+STR, or guile+MIND or com+STR | **Tumble –** phys+DEX |
-
-## Magic Item Creation
-
-Spellcasters gain the ability to make magical items at certain class levels. This translates to being able to buy these items, but at half their usual purchase price. This represents the raw materials required to make the item. Making items requires equipment (a forge, etc), the right skills, and time. Making magic items does not cost XP.
-
-Here's when Spellcasters can make stuff:
-
-|MAGIC ITEM CHART||||||
-|:---|:---:|:---:|:---:|:---:|:---:|
-|**Item**|Scrolls & Books|Potions & Wondrous Items|Wands & Armor|Rods & Weapons|Staves & Rings|
-|**Spellcaster's Level**|1|3|5|9|12|
 
 ## Basic Mass Combat
 Most combat is carried out one-on-one, with each set of stats (HP, AC, combat bonuses, etc) applying to a single character or creature. However, combat can be extended by using Combat Scale. Combat Scale is a multiplier that shows the amount of characters or creatures relative to their normal single-unit size. It is only applied to damage in combat between units of different size. Hit Points, AC and all other stats remain the same.

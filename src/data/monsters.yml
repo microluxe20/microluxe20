@@ -1,0 +1,129 @@
+---
+id: animals
+columns: 1
+header:
+    - Name | Hit Dice | Armor | Attacks
+    - :--- | :------- | :---- | :------
+data:
+    - "**Badger** | HD 1d8+2 (6 HP) | AC 15 | Claw +4 (1d2–1)"
+    - "**Black Bear** | HD 3d8+6 (19 HP) | AC 13 | Claw +6 (1d4+4) or bite +1 (1d6+2)"
+    - "**Brown Bear** | HD 6d8+24 (51 HP) | AC 15 | Claw +11 (1d8+8) or bite +6 (2d6+4)"
+    - "**Boar** | HD 3d8+12 (25 HP) | AC 16 | Gore +4 (1d8+3)"
+    - "**Cat** | HD 1d4 (2 HP) | AC 14 | Claw +4 (1d2–4)"
+    - "**Crocodile** | HD 3d8+9 (22 HP) | AC 16 | Bite +6 (1d8+6) or tail slap +6 (1d12+6)"
+    - "**Dog** | HD 1d8+2 (6 HP) | AC 15 | Bite +2 (1d4+1)"
+    - "**Donkey** | HD 2d8+2 (11 HP) | AC 13 | Bite +1 (1d2)"
+    - "**Eagle** | HD 1d8+1 (5 HP) | AC 14 | Talons +3 (1d4)"
+    - "**Giant Crocodile** | HD 7d8+28 (59 HP) | AC 16 | Bite +11 (2d8+12) or tail slap +11 (1d12+12)"
+    - "**Horse (heavy)** | HD 3d8+6 (19 HP) | AC 13 | Hoof –1 (1d6+1)"
+    - "**Mule** | HD 3d8+9 (22 HP) | AC 13 | Hoof +4 (1d4+3)"
+    - "**Pony** | HD 3d8+6 (19 HP) | AC 13 | Hoof –1 (1d6+1)"
+    - "**Snake (constrictor)** | HD 3d8+6 (19 HP) | AC 15 | Bite +5 (1d3+4), constrict (1d3+4)"
+    - "**Snake (giant constrictor)** | HD 11d8+14 (63 HP) | AC 15 | Bite +13 (1d8+10), constrict (1d8+10)"
+    - "**Snake (small viper)** | HD 1d8 (4 HP) | AC 17 | Bite +4 (1d2–2 plus poison)"
+    - "**Snake (large viper)** | HD 3d8+6 (19 HP) | AC 15 | Bite +4 (1d4 plus poison)"
+    - "**Snake (huge viper)** | HD 6d8+6 (33 HP) | AC 15 | Bite +6 (1d6+4 plus poison)"
+    - "**War Dog** | HD 2d8+4 (13 HP) | AC 16 | Bite +3 (1d6+3)"
+    - "**Warhorse (heavy)** | HD 4d8+12 (30 HP) | AC 14 | Hoof +6 (1d6+4)"
+    - "**Warhorse (light)** | HD 3d8+9 (22 HP) | AC 14| Hoof +4 (1d4+3)"
+    - "**War-pony** | HD 2d8+4 (13 HP) | AC 13 | Hoof +3 (1d3+2)"
+    - "**Wolf** | HD 2d8+4 (13 HP) | AC 14 | Bite +3 (1d6+1)"
+
+---
+id: creatures-1
+columns: 1
+header:
+    - Name | Hit Dice | Armor | Attacks
+    - :--- | :------- | :---- | :------
+data:
+    - "**Ankheg** | HD 3d10+12 (28HP) | AC 18 | Bite +7 (2d6+7 plus 1d4 acid)"
+    - "**Assassin Vine** | HD 4d8+12 (30 HP) | AC 15 | Slam +7 (1d6+7), constrict (1d6+7)"
+    - "**Bugbear** | HD 3d8+3 (16 HP) | AC 17 | Morningstar +5 (1d8+2) or javelin +3 (1d6+2)"
+    - "**Choker** | HD 3d8+3 (16 HP) | AC 17 | Tentacle +6 (1d3+3)"
+    - "**Cockatrice** | HD 5d10 (27 HP) | AC 14 | Bite +9 (1d4-2 plus petrification, DC 12 phys+STR to negate)"
+    - "**Dwarf** | HD 1d8+2 (6 HP) | AC 16 | Waraxe +3 (1d10+1) or shortbow +1 (1d6)"
+    - "**Earth Elemental (large)** | HD 8d8+32 (68 HP) | AC 18 | Slam +12 (2d8+7)"
+    - "**Forest Elf** | HD 1d8 (4 HP) | AC 15 | Longsword +2 (1d8+1) or longbow +3 (1d8)"
+    - "**Gargoyle**|  HD 4d8+19 (37 HP) | AC 16 | Claw +6 (1d4+2)"
+    - "**Gelatinous Cube** | HD 4d10+32 (54 HP) | AC 3 | Slam +1 (1d6 +1d6 acid) plus engulf <br> (paralysis + 1d6 acid/round, DC 13 phys+DEX to negate)"
+    - "**Ghoul** | HD 2d12 (13 HP) | AC 14 | Bite +2 (1d6+1 plus paralysis) or claws +0 (1d3 plus paralysis)"
+    - "**Giant** | HD 12d8+48 (102 HP) | AC 20 | Great-club +16 (2d8+10) or rock +8 (2d6+7)"
+    - "**Gnoll** | HD 2d8+2 (11 HP) | AC 15 | Battleaxe +3 (1d8+2) or shortbow +1 (1d6)"
+    - "**Goblin** | HD 1d8+1 (5 HP) | AC 15 | Morningstar +2 (1d6) or javelin +3 (1d4)"
+    - "**Griffon** | HD 7d10+21 (59 HP) | AC 17 | Bite +11 (2d6+4)"
+    - "**Halfling** | HD 1d8+1 (5 HP) | AC 16 | Shortsword +3 (1d6) or light crossbow +3 (1d6)"
+    - "**Hellhound** | HD 4d8+4 (22 HP) | AC 16 | Bite +5 (1d8+1 plus 1d6 fire)"
+    - "**Hobgoblin** | HD 1d8+2 (6 HP) | AC 15 | Longsword +2 (1d8+1) or javelin +2 (1d6+1)"
+    - "**Human** | HD 1d8+1 (5 HP) | AC 12 | Dagger +1 (1d6+1) or sling +1 (1d4)"
+    - "**Kobold** | HD 1d8 (4 HP) | AC 15 | Spear +1 (1d6-1) or sling +3 (1d3)"
+    - "**Slaan** | HD 2d8+2 (11 HP) | AC 15 | Claw +2 (1d4+1) or club +2 (1d6+1) or javelin +1 (1d6+1)"
+    - "**Nymph** | HD 6d6+6 (27 HP) | AC 17 | Dagger +6 (1d4) or stun­ning glance (unable to act for 2d4 rounds, <br> DC 17 phys+STR to negate)"
+    - "**Ogre** | HD 4d8+11 (29 HP) | AC 16 | Greatclub +8 (2d8+7) or javelin +1 (1d8+5)"
+    - "**Orc** | HD 1d8+1 (5 HP) | AC 13 | Falchion +4 (2d4+4) or javelin +1 (1d6+3)"
+    - "**Otyugh** | HD 6d8+9 (36 HP) | AC 17 | Tentacle +4 (1d6 plus disease)"
+    - "**Owlbear** | HD 5d10+25 (52 HP) | AC 15 | Claw +9 (1d6+5)"
+    - "**Rust Monster** | HD 5d8+5 (27 HP) | AC 18 | Antennae touch +3 (rust)"
+    - "**Shadow** | HD 3d12 (19 HP) | AC 13 | Incorporeal touch +3 (1d6 STR)"
+    - "**Shambling Mound** | HD 8d8+24 (60 HP) | AC 20 | Slam +11 (2d6+5), constrict (2d6+7)"
+    - "**Skeleton Warrior** | HD 1d12 (6 HP) | AC 15 | Scimitar +1 (1d6+1) or claw +1 melee (1d4+1)"
+    - "**Stirge** | HD 1d10 (5 HP) | AC 16 | Touch +7 (attach)"
+    - "**Stone Golem** | HD 14d10+30 (107 HP) | AC 26 | Slam +18 (2d10+9)"
+    - "**Treant** | HD 7d8+35 (66 HP) | AC 20 | Slam +12 (2d6+9)"
+    - "**Troll** | HD 6d8+36 (63 HP) | AC 16 | Claw +9 (1d6+6)"
+    - "**Werewolf, Human Form** | HD 3d8+7 (20 HP) | AC 17 | Longsword +3 (1d8+1) or light crossbow +2 (1d8)"
+    - "**Werewolf, Wolf Form** | HD 3d8+7 (20 HP) | AC 16 | Claw +4 (1d4+2)"
+    - "**Wight** | HD 4d12 (26 HP) | AC 15 | Slam +3 (1d4+1 plus energy drain)"
+    - "**Wraith** | HD 5d12 (32 HP) | AC 15 | Incorporeal touch +5 (1d4 plus –1d6 STR, DC 14 phys+STR to negate)"
+
+---
+id: creatures-2
+columns: 1
+header:
+    - Name | Hit Dice | Armor | Attacks
+    - :--- | :------- | :---- | :------
+data:
+    - "**Wyvern** | HD 7d12+14 (59 HP) | AC 18 | Sting +10 (1d6+4 plus poison) or Talon +10 (2d6+4) or Bite +10 (2d8+4)"
+    - "**Zombie** | HD 2d12+3 (16 HP) | AC 11 | Slam +2 (1d6+1) or club +2 melee (1d6+1)"
+    - "**Vampire** | HD 4d12+3 (29 HP) | AC 15 | Slam +5 (1d6+4 plus energy drain –1 level, DC 14 phys+STR to negate) <br> or blood drain (-1d4 STR)"
+
+---
+id: dinosaurs
+columns: 1
+header:
+    - Name | Hit Dice | Armor | Attacks
+    - :--- | :------- | :---- | :------
+data:
+    - "**Deinonychus:** | HD 4d8+16 (34 HP) | AC 16 | Talons +6 (2d6+4) or bite +1 (2d4+2)"
+    - "**Megaraptor:** | HD 8d8+43 (79 HP) | AC 16 | Talons +9 (2d8+5) or bite +4 (2d6+2)"
+    - "**Triceratops:** | HD 16d8+124 (196 HP) | AC 18 | Gore +20 (2d8+15)"
+    - "**Tyrannosaurus:** | HD 18d8+99 (180 HP) | AC 14 | Bite +20 (3d6+13)"
+
+---
+id: dragons
+columns: 1
+header:
+    - Name | Hit Dice | Armor | Attacks
+    - :--- | :------- | :---- | :------
+data:
+    - "**Young Red:** | HD 13d12+39 (123 HP) | AC 21 | Bite +20 (2d6+7) or Breath 10d10 fire (DC 24 dodge for ½)."
+    - "**Very Old Red:** | HD 31d12+248 (449 HP) | AC 36 | Bite +40 (4d6+13) or breath 18d10 fire (DC 33 dodge for ½)."
+    - "**Adult Gold:** | HD 23d12+115 (264 HP) | AC 30 | Bite +32 (2d8+11) or breath 12d10 fire (DC 26 dodge for ½)."
+    - "**Young Adult Silver:** | HD 19d12+79 (202 HP) | AC 28 | Bite +24 (2d6+6) or breath 10d8 cold (DC 23 dodge for ½)."
+
+---
+id: monstrous-animals
+columns: 1
+header:
+    - Name | Hit Dice | Armor | Attacks
+    - :--- | :------- | :---- | :------
+data:
+    - "**Dire Bear:** | HD 12d8+51 (105 HP) | AC 17 | Claw +19 (2d4+10) and bite +13 (2d8+5)"
+    - "**Dire Rat:** | HD 1d8+1 (5 HP) | AC 15 | Bite +4 (1d4 plus disease)"
+    - "**Dire Wolf:** | HD 6d8+18 (45 HP) | AC 14 | Bite +11 (1d8+10)"
+    - "**Monstrous Scorpion (tiny):** | HD 1d4+2 (4 HP) | AC 14 | Claw+1 (1d2–4) or sting –4 (1d2–4 plus poison)"
+    - "**Monstrous Scorpion (small):** | HD 1d8+2 (6 HP) | AC 14 | Claw+2 (1d3–1) or sting -3 (1d3–1 plus poison)"
+    - "**Monstrous Scorpion (large):** | HD 5d8+10 (32 HP) | AC 16 | Claw+6 (1d6+4) or sting +1 (1d6+2 plus poison)"
+    - "**Monstrous Scorpion (huge):** | HD 10d8+30 (75 HP) | AC 20 | Claw+11 (1d8+6) or sting +6 (2d4+3 plus poison)"
+    - "**Monstrous Spider (small):** | HD 1d8 (4 HP), AC 1 |, Bite |+4 (1d4–2 plus poison)"
+    - "**Monstrous Spider (large):** | HD 4d8+4 (22 HP) | AC 14 | Bite +4 (1d8+3 plus poison)"
+    - "**Monstrous Spider (huge):** | HD 8d8+16 (52 HP) | AC 16 | Bite +9 (2d6+6 plus poison)"

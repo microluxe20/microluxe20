@@ -54,29 +54,30 @@ h3 {
 }
 
 table {
-    page-break-inside: avoid;
     margin: 0;
 }
 
-table, td {
+table, td, th {
     page-break-inside: avoid;
     padding: 2px 3px;
+    font-size: 8px;
+}
+
+table, td {
     border: 1px solid black;
 }
 
-th {
-    padding: 2px 3px;
-}
-
 body {
-    font-size: 56%;
+    font-size: 8px;
 }
 
 ul, ol {
 	font-size: 100%;
+    padding-left: 5px;
+    list-style: disc inside;
 }
 
-strong {
+li, strong {
     font-size: 100%;
 }
 
