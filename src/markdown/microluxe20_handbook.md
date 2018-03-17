@@ -222,7 +222,7 @@ To begin the process, the player needs to have the base form of the item and pur
 
 The enchantment process will require a spellcaster to infuse the item with HP equal to 10 times the cost of the spell or effect being enchanted with. A spellcaster can infuse up to 50% of their maximum HP into items each day; it takes a full hour to infuse 5 HP, and the character cannot regain HP lost until taking a long rest. Only one character may infuse an item at a time.
 
-When creating a scroll, the infusion cost is reduced to 5 times the HP cost of the spell being written on them.
+When creating a scroll, the infusion cost is reduced to 5 times the HP cost of the spell being written down.
 
 When creating an item with magical charges, the maximum number of charges the item can hold is determined by rolling 1d20 + Level. Each charge requires 5 times the HP cost of the spell, but the item may be recharged at any point.
 
@@ -236,7 +236,7 @@ When the infusion process is finished, the player rolls MIND+Knowledge, and the 
 | 15+ | Success! The item is successfully enchanted, and no other effect occurs. |
 | Natural 20 | Critical Success! The item is successfully enchanted, and gains +50% to its effectiveness. |
 
-**Example:** Your 3rd-level elven Mage wants to imbue a wand with Prestidigitation. This is a 1st-level Mage spell, so it will take 10 HP to enchant the wand. You also want to infuse it with one charge to start, bringing the total HP cost to 15. Your Mage has a 30 HP maximum, so it will only one day to complete, and he must focus on infusing the wand for a full three hours. You roll 1d20 + your Mage's level, getting an 11 for the maximum number of charges the wand can hold. You roll MIND+Knowledge when he has finished infusing the wand and - Presto! - you get a 17! The wand is successfully crafted, holding 1 / 11 charges.
+**Example:** Your 3rd-level elven Mage wants to imbue a wand with Prestidigitation. This is a 1st-level Mage spell, so it will take 10 HP to enchant the wand. You also want to infuse it with one charge to start, bringing the total HP cost to 15. Your Mage has a 30 HP maximum, so it will take only one day to complete, and he must focus on infusing the wand for a full three hours. You roll 1d20 + your Mage's level, getting an 11 for the maximum number of charges the wand can hold. You roll MIND+Knowledge when he has finished infusing the wand and - Presto! - you get a 17! The wand is successfully crafted, holding 1 / 11 charges.
 
 ## Resting & Recuperating
 
