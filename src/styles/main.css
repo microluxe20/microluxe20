@@ -60,7 +60,7 @@ table {
 table, td, th {
     page-break-inside: avoid;
     padding: 2px 3px;
-    font-size: 8px;
+    font-size: 1em;
 }
 
 table, td {

@@ -111,7 +111,7 @@ For example, Climbing would use Physical + STR bonus. Dodging a falling rock is 
 
 For compatibility purposes, the 3 saves in Microluxe20 (STR save, DEX save, and MIND save), directly match Fortitude, Reflex, and Will saves (often called "saving throws") found in other SRD-based games.
 
-## Level Advancement
+<h2 class="page-break"> Level Advancement </h2>
 
 Characters gain XP (or Experience Points) from defeating monsters, disarming traps, or from handling situations in innovative ways, at the GM's discretion. XP is awarded to all characters who take part in the encounter.
 

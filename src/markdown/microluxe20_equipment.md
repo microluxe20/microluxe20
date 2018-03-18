@@ -70,7 +70,7 @@ Characters may purchase equipment from the following lists with their starting m
 
 <!-- $data gear.yml mounts -->
 
-### Fast Equipment Packs
+<h3 class="page-break"> Fast Equipment Packs </h3>
 
 Suggested starting packs for new characters. Each pack uses 35gp of a character's starting money.
 

@@ -6,16 +6,16 @@
 
 ### Setting the DC
 
-The Difficulty Class can vary depending on how the player approaches the task. When setting the DC, think in terms of "What would Bob do?" - Bob being an imaginary 1st level commoner with no modifiers. Bob has straight 10s for all stats and no skill bonuses. He's the unheroic man on the street, and the benchmark by which heroes are measured.
+The Difficulty Class can vary depending on how the player approaches the task. When setting the DC, think in terms of "What would Bob do?" - Bob being an imaginary 1st level commoner with no modifiers. Bob has 0s for all attributes and no skill bonuses. He's the unheroic man on the street, and the benchmark by which heroes are measured.
 
 In general, I recommend using only four DCs, especially at low levels:
 
 | DC | Level |
 | :--- | :--- |
-| 10 | Easy – 50/50 chance of Bob succeeding 1st time |
-| 15 | Moderate – would succeed after several attempts |
-| 20 | Difficult – would succeed only with luck on his side |
-| 25 | Very Difficult – Bob needs some hefty modifiers and the Titans watching over him |
+| 10 | Easy – 50/50 chance of Bob succeeding the 1st time |
+| 15 | Moderate – Bob would succeed after several attempts |
+| 20 | Difficult – Bob would succeed only with luck on his side |
+| 25 | Very Difficult – Bob needs some hefty modifiers and the Titans watching over him to succeed |
 
 Never use DC 5. If it's that easy and out of combat, keep the game flowing by having the players succeed automatically. Also, it helps if there's always an easy way to solve a problem. While each character can find at least one solution to a problem and gain the benefit of their highest attribute, there's usually a path of least resistance to be found. All the players have to do is discover it!
 
