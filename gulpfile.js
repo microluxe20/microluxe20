@@ -16,7 +16,9 @@ const config = {
 gulp.task('compile', () => {
   const cwd = process.cwd();
   return gulp.src(config.mdPath)
-    .pipe(changed(config.out, { extension: '.pdf' }))
+    .pipe(changed(config.out, {
+      extension: '.pdf',
+    }))
     .pipe(markdownpdf({
       cwd,
       cssPath: config.cssPath,
@@ -25,17 +27,15 @@ gulp.task('compile', () => {
 });
 
 // create release zip from documents
-gulp.task('release', () => {
-  fs.stat('documents', (err) => {
-    if (err) {
-      return console.log(err);
-    }
-    const release = `microluxe20_${pjson.version}.zip`;
-    return gulp.src(['documents/*', 'character-sheets/*', 'map/*.png', 'LICENSE'])
-      .pipe(zip(release))
-      .pipe(gulp.dest('./release'));
-  });
-});
+gulp.task('release', done => fs.stat('documents', (err) => {
+  if (err) {
+    return console.log(err);
+  }
+  const release = `microluxe20_${pjson.version}.zip`;
+  return gulp.src(['documents/*', 'character-sheets/*', 'map/*.png', 'LICENSE'])
+    .pipe(zip(release))
+    .pipe(gulp.dest('./release'), done());
+}));
 
 gulp.task('watch', () => {
   gulp.watch([config.mdPath, config.cssPath], ['compile']);

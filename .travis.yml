@@ -2,13 +2,14 @@ git:
   depth: 1
 language: node_js
 node_js:
-  - '6'
   - '8'
 sudo: false
 script:
-  - npm install
-  - npm test
+  # run linting rules
+  - npm t
+  # compile the documents
   - npm run compile
+  # build a release zip
   - npm run release
 deploy:
   provider: releases
