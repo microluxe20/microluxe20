@@ -17,9 +17,11 @@ The following is a set of guidelines for contributing to Microluxe20. These are 
   * [Git Commit Messages](#git-commit-messages)
   * [JavaScript Styleguide](#javascript-styleguide)
 
+[Derivative Work](#derivative-work)
+
 ## Code of Conduct
 
-This project and everyone participating in it is governed by a [Contributor Covenant-based Code of Conduct](./docs/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to the repository owner.
+This project and everyone partjs mapicipating in it is governed by a [Contributor Covenant-based Code of Conduct](./docs/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to the repository owner.
 
 ## How Can I Contribute?
 
@@ -96,5 +98,8 @@ All JavaScript must adhere to the [Airbnb Base Style](https://github.com/airbnb/
 
   };
   ```
+
+## Derivative Work
+
 
   _return to [microluxe20 README](README.md)_

@@ -50,4 +50,4 @@ Webster Sheets
 
 # Licensing
 
-Licensed under the [Open Game License](LICENSE).
+The markdown content in this project is licensed under the [Open Game License](LICENSE). The rest of the project is licensed under the [ISC license](https://opensource.org/licenses/ISC).
