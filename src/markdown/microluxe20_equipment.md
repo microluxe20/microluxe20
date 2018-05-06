@@ -1,5 +1,4 @@
-![title-img](https://github.com/kgrubb/microluxe20/raw/master/src/static/logo-plain.png)
-<h1 class="title">Microluxe 20 <br> <br> Equipment Tables</h1>
+<!-- $header Equipment Tables -->
 
 # Equipment
 
@@ -26,17 +25,21 @@ Here is the format for weapon entries (given as column headings on the table bel
 
 <!-- $data weapons.yml light -->
 
+<!-- $page-break -->
+
 ### Ranged Weapons
 
 <!-- $data weapons.yml ranged -->
 
-<h3 class="page-break"> Two-Handed Weapons </h3>
+### Two-Handed Weapons
 
 <!-- $data weapons.yml two-handed -->
 
 ### One-Handed Weapons
 
 <!-- $data weapons.yml one-handed -->
+
+<!-- $page-break -->
 
 ## Armor & Shields
 
@@ -54,23 +57,29 @@ Here is the format for armor entries (given as column headings on the table belo
 
 <!-- $data armor.yml shields -->
 
-<h2 class="page-break"> Adventuring Equipment </h2>
+
+## Adventuring Equipment
 
 Characters may purchase equipment from the following lists with their starting money or select one of the standard adventuring "fast packs".
 
-### Adventuring Gear
-
-<!-- $data gear.yml adventuring-gear -->
 
 ### Clothing
 
 <!-- $data gear.yml clothing -->
 
+<!-- $page-break -->
+
+### Adventuring Gear
+
+<!-- $data gear.yml adventuring-gear -->
+
+<!-- $page-break -->
+
 ### Mounts and Related Gear
 
 <!-- $data gear.yml mounts -->
 
-<h3 class="page-break"> Fast Equipment Packs </h3>
+### Fast Equipment Packs
 
 Suggested starting packs for new characters. Each pack uses 35gp of a character's starting money.
 

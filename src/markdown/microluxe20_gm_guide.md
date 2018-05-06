@@ -1,4 +1,4 @@
-<!-- $header-main Microluxe 20 <br> <br> Gamemaster's Resources -->
+<!-- $header-main Gamemaster's Resources -->
 
 # Gamemaster's Guide
 
@@ -43,7 +43,7 @@ Whenever the players want to try something that goes around, through, or above a
 
 Have them roll whatever check seems most appropriate. A roll of 1-10 is a failure, a roll of 11-20 is a success. If you feel that the situation warrants that you favor them, assign a +2 bonus to their roll. If the situation requires that they be hindered, then assign a –2 penalty.
 
-<h2 class="page-break"> Compatibility Notes </h2>
+## Compatibility Notes
 
 ### Using Existing D&D Monsters
 
@@ -56,22 +56,6 @@ Simple; use them as is. It doesn't matter that the Orc makes a Listen check to s
 To help with SRD conversions (and to help give some further stat + skill examples), here is a chart for the skills from the d20 SRD and their Microluxe20 equivalents:
 
 <!-- $data srd-skills.yml skills -->
-
-## Microluxe20 Monster Building
-
-Monster Building under Microluxe20 is so fast, it's possible to do it **on the fly** , right at the game table. And I'm going to show you how, using a Ninja Monkey as an example.
-
-First, let's start by setting the Hit Dice for our Ninja Monkeys. As these are tiny little monkeys, fighting 1st level PCs, let's give them 1HD. _Quick tip: to speed monster creation further, multiply the Hit Dice by 5 for hit points; multiply Hit Dice by 7 for Dragons and Undead._
-
-Remember that unlike Player Characters, Monsters and other NPCs **don't** add their STR total to their hit points. This is a special bonus for Real Heroes only. If you want a tougher Monster, increase their STR so they get an increase (equal to their STR bonus) to their HP per Hit Dice.
-
-That gives the Ninja Monkeys 1HD, 5HP, +1 to hit with their Katana and +1 with all skills. As these are intelligent Ninjas, we'll allocate their +3 to Guile. Let's give them STR 0, DEX 4 and MIND 2, allow them to use DEX (rather than STR) for their attack roll with their miniature Katanas, which do d6 damage. Factoring that in with the Hit Dice, we get:
-
-Ninja Monkey, 1HD (3HP), AC12, +3 Katana (1d6-2)
-Guile+4, all others @ +1
-STR 0, DEX 4, MIND 2
-
-DONE! If the Ninja Monkeys have any special abilities or equipment, note them down but don't bother with setting uses/day, etc; if it's dramatically appropriate for a monster to use its abilities then use them. If you want a more powerful Ninja Monkey, just add Hit Dice, which increases HP, attack bonus and skills. Adjust Stats if it's logical to do so.
 
 # Monster List
 
@@ -164,6 +148,8 @@ Alternatively, add class levels to intelligent monsters. Start with the base Hit
 - **Dire Rat:**  HD 1d8+1 (5 HP), AC 15, Bite +4 (1d4 plus disease)
 - **Dire Wolf:**  HD 6d8+18 (45 HP), AC 14, Bite +11 (1d8+10)
 
+<!-- $page-break -->
+
 ## Dragon
 - **Young Red:**  HD 13d12+39 (123 HP), AC 21, Bite +20 (2d6+7) or Breath 10d10 DC24 phys+DEX to dodge for half
 - **Very Old Red:**  HD 31d12+248 (449 HP), AC 36, Bite +40 (4d6+13) or breath 18d10 fire, DC 33 phys+DEX to dodge for half
@@ -178,6 +164,22 @@ Alternatively, add class levels to intelligent monsters. Start with the base Hit
 - **Monstrous Spider (small):**  HD 1d8 (4 HP), AC 14, Bite +4 (1d4–2 plus poison)
 - **Monstrous Spider (large):**  HD 4d8+4 (22 HP), AC 14, Bite +4 (1d8+3 plus poison)
 - **Monstrous Spider (huge):**  HD 8d8+16 (52 HP), AC 16, Bite +9 (2d6+6 plus poison)
+
+## Microluxe20 Monster Building
+
+Monster Building under Microluxe20 is so fast, it's possible to do it **on the fly** , right at the game table. And I'm going to show you how, using a Ninja Monkey as an example.
+
+First, let's start by setting the Hit Dice for our Ninja Monkeys. As these are tiny little monkeys, fighting 1st level PCs, let's give them 1HD. _Quick tip: to speed monster creation further, multiply the Hit Dice by 5 for hit points; multiply Hit Dice by 7 for Dragons and Undead._
+
+Remember that unlike Player Characters, Monsters and other NPCs **don't** add their STR total to their hit points. This is a special bonus for Real Heroes only. If you want a tougher Monster, increase their STR so they get an increase (equal to their STR bonus) to their HP per Hit Dice.
+
+That gives the Ninja Monkeys 1HD, 5HP, +1 to hit with their Katana and +1 with all skills. As these are intelligent Ninjas, we'll allocate their +3 to Guile. Let's give them STR 0, DEX 4 and MIND 2, allow them to use DEX (rather than STR) for their attack roll with their miniature Katanas, which do d6 damage. Factoring that in with the Hit Dice, we get:
+
+Ninja Monkey, 1HD (3HP), AC12, +3 Katana (1d6-2)
+Guile+4, all others @ +1
+STR 0, DEX 4, MIND 2
+
+DONE! If the Ninja Monkeys have any special abilities or equipment, note them down but don't bother with setting uses/day, etc; if it's dramatically appropriate for a monster to use its abilities then use them. If you want a more powerful Ninja Monkey, just add Hit Dice, which increases HP, attack bonus and skills. Adjust Stats if it's logical to do so.
 
 # Environmental Hazards
 
@@ -202,7 +204,7 @@ A falling character takes 1d6 HP of damage per 10 feet fallen. If the character 
 
 In the event that the fall ends in an area laden with spikes or jagged rocks, add +1 HP of damage to falling damage per 10 feet fallen (with a maximum of +10 HP).
 
-<h2 class="page-break">Poison</h2>
+## Poison
 
 Characters can possibly take damage from a weapon that has been poisoned, be attacked by a creature whose natural attacks feature poison, consume poison hidden in food or drink, or be poisoned in some other way.
 
@@ -227,10 +229,12 @@ The entries for traps include the following information:
 - **Disable DC:** lists the DC for the Guile + DEX check necessary to disarm the trap safely.
 - **Attack:** shows the traps attack bonus or type of effect, and the damage the trap deals.
 
-<h3 class="page-break"> 1 XP Traps </h3>
+### 1 XP Traps
 - **Basic Arrow Trap:** ATK +10 (1d6, arrow); Search know+MIND DC 20, Disable guile+DEX DC 20.
 - **Camouflaged Pit Trap:** 10 ft. deep (1d6, fall); Save DC 15 to avoid; Search DC 24, Disable DC 20.
 - **Poison Dart Trap:** ATK +8 (1d4 plus poison, dart); Search DC 20, Disable DC 18.
+
+<!-- $page-break -->
 
 ### 2 XP Traps
 - **Burning Hands Trap:** spell effect (1d4, fire); Save DC 11 for ½ damage; Search DC 26, Disable DC 26.
@@ -271,6 +275,8 @@ The entries for traps include the following information:
 - **Dropping Ceiling:** ceiling moves down (12d6, crush); Search DC 20, Disable DC 16.
 - **Incendiary Cloud Trap:** spell effect (4d6/round for 15 rounds, fire); Save DC 22 for ½ damage; Search DC 33, Disable DC 33.
 - **Wide-mouthed Spiked Pit with Poisoned Spikes:** 70 ft. deep (7d6, fall), ATK +10 (1d4+5 plus poison each, 1d4 spikes); Save DC 20 to avoid; Search DC 20, Disable DC 20.
+
+<!-- $page-break -->
 
 ### 10 XP Traps
 - **Crushing Room:** walls move together (16d6, crush); Search DC 22, Disable DC 20.

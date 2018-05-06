@@ -30,6 +30,20 @@ img[alt=image] {
     page-break-before: always;
 }
 
+.page-break-after {
+    page-break-after: always;
+}
+
+.t-full > table {
+    width: 100%;
+}
+
+h1, h2, h3 {
+    font-family: 'Trade Winds';
+    font-weight: bold;
+    clear: both;
+}
+
 h1:not(.title) {
     page-break-before: always;
     border-top: 2px double black;
@@ -39,52 +53,46 @@ h1:not(.title) {
 
 h2 {
     border-bottom: 1px solid black;
-    font-weight: bold;
-}
-
-h3 {
-    font-weight: bold;
 }
 
 * {
     font-family: "Open Sans";
-    font-size: 94%;
     font-weight: lighter;
     font-size-adjust: auto;
 }
 
-table {
-    margin: 0;
+body {
+    font-size: 9px;
+}
+
+p, ul, ol, table {
+    margin-top: 0;
+    margin-bottom: 0.9em;
 }
 
 table, td, th {
     page-break-inside: avoid;
     padding: 2px 3px;
-    font-size: 1em;
+    vertical-align: baseline;
 }
 
 table, td {
     border: 1px solid black;
 }
 
-body {
-    font-size: 8px;
-}
-
 ul, ol {
-	font-size: 100%;
-    padding-left: 5px;
-    list-style: disc inside;
+    padding-left: 1.6em;
 }
 
-li, strong {
-    font-size: 100%;
+li > p {
+    display: inline;
 }
 
 code {
 	color: #333;
 	background-color: #ddd;
 	border-radius: 2px;
+    padding: 0.1em 0.5em;
 }
 
 pre {

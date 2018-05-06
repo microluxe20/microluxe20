@@ -1,4 +1,4 @@
-<!-- $header Microluxe 20 <br> <br> Spell Lists -->
+<!-- $header Spell Lists -->
 
 # Spell Lists
 
@@ -105,7 +105,7 @@ The following spells have been customized and tweaked to make the game as smooth
 - **Magic Stone:** Three small throwing stones are enchanted, gaining +1 on attack and dealing 1d6 +1 damage, with a range of 20ft. The enchantment lasts for 30 minutes or until discharged.
 - **Shield of Faith:** Aura grants +2 or higher AC bonus for 10 rounds/level.
 
-<h3 class="page-break"> 4th-Level Divine Spells </h3>
+### 4th-Level Divine Spells
 - **Aid:** +1 on attack rolls and saves against fear, 1d8 temporary HP +1/level (max +10).
 - **Cure Moderate Wounds:** Cures 2d8 damage +1/level (max +10).
 - **Delay Poison:** Stops poison from harming subject for 3 rounds.
@@ -361,7 +361,7 @@ The combined HP cost for manifesting and augmenting a power cannot exceed the ch
 - **Read Thoughts:** Detect the thoughts of creatures in range. _Duration_: Knowledge, up to 10 rounds/level. _Augment_: None.
 - **Sensitivity to Psychic Impressions:** Find out about an area's past. _Duration_: Knowledge, up to 10 min/level. _Augment_: None.
 
-<h3 class="page-break"> 6th-Level Psion Powers </h3>
+### 6th-Level Psion Powers
 - **Body Adjustment:** You heal 1d12 damage. _Duration_: Instant. _Augment_: Every 2 extra HP heals an extra 1d12.
 - **Dispel Psionics:** Cancel psionic powers and effects. _Duration_: Instant. _Augment_: Each extra HP raises dispel check by 2.
 - **False Sensory Input:** The subject thinks they see, hear, smell, taste, or feel something other than what their senses actually report. _Duration_: Knowledge, up to 10 rounds/level. _Augment_: Every 2 extra HP affects another target.
@@ -376,6 +376,8 @@ The combined HP cost for manifesting and augmenting a power cannot exceed the ch
 - **Mindwipe:** Wipe a part of target's mind to reduce target's current level by 2. _Duration_: 1 hr. _Augment_: Every 2 extra HP raises DC by 2. Every 3 extra HP reduces an extra level.
 - **Schism:** Split your mind into two independent entities. _Duration_: 1 round/level. _Augment_: None.
 - **Telekinetic Maneuver:** Telekinetically bull rush(push an opponent back one space), disarm, grapple (vs STR), or trip your target. _Duration_: Knowledge, up to 1 round/level. _Augment_: Every 2 extra HP grants a +1 bonus to maneuver checks.
+
+<!-- $page-break -->
 
 ### 10th-Level Psion Powers
 - **Mind Probe:** You discover the subject's secret thoughts. _Duration_: 1 round/level. _Augment_: None.
@@ -400,7 +402,7 @@ The combined HP cost for manifesting and augmenting a power cannot exceed the ch
 - **Moment of Prescience:** You gain an insight bonus equal to your psionic character level on a single attack roll, check, or save. _Duration_: 1 round/level, until discharged. _Augment_: None.
 - **Reddopsi:** Powers targeting you rebound back. _Duration_: 10 min/level. _Augment_: None.
 
-<h3 class="page-break"> 16th-Level Psion Powers </h3>
+### 16th-Level Psion Powers
 - **Astral Seed:** You plant a seed of your rebirth into the Astral Plane (The Astral plane is the space/plane in which Terador, and other worlds, reside. Filled with a thick air-like substance called "miasma", the Astral plane is a timeless plane with ever-changing gravity, known for its magic production). You return from death (even disintegration) after 10 days. _Duration_: Instant. _Augment_: None.
 - **Hypercognition:** You can deduce almost anything. _Duration_: Instant. _Augment_: None.
 - **Mind Blank:** Subject is immune to mental/emotional effects, scrying, and remote viewing. _Duration_: 1 day. _Augment_: None.

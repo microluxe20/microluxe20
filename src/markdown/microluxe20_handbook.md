@@ -1,4 +1,4 @@
-<!-- $header-main Microluxe 20 <br> <br> Handbook -->
+<!-- $header-main Handbook -->
 
 # Introduction
 
@@ -26,6 +26,8 @@ When playing Microluxe20, the game will follow a basic pattern:
 
 This pattern is used for any conflict resolution, aside from combat. Once combat begins in a situation, the game switches to a more rigid and structured ruleset, where players take turns deciding on and completing actions. Outside of combat, this basic pattern continues to keep everything fluid and simple, continually adapting to the adventure's storyline.
 
+<!-- $page-break -->
+
 ### Items Needed
 
 To play Microluxe20, you will need **paper**, **pencils**, and a conventional set of **d20 tabletop dice**. The dice required to play are a 4-sided die (d4), 6-sided die (d6), 8-sided die (d8), 10-sided die (d10), 12-sided die (d12), 20-sided die (d20), and a Percentile 10-sided die (d10 showing 00/10/20/30, etc).
@@ -42,7 +44,7 @@ When creating a character in Microluxe20, you will need to decide on a race and 
 
 Terador has a wealth of races to choose from, each with their unique history. While the Mir are the most common race in Terador, the many other races are fairly commonplace to see as well. When creating a character, your player will be one of the major races of Terador.
 
-<!-- $data races.yml races -->
+<!-- $data races.yml races t-full -->
 
 ## Classes
 
@@ -111,7 +113,7 @@ For example, Climbing would use Physical + STR bonus. Dodging a falling rock is 
 
 For compatibility purposes, the 3 saves in Microluxe20 (STR save, DEX save, and MIND save), directly match Fortitude, Reflex, and Will saves (often called "saving throws") found in other SRD-based games.
 
-<h2 class="page-break"> Level Advancement </h2>
+## Level Advancement
 
 Characters gain XP (or Experience Points) from defeating monsters, disarming traps, or from handling situations in innovative ways, at the GM's discretion. XP is awarded to all characters who take part in the encounter.
 
@@ -134,6 +136,8 @@ Each level adds:
 * Fighters gain +1 to their attack and damage rolls at levels 5,10,15,etc.
 
 * New spell and power levels are unlocked at levels 2,4,6,8,etc.
+
+# Gameplay
 
 ## Combat
 
@@ -203,7 +207,7 @@ Magical items can be broadly divided into two categories: Active and Passive. Ac
 
 **Armor and Weapons:** Enchanted armor and weapons are usually the mark of a wealthy adventurer or noble, and usually provide some form of passive effect, ranging from a simple 'torchlight' effect to damage reduction, elemental resistances or bonuses, and more.
 
-<h3 class="page-break"> Creating Magic Items </h3>
+### Creating Magic Items
 
 The process to enchant an item with a magical effect differs slightly from item to item (and at the Gamemaster's discretion) but they all follow a similar pattern in their creation. Most enchantments will require access to special tools of some kind - potions will require a cauldron and beakers, wands and rods require tools to carve the magical trace-work into their surface, and jewelery requires fine tools to shape the item and socket gems into their proper places.
 
