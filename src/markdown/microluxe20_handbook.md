@@ -2,7 +2,11 @@
 
 # Introduction
 
-Microluxe20 is a minimalist tabletop role-playing game designed with simplicity in mind. Using an easy-to-grasp, yet extremely robust stat/skill framework, Microluxe20 allows for crafting exciting encounters that are fun and fluid, emphasizing storytelling and player interaction over the traditional "straight-jacket" skill systems found in many modern tabletop games. Keeping compatibility in mind, OGL/d20 supplements should work out of the box, without any conversions; in fact, SRD/OGL adventures with any incompatibilities can be converted _on the fly_ with almost no effort! The entire character sheet fits on one sheet of paper, meaning character creation and management is extremely quick and easy. Microluxe20 is great for one-shot adventures, or teaching new players about tabletop gaming. However, unlike many one-shot styled tabletop games, it is also robust enough to cater to full-fledged campaign-style games as well, especially because of its compatibility with other OGL/d20 content.
+Microluxe20 is a minimalist tabletop role-playing game designed with simplicity in mind. Using an easy-to-grasp, yet extremely robust stat/skill framework, Microluxe20 allows for crafting exciting encounters that are fun and fluid, emphasizing storytelling and player interaction over the traditional "straight-jacket" skill systems found in many modern tabletop games.
+
+Keeping compatibility in mind, OGL/d20 supplements should work out of the box, without any conversions; in fact, SRD/OGL adventures with any incompatibilities can be converted _on the fly_ with almost no effort! The entire character sheet fits on one sheet of paper, meaning character creation and management is extremely quick and easy.
+
+Microluxe20 is great for one-shot adventures, or teaching new players about tabletop gaming. However, unlike many one-shot styled tabletop games, it is also robust enough to cater to full-fledged campaign-style games as well, especially because of its compatibility with other OGL/d20 content.
 
 ## First Steps
 
@@ -14,20 +18,6 @@ A role-playing game (RPG) is a cooperative narration game in which players assum
 
 **Now it’s your turn:** Are you a fearful adventurer that decides to run for his life? Are you brave enough to search in the wood? Maybe you’re a warrior that grabs his sword, sure that this is an ambush. Or maybe you’re a smart and cunning rogue, climbing silently on a tree to look at what’s behind the plants. Maybe you’re a powerful wizard that casts a spell to clearly see through all obstacles in front of you. The possibilities are limitless! It’s up to you to decide!
 
-### How to Play
-
-When playing Microluxe20, the game will follow a basic pattern:
-
-1. The GM shows or describes the world. The GM tells the players where they are and what they are doing, explaining any lore or recent happenings. For example, the GM may describe a small town that the players have just entered, telling them that they see a small stable, an inn and a few farm houses. The GM may elaborate, saying there are mountains in the distance, or bloody footprints on the ground near one of the farm house entrances.
-
-2. The players decide on what they want to do, and describe their actions to the GM. Outside of combat, one player may speak for the whole party, or maybe each player has their own plans on what they want to do or investigate. The players don't necessarily need to take turns, but the GM still needs to be able to listen to each player's decision and resolve it. Decision resolution can be simple (for example, if the player simply wants to open the farm door, the GM can just tell the player what they see inside) or complex (perhaps the door is locked and the player must work out a way to get inside). In more complex situations, the GM may make use of dice rolls to determine the outcome of the player's action.
-
-3. After the player decides on their action and describes it, the GM responds with the results of the player's action. Once the GM describes the outcome, the pattern starts over again, returning to step 1.
-
-This pattern is used for any conflict resolution, aside from combat. Once combat begins in a situation, the game switches to a more rigid and structured ruleset, where players take turns deciding on and completing actions. Outside of combat, this basic pattern continues to keep everything fluid and simple, continually adapting to the adventure's storyline.
-
-<!-- $page-break -->
-
 ### Items Needed
 
 To play Microluxe20, you will need **paper**, **pencils**, and a conventional set of **d20 tabletop dice**. The dice required to play are a 4-sided die (d4), 6-sided die (d6), 8-sided die (d8), 10-sided die (d10), 12-sided die (d12), 20-sided die (d20), and a Percentile 10-sided die (d10 showing 00/10/20/30, etc).
@@ -35,6 +25,10 @@ To play Microluxe20, you will need **paper**, **pencils**, and a conventional se
 When referencing dice in the game, dice rolls are often abbreviated to something like "d6" or "d20", where the number after the "d" represents the number of sides on the die. Numbers in front of the "d" dictate how many times the die should be rolled.
 
 For example, “3d6 + 5” means you roll three 6-sided dice, add their results together, then add 5 to the total.
+
+### Getting Started
+
+**TODO:** Players, table rules, etc...
 
 # Character Creation
 
@@ -139,6 +133,16 @@ Each level adds:
 
 # Gameplay
 
+When playing Microluxe20, the game will follow a basic pattern:
+
+1. The GM shows or describes the world. The GM tells the players where they are and what they are doing, explaining any lore or recent happenings. For example, the GM may describe a small town that the players have just entered, telling them that they see a small stable, an inn and a few farm houses. The GM may elaborate, saying there are mountains in the distance, or bloody footprints on the ground near one of the farm house entrances.
+
+2. The players decide on what they want to do, and describe their actions to the GM. Outside of combat, one player may speak for the whole party, or maybe each player has their own plans on what they want to do or investigate. The players don't necessarily need to take turns, but the GM still needs to be able to listen to each player's decision and resolve it. Decision resolution can be simple (for example, if the player simply wants to open the farm door, the GM can just tell the player what they see inside) or complex (perhaps the door is locked and the player must work out a way to get inside). In more complex situations, the GM may make use of dice rolls to determine the outcome of the player's action.
+
+3. After the player decides on their action and describes it, the GM responds with the results of the player's action. Once the GM describes the outcome, the pattern starts over again, returning to step 1.
+
+This pattern is used for any conflict resolution, aside from combat. Once combat begins in a situation, the game switches to a more rigid and structured ruleset, where players take turns deciding on and completing actions. Outside of combat, this basic pattern continues to keep everything fluid and simple, continually adapting to the adventure's storyline.
+
 ## Combat
 
 When entering combat, the pace of the game shifts from the free-form nature of exploration to tightly structured units of time called 'rounds', in which each character gets one turn. On their turn, characters may move up to their maximum speed and take one additional action (attack, cast a spell, move again, speak with someone, etc.), unless they are immobilized, unconscious, or otherwise incapacitated.
@@ -147,15 +151,13 @@ The order in which characters take their turns in combat is determined by rollin
 
 When making an attack, roll a d20, adding the appropriate **attack bonus** for the action. If the resulting total is greater than your opponent's Armor Class (AC), it's a hit. Natural 20 is automatically a critical, dealing additional damage equal to your weapon's maximum damage. Melee attack bonuses are used for martial weapons, Missile attack bonuses are used for ranged combat, and Magic attack bonuses are used for staves and other magical items with special powers.
 
-**Melee attack bonus** = STR bonus + Character Level
+| **Melee Attack Bonus:** | **Missile Attack Bonus:** | **Magic Attack Bonus:** |
+| :- | :- | :- |
+| STR bonus + Character Level | DEX bonus + Character Level | MIND bonus + Character Level |
 
-**Missile attack bonus** = DEX bonus + Character Level
+While a character's attack bonus is +6 or more, they can make an additional attack by subtracting -5 for the new attack's bonus. This can be carried out up to three times. For example, if the total bonus is +12, three attacks can be made (at +12/+7/+2, respectively).
 
-**Magic attack bonus** = MIND bonus + Character Level
-
-If the total attack bonus is +6 or more, a second attack can be made with a -5 penalty to the attack bonus. If the total bonus is +11 or more a third attack can be made at a -10 penalty. For example, if the total bonus is +12, three attacks can be made at +12/+7/+2.
-
-Fighters and Rogues may use DEX bonus + Level (Missile attack bonus) as Melee attack bonus instead when wielding a light weapon. Fighters, Rogues, Bards, and Rangers may wield 2 light weapons and attack with both in a round, if they take a -2 penalty on all attack rolls that round. Rangers take a -1 penalty instead.
+Fighters and Rogues may use DEX bonus + Level (Missile attack bonus) as their Melee attack bonus when wielding a light weapon. Fighters, Rogues, Bards, and Rangers may wield 2 light weapons and attack with both in a round, if they take a -2 penalty on all attack rolls that round. Rangers take a -1 penalty instead.
 
 For each attack that hits, roll the damage die code on your weapon and subtract the resulting total from your opponent's HP. When wielding a Complex Melee weapon, add your STR bonus to the damage total.
 
@@ -177,11 +179,11 @@ When a spell is cast, the target of the spell must make a relevant DC save (d20 
 
 Here are three ways for spell casters to add a little more variety:
 
-**Extending** makes a spell last twice as long as it normally would. An Extended spell costs an additional 2 HP.
+- **Extending** makes a spell last twice as long as it normally would. An Extended spell costs an additional 2 HP.
 
-**Empowering** makes a spell do 50% more damage than normal. An Empowered spell costs an additional 4 HP.
+- **Empowering** makes a spell do 50% more damage than normal. An Empowered spell costs an additional 4 HP.
 
-**Widening** makes a spell's area of effect twice as big as normal. A Widened spell costs an additional 6 HP.
+- **Widening** makes a spell's area of effect twice as big as normal. A Widened spell costs an additional 6 HP.
 
 ## Magic Items
 
@@ -213,13 +215,13 @@ The process to enchant an item with a magical effect differs slightly from item 
 
 To begin the process, the player needs to have the base form of the item and purchase materials to perform the enchantment, and the spellcaster performing the enchantment must know the spell or use a scroll with the wanted spell. All materials used in the process are consumed, as well as any scrolls used as a source.
 
-The enchantment process will require a spellcaster to infuse the item with HP equal to 10 times the cost of the spell or effect being enchanted with. A spellcaster can infuse up to 50% of their maximum HP into items each day; it takes a full hour to infuse 5 HP, and the character cannot regain HP lost until taking a long rest. Only one character may infuse an item at a time.
+The enchantment process will require a spellcaster to infuse the item with HP equal to 10 times the cost of the spell or effect being enchanted with. A spellcaster takes a full hour to infuse 5 HP into an item, and the character cannot regain HP lost until taking a long rest. Only one character may infuse an item at a time.
 
 When creating a scroll, the infusion cost is reduced to 5 times the HP cost of the spell being written down.
 
 When creating an item with magical charges, the maximum number of charges the item can hold is determined by rolling 1d20 + Level. Each charge requires 5 times the HP cost of the spell, but the item may be recharged at any point.
 
-When the infusion process is finished, the player rolls MIND+Knowledge, and the result of the roll determines the effectiveness of the enchantment.
+When the infusion process is finished, the character rolls MIND+Knowledge, and the result of the roll determines the effectiveness of the enchantment.
 
 | Result: | Effect |
 | :------ | :----- |
@@ -229,9 +231,10 @@ When the infusion process is finished, the player rolls MIND+Knowledge, and the 
 | 15+ | Success! The item is successfully enchanted, and no other effect occurs. |
 | Natural 20 | Critical Success! The item is successfully enchanted, and gains +50% to its effectiveness. |
 
-**Example:** Your 3rd-level elven Mage wants to imbue a wand with Prestidigitation. This is a 1st-level Mage spell, so it will take 10 HP to enchant the wand. You also want to infuse it with one charge to start, bringing the total HP cost to 15. Your Mage has a 30 HP maximum, so it will take only one day to complete, and he must focus on infusing the wand for a full three hours. You roll 1d20 + your Mage's level, getting an 11 for the maximum number of charges the wand can hold. You roll MIND+Knowledge when he has finished infusing the wand and - Presto! - you get a 17! The wand is successfully crafted, holding 1 / 11 charges.
+**Example:** Your 3rd-level elven Mage wants to imbue a wand with Prestidigitation. This is a 1st-level Mage spell, so it will take 10 HP to enchant the wand. You also want to infuse it with one charge to start, bringing the total HP cost to 15. You can only infuse 5 HP per hour, so you must focus on infusing the wand for a full three hours. You roll 1d20 + your Mage's level, getting an 11 for the maximum number of charges the wand can hold. You roll MIND+Knowledge when he has finished infusing the wand and - Presto! - you get a 17! The wand is successfully crafted, holding 1 / 11 charges.
 
 <!-- TODO: rework this in a way that makes sense: -->
+
 <div style="display:none">
 |MAGIC ITEM CHART||||||
 |:---|:---:|:---:|:---:|:---:|:---:|
@@ -250,6 +253,8 @@ After combat, players must rest to regain their stamina. There are 2 forms of re
 ## Heroism
 
 **Heroism** is intended to relieve some of the power incompatibilities with some d20 adventure types. If you find that the party is consistently too weak, try adding Heroism. **Heroism** is a bonus equal to the character's level that may be applied to one of the following actions three times per day: Attack Bonus, Damage, Saving Throw, Skill Check, or Spell DC.
+
+<!-- TODO: need something to fill a half-page here. -->
 
 # Appendix
 

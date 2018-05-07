@@ -89,7 +89,7 @@ function assembleTable(doc) {
   for (let i = 0; extra ? i <= size : i < size; i++) {
     let d = '| ';
     for (let c = 0; c < columns && (i < size || c < extra); c++) {
-      const offset = c ? extra : 0;
+      const offset = c ? (c < extra ? c : extra) : 0;
       const idx = i + offset + (c * size);
       if (idx >= doc.data.length) break;
       d += (c ? ' | ' : '') + doc.data[idx];

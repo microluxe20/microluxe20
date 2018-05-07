@@ -4,7 +4,7 @@
 
 ## Starting Wealth
 
-The most common coin is the _gold piece_ (gp).
+The most common coin used on Terador is the _gold piece_ (gp). The gold piece can be converted into other coins:
 
 <!-- $data wealth.yml coins -->
 
@@ -21,23 +21,27 @@ Here is the format for weapon entries (given as column headings on the table bel
 - **Complexity:** Different weapons require different amount of training to use. The level of complexity relies on the player's class. For example, Mages cannot use Complex weapons.
 - **Cost:** This value is the price for purchasing the weapon. The cost includes miscellaneous gear that goes with the weapon (For example, buying a bow would include a quiver as well).
 
-### Light Weapons
+### One-Handed Weapons
 
-<!-- $data weapons.yml light -->
+<!-- $data weapons.yml one-handed -->
 
 <!-- $page-break -->
-
-### Ranged Weapons
-
-<!-- $data weapons.yml ranged -->
 
 ### Two-Handed Weapons
 
 <!-- $data weapons.yml two-handed -->
 
-### One-Handed Weapons
+### Light Weapons
 
-<!-- $data weapons.yml one-handed -->
+<!-- $data weapons.yml light -->
+
+### Ranged Weapons
+
+<!-- $data weapons.yml ranged -->
+
+### Thrown Weapons
+
+<!-- $data weapons.yml thrown -->
 
 <!-- $page-break -->
 

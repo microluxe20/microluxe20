@@ -51,6 +51,8 @@ This is an introduction to the most predominant races of Terador. There are othe
 
 **Info:** The Dwarves are known for 3 specific things in Terador: escorts-for-hire, blacksmiths/forgers, and inventors. Each aspect of Dwarven culture is run by one of the three leaders of the Dwarven people. Braden is a young Dwarf that has recently become the new leader of the mercenary branch of CinderHal, the Dwarves' main capital. Under his rule, the Dwarves have gained an even larger presence outside of their traditional mountain borders. Dwarves are now a more common sight to behold in Terador thanks to Braden's rule. Tane, the old and wise, is the oldest of the three leaders, taking ownership of the inventors of CinderHal. With his wit and technical prowess, Dwarves have begun to create new mechanical and magical devices that have begun to outmatch even the Great Elves' inventions. Galvan, clever and resourceful albeit slightly brash, is the leader of the great forges of CinderHal. He rallies all of the smiths of the Dwarven race, helping craft some of the greatest weaponry ad armor in all of Terador. With the help of the Half-men's trading, Dwarven-crafted armor is becoming a highly profitable business, bringing in a new golden age for the Dwarves.
 
+All Dwarves can use a Waraxe, regardless of class.
+
 ## Minotaurs
 
 **Leaders:** Rygar Windblade and Ovenharn Earthgore
@@ -118,6 +120,8 @@ Taurmir – Half Minotaur and half another race.
 Gorimir – Half Gori and half another race.
 
 The Half-men are ruled by Orowyn, who was voted into place by all of the citizens of Pelgiar. Orowyn is a well known Elvir, who has devoted his life to growing Pelgiar into the trade capital of Terador. So far, under his rule, the Half-men have become known as Terador's greatest traders. They live in the swamps and coasts of southern Terador, and are well known for their trade-ships that travel the world. While some are pirates and thieves, most are traders, buying and selling goods from all over Terador. Many call the Half-men "Middle-men" because of both their physical appearances and their role in Terador's market. Half-men are not considered half-breeds or lower life forms. Instead, they are very common sights in Terador and widely accepted. Some races (particularly the Orcs) have a slight disdain for some breeds of Half-men, but for the most part, their race is not looked down upon. Recently, Orowyn has been meeting with the Dwarves, working on a new project that will hopefully usher in a revolution in transportation and trade throughout Terador.
+
+All Dwarmir can use a Waraxe, regardless of class.
 
 ## Slaan
 

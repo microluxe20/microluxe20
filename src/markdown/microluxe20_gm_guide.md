@@ -165,7 +165,7 @@ Alternatively, add class levels to intelligent monsters. Start with the base Hit
 - **Monstrous Spider (large):**  HD 4d8+4 (22 HP), AC 14, Bite +4 (1d8+3 plus poison)
 - **Monstrous Spider (huge):**  HD 8d8+16 (52 HP), AC 16, Bite +9 (2d6+6 plus poison)
 
-## Microluxe20 Monster Building
+## Monster Building
 
 Monster Building under Microluxe20 is so fast, it's possible to do it **on the fly** , right at the game table. And I'm going to show you how, using a Ninja Monkey as an example.
 
@@ -204,6 +204,8 @@ A falling character takes 1d6 HP of damage per 10 feet fallen. If the character 
 
 In the event that the fall ends in an area laden with spikes or jagged rocks, add +1 HP of damage to falling damage per 10 feet fallen (with a maximum of +10 HP).
 
+<!-- $page-break -->
+
 ## Poison
 
 Characters can possibly take damage from a weapon that has been poisoned, be attacked by a creature whose natural attacks feature poison, consume poison hidden in food or drink, or be poisoned in some other way.
@@ -216,6 +218,8 @@ Several typical poisons are summarized below. The entries for poisons include th
 - **Price:** lists the cost for one dose of the poison. It can usually only be obtained through less-than-reputable sources, as the possession of poisons are commonly illegal.
 
 <!-- $data gm-damage.yml poisons -->
+
+<!-- $page-break -->
 
 ## Traps
 
@@ -233,8 +237,6 @@ The entries for traps include the following information:
 - **Basic Arrow Trap:** ATK +10 (1d6, arrow); Search know+MIND DC 20, Disable guile+DEX DC 20.
 - **Camouflaged Pit Trap:** 10 ft. deep (1d6, fall); Save DC 15 to avoid; Search DC 24, Disable DC 20.
 - **Poison Dart Trap:** ATK +8 (1d4 plus poison, dart); Search DC 20, Disable DC 18.
-
-<!-- $page-break -->
 
 ### 2 XP Traps
 - **Burning Hands Trap:** spell effect (1d4, fire); Save DC 11 for ½ damage; Search DC 26, Disable DC 26.
@@ -261,6 +263,8 @@ The entries for traps include the following information:
 - **Lightning Bolt Trap:** spell effect (10d6, electricity); Save DC 14 for ½ damage; Search DC 28, Disable DC 28.
 - **Spiked Pit Trap:** 100 ft. deep (10d6, fall), ATK +10 (1d4+5 each, 1d4 spikes); Save DC 20 to avoid; Search DC 20, Disable DC 20.
 
+<!--$page-break -->
+
 ### 7 XP Traps
 - **Black Tentacles Trap:** spell effect (tentacles) ATK +7 (1d6+4 each, 1d4+7 tentacles); Search DC 29, Disable DC 29.
 - **Chain Lightning Trap:** spell effect (11d6 to nearest target +5d6 each to up to 11 secondary targets, electricity); Save DC 19 for ½ damage; Search DC 31, Disable DC 31.
@@ -275,8 +279,6 @@ The entries for traps include the following information:
 - **Dropping Ceiling:** ceiling moves down (12d6, crush); Search DC 20, Disable DC 16.
 - **Incendiary Cloud Trap:** spell effect (4d6/round for 15 rounds, fire); Save DC 22 for ½ damage; Search DC 33, Disable DC 33.
 - **Wide-mouthed Spiked Pit with Poisoned Spikes:** 70 ft. deep (7d6, fall), ATK +10 (1d4+5 plus poison each, 1d4 spikes); Save DC 20 to avoid; Search DC 20, Disable DC 20.
-
-<!-- $page-break -->
 
 ### 10 XP Traps
 - **Crushing Room:** walls move together (16d6, crush); Search DC 22, Disable DC 20.

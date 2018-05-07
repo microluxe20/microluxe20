@@ -25,20 +25,30 @@ header:
     - Weapon | Cost | Damage | Range | Complexity | Weight
     - :--- | :--- | :--- | :--- | :--- | :---
 data:
-    - Dart | 5sp | 1d4 | 20ft. | Simple | 0.5 lbs.
     - Sling | 1gp | 1d4 | 40ft. | Simple | —
-    - Kunai | 2gp | 1d4 | 60ft. | Simple | 1 lb.
-    - Javelin | 10gp | 1d6 | 30ft. | Simple | 2 lbs.
+    - Atlatl | 5gp | 1d6 | 60ft. | Simple | 2 lbs.
     - Crossbow, light | 35gp | 1d8 | 80ft. | Simple | 4 lbs.
     - Crossbow, medium | 50gp | 1d10 | 120ft. | Simple | 6 lbs.
     - Crossbow, heavy | 85gp | 2d6 | 160ft. | Complex | 8 lbs.
-    - Net | 20gp | — | 10ft. | Complex | 6 lbs.
     - Crossbow, hand | 100gp | 1d4 | 30ft. | Complex | 2 lbs.
-    - Shuriken | 10gp | 1d6 | 30ft. | Complex | 0.25 lbs.
     - Shortbow | 30gp | 1d6 | 60ft. | Complex | 2 lbs.
     - Shortbow, composite | 55gp | 1d8 | 80ft. | Complex | 2 lbs.
     - Longbow | 75gp | 1d10 | 100ft. | Complex | 3 lbs.
     - Longbow, composite | 100gp | 2d6 | 120ft. | Complex | 3 lbs.
+
+
+---
+id: thrown
+columns: 2
+header:
+    - Weapon | Cost | Damage | Range | Complexity | Weight
+    - :--- | :--- | :--- | :--- | :--- | :---
+data:
+    - Dart | 5sp | 1d4 | 20ft. | Simple | 0.5 lbs.
+    - Kunai | 2gp | 1d4 | 60ft. | Simple | 1 lb.
+    - Javelin | 10gp | 1d6 | 30ft. | Simple | 2 lbs.
+    - Net | 20gp | — | 10ft. | Complex | 6 lbs.
+    - Shuriken | 10gp | 1d6 | 30ft. | Complex | 0.25 lbs.
 
 ---
 id: two-handed

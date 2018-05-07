@@ -34,6 +34,11 @@ img[alt=image] {
     page-break-after: always;
 }
 
+.float-right {
+    float: right;
+    margin-left: 1em;
+}
+
 .t-full > table {
     width: 100%;
 }
