@@ -62,10 +62,10 @@ function preProcessMd(data) {
   const regex = /<!--\s*\$(\S+)\s*([\S\s]*?)\s*-->/g;
 
   function replace(match, name, extraData) {
-    for (const d of dataTransform) {
-      if ((name === d.key) || (d.allowExtra && name.startsWith(d.key))) {
-        return d.replace(extraData, name) || '';
-      }
+    const dataTransformer = dataTransform.find(d =>
+      (name === d.key) || (d.allowExtra && name.startsWith(d.key)));
+    if (data !== undefined) {
+      return dataTransformer.replace(extraData, name) || '';
     }
     return '';
   }
@@ -87,9 +87,9 @@ function assembleTable(doc) {
   const extra = doc.data.length % columns;
 
   // Stack table entries side-by-side.
-  for (let i = 0; extra ? i <= size : i < size; i++) {
+  for (let i = 0; i < (extra ? size + 1 : size); i += 1) {
     let d = '| ';
-    for (let c = 0; c < columns && (i < size || c < extra); c++) {
+    for (let c = 0; c < columns && (i < size || c < extra); c += 1) {
       const offset = c ? Math.min(c, extra) : 0;
       const idx = i + offset + (c * size);
       if (idx >= doc.data.length) break;
@@ -109,7 +109,6 @@ TODO: move this to separate files (make more extensible).
 dataTransform.push({
   key: 'data',
   // Parse the directive: $data <file> <key>
-  /* eslint no-restricted-syntax: "off", no-plusplus: "off" */
   replace: (directive) => {
     const file = getDataFile(directive);
     if (file === null) return '';
@@ -154,27 +153,21 @@ const mdPdfOpts = {
 };
 
 // Load data when it has changed.
-// eslint-disable-next-line arrow-body-style
-gulp.task('load-data', () => {
-  return gulp.src(config.dataPath)
-    .pipe(changedInPlace({ firstPass: true }))
-    .pipe(through.obj((file, enc, cb) => {
-      const data = yaml.safeLoadAll(file.contents);
-      dataFiles[file.relative] = data;
-      cb();
-    }));
-});
+gulp.task('load-data', () => gulp.src(config.dataPath)
+  .pipe(changedInPlace({ firstPass: true }))
+  .pipe(through.obj((file, enc, cb) => {
+    const data = yaml.safeLoadAll(file.contents);
+    dataFiles[file.relative] = data;
+    cb();
+  })));
 
 // Compile each markdown file into pdf.
-// eslint-disable-next-line arrow-body-style
-gulp.task('compile-md', () => {
-  return gulp.src(config.mdPath)
-    .pipe(changed(config.out, {
-      extension: '.pdf',
-    }))
-    .pipe(markdownpdf(mdPdfOpts))
-    .pipe(gulp.dest(config.out));
-});
+gulp.task('compile-md', () => gulp.src(config.mdPath)
+  .pipe(changed(config.out, {
+    extension: '.pdf',
+  }))
+  .pipe(markdownpdf(mdPdfOpts))
+  .pipe(gulp.dest(config.out)));
 
 // compile all the documents
 gulp.task('compile', gulp.series('load-data', 'compile-md'));
@@ -210,14 +203,11 @@ function makeReleaseTasks() {
   return gulp.parallel(tasks);
 }
 
-// eslint-disable-next-line arrow-body-style
-gulp.task('clean', () => {
-  return gulp.src('documents/*')
-    .pipe(through.obj((file, err, cb) => {
-      fs.unlinkSync(file.path);
-      cb(null);
-    }));
-});
+gulp.task('clean', () => gulp.src('documents/*')
+  .pipe(through.obj((file, err, cb) => {
+    fs.unlinkSync(file.path);
+    cb(null);
+  })));
 
 // compile documents into their assigned books.
 gulp.task('compile-release', gulp.series((done) => {
