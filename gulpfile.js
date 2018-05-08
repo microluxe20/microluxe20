@@ -47,8 +47,7 @@ function getDataFile(directive) {
   }
 
   // Get the table YAML document matching the key, or the first if no key.
-  let doc;
-  for (const d of file) if (d.id === matches[1]) doc = d;
+  const doc = file.find(d => d.id === matches[1]);
   if (doc === undefined) {
     console.log(`No such table ${matches[1]} in file ${matches[0]}.`);
     return null;
@@ -80,7 +79,9 @@ function assembleTable(doc) {
   let body = '';
 
   const columns = doc.columns || 1;
-  for (const h of doc.header) header += `| ${`${h} | `.repeat(columns - 1)}${h} |\n`;
+  doc.header.forEach((h) => {
+    header += `| ${`${h} | `.repeat(columns - 1)}${h} |\n`;
+  });
 
   const size = Math.floor(doc.data.length / columns);
   const extra = doc.data.length % columns;
@@ -89,7 +90,7 @@ function assembleTable(doc) {
   for (let i = 0; extra ? i <= size : i < size; i++) {
     let d = '| ';
     for (let c = 0; c < columns && (i < size || c < extra); c++) {
-      const offset = c ? (c < extra ? c : extra) : 0;
+      const offset = c ? Math.min(c, extra) : 0;
       const idx = i + offset + (c * size);
       if (idx >= doc.data.length) break;
       d += (c ? ' | ' : '') + doc.data[idx];
@@ -181,7 +182,7 @@ gulp.task('compile', gulp.series('load-data', 'compile-md'));
 // Make a gulp.parallel object containing tasks to create release documents.
 function makeReleaseTasks() {
   const tasks = [];
-  for (const d of config.compiledOut) {
+  config.compiledOut.forEach((d) => {
     const func = () => {
       let data;
       let contents;
@@ -205,7 +206,7 @@ function makeReleaseTasks() {
     };
     func.displayName = `compile-${d[0]}`;
     tasks.push(func);
-  }
+  });
   return gulp.parallel(tasks);
 }
 
