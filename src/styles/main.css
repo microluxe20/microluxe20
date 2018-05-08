@@ -30,6 +30,25 @@ img[alt=image] {
     page-break-before: always;
 }
 
+.page-break-after {
+    page-break-after: always;
+}
+
+.float-right {
+    float: right;
+    margin-left: 1em;
+}
+
+.t-full > table {
+    width: 100%;
+}
+
+h1, h2, h3 {
+    font-family: 'Trade Winds';
+    font-weight: bold;
+    clear: both;
+}
+
 h1:not(.title) {
     page-break-before: always;
     border-top: 2px double black;
@@ -39,51 +58,46 @@ h1:not(.title) {
 
 h2 {
     border-bottom: 1px solid black;
-    font-weight: bold;
-}
-
-h3 {
-    font-weight: bold;
 }
 
 * {
     font-family: "Open Sans";
-    font-size: 94%;
     font-weight: lighter;
     font-size-adjust: auto;
 }
 
-table {
+body {
+    font-size: 9px;
+}
+
+p, ul, ol, table {
+    margin-top: 0;
+    margin-bottom: 0.9em;
+}
+
+table, td, th {
     page-break-inside: avoid;
-    margin: 0;
+    padding: 2px 3px;
+    vertical-align: baseline;
 }
 
 table, td {
-    page-break-inside: avoid;
-    padding: 2px 3px;
     border: 1px solid black;
 }
 
-th {
-    padding: 2px 3px;
-}
-
-body {
-    font-size: 56%;
-}
-
 ul, ol {
-	font-size: 100%;
+    padding-left: 1.6em;
 }
 
-strong {
-    font-size: 100%;
+li > p {
+    display: inline;
 }
 
 code {
 	color: #333;
 	background-color: #ddd;
 	border-radius: 2px;
+    padding: 0.1em 0.5em;
 }
 
 pre {

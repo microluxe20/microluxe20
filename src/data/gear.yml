@@ -1,0 +1,131 @@
+---
+id: adventuring-gear
+columns: 3
+header:
+    - Goods | Cost | Weight
+    - :---- | :--- | :-----
+data:
+    - Acid (flask) | 10gp | 1 lb.
+    - Antitoxin (vial) | 50gp | 1 lb.
+    - Artisan's Tools | 5gp | 5 lbs.
+    - Backpack (empty) | 2gp | 2 lbs.
+    - Barrel (empty) | 2gp | 30 lbs.
+    - Basket (empty) | 4sp | 1 lb.
+    - Bedroll | 1sp | 5 lb.
+    - Bell | 1gp | -
+    - Blanket, winter | 5sp | 3 lbs.
+    - Block and Tackle | 5gp | 5 lbs.
+    - Bottle, wine, glass (empty) | 2gp | -
+    - Bucket (empty) | 5sp | 2 lbs.
+    - Caltrops | 1gp | 2 lbs.
+    - Candle | 1cp | -
+    - Canvas (sq. yd.) | 1sp | 1 lb.
+    - Case, map or scroll | 1gp | 0.5 lbs.
+    - Chain (10 ft.) | 30gp | 2 lbs.
+    - Chalk, 1 piece | 1cp | -
+    - Chest (empty) | 2gp | 25 lbs.
+    - Craftsman's Tools | 5gp | 5 lbs.
+    - Crowbar | 2gp | 5 lbs.
+    - Disguise Kit | 50gp | 8 lbs.
+    - Firewood (per day) | 1cp | 20 lbs.
+    - Fishhook | 1sp | -
+    - Fishing net (25 sq. ft.) | 4gp | 5 lbs.
+    - Flask (empty) | 3cp | 1 lb.
+    - Flint & Steel | 1gp | -
+    - Grappling Hook | 1gp | 4 lbs.
+    - Hammer | 5sp | 2 lbs.
+    - Healer's Kit | 50gp | 1 lb.
+    - Holy Symbol, wooden | 1gp | -
+    - Holy Symbol, silver | 25gp | 1 lb.
+    - Holy Water (flask) | 25gp | 1 lb.
+    - Hourglass | 25gp | 1 lb.
+    - Ink (1 oz. Vial) | 8gp | -
+    - Ink pen | 1sp | -
+    - Jug, clay | 3cp | 9 lbs.
+    - Ladder, 10 ft. | 5cp | 20 lbs.
+    - Lamp, common | 1sp | 1 lb.
+    - Lantern, bulls eye | 12gp | 3 lbs.
+    - Lantern, hooded | 7gp | 2 lbs.
+    - Lock, simple | 20gp | 1 lb.
+    - Lock, average | 40gp | 1 lb.
+    - Lock, good | 80gp | 1 lb.
+    - Magnifying Glass | 100gp | -
+    - Manacles | 15gp | 2 lbs.
+    - Mirror, small steel | 10gp | 0.5 lbs.
+    - Mug/Tankard, clay | 2cp | 1 lb.
+    - Musical Instrument | 5gp | 3 lbs.
+    - Oil, pint flask | 1sp | 1 lb.
+    - Paper (sheet) | 4sp | -
+    - Parchment (sheet) | 2sp | -
+    - Pick, miner's | 3gp | 10 lbs.
+    - Pitcher, clay | 2cp | 5 lbs.
+    - Piton | 1sp | 0.5 lbs.
+    - Pole, 10 ft. | 2sp | 8 lbs.
+    - Pot, iron | 5sp | 10 lbs.
+    - Pouch, belt (empty) | 1gp | 0.5 lbs.
+    - Ram, portable | 10gp | 20 lbs.
+    - Rations, trail (per day) | 5sp | 1 lb.
+    - Rope, hempen (50 ft.) | 1gp | 10 lbs.
+    - Rope, silk (50 ft.) | 10gp | 5 lbs.
+    - Sack (empty) | 1sp | 0.5 lbs.
+    - Sealing Wax | 1gp | 1 lb.
+    - Sewing Needle | 5sp | -
+    - Signal Whistle | 8sp | -
+    - Signet Ring | 5gp | -
+    - Sledge | 1gp | 10 lbs.
+    - Soap (per lb.) | 5sp | 1 lb.
+    - Spade or Shovel | 2gp | 8 lb.
+    - Spellbook (blank) | 15gp | 3 lbs.
+    - Spyglass | 1,000gp | 1 lb.
+    - Tent | 10gp | 20 lbs.
+    - Thieves' Tools | 30gp | 1 lb.
+    - Torch | 1cp | 1 lb.
+    - Vial, ink or potion | 1gp | 0.1 lbs.
+    - Water skin | 1gp | 4 lbs.
+    - Whetstone | 2cp | 1 lb.
+
+---
+id: clothing
+columns: 3
+header:
+    - Goods | Cost
+    - :---- | :---
+data:
+    - Artisan's Outfit | 1gp
+    - Cleric's Vestments | 5gp
+    - Cold Weather Outfit | 8gp
+    - Courtier's Outfit | 30gp
+    - Entertainer's Outfit | 3gp
+    - Explorer's Outfit | 10gp
+    - Monk's Outfit | 5gp
+    - Noble's Outfit | 75gp
+    - Peasant's Outfit | 1sp
+    - Royal Outfit | 200gp
+    - Scholar's Outfit | 5gp
+    - Traveler's Outfit | 1gp
+
+---
+id: mounts
+columns: 3
+header:
+    - Goods | Cost
+    - :---- | :---
+data:
+    - Barding, medium creature | armor price x2
+    - Barding, large creature | armor price x4
+    - Bit and Bridle | 2gp
+    - Dog, guard | 25gp
+    - Dog, war | 75gp
+    - Donkey or Mule | 8gp
+    - Feed (per day) | 5cp
+    - Horse, heavy | 200gp
+    - Horse, light | 75gp
+    - Pony | 30gp
+    - Saddle, military | 20gp
+    - Saddle, pack | 5gp
+    - Saddle, riding | 10gp
+    - Saddlebags | 4gp
+    - Stabling (per day) | 5sp
+    - Warhorse, heavy | 400gp
+    - Warhorse, light | 150gp
+    - War pony | 100gp

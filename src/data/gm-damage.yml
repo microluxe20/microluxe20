@@ -1,0 +1,42 @@
+---
+id: diseases
+columns: 1
+header:
+    - Name | Type | Save DC | Incubation | Damage
+    - :--- | :--- | :------ | :--------- | :-----
+data:
+    - "**Cackle Fever** | Inhaled | DC 16 | 1 day | –1d6 MIND."
+    - "**Filth Fever** | Injury | DC 12 | 1d3 days | –1d3 DEX and 1d3 STR."
+    - "**Mindfire** | Inhaled | DC 12 | 1 day | –1d4 MIND."
+    - "**Red Ache** | Injury | DC 15 | 1d3 days | –1d6 STR."
+    - "**Shakes** | Contact | DC 13 | 1 day | –1d8 DEX."
+
+---
+id: poisons
+columns: 1
+header:
+    - Name | Type | Save DC | Effect | Cost
+    - :--- | :--- | :------ | :----- | :---
+data:
+    - "**Arsenic** | Ingested | DC 13 | -1 STR/-1d8 STR | 120 gp."
+    - "**Blue Whinnis** | Injury | DC 14 | -1 STR/ unconsciousness | 120 gp."
+    - "**Burnt Othur Fumes** | Inhaled | DC 18 | -1 STR*/-3d6 STR | 2,100 gp."
+    - "**Deathblade** | Injury | DC 20 | -1d6 STR/-2d6 STR | 1,800 gp."
+    - "**Insanity Mist** | Inhaled | DC 15 | -1d4 MIND/-2d6 MIND | 1,500 gp."
+    - "**Nitharit** | Contact | DC 13 | 0/-3d6 STR | 650 gp."
+    - "**Oil of Taggit** | Ingested | DC 15 | 0/uncons. | 90 gp."
+    - "**Malys Root Paste** | Contact | DC 16 | -1 DEX/-2d4 DEX | 500 gp."
+    - "**Monstrous Scorpion (tiny)** | In­jury | DC 12 | -1 STR/-1 STR | 50 gp."
+    - "**Monstrous Scorpion (small)** | In­jury | DC 12 | -1d2 STR/- 1d2 STR | 100 gp."
+    - "**Monstrous Scorpion (large)** | Injury | DC 14 | -1d4 STR/- 1d4 STR | 200 gp."
+    - "**Monstrous Scorpion (huge)** | Injury | DC 18 | -1d6 STR/- 1d6 STR | 400 gp."
+    - "**Monstrous Spider (tiny)** | Injury | DC 10 | -1d2 STR/-1d2 STR | 85 gp."
+    - "**Monstrous Spider (small)** | Injury | DC 10 | -1d3 STR/- 1d3 STR | 125 gp."
+    - "**Monstrous Spider (large)** | Injury | DC 13 | -1d6 STR/-1d6 STR | 250 gp."
+    - "**Monstrous Spider (huge)** | Injury | DC 16 | -1d8 STR/-1d8 STR | 500 gp."
+    - "**Sassone Leaf Residue** | Contact | DC 16 | -2d12 HP/-1d8 STR | 300 gp."
+    - "**Sleep Poison** | Injury | DC 13 | uncons./ uncons. for 2d4 hours | 75 gp."
+    - "**Snake (medium viper)** | Injury | DC 11 | -1d6 STR/-1d6 STR | 120 gp."
+    - "**Snake (large viper)** | Injury | DC 11 | -1d6 STR/-1d6 STR | 120 gp."
+    - "**Snake (huge viper)** | Injury | DC 14 | -1d6 STR/-1d6 STR | 250 gp."
+    - "**Wyvern** | Injury | DC 17 | -2d6 STR/-2d6 STR | 3,000 gp."

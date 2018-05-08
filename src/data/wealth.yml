@@ -1,0 +1,20 @@
+---
+id: coins
+header:
+    - Copper Piece (cp) | Silver Piece (sp) | Gold Piece (gp) | Platinum Piece (pp)
+    - :- | :- | :- |:-
+data:
+    - 100 | 10 | 1 | 1/10
+
+---
+id: class_wealth
+columns: 1
+header:
+    - Class | Amount
+    - :--- | :---
+data:
+    - Fighter, Paladin | 150 gp
+    - Rogue, Ranger | 125 gp
+    - Cleric, Druid | 120 gp
+    - Bard | 100 gp
+    - Mage, Illusionist, Psion | 75 gp

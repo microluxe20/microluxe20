@@ -1,0 +1,25 @@
+---
+id: races
+columns: 2
+header:
+    - Race | Bonus
+    - :--- | :---
+data:
+    - "**Humans** | +1 to all skill rolls"
+    - "**Great Elves** | +2 MIND"
+    - "**Forest Elves** | +2 DEX"
+    - "**Halflings** | +1 DEX, +1 STR"
+    - "**Gnomes** | +1 DEX, +1 MIND"
+    - "**Forged** | +2 natural AC"
+    - "**Dwarves** | +2 STR"
+    - "**Minotaurs** | +3 STR, -1 MIND"
+    - "**Lycanthropes** | +1 DEX, +1 to Guile skill"
+    - "**Goblins** | +3 DEX, -1 MIND"
+    - "**Giants** | +3 STR, -1 DEX"
+    - "**Orcs** | +3 STR, -1 MIND"
+    - "**Dwarmir** | +1 STR, +1 to any 1 Skill"
+    - "**Elvir** | +1 DEX, and +1 to any 1 Skill"
+    - "**Orkeir** | +2 STR, -1 MIND, +1 to Physical skill"
+    - "**Tauremir** | +2 STR, -1 MIND,  +1 to any 1 Skill"
+    - "**Gorimir** | a +1 DEX, and +1 to any 1 Skill"
+    - "**Slaan** | +2 MIND, +1 DEX, -1 to STR"

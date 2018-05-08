@@ -1,6 +1,4 @@
-![title-img](https://github.com/kgrubb/microluxe20/raw/master/src/static/logo-plain.png)
-<h1 class="title" align="center">Microluxe 20</h1>
-<h1 class="title" align="center">Mythos of Terador</h1>
+<!-- $header-main Mythos of Terador -->
 
 # Genesis
 
