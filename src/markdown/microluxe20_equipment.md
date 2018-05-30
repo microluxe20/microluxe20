@@ -4,7 +4,7 @@
 
 When you create a character, you start with nothing but the clothes on your back and some gold in your pocket. Depending upon the setting and adventure your Gamemaster is running, you may have the opportunity to purchase some items before beginning play, or the Gamemaster may allow you to do your shopping in the game world.
 
-These tables list a number of items, their stats, and prices for Gamemasters to populate their shops and worlds and loot tables. The availabilty of items in these tables is at the Gamemaster's discretion – just because it's on the list doesn't mean you can buy it at just any shop in the world.
+These tables list a number of items, their stats, and prices for Gamemasters to populate their shops and worlds and loot tables. The availability of items in these tables is at the Gamemaster's discretion – just because it's on the list doesn't mean you can buy it at just any shop in the world.
 
 ## Starting Wealth
 
@@ -47,6 +47,8 @@ Here is the format for weapon entries (given as column headings on the table bel
 
 <!-- $data weapons.yml ranged -->
 
+<!-- $page-break -->
+
 ## Armor & Shields
 
 Here is the format for armor entries (given as column headings on the table below):
@@ -61,7 +63,7 @@ Here is the format for armor entries (given as column headings on the table belo
 
 ### Shields
 
-<!-- $data armor.yml shields -->
+<!-- $data armor.yml shields t-full -->
 
 ## Adventuring Equipment
 
@@ -71,13 +73,13 @@ Characters may purchase equipment from the following lists with their starting m
 
 Characters start with some clothing, usually Traveler's clothes. Clothing is not a replacement for armor, nor is armor a replacement for clothing.
 
-<!-- $data gear.yml clothing -->
+<!-- $data gear.yml clothing t-full -->
 
 <!-- $page-break -->
 
 ### Adventuring Gear
 
-<!-- $data gear.yml adventuring-gear -->
+<!-- $data gear.yml adventuring-gear t-full -->
 
 <!-- $page-break -->
 
