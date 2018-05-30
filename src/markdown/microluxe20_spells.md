@@ -6,6 +6,8 @@ The following spells have been customized and tweaked to make the game as smooth
 
 ## Arcane Spells (Mage)
 
+Mages are perhaps the simplest of spellcasters, working their craft of science and knowledge to channel the energies of the Astral Plane into complex productions of magic. Mages were the first to pioneer the Runic alphabet and tongue, in which scrolls are written and spells are cast.
+
 ### 1st-Level Arcane Spells: Cantrips
 - **Arcane Mark:**  Inscribes a permanent personal rune (visible or invisible).
 - **Detect Magic:**  Detects spells and magic items within 60 ft. for up to 10 rounds/level or until concentration ends.
@@ -38,6 +40,8 @@ The following spells have been customized and tweaked to make the game as smooth
 - **Fly:**  Subject flies at speed of 60 ft. for 10 rounds/level.
 - **Lightning Bolt:**  Summons a bolt of lightning from the caster's hands, dealing 3d8 + 1/level damage.
 - **Vampiric Touch:**  The caster touches a subject, draining away their life force. Deals 1d6 damage per two levels and the caster gains half of the damage as HP.
+
+<!-- $page-break -->
 
 ### 8th-Level Arcane Spells
 - **Animate Dead:**  Creates up to 4 undead skeletons or zombies (requires remains).
@@ -79,6 +83,8 @@ The following spells have been customized and tweaked to make the game as smooth
 - **Power Word Stun:** Stuns creature with 150 HP or less for 2d4 rounds.
 - **Trap the Soul:** Imprisons a target's soul and material body within a gem.
 
+<!-- $page-break -->
+
 ### 18th-Level Arcane Spells
 - **Astral Projection:** Projects you and companions onto the Astral Plane. The Astral plane is the space/plane in which Terador (and other worlds) reside. Filled with a thick air-like substance called "miasma", the Astral plane is a timeless plane with ever-changing gravity, known for its magic production.
 - **Etherealness:** Travel to Ethereal Plane with companions for 10 rounds/level.
@@ -89,9 +95,13 @@ The following spells have been customized and tweaked to make the game as smooth
 
 ## Divine Spells (Cleric)
 
+Clerics cast spells by praying to their deity, receiving their answers in the form of manifestations of divine power. Clerics may lose their ability to cast spells if they blaspheme against their deity or take deliberate action against their deity's morals or values.
+
+Clerics may regain their ability to cast spells by Atonement or taking action to repair their standing with their deity.
+
 ### 1st-Level Divine Spells: Orisons
 - **Create Water:** Creates 2 gallons/level of pure water.
-- **Guidance:** +1 on one attack roll, saving throw, or skill check. Lasts for 10 rounds or until discharged.
+- **Guidance:** +1 on one attack roll, saving throw, or skill check per round. Lasts for 10 rounds or until discharged.
 - **Light:** Object shines like a torch for 10 min./level.
 - **Purify Food and Drink:** Purifies 1 cu. ft./level of food or water.
 - **Resistance:** Subject gains +1 on saving throws for 10 rounds.
@@ -161,6 +171,8 @@ The following spells have been customized and tweaked to make the game as smooth
 - **Fire Storm:**  Deals 1d6/level fire damage.
 - **Holy Aura:**  +4 to AC, +4 resistance, and spell resistance of 25 against evil spells (the enemy must roll higher than a 25 just to cast the spell) for 1 round/level.
 
+<!-- $page-break -->
+
 ### 18th-Level Divine Spells
 - **Astral Projection:** Projects you and companions onto the Astral Plane. The Astral plane is the space/plane in which Terador (and other worlds) reside. Filled with a thick air-like substance called "miasma", the Astral plane is a timeless plane with ever-changing gravity, known for its magic production.
 - **Etherealness:**  Travel to the Ethereal Plane with companions for 10 rounds/level.
@@ -170,6 +182,8 @@ The following spells have been customized and tweaked to make the game as smooth
 - **Soul Bind:**  Traps a newly dead soul inside an item, preventing resurrection.
 
 ## Arcane Spells (Illusionist)
+
+Illusionists focus their arcane power into creating phantasms of will and tricking others into believing their specific version of the world. For a powerful Illusionist, this can extend even to tricking Reality itself, allowing the caster to travel through solid walls, use shadows as doorways, and much more.
 
 ### 1st-Level Illusionist Spells: Cantrips
 - **Arcane Mark:** Inscribes a permanent personal rune (visible or invisible).
@@ -183,7 +197,7 @@ The following spells have been customized and tweaked to make the game as smooth
 - **Charm Person:** Forcefully makes one person your friend for 1 hour/level.
 - **Color Spray:** Blinds creatures within a 15ft. cone, incapacitating them for 1 round.
 - **Disguise Self:** Changes your appearance for 10 min./level.
-- **Hypnotism:** Fascinates creatures within 15 point of your HP or less for 1d4 rounds.
+- **Hypnotism:** Fascinates creatures within 15 points of your HP or less for 1d4 rounds.
 - **Silent Image:** Creates a minor illusion of your design.
 - **Ventriloquism:** Gain the ability to control one limb of a subject for 1 round.
 
@@ -202,6 +216,8 @@ The following spells have been customized and tweaked to make the game as smooth
 - **Invisibility Sphere:** Makes everyone within 10ft. invisible.
 - **Minor Image:** Creates a minor illusion of your design with sound, smell, and thermal effects.
 - **Suggestion:** Compels subject to follow stated course of action for 1 hour/level or until completed.
+
+<!-- $page-break -->
 
 ### 8th-Level Illusionist Spells
 - **Charm Monster:** Make one monster believe it is your ally for 1 day/level.
@@ -253,6 +269,10 @@ The following spells have been customized and tweaked to make the game as smooth
 
 ## Divine Spells (Druid)
 
+Druids tend to be reclusive hermits, eschewing the busy life of towns and cities for the simple life of the forests and plains, gaining their powers from their worship of nature deities.
+
+Druids must forgo the use of weapons and armor made of metal worked by mortal hands. Simple baubles and tools with small amounts of metal are not enough to draw their deity's ire, but like Clerics, Druids must spend time returning to the good graces of their deity if they stray.
+
 ### 1st-Level Druid Spells: Orisons
 - **Create Water:**  Creates 2 gallons/level of pure water.
 - **Detect Magic:**  Detects spells and magic items within 60ft. For 10 rounds/level.
@@ -261,7 +281,7 @@ The following spells have been customized and tweaked to make the game as smooth
 - **Read Magic:**  Read scrolls and spell books.
 - **Resistance:**  Subject gains +1 on saving throws for 10 rounds.
 
-<h3 class="page-break"> 2nd-Level Druid Spells </h3>
+### 2nd-Level Druid Spells
 - **Entangle:**  Plants entangle everyone in a 20ft. radius for 10 rounds/level.
 - **Faerie Fire:**  Outlines subjects with light for 1 minute/level, cancels blur, invisibility, etc.
 - **Goodberry:**  Creates 3d4 berries. Each berry can cure 1 HP (max 12 HP/day).
@@ -276,6 +296,8 @@ The following spells have been customized and tweaked to make the game as smooth
 - **Summon Swarm:**  Summons a swarm of bats, rats, or spiders for Knowledge + 2 rounds.
 - **Tree Shape:**  You look exactly like a tree for 1 hour/level.
 - **Warp Wood:**  Bends wood within a 20ft. radius.
+
+<!-- $page-break -->
 
 ### 6th-Level Druid Spells
 - **Call Lightning:**  Calls a lightning storm into an area with a 5ft. radius. Lightning bolts come down from the sky dealing 3d6 + 1/level damage once per round for 1 round/level.
@@ -317,6 +339,8 @@ The following spells have been customized and tweaked to make the game as smooth
 - **Fire Storm:** Create a blazing storm dealing 1d6/level fire damage to up to a 60ft. radius.
 - **Wind Walk:** You and your allies turn vaporous and travel at up to 60mph for 1 hour/level.
 
+<!-- $page-break -->
+
 ### 16th-Level Druid Spells
 - **Animal Shapes:** One ally/level polymorphs into a chosen animal.
 - **Mass Cure Serious Wounds:** Cures 3d8 damage +1/level for 1 creature/level, no two of which can be more than 30ft. apart.
@@ -335,10 +359,11 @@ The following spells have been customized and tweaked to make the game as smooth
 
 ## Psionic Powers (Psion)
 
-Psionic characters can manifest any of their powers, so long as the power level is equal to or below their class level. Unlike spells, all aspects of a power do not automatically scale with level. Instead, they are augmented with additional Hit Points (HP). The augmenting HP cost is noted under each power's entry. Psions are casters, so they can select a "signature" power per power level from 1st upward, reducing its cost by 2 HP. This also means healing spells cast on an injured psion only heal ¼ of the given amount.
+Psions are strange quirks of nature whose minds are warped from birth. They posess a natural connection with the Ethereal Plane, which allows them to directly project power into their surroundings. This often results in Psions perceiving the world in strange ways, and developing anti-social and amoral tendencies due to their outcast status.
 
-The combined HP cost for manifesting and augmenting a power cannot exceed the character's psionic class level. Thus, a 3rd level psion could manifest a level 1 power by spending 1 HP, and augment it by spending 2 additional HP for a total HP cost of 3. Temporary HP cannot be used to manifest powers.
-- **Psionic vs. Magical Effects:** Powers interact with spells and spells interact with powers in the same way a spell or normal spell-like ability interacts with another spell or spell-like ability. For example, detect magic detects psionics and dispel psionics dispels magic.
+Psions cannot not use staves, rods, or metamagic. Instead, their powers are augmented with additional Hit Points (HP). The augmenting HP cost is noted under each power's entry. The combined HP cost for manifesting and augmenting a power cannot exceed the character's psionic class level. Thus, a 3rd level psion could manifest a level 1 power by spending 1 HP, and augment it by spending 2 additional HP for a total HP cost of 3. Temporary HP cannot be used to manifest powers.
+
+**Psionic vs. Magical Effects:** Powers interact with spells and spells interact with powers in the same way a spell or normal spell-like ability interacts with another spell or spell-like ability. For example, detect magic detects psionics and dispel psionics dispels magic.
 
 ### 1st-Level Psion Powers: Mantles
 - **Inkling:** Weakly manifest some psionic power, allowing tiny objects or creatures to be moved unpredictably.
@@ -377,8 +402,6 @@ The combined HP cost for manifesting and augmenting a power cannot exceed the ch
 - **Schism:** Split your mind into two independent entities. _Duration_: 1 round/level. _Augment_: None.
 - **Telekinetic Maneuver:** Telekinetically bull rush(push an opponent back one space), disarm, grapple (vs STR), or trip your target. _Duration_: Knowledge, up to 1 round/level. _Augment_: Every 2 extra HP grants a +1 bonus to maneuver checks.
 
-<!-- $page-break -->
-
 ### 10th-Level Psion Powers
 - **Mind Probe:** You discover the subject's secret thoughts. _Duration_: 1 round/level. _Augment_: None.
 - **Psychic Crush:** Crush subject's mind, reducing subject to -1 hit points. _Duration_: Instant. _Augment_: Every two extra hit points increases save damage by 1d6 (base 3d6).
@@ -386,6 +409,8 @@ The combined HP cost for manifesting and augmenting a power cannot exceed the ch
 - **Trace:** Sense the destination of a subject's teleportation or dimensional shift. _Duration_: Instant. _Augment_: None.
 - **Psionic Teleportation:** Instantly teleport up to 100 miles/level. _Duration_: Instant. _Augment_: None.
 - **Psionic Sight:** Lets you see all things as they really are (decipher lies, look through secret doors, see through illusions, sense objects in the dark. etc). _Duration_: 10 rounds/level. _Augment_: None.
+
+<!-- $page-break -->
 
 ### 12th-Level Psion Powers
 - **Mass Cloud Mind:** Erase knowledge of your presence from the minds of one creature/level. _Duration_: 10 rounds/level. _Augment_: None.

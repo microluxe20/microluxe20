@@ -2,7 +2,7 @@
 id: light
 columns: 2
 header:
-    - Weapon | Cost | Damage | Range | Complexity | Weight
+    - Weapon | Cost | Dmg. | Range | Complexity | Weight
     - :--- | :--- | :--- | :--- | :--- | :---
 data:
     - Unarmed | — | 1d2 | — | Simple | —
@@ -22,7 +22,7 @@ data:
 id: ranged
 columns: 2
 header:
-    - Weapon | Cost | Damage | Range | Complexity | Weight
+    - Weapon | Cost | Dmg. | Range | Complexity | Weight
     - :--- | :--- | :--- | :--- | :--- | :---
 data:
     - Sling | 1gp | 1d4 | 40ft. | Simple | —
@@ -41,7 +41,7 @@ data:
 id: thrown
 columns: 2
 header:
-    - Weapon | Cost | Damage | Range | Complexity | Weight
+    - Weapon | Cost | Dmg. | Range | Complexity | Weight
     - :--- | :--- | :--- | :--- | :--- | :---
 data:
     - Dart | 5sp | 1d4 | 20ft. | Simple | 0.5 lbs.
@@ -54,7 +54,7 @@ data:
 id: two-handed
 columns: 2
 header:
-    - Weapon | Cost | Damage | Range | Complexity | Weight
+    - Weapon | Cost | Dmg. | Range | Complexity | Weight
     - :--- | :--- | :--- | :--- | :--- | :---
 data:
     - Bayonet | 2gp | 1d4 | — | Simple | 1 lb.
@@ -77,7 +77,7 @@ data:
 id: one-handed
 columns: 2
 header:
-    - Weapon | Cost | Damage | Range | Complexity | Weight
+    - Weapon | Cost | Dmg. | Range | Complexity | Weight
     - :--- | :--- | :--- | :--- | :--- | :---
 data:
     - Club | 2gp | 1d6 | 10ft. | Simple | 3 lbs.
