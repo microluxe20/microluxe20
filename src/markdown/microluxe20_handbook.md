@@ -2,13 +2,11 @@
 
 # Introduction
 
-Microluxe20 is a minimalist tabletop role-playing game designed with simplicity in mind. Using an easy-to-grasp, yet extremely robust stat/skill framework, Microluxe20 allows for crafting exciting encounters that are fun and fluid, emphasizing storytelling and player interaction over the traditional "straight-jacket" skill systems found in many modern tabletop games.
+Microluxe20 is a minimalist tabletop role-playing game designed with simplicity in mind. Using an easy-to-grasp, yet extremely robust framework, Microluxe20 allows for crafting exciting encounters that are fun and fluid, emphasizing storytelling and player interaction over the traditional "straight-jacket" skill systems found in many modern tabletop games.
 
 Keeping compatibility in mind, OGL/d20 supplements should work out of the box, without any conversions; in fact, SRD/OGL adventures with any incompatibilities can be converted _on the fly_ with almost no effort! The entire character sheet fits on one sheet of paper, meaning character creation and management is extremely quick and easy.
 
 Microluxe20 is great for one-shot adventures, or teaching new players about tabletop gaming. However, unlike many one-shot styled tabletop games, it is also robust enough to cater to full-fledged campaign-style games as well, especially because of its compatibility with other OGL/d20 content.
-
-## First Steps
 
 ### What is a Role-Playing Game?
 
@@ -26,9 +24,15 @@ When referencing dice in the game, dice rolls are often abbreviated to something
 
 For example, “3d6 + 5” means you roll three 6-sided dice, add their results together, then add 5 to the total.
 
+While Microluxe20 does not require miniatures or tokens of any kind, having a handful of counters or markers on hand can help the Gamemaster describe the setup and positioning of the various encounters players will face.
+
 ### Getting Started
 
-**TODO:** Players, table rules, etc...
+Microluxe20 can be played with as many people as the Gamemaster can handle, though 4-6 players seems to be the best amount. A table for all participants is recommended; players will be able to more easily roll dice and write on their character sheets.
+
+The Gamemaster and players should sit down and agree on a set of rules governing table conduct before starting play; these can be as simple as "no shouting over each other", or as complex and innovative as necessary.
+
+Once this is settled, the Gamemaster begins to describe the adenture, and the players create their characters.
 
 # Character Creation
 
