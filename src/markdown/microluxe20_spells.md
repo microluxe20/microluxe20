@@ -359,7 +359,7 @@ Druids must forgo the use of weapons and armor made of metal worked by mortal ha
 
 ## Psionic Powers (Psion)
 
-Psions are strange quirks of nature whose minds are warped from birth, posessing a natural connection with the Ethereal Plane that allows them to directly project power into their surroundings. This often results in Psions perceiving the world in strange ways, and developing anti-social and amoral tendencies due to their outcast status.
+Psions are strange quirks of nature whose minds are warped from birth. They posess a natural connection with the Ethereal Plane, which allows them to directly project power into their surroundings. This often results in Psions perceiving the world in strange ways, and developing anti-social and amoral tendencies due to their outcast status.
 
 Psions cannot not use staves, rods, or metamagic. Instead, their powers are augmented with additional Hit Points (HP). The augmenting HP cost is noted under each power's entry. The combined HP cost for manifesting and augmenting a power cannot exceed the character's psionic class level. Thus, a 3rd level psion could manifest a level 1 power by spending 1 HP, and augment it by spending 2 additional HP for a total HP cost of 3. Temporary HP cannot be used to manifest powers.
 
