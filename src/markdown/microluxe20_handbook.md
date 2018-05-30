@@ -52,7 +52,7 @@ Classes define your character's way of life. Your character's class helps shape 
 
 **Clerics** can wear light or medium armor, can not use shields, and can use simple weapons. They cast divine spells (Cleric) and gain a +3 bonus to Communication. A Cleric can _Turn Undead_ with a successful Magic Attack. The DC for the action is the current HP of the Undead. If the DC is exceeded by 10 it is destroyed. This can be used (2 + Level + MIND Bonus) times per day.
 
-**Paladins** wear and use any kind of armor, shield, and weapon. They gain +1 to Physical and a +2 bonus to Communication. They are immune to diseases and apply a +1 bonus to all saving throws (this increases by +1 at 5th level and every 5 levels onward). Paladins can _Detect Evil_ within 60 ft. at will and can heal up to 2 HP per level per day by _Laying on Hands_.
+**Paladins** wear and use any kind of armor, shield, and weapon. They gain +1 to Physical and a +2 bonus to Communication. They are immune to diseases and apply a +1 bonus to all saving throws (this increases by +1 at 5th level and every 5 levels onward). Paladins can _Detect Evil_ within 60 ft. at will and can heal up to 2 HP per level up to three times per day by _Laying on Hands_. _Laying on Hands_ ignores Divine Influence on casters who worship the same deity as the Paladin.
 
 **Rangers** wear light or medium armor, can use shields, and can use simple weapons, complex ranged weapons, and complex one-handed weapons. They gain +1 to hit and +1 damage with ranged weapons and only incur a -1 to hit penalty when fighting with 2 weapons. They have a +1 bonus to Guile and a +2 bonus to Physical. Rangers gain the _Trapper_ ability at level 5. When dealing with trap-related dice rolls (such as dodging a trap or searching for traps), a ranger gains a +2 bonus.
 
@@ -91,7 +91,6 @@ Sometimes damage in combat is dealt directly to a character's Stats instead of H
 **Armor Class (AC):** A character's Armor Class represents their ability to evade or block physical attacks. The higher a character's AC, the more difficult it is to land a damaging blow. A character's Armor Class is determined by this formula:
 
 	10 + DEX bonus + Armor bonus + Racial bonus (if applicable).
-
 
 ## Skills & Saves
 
@@ -161,29 +160,41 @@ Fighters and Rogues may use DEX bonus + Level (Missile attack bonus) as their Me
 
 For each attack that hits, roll the damage die code on your weapon and subtract the resulting total from your opponent's HP. When wielding a Complex Melee weapon, add your STR bonus to the damage total.
 
-**Example:** Your Human Paladin has hit an enemy Orc with his Greatsword (2d6, Complex). He rolls two six-sided die, getting 4+5 for a total of 9. Since it is a Complex weapon, he adds his strength bonus of +2, for 11 damage total. The Orc, having a meager 9 HP left, is killed instantly.
+**Example:** Your Human Paladin has hit an enemy Orc with his Greatsword (2d6, Complex). He rolls two six-sided die, getting 4+5 for a total of 9. Since it is a Complex weapon, he adds his strength bonus of +2, for 11 HP damage total. The Orc, having a meager 9 HP left, is killed instantly.
 
 When all characters (including Gamemaster's characters) have taken their turn, the round is over. If there are any opponents left alive or not incapacitated, a new round begins. Otherwise, combat is over.
 
 ## Spells
 
-Spellcasters may cast any of their class spells as long as the spell level is equal to or below their class level. Casting a spell of any kind costs Hit Points. The cost is equal to the level of the spell being cast. Unless specified otherwise, spellcasting does not require the player to make a dice roll.
+Spellcasters may cast any of their class spells as long as the spell level is equal to or below their class level. When casting a spell, characters make a Magic Attack, rolling 1d20 + Magic Attack Bonus. If the resulting roll is greater that the Spell Difficulty Class, the spell is successfully cast.
+
+**Spell Difficulty Class (DC):** 10 (or spell-specific difficulty) + Target's MIND stat
+
+When a spell is successfully cast, the spell immediately takes effect, unless the spell states that the target may make a specific save against the spell's effects. For example, a spell that forms spikes that protrude from the ground may allow the target to make a DEX save to try and escape the spell.
+
+Casting a spell of any kind, regardless of the outcome, costs Hit Points. The cost is equal to the level of the spell being cast. For example, a 2nd level spell will cost the caster 2 HP.
 
 Once a spellcaster has cast a spell in an encounter, they enter a state called "arcane (or divine) influence". While in this state, their HP *cannot* be healed normally until they have a short rest. Healing spells cast on an injured caster under arcane/divine influence only heal ¼ of the given amount. Spellcasters automatically exit their influenced state after 1 hour of rest.
 
 There is no need to memorize spells in advance. Just because a character can cast any spell, doesn't mean that they should. Choose spells that suit the character. Select one "signature" spell per spell level from 1st upward that they prefer to use over any other. These spells are easier to cast due to familiarity, costing 2 less HP to use.
 
-**Spell Difficulty Class (DC)** for all spells: 10 + Caster Level + Caster's MIND bonus
+### Casting Metamagic
 
-When a spell is cast, the target of the spell must make a relevant DC save (d20 + relevant stat bonus), unless the spell states that it requires a different or more specific save. If the target scores lower than the spell's DC, they are affected by the spell. For example, if the spell forms spikes that protrude from the ground, the target may make a DEX save to try and escape the spell's effects.
+Metamagic is the name for spells that alter or enhance the effect of another spell, allowing spellcasters to introduce some variety into their existing spells. Metamagic can be cast by any spellcaster, from a rod or as an action, regardless of whether the spellcaster is the one casting the spell being affected. A Magic Attack is not normally required to cast metamagic.
 
-Here are three ways for spell casters to add a little more variety:
+If the target spell's caster accepts the metamagic being cast on their spell, no roll is required to cast the metamagic. If the caster rejects it, the metamagic's caster must make a Magic Attack roll to affect the spell.
 
-- **Extending** makes a spell last twice as long as it normally would. An Extended spell costs an additional 2 HP.
+If a caster is attempting to cast metamagic on their own spell, the metamagic and the spell must be cast as separate actions, one after the other. This restriction is ignored if the caster is using a rod of metamagic, or another caster is casting the metamagic.
 
-- **Empowering** makes a spell do 50% more damage than normal. An Empowered spell costs an additional 4 HP.
+Here are the three most common metamagic spells:
 
-- **Widening** makes a spell's area of effect twice as big as normal. A Widened spell costs an additional 6 HP.
+- **Extending** makes a spell last twice as long as it normally would. Extending a spell costs 2 HP.
+
+- **Empowering** makes a spell do 50% more damage than normal. Empowering a spell costs 4 HP.
+
+- **Widening** makes a spell's area of effect twice as big as normal. Widening a spell costs 6 HP.
+
+<!-- $page-break -->
 
 ## Magic Items
 
@@ -199,9 +210,9 @@ Magical items can be broadly divided into two categories: Active and Passive. Ac
 
 **Wands:** Sometimes described as "magic-in-a-bottle", a wand contains a combination of a single spell and a set amount of charges. While there are charges left, any character may use the wand to cast the contained spell at the expense of a charge. Wands can be recharged, but usually require a significant HP cost for each charge.
 
-**Potions:** A single-use magical item, potions consist of a bottled magical liquid. When consumed, a potion confers a magical effect on the character that drank it.
+**Potions:** A single-use magical item, potions are a bottled magical liquid. When consumed, a potion confers a magical effect on the character that drank it.
 
-**Scrolls:** Similar to Potions, scrolls are a single-use item that allow any character to cast a single spell simply by reading it. Spellcasters may use Read Magic to decipher a scroll without casting it.
+**Scrolls:** Scrolls are small sheets of parchment that allow any character to cast a single spell simply by saying the text out loud. Reading the Scroll does not require a character to understand the language it is written in, and completely destroys the scroll. Spellcasters may use Read Magic to decipher a scroll without casting (and destroying) it.
 
 ### Common Passive Items:
 
@@ -215,7 +226,7 @@ The process to enchant an item with a magical effect differs slightly from item 
 
 To begin the process, the player needs to have the base form of the item and purchase materials to perform the enchantment, and the spellcaster performing the enchantment must know the spell or use a scroll with the wanted spell. All materials used in the process are consumed, as well as any scrolls used as a source.
 
-The enchantment process will require a spellcaster to infuse the item with HP equal to 10 times the cost of the spell or effect being enchanted with. A spellcaster takes a full hour to infuse 5 HP into an item, and the character cannot regain HP lost until taking a long rest. Only one character may infuse an item at a time.
+The enchantment process will require a spellcaster to infuse the item with HP equal to 10 times the cost of the spell or effect being enchanted with. A spellcaster takes a full hour to infuse 5 HP into an item, and the character cannot regain HP lost until taking a long rest. Only one spellcaster may infuse an item at a time.
 
 When creating a scroll, the infusion cost is reduced to 5 times the HP cost of the spell being written down.
 
@@ -226,7 +237,7 @@ When the infusion process is finished, the character rolls MIND+Knowledge, and t
 | Result: | Effect |
 | :------ | :----- |
 | Natural 1 | Critical Failure! The item is destroyed and the enchanter is reduced to 0 HP and is Unconscious. |
-| 2-9 | Failure! All materials used are destroyed, but the base item is undamaged. |
+| 2-9 | Failure! All extra materials used are destroyed, but the base item is undamaged. |
 | 10-15 | Minor Success! The item is enchanted, but the user must make a DC 15 Magic roll to use the item. |
 | 15+ | Success! The item is successfully enchanted, and no other effect occurs. |
 | Natural 20 | Critical Success! The item is successfully enchanted, and gains +50% to its effectiveness. |
