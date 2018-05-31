@@ -116,11 +116,11 @@ Characters gain XP (or Experience Points) from defeating monsters, disarming tra
 
 **XP Gained** = Hit Dice of defeated monsters, or the given XP for the trap, situation, etc. Add +1 for each doubling of the number of foes.
 
-**Examples:** Kobolds have 1 hit die, so 1 kobold = 1 XP. 2 kobolds are double the amount, so 2 kobolds = 2 XP (1 XP for first kobold + 1 XP for doubling). 4 kobolds are double the amount again, so 4 kobolds = 3 XP ( 1 XP for first kobold + 1 XP for doubling to 2 + 1 XP for doubling from 2 to 4). A Black Bear has 3 hit die, so 1 Black Bear = 3 XP. 2 Black Bears = 4 XP. 4 Black Bears = 5 XP.
+> **Example:** Kobolds have 1 hit die, so 1 kobold = 1 XP. 2 kobolds are double the amount, so 2 kobolds = 2 XP (1 XP for first kobold + 1 XP for doubling). 4 kobolds are double the amount _again_, so 4 kobolds = 3 XP. A Black Bear has 3 hit die, so 1 Black Bear = 3 XP. 2 Black Bears = 4 XP. 4 Black Bears = 5 XP.
 
 As characters participate in encounters, they will begin to accumulate XP. Characters advance to the next level when they have gained XP equal to 10 times their current level. After advancing, the total XP is reset to 0. If a character has more XP than is required for the next level, keep the excess XP and add it after resetting the character's XP to 0. For example, if a level 1 character has 8XP and is awarded 4XP, the character advances to level 2 with 2XP.
 
-**Example:** The 1st level adventurers have just completed a dungeon adventure, and defeated five 1 XP encounters, a 2 XP trap and the 3 XP leader. That's a total of 10 XP, so they all advance to level 2. They need to gain another 20 XP to reach Level 3.
+> **Example:** The 1st level adventurers have just completed a dungeon adventure, and defeated five 1 XP encounters, a 2 XP trap and the 3 XP leader. That's a total of 10 XP, so they all advance to level 2. They need to gain another 20 XP to reach Level 3.
 
 Each level adds:
 
@@ -164,7 +164,7 @@ Fighters and Rogues may use DEX bonus + Level (Missile attack bonus) as their Me
 
 For each attack that hits, roll the damage die code on your weapon and subtract the resulting total from your opponent's HP. When wielding a Complex Melee weapon, add your STR bonus to the damage total.
 
-**Example:** Your Human Paladin has hit an enemy Orc with his Greatsword (2d6, Complex). He rolls two six-sided die, getting 4+5 for a total of 9. Since it is a Complex weapon, he adds his strength bonus of +2, for 11 HP damage total. The Orc, having a meager 9 HP left, is killed instantly.
+> **Example:** Your Human Paladin has hit an enemy Orc with his Greatsword (2d6, Complex). He rolls two six-sided die, getting 4+5 for a total of 9. Since it is a Complex weapon, he adds his strength bonus of +2, for 11 HP damage total. The Orc, having a meager 9 HP left, is killed instantly.
 
 When all characters (including Gamemaster's characters) have taken their turn, the round is over. If there are any opponents left alive or not incapacitated, a new round begins. Otherwise, combat is over.
 
@@ -184,11 +184,11 @@ There is no need to memorize spells in advance. Just because a character can cas
 
 ### Casting Metamagic
 
-Metamagic is the name for spells that alter or enhance the effect of another spell, allowing spellcasters to introduce some variety into their existing spells. Metamagic can be cast by any spellcaster, from a rod or as an action, regardless of whether the spellcaster is the one casting the spell being affected. A Magic Attack is not normally required to cast metamagic.
+Metamagic is the name for spells that alter or enhance the effect of another spell, allowing spellcasters to introduce some variety into their existing spells. Metamagic can be cast by any spellcaster, from a rod or as an action, regardless of whether the spellcaster is the one casting the spell being affected.
 
-If the target spell's caster accepts the metamagic being cast on their spell, no roll is required to cast the metamagic. If the caster rejects it, the metamagic's caster must make a Magic Attack roll to affect the spell.
+A Magic Attack is not normally required to cast metamagic. However, if the target spell's caster rejects the metamagic being cast on the spell, the metamagic's caster must make a Magic Attack roll to affect the target spell.
 
-If a caster is attempting to cast metamagic on their own spell, the metamagic and the spell must be cast as separate actions, one after the other. This restriction is ignored if the caster is using a rod of metamagic, or another caster is casting the metamagic.
+If a caster is attempting to cast metamagic on their own spell, the metamagic and the spell must be cast as separate actions, one after the other. This restriction is ignored if the caster is using a rod enchanted with metamagic, or another caster is casting the metamagic.
 
 Here are the three most common metamagic spells:
 
@@ -208,33 +208,33 @@ Magical items can be broadly divided into two categories: Active and Passive. Ac
 
 ### Common Active Items:
 
-**Staves:** The main tool of a spellcaster, the staff is a focus used to harness magical energy. Spellcasters usually require a staff to cast a spell. Staves may also contain one or more spells that the caster would not normally have access to; these spells can only be cast while wielding the staff.
+**Staves:** The main tool of a spellcaster, the staff is a focus used to harness magical energy. Spellcasters usually require a staff to cast a spell. Staves may also contain one or more spells that the caster would not normally have access to; these spells can only be cast while wielding the staff. Spellcasters can create these at 9th level.
 
-**Rods:** Usually employed for easier metamagic, rods may contain a single spell or magical effect. This spell can be cast by anyone for the appropriate HP cost, but non-spellcasting characters do so at +2 or more to the difficulty. Rods with a metamagic effect may be used in tandem with staves when casting a spell.
+**Rods:** Usually employed for easier metamagic, rods may contain a single spell or magical effect. This spell can be cast by anyone for the appropriate HP cost, but non-spellcasting characters do so at +2 or more to the difficulty. Rods with a metamagic effect may be used in tandem with staves when casting a spell. Spellcasters can create these at 5th level.
 
-**Wands:** Sometimes described as "magic-in-a-bottle", a wand contains a combination of a single spell and a set amount of charges. While there are charges left, any character may use the wand to cast the contained spell at the expense of a charge. Wands can be recharged, but usually require a significant HP cost for each charge.
+**Wands:** Sometimes described as "magic-in-a-bottle", a wand contains a combination of a single spell and a set amount of charges. While there are charges left, any character may use the wand to cast the contained spell at the expense of a charge. Wands can be recharged, but usually require a significant HP cost for each charge. Spellcasters can create these at 5th level.
 
-**Potions:** A single-use magical item, potions are a bottled magical liquid. When consumed, a potion confers a magical effect on the character that drank it.
+**Potions:** A single-use magical item, potions are a bottled magical liquid. When consumed, a potion confers a magical effect on the character that drank it. Spellcasters can create these at 3rd level.
 
-**Scrolls:** Scrolls are small sheets of parchment that allow any character to cast a single spell simply by saying the text out loud. Reading the Scroll does not require a character to understand the language it is written in, and completely destroys the scroll. Spellcasters may use Read Magic to decipher a scroll without casting (and destroying) it.
+**Scrolls:** Scrolls are small sheets of parchment that allow any character to cast a single spell simply by saying the text out loud. Reading the Scroll does not require a character to understand the language it is written in, and completely destroys the scroll. Spellcasters may use Read Magic to decipher a scroll without casting (and destroying) it. Spellcasters can create these at 1st level.
 
 ### Common Passive Items:
 
-**Amulets, Charms, Rings, etc:** Various items of jewelery may be enchanted to provide a magical effect. Most items of this sort provide a bonus to a stat or skill, but more spectacular effects are possible.
+**Amulets, Charms, Rings, etc:** Various items of jewelery may be enchanted to provide a magical effect. Most items of this sort provide a bonus to a stat or skill, but more spectacular effects are possible. Spellcasters can create these at 3rd level.
 
-**Armor and Weapons:** Enchanted armor and weapons are usually the mark of a wealthy adventurer or noble, and usually provide some form of passive effect, ranging from a simple 'torchlight' effect to damage reduction, elemental resistances or bonuses, and more.
+**Armor and Weapons:** Enchanted armor and weapons are usually the mark of a wealthy adventurer or noble, and usually provide some form of passive effect, ranging from a simple 'torchlight' effect to damage reduction, elemental resistances or bonuses, and more. Spellcasters can create Armor at 7th level, and Weapons at 9th level.
 
 ### Creating Magic Items
 
 The process to enchant an item with a magical effect differs slightly from item to item (and at the Gamemaster's discretion) but they all follow a similar pattern in their creation. Most enchantments will require access to special tools of some kind - potions will require a cauldron and beakers, wands and rods require tools to carve the magical trace-work into their surface, and jewelery requires fine tools to shape the item and socket gems into their proper places.
 
-To begin the process, the player needs to have the base form of the item and purchase materials to perform the enchantment, and the spellcaster performing the enchantment must know the spell or use a scroll with the wanted spell. All materials used in the process are consumed, as well as any scrolls used as a source.
+To begin the process, the player needs to have the base form of the item and purchase materials to perform the enchantment, and the spellcaster performing the enchantment must know the spell or use a scroll with the wanted spell. All materials used in the process are consumed, as well as any scrolls used as a source. The cost of materials used to create a magical item is usually equal to 1/2 the HP cost of the enchantment process, in gold pieces. Thus, a 1 HP spell would cost 5 gp in materials.
 
 The enchantment process will require a spellcaster to infuse the item with HP equal to 10 times the cost of the spell or effect being enchanted with. A spellcaster takes a full hour to infuse 5 HP into an item, and the character cannot regain HP lost until taking a long rest. Only one spellcaster may infuse an item at a time.
 
-When creating a scroll, the infusion cost is reduced to 5 times the HP cost of the spell being written down.
+When creating a scroll, the infusion cost is reduced to 3 times the HP cost of the spell being written down.
 
-When creating an item with magical charges, the maximum number of charges the item can hold is determined by rolling 1d20 + Level. Each charge requires 5 times the HP cost of the spell, but the item may be recharged at any point.
+When creating an item with magical charges, the maximum number of charges the item can hold is determined by rolling 1d20 + Level. Each charge requires 3 times the HP cost of the spell, but the item may be recharged at any point.
 
 When the infusion process is finished, the character rolls MIND+Knowledge, and the result of the roll determines the effectiveness of the enchantment.
 
@@ -246,16 +246,9 @@ When the infusion process is finished, the character rolls MIND+Knowledge, and t
 | 15+ | Success! The item is successfully enchanted, and no other effect occurs. |
 | Natural 20 | Critical Success! The item is successfully enchanted, and gains +50% to its effectiveness. |
 
-**Example:** Your 3rd-level elven Mage wants to imbue a wand with Prestidigitation. This is a 1st-level Mage spell, so it will take 10 HP to enchant the wand. You also want to infuse it with one charge to start, bringing the total HP cost to 15. You can only infuse 5 HP per hour, so you must focus on infusing the wand for a full three hours. You roll 1d20 + your Mage's level, getting an 11 for the maximum number of charges the wand can hold. You roll MIND+Knowledge when he has finished infusing the wand and - Presto! - you get a 17! The wand is successfully crafted, holding 1 / 11 charges.
-
-<!-- TODO: rework this in a way that makes sense: -->
-
-<div style="display:none">
-|MAGIC ITEM CHART||||||
-|:---|:---:|:---:|:---:|:---:|:---:|
-|**Item**|Scrolls & Books|Potions & Wondrous Items|Wands & Armor|Rods & Weapons|Staves & Rings|
-|**Spellcaster's Level**|1|3|5|9|12|
-</div>
+> **Example:** Your Mage wants to imbue a wand with Prestidigitation. This is a 1st-level Mage spell, so it will take 10 HP to enchant the wand. You also want to infuse it with three charges to start, bringing the total HP cost to 19. You can only infuse 5 HP per hour, so you must focus on infusing the wand for a full four hours.
+>
+> You roll 1d20 + your Mage's level, getting an 11 for the maximum number of charges the wand can hold. You roll MIND+Knowledge when you have finished infusing the wand and - Presto! - you get a 17! The wand is successfully crafted, holding 3 / 11 charges.
 
 ## Resting & Recuperating
 

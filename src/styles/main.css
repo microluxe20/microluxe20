@@ -70,7 +70,7 @@ body {
     font-size: 9px;
 }
 
-p, ul, ol, table {
+p, ul, ol, table, blockquote {
     margin-top: 0;
     margin-bottom: 0.9em;
 }
@@ -95,14 +95,25 @@ li > p {
 
 code {
 	color: #333;
-	background-color: #ddd;
+    background-color: #eee;
 	border-radius: 2px;
     padding: 0.1em 0.5em;
 }
 
-pre {
-	border-radius: 5px;
-	background-color: #ddd;
-	padding: 0.5em;
-	padding-left: 1em;
+blockquote, pre {
+    background-color: #eee;
+    border: 0 transparent;
+    border-left: 4px solid black;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+}
+
+blockquote {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Collapse margin where padding makes it redundant. */
+blockquote > :last-child {
+    margin-bottom: 0;
 }
