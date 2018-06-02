@@ -71,13 +71,21 @@ Characters may purchase equipment from the following lists with their starting m
 
 ### Clothing
 
-Characters start with some clothing, usually Traveler's clothes. Clothing is not a replacement for armor, nor is armor a replacement for clothing.
+Characters start with some clothing, usually a Traveler's outfit. Clothes and armor are separate items – going without clothing may cause some snide looks, but going without armor will likely see you dead.
 
 <!-- $data gear.yml clothing t-full -->
 
 <!-- $page-break -->
 
 ### Adventuring Gear
+
+Characters can purchase Adventuring Gear; a catch-all assortment of odds, ends, and small, useful items. A character could use Adventuring Gear to bandage their wound with some scrap cloth, fashion a torch, start a fire with flint and steel, or scribble a set of directional markings with some chalk.
+
+Adventuring Gear is represented by a number of uses, of which one is consumed when the Adventuring Gear is transformed into a specific item. A single use of Adventuring Gear costs 1 sp, and the specific items Adventuring Gear can create are determined by the Gamemaster.
+
+Kits and Tools provide a +2 bonus when attempting an action where the kit is relevant; for example, when picking a lock, a character with Thieves' Tools gains a +2 bonus on their Guile + DEX check.
+
+Characters can also purchase items of a more specific nature, a number of which are listed below.
 
 <!-- $data gear.yml adventuring-gear t-full -->
 
@@ -91,21 +99,6 @@ Characters start with some clothing, usually Traveler's clothes. Clothing is not
 
 Suggested starting packs for new characters. Each pack uses 35gp of a character's starting money.
 
-<!-- TODO: extend table constructor to allow this sort of data.  -->
+<!-- $data gear.yml fast-packs -->
 
-| __Pack A__ | __Pack B__ | __Pack C__ |
-| :--- | :--- | :--- |
-| backpack | backpack | backpack |
-| belt pouch | belt pouch | belt pouch |
-| bedroll | bedroll | bedroll |
-| hooded lantern | 10 torches | 10 torches |
-| 10 oil flasks | 10 oil flasks | tent |
-| flint & steel | flint & steel | flint & steel |
-| shovel | chalk | hammer |
-| 2 sets of caltrops | 10 ft. pole | 10 iron spikes |
-| signal whistle | mirror | grappling hook |
-| pen & paper | crowbar | 50 ft. rope |
-| water skin | water skin | water skin |
-| rations (4 days) | rations (4 days) | rations (4 days) |
-
-Rogues are advised to purchase Thieves tools if they want to pick locks, disarm traps, etc.
+Rogues are advised to purchase Thieves' Tools if they want to pick locks, disarm traps, etc.
