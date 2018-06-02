@@ -9,20 +9,20 @@ data:
     - Antitoxin (vial) | 50gp
     - Artisan's Tools | 5gp
     - Backpack (empty) | 2gp
-    - Barrel (empty) | 2gp
+    - Barrel (empty, 40 gal.) | 2gp
     - Basket (empty) | 4sp
     - Bedroll | 1sp
     - Bell | 1gp
     - Blanket, winter | 5sp
     - Block and Tackle | 5gp
-    - Bottle, wine, glass (empty) | 2gp
-    - Bucket (empty) | 5sp
+    - Bottle, glass (empty, 2 pt.) | 2gp
+    - Bucket (empty, 2 gal.) | 5sp
     - Caltrops | 1gp
     - Candle | 1cp
     - Canvas (sq. yd.) | 1sp
     - Case, map or scroll | 1gp
     - Chain (10 ft.) | 30gp
-    - Chalk, 1 piece | 1cp
+    - Chalk, bundle of 10 | 1sp
     - Chest (empty) | 2gp
     - Craftsman's Tools | 5gp
     - Crowbar | 2gp
@@ -30,8 +30,7 @@ data:
     - Firewood (per day) | 1cp
     - Fishhook | 1sp
     - Fishing net (25 sq. ft.) | 4gp
-    - Flask (empty) | 3cp
-    - Flint & Steel | 1gp
+    - Flask (empty, ½ pt.) | 3cp
     - Grappling Hook | 1gp
     - Hammer | 5sp
     - Healer's Kit | 50gp
@@ -41,7 +40,7 @@ data:
     - Hourglass | 25gp
     - Ink (1 oz. Vial) | 8gp
     - Ink pen | 1sp
-    - Jug, clay | 3cp
+    - Jug, clay (1 gal.) | 3cp
     - Ladder, 10 ft. | 5cp
     - Lamp, common | 1sp
     - Lantern, bulls eye | 12gp
@@ -52,16 +51,16 @@ data:
     - Magnifying Glass | 100gp
     - Manacles | 15gp
     - Mirror, small steel | 10gp
-    - Mug/Tankard, clay | 2cp
+    - Mug/Tankard, clay (1 pt.) | 2cp
     - Musical Instrument | 5gp
     - Oil, pint flask | 1sp
     - Paper (sheet) | 4sp
     - Parchment (sheet) | 2sp
     - Pick, miner's | 3gp
-    - Pitcher, clay | 2cp
+    - Pitcher, clay (½ gal.) | 2cp
     - Piton | 1sp
     - Pole, 10 ft. | 2sp
-    - Pot, iron | 5sp
+    - Pot, iron (1 gal.) | 5sp
     - Pouch, belt (empty) | 1gp
     - Ram, portable | 10gp
     - Rations, trail (per day) | 5sp
@@ -79,9 +78,10 @@ data:
     - Spyglass | 1,000gp
     - Tent | 10gp
     - Thieves' Tools | 30gp
-    - Torch | 1cp
-    - Vial, ink or potion | 1gp
-    - Water skin | 1gp
+    - Tinderbox | 1gp
+    - Torch (bundle of 10) | 1sp
+    - Vial, ink or potion (1 oz.) | 1gp
+    - Water skin (2 pt.) | 1gp
     - Whetstone | 2cp
 
 ---
@@ -129,3 +129,23 @@ data:
     - Warhorse, heavy | 400gp
     - Warhorse, light | 150gp
     - War pony | 100gp
+
+---
+id: fast-packs
+header:
+    - __Pack A__ | __Pack B__ | __Pack C__
+    - :--- | :--- | :---
+data:
+    - backpack          | backpack      | backpack
+    - belt pouch        | belt pouch    | belt pouch
+    - bedroll           | bedroll       | bedroll
+    - hooded lantern    | 10 torches    | 10 torches
+    - 10 oil flasks     | 10 candles    | tent
+    - flint & steel     | flint & steel | flint & steel
+    - shovel            | chalk (10)    | hammer
+    - 2 sets of caltrops| 10 ft. pole   | 10 iron spikes
+    - signal whistle    | mirror        | grappling hook
+    - pen & paper       | crowbar       | 50 ft. rope
+    - water skin        | water skin    | water skin
+    - rations (4 days)  | rations (4 days) | rations (4 days)
+    - adventuring gear <br> (10 uses) | adventuring gear <br> (10 uses) | adventuring gear <br> (10 uses)
