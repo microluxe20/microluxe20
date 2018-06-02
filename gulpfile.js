@@ -24,7 +24,7 @@ const config = {
 
   readme: 'README.md',
   headerText: 'Microluxe 20 <br> <br>',
-  imgUrl: 'https://github.com/kgrubb/microluxe20/raw/master/src/static/logo-plain.png',
+  imgUrl: 'https://github.com/microluxe20/microluxe20/raw/master/src/static/logo-plain.png',
   includeHeaders: true,
 };
 

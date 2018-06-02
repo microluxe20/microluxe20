@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kgrubb/microluxe20"
+    "url": "https://github.com/microluxe20/microluxe20"
   },
   "author": "Keli Grubb",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kgrubb/microluxe20/issues"
+    "url": "https://github.com/microluxe20/microluxe20/issues"
   },
   "homepage": "https://microluxe20.com",
   "devDependencies": {

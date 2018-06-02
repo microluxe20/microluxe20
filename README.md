@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-  <a href="https://travis-ci.org/kgrubb/microluxe20"><img alt="Travis Status" src="https://travis-ci.org/kgrubb/microluxe20.svg"></a>
-   <a href="https://github.com/kgrubb/microluxe20/releases/latest"><img alt="Latest Release" src="https://img.shields.io/github/release/kgrubb/microluxe20.svg"></a>
+  <a href="https://travis-ci.org/microluxe20/microluxe20"><img alt="Travis Status" src="https://travis-ci.org/microluxe20/microluxe20.svg"></a>
+   <a href="https://github.com/microluxe20/microluxe20/releases/latest"><img alt="Latest Release" src="https://img.shields.io/github/release/microluxe20/microluxe20.svg"></a>
   <a href="https://discord.gg/fG36f6M"><img alt="Discord Chat" src="https://discordapp.com/api/guilds/278725721151504384/widget.png"></a>
 </p>
 
@@ -24,7 +24,7 @@ To dive right into the game, check out the following online resources:
 
 [Terador Campaign Setting](src/markdown/microluxe20_lore.md)
 
-[Map of Terador](https://raw.githubusercontent.com/kgrubb/microluxe20/master/map/Terador-complete.png)
+[Map of Terador](https://raw.githubusercontent.com/microluxe20/microluxe20/master/map/Terador-complete.png)
 
 [Races of Terador](src/markdown/microluxe20_races.md)
 
@@ -32,7 +32,7 @@ Microluxe20 features a pre-designed campaign setting, named "Terador" for ease-o
 
 # Downloads
 
-The latest official release can be downloaded [here](https://github.com/kgrubb/microluxe20/releases/latest)!
+The latest official release can be downloaded [here](https://github.com/microluxe20/microluxe20/releases/latest)!
 
 # Contributing
 
