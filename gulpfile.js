@@ -7,12 +7,14 @@ const fs = require('fs');
 const pjson = require('./package.json');
 const yaml = require('js-yaml');
 const through = require('through2');
+const remarkable = require('gulp-remarkable');
 
 const config = {
   dataPath: 'src/data/**/*.{yml,yaml}',
   mdPath: 'src/markdown/*.md',
   cssPath: 'src/styles/main.css',
   out: 'documents',
+  htmlOut: 'html',
   paperFormat: 'Letter',
 
   compiledOut: [
@@ -171,6 +173,26 @@ gulp.task('compile-md', () => gulp.src(config.mdPath)
 
 // compile all the documents
 gulp.task('compile', gulp.series('load-data', 'compile-md'));
+
+const mdHtmlOpts = {
+  html: true,
+  breaks: true,
+  typographer: false,
+};
+
+gulp.task('compile-md-html', () => gulp.src(config.mdPath)
+  .pipe(changed(config.htmlOut), { extension: '.html' })
+  // Preprocess the file's contents.
+  .pipe(through.obj((file, enc, cb) => {
+    // eslint-disable-next-line no-param-reassign
+    file.contents = Buffer.from(preProcessMd(file.contents.toString()));
+    cb(null, file);
+  }))
+  .pipe(remarkable({ remarkableOptions: mdHtmlOpts }))
+  .pipe(gulp.dest(config.htmlOut)));
+
+// Compile documents to HTML
+gulp.task('compile-html', gulp.series('load-data', 'compile-md-html'));
 
 // Make a gulp.parallel object containing tasks to create release documents.
 function makeReleaseTasks() {

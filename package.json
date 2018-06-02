@@ -22,13 +22,16 @@
   "devDependencies": {
     "eslint": "^4.16.0",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "dependencies": {
     "gulp": "^4.0.0",
     "gulp-changed": "^3.2.0",
     "gulp-changed-in-place": "^2.3.0",
     "gulp-markdown-pdf": "^6.0.0",
     "gulp-zip": "^4.1.0",
     "js-yaml": "^3.10.0",
-    "through2": "^2.0.3"
+    "through2": "^2.0.3",
+    "gulp-remarkable": "^2.1.0"
   }
 }
