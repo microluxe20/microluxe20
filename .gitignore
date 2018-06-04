@@ -1,4 +1,5 @@
 documents/*
+html/*
 release/*
 .DS_Store
 node_modules/*

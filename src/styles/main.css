@@ -1,11 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700italic,700);
-
-@font-face {
-  font-family: 'Trade Winds';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../static/TradeWinds.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700italic,700');
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds');
 
 /* Horribly hacky. */
 img[alt=title-img], img.title-img {
