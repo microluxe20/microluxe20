@@ -97,7 +97,9 @@ This is intentionally kept open – if you need a sneaky bugbear, assign the +3 
 
 **Hit Die & Monster Advancement:** Hit Dice (HD) determine the toughness of a monster. The parenthetical HP is the average HP from the Hit Dice. To make a tougher monster, add more Hit Dice or add a numbered bonus to the Hit Dice; each additional Hit Die adds one to their skill and combat bonuses.
 
-**Damage:** Monsters do not make sub-attacks with their attack bonus; only one attack is rolled for, and only one set of damage is applied. For each doubling of the Hit Dice, increase the dice size for attacks (ex: d4->d6, d6->d8, etc). Alternatively, add class levels to intelligent monsters. Start with the base Hit Dice and give the monster a class and a number of levels.
+For each doubling of the Hit Dice, increase the dice size for attacks (ex: d4->d6, d6->d8, etc). Alternatively, add class levels to intelligent monsters. Start with the base Hit Dice and give the monster a class and a number of levels.
+
+**Damage:** Monsters do not make sub-attacks with their attack bonus; only one attack is rolled for, and only one set of damage is applied.
 
 **Create Your Own:** Assign Hit Dice (d8 for most things, d12 for Dragons and Undead). Attack bonus = Hit Dice, Skill bonus = 1/2 Hit Dice. If it's an intelligent critter, add a +3 bonus to one skill. Add stat bonuses to suit.
 
@@ -109,7 +111,7 @@ This is intentionally kept open – if you need a sneaky bugbear, assign the +3 
 - **Cat:**  HD 1d4 (2 HP), AC 14, Claw +4 (1d2)
 - **Crocodile:**  HD 3d8+9 (22 HP), AC 16, Bite +6 (1d8+6) or tail slap +6 (1d12+6)
 - **Dog:**  HD 1d8+2 (6 HP), AC 15, Bite +2 (1d4+1)
-- **Donkey:**  HD 2d8+2 (11 HP), AC 13, Bite +1 (1d2-1)
+- **Donkey:**  HD 2d8+2 (11 HP), AC 13, Bite +1 (1d4-1)
 - **Eagle:**  HD 1d8+1 (5 HP), AC 14, Talons +3 (1d4)
 - **Giant Crocodile:**  HD 7d8+28 (59 HP), AC 16, Bite +11 (2d8+12) or tail slap +11 (1d12+12)
 - **Horse (heavy):**  HD 3d8+6 (19 HP), AC 13, Hoof –1 (1d6+1)
