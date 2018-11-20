@@ -1,23 +1,34 @@
 <!-- $header-main Gamemaster's Resources -->
 
-# Gamemaster's Guide
+# Game Master's Guide
 
-The Gamemaster's Guide is intended to summarize common information Gamemasters make use of during a game, as well as provide an introduction for new Gamemasters who want to start a game or write a setting or adventure.
+Running a Role-Playing Game as a first-time or inexperienced Game Master can seem daunting, especially with systems which have many complex, interconnecting, or even contradictory rules. This difficulty is further compounded by the challenges of keeping the interest and motivation of a group of disparate people as you attempt to guide them through a fantastic world that lives only in their heads.
 
-Included here are:
-- Sample monsters, traps, poisons and diseases.
-- Information for writing your own adventures and content.
-- Tips and tricks for keeping the game flowing.
+Microluxe20 aims to mitigate the first problem by giving GMs a simple, easy to understand toolbox, not an all-encompassing ruleset that must be obeyed at all times. Any rule in the rulebooks (even this one!) can be modified or ignored by the Game Master at their discretion, whether it's to fit a custom setting better, to keep things flowing at the table, or even just because you want to take pity on your poor bumbling party who accidentally wandered into a dragon's lair.
 
-## Running a Game
+The second problem is not so simple. A large part of keeping players interested and motivated comes down to their interactions with each other. However, as the GM, there are numerous things you can do to keep things from breaking down and even enhance the experience of other players:
 
+**Establish some table rules.** These don't need to be long, complex, or even written down; just establishing some common expectations like "don't shout, don't get crumbs on the map area, don't take your grievances out-of-game," etc. can do wonders to keep things flowing smoothly.
 
+**Encourage roleplaying.** Addressing your players by their character names, minimizing meta-discussions (of the setting, rules, characters, etc.) and maintaining a clear divide between the game world and the real world can go a long way to keeping your players immersed in their roles.
 
-TODO: write info on table rules, keeping things relevant, descriptions, etc.
+**Play to a character's senses.** Consider how you approach describing a scene: do you simply tell your players _what is in the scene_, or do you tell them _what they can see_? Try to involve your characters' senses and invoke a sense of smell, hearing, or even texture and taste when appropriate.
 
-## Designer's Notes
+For some characters, these senses will be heightened; a lycan may rely more on their sense of smell than sight, whereas a character with large ears like a goblin may use their hearing more heavily than their other senses.
 
-TODO: info on writing adventures, locations, characters, etc.
+**Tell a story.** A hack-and-slash campaign is only fun until the monsters run out. Work with your players before a campain to establish an _arc_ for their characters, and weave that arc into the plot of the campaign. An arc can be as simple as a desire or shortcoming the character seeks to fulfill or overcome, or could be a full story with multiple side characters that makes up a large portion of the campaign.
+
+Encourage your players to come up with something that is just as much fun to interact with from the outside as it is to play from the inside; a character's arc will likely span the majority of a campaign, or even provide the hook for an entire campaign in its own right.
+
+**Work together (or against each other).** Above all, a Role-Playing Game is a type of _cooperative_ game, where the main goal is for players to move through the world and accomplish goals together. While characters should certainly have their own motivations for joining the party (and their own frictions with other characters), encourage your players to work together to make the game fun for everyone.
+
+A game where the party is secretly plotting against each other and moving to foil each other's actions can certainly be buckets of fun with the right players, but make sure to get the approval of the whole table first; losing a character because someone was playing by a different set of rules is a very quick way to sour a player's attitude towards the group as a whole.
+
+**Drop some loot!** Half the fun of an RPG like Microluxe20 is in finding new and inventive ways to get weird and quirky items to use, modify, and assemble to get even _more_ shiny and valuable items to get yet _more_... you get the picture. Coming up with new and interesting loot for your players to strive for, and new and interesting uses of items to advance the campaign, will only endear you further to your players.
+
+There are certainly many more ways to make an RPG fun and enjoyable for all involved, but for a new or learning Game Master, these suggestions serve as a good stepping-point to base more experimental methods upon.
+
+## Designer's Tips
 
 ### Setting the DC
 
@@ -44,6 +55,14 @@ If the characters need to find a path through the Deadlands (Know+MIND, DC20) th
 
 Encourage the players to work for those modifiers, and reward them for clever, creative thinking. It's what the game is all about, after all.
 
+### When in Doubt... Remember
+
+Whenever the players want to try something that goes around, through, or above and beyond the rules as written, you can always use the "GM's Friend"...the 50% chance.
+
+Have them roll whatever check seems most appropriate. A roll of 1-10 is a failure, a roll of 11-20 is a success. If you feel that the situation warrants that you favor them, assign a +2 bonus to their roll. If the situation requires that they be hindered, then assign a –2 penalty.
+
+# Compatibility Notes
+
 ### Fewer Skills Means More Choice
 
 Back in the days of Classic D&D, players could do anything. With no straight-jacketed skill system to limit their choices, the players invented cool and clever solutions to problems. When faced with a 30ft. high statue with rubies for eyes, they erected pulleys to lift and swing the rogue into place far above their heads. Try doing that in 3rd Edition D&D and the GM will be left scratching their head. The D&D skill system has become a list of what the characters can do, silently eliminating all other possibilities, and that's no fun.
@@ -51,16 +70,6 @@ Back in the days of Classic D&D, players could do anything. With no straight-jac
 Microluxe20 is the best of both worlds; rather than provide a skills list, it provides a skills framework. This gives the players room to think of solutions rather than looking down a long list of skills to see what's most applicable to the task in hand.
 
 Here's another example: Climbing. In D&D, that's a skill modified by STR. That's good if you're a Fighter, but not so good if you're a Wizard. In Microluxe20, the character could use Phys+STR ("I pull myself up"), Phys+DEX ("I nimbly climb the cliff face"), Phys+MIND ("I take my time, working out the best route and carefully testing each handhold") or even Guile+STR ("I climb, quietly"). That adds much more flavor to the game and encourages each player to find their own, unique, solution.
-
-### When in Doubt... Remember
-
-Whenever the players want to try something that goes around, through, or above and beyond the rules as written, you can always use the "GM's Friend"...the 50% chance.
-
-Have them roll whatever check seems most appropriate. A roll of 1-10 is a failure, a roll of 11-20 is a success. If you feel that the situation warrants that you favor them, assign a +2 bonus to their roll. If the situation requires that they be hindered, then assign a –2 penalty.
-
-<!-- $page-break -->
-
-## Compatibility Notes
 
 ### Using Existing D&D Monsters
 
@@ -194,13 +203,13 @@ This is intentionally kept open – if you need a sneaky bugbear, assign the +3 
 
 Monster Building under Microluxe20 is so fast, it's possible to do it **on the fly**, right at the game table. And I'm going to show you how, using a Ninja Monkey as an example.
 
-First, let's start by setting the Hit Dice for our Ninja Monkeys. As these are tiny little monkeys, fighting 1st level PCs, let's give them 1HD. _Quick tip: to speed monster creation further, multiply the Hit Dice by 5 for the monster's hit points; multiply by 7 for Dragons and Undead._
+First, let's start by setting the Hit Dice for our Ninja Monkeys. As these are tiny little monkeys, fighting 1st level PCs, let's give them 1HD. _Quick tip: to speed monster creation further, multiply the number of Hit Dice by the Hit Die size, add 1 and divide by 2, rounding up. Example: `(1×8 + 1) / 2 = 5 HP`_
 
 Remember that unlike Player Characters, Monsters and other NPCs don't add their STR total to their hit points. This is a special bonus for Real Heroes only. If you want a tougher Monster, increase their AC, add a numeric HP bonus, or increase their Hit Dice.
 
-That gives the Ninja Monkeys 1HD, 5HP, +1 to hit with their Katana and +0 with all skills. As these are intelligent Ninjas, we'll allocate their +3 to Guile. Let's give them STR 0, DEX 4 and MIND 2, allow them to use DEX (rather than STR) for their attack roll with their miniature Katanas, which do d6 damage. Factoring that in with the Hit Dice, we get:
+That gives our Ninja Monkeys 1HD, 5HP, +1 to hit with their Katana and +0 with all skills. As these are intelligent Ninjas, we'll allocate their +3 to Guile. Let's give them STR 0, DEX 4 and MIND 2, allow them to use DEX (rather than STR) for their attack roll with their miniature Katanas, which do d6 damage. Factoring that in with the Hit Dice, we get:
 
-> **Ninja Monkey**: 1HD (3HP), AC12
+> **Ninja Monkey**: HD 1d8 (5 HP), AC12
 STR 0, DEX 4, MIND 2; Guile +3
 Miniature Katana +3 (1d6-1)
 
@@ -221,13 +230,13 @@ Diseases have various symptoms and are spread through a number of ways. Several 
 
 ## Extreme Heat & Cold
 
-If not wearing suitable protection, a character must make a Phys + STR check once every 10 minutes (DC 15, +1 per previous check), taking 1d6 damage on each failed save.
+Characters may venture into inhospitable conditions over the course of an adventure. If not wearing suitable protection, characters must make a Phys + STR check once every 10 minutes (DC 15, +1 per previous check), or take 1d6 damage from the environment.
 
 ## Falling Damage
 
 A falling character takes 1d6 HP of damage per 10 feet fallen. If the character makes a successful Phys + DEX roll, he/she takes only half damage. The DC for the Phys + DEX roll is equal to the depth fallen in feet.
 
-In the event that the fall ends in an area laden with spikes or jagged rocks, add +1 HP of damage to falling damage per 10 feet fallen (with a maximum of +10 HP).
+In the event that the fall ends in an area laden with spikes or jagged rocks, add +5 HP of damage to falling damage per 10 feet fallen (with a maximum of +25 HP).
 
 ## Traps
 
