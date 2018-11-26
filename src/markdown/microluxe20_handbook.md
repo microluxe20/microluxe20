@@ -108,11 +108,11 @@ When creating a character, you get 10 points to freely spend on your core stats,
 
 If a player's character is damaged to the point where their HP reaches zero (or below zero), the character becomes "downed", or unconscious and near death, with 0 HP. Further damage directly reduces their normally highest stat (either STR, DEX, or MIND). If that stat drops below -10, the character dies.
 
-While downed, at the start of your turn, roll a d6. You have 3 chances (1 chance per turn) to roll above a 3. If successful, you are stabilized and return to 1 HP. Otherwise, if you are unsuccessful for 3 turns, the character dies. Healing items or spells stabilize downed characters and the amount healed is restored to the character's HP.
+While downed, at the start of your turn, roll a d6. You have 3 chances (1 chance per turn) to roll above a 3. If successful, you are stabilized and return to 1 HP. Otherwise, if you are unsuccessful for 3 turns, the character dies. Healing items or spells stabilize downed characters, and the amount healed is restored to the character's HP.
 
 Sometimes damage in combat is dealt directly to a character's Stats instead of Hit Points. If any stat reaches -10 or below, the character is downed and treated as if they were reduced to 0 HP. Damage while downed is applied to the character's next highest Stat instead of the Stat which caused the character to become downed.
 
-Stats damaged directly or while downed will return to their normal levels after a long rest (4 hours).
+Damaged stats will return to their normal levels after a long rest (4 hours).
 
 **Speed** comes in 3 tiers, and determines how far a character can move in a round. Characters are either Slow (20ft.), Normal (30ft.), or Fast (35ft.). A character's Speed is determined by the game master and can be affected by spells and conditions.
 
@@ -296,7 +296,7 @@ After players have been in combat, they may need to rest to regain their stamina
 
 Resting for less than 4 hours recovers at most ¼ of a character's HP, regardless of the duration of the rest. Downed characters must be stabilized before they can rest.
 
-After resting, characters may not rest again until they have lost ¼ of their total HP, or one hour has past.
+After resting, characters may not rest again until they have lost ¼ of their total HP, or one hour has passed.
 
 ## Heroism
 
