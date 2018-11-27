@@ -50,13 +50,13 @@ When creating a character, your player will be one of the major races of Terador
 
 Once you have a name and race, you will need to decide on the physical attributes of your character. This includes things like eye color, hair color and length, the build of your character, whether they have any distinctive scars or markings, and similar attributes. A good physical description should be fairly short, but enough to identify your character even in a room full of people.
 
-## Story
+## Vices and Virtues
 
-Designing a backstory and personality for your character is highly recommended. An easy way to start is to pick a weakness (a vice or failing of some sort) and a need or desire.
+Designing a backstory and personality for your character is highly recommended. An easy way to start is to pick a vice (a weakness or failing of some sort), a virtue (something your character is good at), and a need or desire.
 
-These can be anything you would want to roleplay - the character might have a crippling fear of snakes and have a desire to find a hidden treasure of some sort; or your character might have an anger issue with the town guard, and desire to just be left alone to have a drink. The most interesting stories are created when the needs and weaknesses coincide to form a conflict of some sort - the area where the treasure is hidden is inhabited by a colony of snakes, or the town guard keeps arresting the character for public disorder.
+These can be anything you would want to roleplay - the character might be proficient with whips, have a crippling fear of snakes, and desire to find hidden treasures; or your character might have an anger issue with the town guard and just wants to be left alone to have a drink. The most interesting stories are created when the Vice or Virtue coincide with the character's desire, forming a conflict of some sort - the area where the treasure is hidden is inhabited by a colony of snakes, or the town guard keeps arresting the character for public drunkenness and disorder.
 
-These factors, when carefully chosen, can significantly help in designing a character that is both interesting and rewarding to roleplay. As a general rule, if your character design is good, your Gamemaster will have numerous opportunities to weave your character's story - their specific weaknesses and desires - into the narrative of the adventure; a bad character simply exists, without contributing anything of note to the narrative.
+These factors, when carefully chosen, can significantly help in designing a character that is both interesting and rewarding to roleplay. As a general rule, if your character design is good, your Gamemaster will have numerous opportunities to weave your character's story into the narrative of the adventure; a bad character simply exists, without contributing anything of note to the narrative.
 
 <!-- $page-break -->
 
