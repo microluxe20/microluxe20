@@ -28,21 +28,37 @@ While Microluxe20 does not require miniatures or tokens of any kind, having a ha
 
 ### Getting Started
 
-Microluxe20 can be played with as many people as the Gamemaster can handle, though 4-6 players seems to be the best amount. A table for all participants is recommended; players will be able to more easily roll dice and write on their character sheets.
+Microluxe20 can be played with as many people as the Gamemaster can handle, but 4 to 6 players is considered to be the optimal number. A table for all participants to sit at is recommended; players will be able to more easily roll dice and write on their character sheets.
 
-The Gamemaster and players should sit down and agree on a set of rules governing table conduct before starting play; these can be as simple as "no shouting over each other", or as complex and innovative as necessary.
+The Gamemaster and players should sit down and agree on a set of rules governing table conduct before starting play; this can be as simple as "no shouting over each other", or as complex and innovative as necessary.
 
-Once this is settled, the Gamemaster begins to describe the adenture, and the players create their characters.
+Once this is settled, the Gamemaster begins to describe the adventure, and the players create their characters.
 
 # Character Creation
 
-When creating a character in Microluxe20, you will need to decide on a race and class. After choosing your character's race and class, you can configure their stats and skills.
+Creating a character in Microluxe20 is simple. You start by choosing a name and race, and build a story and physical description around those choices. Your character's class determines your starting skills, and you'll assign your stats to finish the process.
+
+Choosing the name is one of the most difficult parts of the process; talk with your Gamemaster about what is thematically appropriate for the setting and your race, and see if they have any suggestions if you are stuck. Choose wisely, for once you have decided on a name, it is nigh impossible to disassociate it from the character.
 
 ## Races
 
-Terador has a wealth of races to choose from, each with their unique history. While the Mir are the most common race in Terador, the many other races are fairly commonplace to see as well. When creating a character, your player will be one of the major races of Terador.
+Your character's race determines your overall physical appearance and provides a bonus to certain aspects of your character.
+
+When creating a character, your player will be one of the major races of Terador. The world has a wealth of races to choose from, each with their unique history. While the Mir are the most common race in Terador, the many other races are fairly commonplace to see as well.
 
 <!-- $data races.yml races t-full -->
+
+Once you have a name and race, you will need to decide on the physical attributes of your character. This includes things like eye color, hair color and length, the build of your character, whether they have any distinctive scars or markings, and similar attributes. A good physical description should be fairly short, but enough to identify your character even in a room full of people.
+
+## Vices and Virtues
+
+Designing a backstory and personality for your character is highly recommended. An easy way to start is to pick a vice (a weakness or failing of some sort), a virtue (something your character is good at), and a need or desire.
+
+These can be anything you would want to roleplay - the character might be proficient with whips, have a crippling fear of snakes, and desire to find hidden treasures; or your character might have an anger issue with the town guard and just wants to be left alone to have a drink. The most interesting stories are created when the Vice or Virtue coincide with the character's desire, forming a conflict of some sort - the area where the treasure is hidden is inhabited by a colony of snakes, or the town guard keeps arresting the character for public drunkenness and disorder.
+
+These factors, when carefully chosen, can significantly help in designing a character that is both interesting and rewarding to roleplay. As a general rule, if your character design is good, your Gamemaster will have numerous opportunities to weave your character's story into the narrative of the adventure; a bad character simply exists, without contributing anything of note to the narrative.
+
+<!-- $page-break -->
 
 ## Classes
 
@@ -68,6 +84,10 @@ Classes define your character's way of life. Your character's class helps shape 
 
 **Psions** can use light armor, can not use shields, and can use simple weapons. They can manifest Psion powers and gain +2 to Knowledge and +1 to Communication.
 
+After choosing your character's race and class, you will need to configure your stats and skills.
+
+<!-- $page-break -->
+
 ## Stats
 
 There are 3 core stats that define a character:
@@ -86,11 +106,17 @@ When creating a character, you get 10 points to freely spend on your core stats,
 
 	10 + STR stat + 1d6(with a minimum of 3).
 
-If a player's character is damaged to the point where their HP reaches zero (or below zero), the character becomes "downed", or unconscious and near death, with 0 HP. Further damage directly reduces their normally highest stat (either STR, DEX, or MIND). If that stat drops below -10, the character dies. While down, at the start of your turn, roll a d6. You have 3 chances (1 chance per turn) to roll above a 3. If successful, you are stable and return to 1 HP. Otherwise, if unsuccessful 3 turns, the character dies.
+If a player's character is damaged to the point where their HP reaches zero (or below zero), the character becomes "downed", or unconscious and near death, with 0 HP. Further damage directly reduces their normally highest stat (either STR, DEX, or MIND). If that stat drops below -10, the character dies.
 
-Sometimes damage in combat is dealt directly to a character's Stats instead of Hit Points. If any stat reaches -10 or below, the character is downed and treated as if they were reduced to 0 HP. Stats damaged directly or while downed will return to their normal levels after a long rest (4 hours).
+While downed, at the start of your turn, roll a d6. You have 3 chances (1 chance per turn) to roll above a 3. If successful, you are stabilized and return to 1 HP. Otherwise, if you are unsuccessful for 3 turns, the character dies. Healing items or spells stabilize downed characters, and the amount healed is restored to the character's HP.
 
-**Speed** comes in 3 tiers. You are either Slow(20ft.), Normal(30ft.) or Fast(35ft.). Speed is determined by the game master and can be affected by spells and conditions. Typically, Fighters or Paladins with Heavy armor are Slow, Rogues and Rangers are Fast, and the rest are Normal speed. (5ft. is approximately 1 "Square")
+Sometimes damage in combat is dealt directly to a character's Stats instead of Hit Points. If any stat reaches -10 or below, the character is downed and treated as if they were reduced to 0 HP. Damage while downed is applied to the character's next highest Stat instead of the Stat which caused the character to become downed.
+
+Damaged stats will return to their normal levels after a long rest (4 hours).
+
+**Speed** comes in 3 tiers, and determines how far a character can move in a round. Characters are either Slow (20ft.), Normal (30ft.), or Fast (35ft.). A character's Speed is determined by the game master and can be affected by spells and conditions.
+
+Typically, Fighters or Paladins with Heavy armor are Slow, Rogues and Rangers are Fast, and the rest are Normal speed. When playing on a grid, 5ft. is approximately 1 grid square.
 
 **Armor Class (AC):** A character's Armor Class represents their ability to evade or block physical attacks. The higher a character's AC, the more difficult it is to land a damaging blow. A character's Armor Class is determined by this formula:
 
@@ -98,17 +124,19 @@ Sometimes damage in combat is dealt directly to a character's Stats instead of H
 
 ## Skills & Saves
 
-There are 4 skills: **Physical**, **Guile**, **Knowledge**, and **Communication**. Roll higher than the given Difficulty Class to succeed.
+There are 4 skills: **Physical**, **Guile**, **Knowledge**, and **Communication**. Skills are assigned a starting value of 0, and are improved by Class, Race, and allocated skill points. Roll higher than the given Difficulty Class to succeed.
 
 **Skill Rank** = any bonus due to your class or race + any allocated points.
 
 **Skill Roll** = d20 + skill rank + whatever stat bonus is most applicable to the use + situation modifiers
 
-For example, Climbing would use Physical + STR bonus. Dodging a falling rock is Physical + DEX bonus. Finding a trap is Guile + MIND bonus. Disabling a trap is Guile + DEX bonus.
+For example, Climbing would use Physical + STR bonus; dodging a falling rock is Physical + DEX bonus; finding a trap is Guile + MIND bonus, and disabling a trap is Guile + DEX bonus.
+
+The Gamemaster may allow other characters to assist a character when performing a skill roll, when appropriate. A character being assisted in an action rolls twice, and uses the higher of the two rolls.
 
 **Save Roll** = d20 + stat bonus + situation modifiers
 
-For compatibility purposes, the 3 saves in Microluxe20 (STR save, DEX save, and MIND save), directly match Fortitude, Reflex, and Will saves (often called "saving throws") found in other SRD-based games.
+For compatibility purposes, the 3 saves in Microluxe20 (STR save, DEX save, and MIND save), directly match Fortitude, Reflex, and Will saves (often called "saving throws") found in other SRD-based games. Save rolls may not be assisted by other characters.
 
 ## Level Advancement
 
@@ -122,17 +150,19 @@ As characters participate in encounters, they will begin to accumulate XP. Chara
 
 > **Example:** The 1st level adventurers have just completed a dungeon adventure, and defeated five 1 XP encounters, a 2 XP trap and the 3 XP leader. That's a total of 10 XP, so they all advance to level 2. They need to gain another 20 XP to reach Level 3.
 
-Each level adds:
+Alternatively, Gamemasters may decide to award levels at specific narrative milestones, instead of using an XP-based system. This is recommended for more experienced Gamemasters and for longer, story-focused campaigns.
+
+Regardless of how they are awarded, each level adds:
 
 * +1d6 to Hit Points (with a minimum of 3). Fighters also get additional HP equal to their STR bonus.
 
 * +2 points to spend on skills. When upgrading skills, you cannot add more points to a skill if it is higher than or equal to your character's level + 5.
 
-* If your character's level divides by three (ex: level 3,6,9,etc.) add 1 point to STR, DEX or MIND.
+* Every 3rd level (3, 6, 9, 12, etc.), characters gain +1 STR, DEX, or MIND.
 
-* Fighters gain +1 to their attack and damage rolls at levels 5,10,15,etc.
+* Fighters gain +1 to their attack and damage rolls every 5 levels (5, 10, 15, etc.)
 
-* New spell and power levels are unlocked at levels 2,4,6,8,etc.
+* New spell and power levels are unlocked at even-numbered levels (2, 4, 6, 8, etc.)
 
 # Gameplay
 
@@ -170,7 +200,7 @@ When all characters (including Gamemaster's characters) have taken their turn, t
 
 ## Spells
 
-Spellcasters may cast any of their class spells as long as the spell level is equal to or below their class level. When casting a spell, characters make a Magic Attack, rolling 1d20 + Magic Attack Bonus. If the resulting roll is greater that the Spell Difficulty Class, the spell is successfully cast.
+Spellcasters may cast any of their class spells as long as the spell level is equal to or below their class level. When casting a spell, characters make a Magic Attack, rolling 1d20 + Magic Attack Bonus. If the resulting roll is greater than the Spell Difficulty Class, the spell is successfully cast.
 
 **Spell Difficulty Class (DC):** 10 (or spell-specific difficulty) + Target's MIND stat
 
@@ -178,17 +208,21 @@ When a spell is successfully cast, the spell immediately takes effect, unless th
 
 Casting a spell of any kind, regardless of the outcome, costs Hit Points. The cost is equal to the level of the spell being cast. For example, a 2nd level spell will cost the caster 2 HP.
 
+A spellcaster may cast spells without expending HP by casting the spell over a duration of 10 minutes for each HP that would be otherwise be expended. Spells cannot be partially cast over time for a reduced HP cost, and casting a spell over time does not escape arcane/divine influence.
+
 Once a spellcaster has cast a spell in an encounter, they enter a state called "arcane (or divine) influence". While in this state, their HP *cannot* be healed normally until they have a short rest. Healing spells cast on an injured caster under arcane/divine influence only heal ¼ of the given amount. Spellcasters automatically exit their influenced state after 1 hour of rest.
 
-There is no need to memorize spells in advance. Just because a character can cast any spell, doesn't mean that they should. Choose spells that suit the character. Select one "signature" spell per spell level from 1st upward that they prefer to use over any other. These spells are easier to cast due to familiarity, costing 2 less HP to use.
+There is no need to memorize spells in advance. Just because a character can cast any spell, doesn't mean that they should. Choose spells that suit the character.
+
+Starting at 1st level, select one "signature" spell per spell level that the character prefers to use over any other. These spells are easier to cast due to familiarity, costing 2 HP less to use.
 
 ### Casting Metamagic
 
 Metamagic is the name for spells that alter or enhance the effect of another spell, allowing spellcasters to introduce some variety into their existing spells. Metamagic can be cast by any spellcaster, from a rod or as an action, regardless of whether the spellcaster is the one casting the spell being affected.
 
-A Magic Attack is not normally required to cast metamagic. However, if the target spell's caster rejects the metamagic being cast on the spell, the metamagic's caster must make a Magic Attack roll to affect the target spell.
+A Magic Attack roll is not normally required to cast metamagic. However, if the target spell's caster rejects the metamagic being cast on the spell, the metamagic's caster must make a Magic Attack roll to affect the target spell.
 
-If a caster is attempting to cast metamagic on their own spell, the metamagic and the spell must be cast as separate actions, one after the other. This restriction is ignored if the caster is using a rod enchanted with metamagic, or another caster is casting the metamagic.
+If a caster is attempting to cast metamagic on their own spell, the metamagic and the spell must be cast as separate actions, one after the other. This restriction is ignored if the caster is using a rod enchanted with metamagic, or if another caster is casting the metamagic.
 
 Here are the three most common metamagic spells:
 
@@ -228,13 +262,15 @@ Magical items can be broadly divided into two categories: Active and Passive. Ac
 
 The process to enchant an item with a magical effect differs slightly from item to item (and at the Gamemaster's discretion) but they all follow a similar pattern in their creation. Most enchantments will require access to special tools of some kind - potions will require a cauldron and beakers, wands and rods require tools to carve the magical trace-work into their surface, and jewelery requires fine tools to shape the item and socket gems into their proper places.
 
-To begin the process, the player needs to have the base form of the item and purchase materials to perform the enchantment, and the spellcaster performing the enchantment must know the spell or use a scroll with the wanted spell. All materials used in the process are consumed, as well as any scrolls used as a source. The cost of materials used to create a magical item is usually equal to 1/2 the HP cost of the enchantment process, in gold pieces. Thus, a 1 HP spell would cost 5 gp in materials.
+To begin the process, the player needs to have the base form of the item and purchase materials to perform the enchantment, and the spellcaster performing the enchantment must know the spell or use a scroll with the wanted spell. All materials used in the process are consumed, as well as any scrolls used as a source.
 
-The enchantment process will require a spellcaster to infuse the item with HP equal to 10 times the cost of the spell or effect being enchanted with. A spellcaster takes a full hour to infuse 5 HP into an item, and the character cannot regain HP lost until taking a long rest. Only one spellcaster may infuse an item at a time.
+The cost of materials used to create a magical item is usually equal to 1/2 the HP cost of the enchantment process, in gold pieces. Thus, infusing a wand with a 1 HP spell would cost 2 gp, 5 sp in materials.
 
-When creating a scroll, the infusion cost is reduced to 3 times the HP cost of the spell being written down.
+The enchantment process will require a spellcaster to infuse the item with HP equal to 5 times the cost of the spell or effect being enchanted with. A spellcaster takes a full hour to infuse 5 HP into an item, and the infusion process places the character under Arcane Influence. No more than one spellcaster may infuse an item at a time.
 
-When creating an item with magical charges, the maximum number of charges the item can hold is determined by rolling 1d20 + Level. Each charge requires 3 times the HP cost of the spell, but the item may be recharged at any point.
+When creating a scroll or potion, the infusion HP cost is twice the HP cost of the spell being scribed.
+
+When creating an item with magical charges, the maximum number of charges the item can hold is determined by `5 + Magic bonus (Mind + Level)`. Each charge requires twice the HP cost of the spell, but the item may be recharged at any point.
 
 When the infusion process is finished, the character rolls MIND+Knowledge, and the result of the roll determines the effectiveness of the enchantment.
 
@@ -246,23 +282,25 @@ When the infusion process is finished, the character rolls MIND+Knowledge, and t
 | 15+ | Success! The item is successfully enchanted, and no other effect occurs. |
 | Natural 20 | Critical Success! The item is successfully enchanted, and gains +50% to its effectiveness. |
 
-> **Example:** Your Mage wants to imbue a wand with Prestidigitation. This is a 1st-level Mage spell, so it will take 10 HP to enchant the wand. You also want to infuse it with three charges to start, bringing the total HP cost to 19. You can only infuse 5 HP per hour, so you must focus on infusing the wand for a full four hours.
+> **Example:** Your Mage wants to imbue a wand with Prestidigitation. This is a 1st-level Mage spell, so it will take 5 HP to enchant the wand, and 25 sp in material costs. Your Magic bonus is +3, so you decide to infuse it with three of the eight charges to start, bringing the total HP cost to 11.
 >
-> You roll 1d20 + your Mage's level, getting an 11 for the maximum number of charges the wand can hold. You roll MIND+Knowledge when you have finished infusing the wand and - Presto! - you get a 17! The wand is successfully crafted, holding 3 / 11 charges.
+>You can only infuse 5 HP per hour, so you must focus on infusing the wand for slightly over two hours. You roll MIND+Knowledge when you have finished infusing the wand and - Presto! - you get a 17! The wand is successfully crafted, holding 3 / 8 charges.
 
 ## Resting & Recuperating
 
-After combat, players must rest to regain their stamina. There are 2 forms of resting:
+After players have been in combat, they may need to rest to regain their stamina. There are 2 forms of resting:
 
-**Short Rest:** Resting for 1-4 hours constitutes a short rest. Characters heal up to 1/4 of their HP (rounded up). Spellcasters are no longer under arcane/divine influence.
+**Short Rest:** Resting for 1-4 hours constitutes a short rest. Characters heal up to ¼ of their Max HP (rounded up). Spellcasters are no longer under arcane/divine influence.
 
-**Long Rest:** Resting for over 4 hours constitutes a long rest. Characters heal all of their HP and short-term side effects. Spellcasters also lose their arcane/divine influence.
+**Long Rest:** Resting for at least 4 hours constitutes a long rest. Characters heal all of their HP and short-term side effects. Spellcasters also lose their arcane/divine influence.
+
+Resting for less than 4 hours recovers at most ¼ of a character's HP, regardless of the duration of the rest. Downed characters must be stabilized before they can rest.
+
+After resting, characters may not rest again until they have lost ¼ of their total HP, or one hour has passed.
 
 ## Heroism
 
-**Heroism** is intended to relieve some of the power incompatibilities with some d20 adventure types. If you find that the party is consistently too weak, try adding Heroism. **Heroism** is a bonus equal to the character's level that may be applied to one of the following actions three times per day: Attack Bonus, Damage, Saving Throw, Skill Check, or Spell DC.
-
-<!-- TODO: need something to fill a half-page here. -->
+**Heroism** is intended to relieve some of the power incompatibilities with some d20 adventure types. If you find that the party is consistently too weak, try adding Heroism. **Heroism** is a bonus equal to the character's level that may be applied to an Attack Bonus, Damage roll, Saving Throw, or Skill Check. Heroism may be used up to three times per day.
 
 # Appendix
 

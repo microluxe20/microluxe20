@@ -361,7 +361,7 @@ Druids must forgo the use of weapons and armor made of metal worked by mortal ha
 
 Psions are strange quirks of nature whose minds are warped from birth. They posess a natural connection with the Ethereal Plane, which allows them to directly project power into their surroundings. This often results in Psions perceiving the world in strange ways, and developing anti-social and amoral tendencies due to their outcast status.
 
-Psions cannot not use staves, rods, or metamagic. Instead, their powers are augmented with additional Hit Points (HP). The augmenting HP cost is noted under each power's entry. The combined HP cost for manifesting and augmenting a power cannot exceed the character's psionic class level. Thus, a 3rd level psion could manifest a level 1 power by spending 1 HP, and augment it by spending 2 additional HP for a total HP cost of 3. Temporary HP cannot be used to manifest powers.
+Psions cannot not use staves, rods, or metamagic. Instead, their powers are augmented with additional Hit Points (HP). The augmenting HP cost is noted under each power's entry. The combined HP cost for manifesting and augmenting a power (disregarding signature spell bonus) cannot exceed the character's psionic class level. Thus, a 3rd level psion could manifest a level 2 power by spending 2 HP, and augment it with at most 1 additional HP for a total HP cost of 3.
 
 **Psionic vs. Magical Effects:** Powers interact with spells and spells interact with powers in the same way a spell or normal spell-like ability interacts with another spell or spell-like ability. For example, detect magic detects psionics and dispel psionics dispels magic.
 
@@ -375,7 +375,7 @@ Psions cannot not use staves, rods, or metamagic. Instead, their powers are augm
 - **Control Object:** Telekinetically animate a small object. _Duration_: Knowledge, up to 1 round/level. _Augment_: None.
 - **Detect Psionics:** Detect the presence of psionics. _Duration_: Knowledge, up to 10 rounds/level. _Augment_: None.
 - **Mindlink:** Forge a limited mental bond with another creature. _Duration_: 10 rounds/level. _Augment_: Every 2 extra HP links another creature.
-- **Mind Thrust:** Deal 3d6 force damage. _Duration_: Instant. _Augment_: Each extra HP adds 2d6 to damage.
+- **Mind Thrust:** Deal 3d6 force damage. _Duration_: Instant. _Augment_: Each extra HP adds 1d6+1 to damage.
 - **Precognition:** Gain +2 bonus to one roll in the future. _Duration_: 10 rounds/level. _Augment_: None.
 
 ### 4th-Level Psion Powers

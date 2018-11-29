@@ -5,11 +5,11 @@ header:
     - Name | Type | Save DC | Incubation | Damage
     - :--- | :--- | :------ | :--------- | :-----
 data:
-    - "**Cackle Fever** | Inhaled | DC 16 | 1 day | –1d6 MIND."
-    - "**Filth Fever** | Injury | DC 12 | 1d3 days | –1d3 DEX and 1d3 STR."
-    - "**Mindfire** | Inhaled | DC 12 | 1 day | –1d4 MIND."
-    - "**Red Ache** | Injury | DC 15 | 1d3 days | –1d6 STR."
-    - "**Shakes** | Contact | DC 13 | 1 day | –1d8 DEX."
+    - "**Cackle Fever** | Inhaled | DC 16 | 1 day | –1d6 MIND"
+    - "**Filth Fever** | Injury | DC 12 | 1d3 days | –1d3 DEX and 1d3 STR"
+    - "**Mindfire** | Inhaled | DC 12 | 1 day | –1d4 MIND"
+    - "**Red Ache** | Injury | DC 15 | 1d3 days | –1d6 STR"
+    - "**Shakes** | Contact | DC 13 | 1 day | –1d8 DEX"
 
 ---
 id: poisons
@@ -18,25 +18,72 @@ header:
     - Name | Type | Save DC | Effect | Cost
     - :--- | :--- | :------ | :----- | :---
 data:
-    - "**Arsenic** | Ingested | DC 13 | -1 STR/-1d8 STR | 120 gp."
-    - "**Blue Whinnis** | Injury | DC 14 | -1 STR/ unconsciousness | 120 gp."
-    - "**Burnt Othur Fumes** | Inhaled | DC 18 | -1 STR*/-3d6 STR | 2,100 gp."
-    - "**Deathblade** | Injury | DC 20 | -1d6 STR/-2d6 STR | 1,800 gp."
-    - "**Insanity Mist** | Inhaled | DC 15 | -1d4 MIND/-2d6 MIND | 1,500 gp."
-    - "**Nitharit** | Contact | DC 13 | 0/-3d6 STR | 650 gp."
-    - "**Oil of Taggit** | Ingested | DC 15 | 0/uncons. | 90 gp."
-    - "**Malys Root Paste** | Contact | DC 16 | -1 DEX/-2d4 DEX | 500 gp."
-    - "**Monstrous Scorpion (tiny)** | In­jury | DC 12 | -1 STR/-1 STR | 50 gp."
-    - "**Monstrous Scorpion (small)** | In­jury | DC 12 | -1d2 STR/- 1d2 STR | 100 gp."
-    - "**Monstrous Scorpion (large)** | Injury | DC 14 | -1d4 STR/- 1d4 STR | 200 gp."
-    - "**Monstrous Scorpion (huge)** | Injury | DC 18 | -1d6 STR/- 1d6 STR | 400 gp."
-    - "**Monstrous Spider (tiny)** | Injury | DC 10 | -1d2 STR/-1d2 STR | 85 gp."
-    - "**Monstrous Spider (small)** | Injury | DC 10 | -1d3 STR/- 1d3 STR | 125 gp."
-    - "**Monstrous Spider (large)** | Injury | DC 13 | -1d6 STR/-1d6 STR | 250 gp."
-    - "**Monstrous Spider (huge)** | Injury | DC 16 | -1d8 STR/-1d8 STR | 500 gp."
-    - "**Sassone Leaf Residue** | Contact | DC 16 | -2d12 HP/-1d8 STR | 300 gp."
-    - "**Sleep Poison** | Injury | DC 13 | uncons./ uncons. for 2d4 hours | 75 gp."
-    - "**Snake (medium viper)** | Injury | DC 11 | -1d6 STR/-1d6 STR | 120 gp."
-    - "**Snake (large viper)** | Injury | DC 11 | -1d6 STR/-1d6 STR | 120 gp."
-    - "**Snake (huge viper)** | Injury | DC 14 | -1d6 STR/-1d6 STR | 250 gp."
-    - "**Wyvern** | Injury | DC 17 | -2d6 STR/-2d6 STR | 3,000 gp."
+    - "**Arsenic** | Ingested | DC 13 | -1 STR/-1d8 STR | 120 gp"
+    - "**Blue Whinnis** | Injury | DC 14 | -1 STR/ uncon | 120 gp"
+    - "**Burnt Othur Fumes** | Inhaled | DC 18 | -1 STR*/-3d6 STR | 2,100 gp"
+    - "**Deathblade** | Injury | DC 20 | -1d6 STR/-2d6 STR | 1,800 gp"
+    - "**Insanity Mist** | Inhaled | DC 15 | -1d4 MIND/-2d6 MIND | 1,500 gp"
+    - "**Nitharit** | Contact | DC 13 | 0/-3d6 STR | 650 gp"
+    - "**Oil of Taggit** | Ingested | DC 15 | 0/uncon | 90 gp"
+    - "**Malys Root Paste** | Contact | DC 16 | -1 DEX/-2d4 DEX | 500 gp"
+    - "**Monstrous Scorpion (tiny)** | In­jury | DC 12 | -1 STR/-1 STR | 50 gp"
+    - "**Monstrous Scorpion (small)** | In­jury | DC 12 | -1d2 STR/- 1d2 STR | 100 gp"
+    - "**Monstrous Scorpion (large)** | Injury | DC 14 | -1d4 STR/- 1d4 STR | 200 gp"
+    - "**Monstrous Scorpion (huge)** | Injury | DC 18 | -1d6 STR/- 1d6 STR | 400 gp"
+    - "**Monstrous Spider (tiny)** | Injury | DC 10 | -1d2 STR/-1d2 STR | 85 gp"
+    - "**Monstrous Spider (small)** | Injury | DC 10 | -1d3 STR/- 1d3 STR | 125 gp"
+    - "**Monstrous Spider (large)** | Injury | DC 13 | -1d6 STR/-1d6 STR | 250 gp"
+    - "**Monstrous Spider (huge)** | Injury | DC 16 | -1d8 STR/-1d8 STR | 500 gp"
+    - "**Sassone Leaf Residue** | Contact | DC 16 | -2d12 HP/-1d8 STR | 300 gp"
+    - "**Sleep Poison** | Injury | DC 13 | uncon / uncon for 2d4 hours | 75 gp"
+    - "**Snake (medium viper)** | Injury | DC 11 | -1d6 STR/-1d6 STR | 120 gp"
+    - "**Snake (large viper)** | Injury | DC 11 | -1d6 STR/-1d6 STR | 120 gp"
+    - "**Snake (huge viper)** | Injury | DC 14 | -1d6 STR/-1d6 STR | 250 gp"
+    - "**Wyvern** | Injury | DC 17 | -2d6 STR/-2d6 STR | 3,000 gp"
+
+---
+id: traps
+columns: 1
+header:
+    - "**Name** | XP | Attack | Save | Search | Disable"
+    - ":------- | :- | :----- | :--- | :----- | :------"
+data:
+    - "**Basic Arrow Trap** | 1 | ATK +10 (1d6, arrow) | - | DC 20 | DC 20"
+    - "**Camouflaged Pit Trap** | 1 | 10 ft. deep (1d6, fall) | DC 15 (avoid) | DC 24 | DC 20"
+    - "**Poison Dart Trap** | 1 | ATK +8 (1d4 +poison, dart) | - | DC 20 | DC 18"
+
+    - "**Burning Hands Trap** | 2 | spell (1d4, fire) | DC 11 (for ½) | DC 26 | DC 26"
+    - "**Large Net Trap** | 2 | ATK +5 (entangle) | DC 14 (avoid) | DC 20 | DC 25"
+    - "**Pit Trap** | 2 | 20 ft. deep (2d6, fall) | DC 18 (avoid) | DC 22 | DC 20"
+
+    - "**Fire Trap** | 3 | spell (1d4+3, fire) | DC 13 (for ½) | DC 27 | DC 27"
+    - "**Pit Trap** | 3 | 30 ft. deep (3d6, fall) | DC 20 (avoid) | DC 20 | DC 20"
+    - "**Poisoned Arrow Trap** | 3 | ATK +12 (1d8 +poison, arrow) | - | DC 19 | DC 15"
+
+    - "**Lightning Bolt Trap** | 4 | spell (5d6, electricity) | DC 14 (for ½) | DC 28 | DC 28"
+    - "**Spiked Pit Trap** | 4 | 40 ft. deep (4d6+4, fall) | DC 20 (avoid) | DC 20 | DC 20"
+    - "**Wall Scythe Trap** | 4 | ATK +20 (2d4+8, scythe) | - | DC 21 | DC 18"
+
+    - "**Falling Block Trap** | 5 | ATK +15 (6d6, slam) | - | DC 25 | DC 17"
+    - "**Fireball Trap** | 5 | spell (1d4+7, fire) | DC 16 (for ½) | DC 29 | DC 29"
+    - "**Poisoned Wall Spikes** | 5 | ATK +16 (1d8+4 +poison, spikes) | - | DC 17 | DC 21"
+
+    - "**Compacting Room Trap** | 6 | walls move together (12d6, crush) | - | DC 20 | DC 22"
+    - "**Lightning Bolt Trap** | 6 | spell (10d6, electricity) | DC 14 (for ½) | DC 28 | DC 28"
+    - "**Spiked Pit Trap** | 6 | 60 ft. deep (6d6+10, fall) | DC 20 (avoid) | DC 20 | DC 20"
+
+    - "**Black Tentacles Trap** | 7 | spell (tentacles) ATK +7 (1d6+4 each, <br> 1d4+7 tentacles) | - | DC 29 | DC 29"
+    - "**Chain Lightning Trap** | 7 | spell (11d6, 5d6 each to up to 11 <br> secondary targets, electricity) | DC 19 (for ½) | DC 31 | DC 31"
+    - "**Well-camouflaged Pit Trap** | 7 | 70 ft. deep (7d6, fall) | DC 25 (avoid) | DC 27 | DC 18"
+
+    - "**Destruction Trap** | 8 | spell (death) | DC 20 (phys+STR) <br>for 10d6 damage | DC 32 | DC 32"
+    - "**Power Word Stun Trap** | 8 | spell (stun 2d4 rounds) | - | DC 32 | DC 32"
+    - "**Well-camouflaged Pit Trap** | 8 | 60 ft. deep (6d6, fall) | DC 20 (avoid) | DC 27 | DC 18"
+
+    - "**Dropping Ceiling** | 9 | ceiling moves down (12d6, crush) | - | DC 20 | DC 16"
+    - "**Incendiary Cloud Trap** | 9 | spell (4d6/round for 15 rounds, fire) | DC 22 (for ½) | DC 33 | DC 33"
+    - "**Poisoned Spiked Pit Trap** | 9 | 70 ft. deep (7d6 fall, 3d4+8 poison) | DC 20 (avoid) | DC 20 | DC 20"
+
+    - "**Crushing Room** | 10 | walls move together (16d6, crush) | - | DC 22 | DC 20"
+    - "**Crushing Wall Trap** | 10 | walls move together (18d6, crush) | - | DC 20 | DC 25"
+    - "**Energy Drain Trap** | 10 | ATK +8 (2d4 negative levels for 24 hours) | DC 23 (avoid) | DC 34 | DC 34"
