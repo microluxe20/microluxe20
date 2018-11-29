@@ -4,10 +4,10 @@ const zip = require('gulp-zip');
 const changed = require('gulp-changed');
 const changedInPlace = require('gulp-changed-in-place');
 const fs = require('fs');
-const pjson = require('./package.json');
 const yaml = require('js-yaml');
 const through = require('through2');
 const remarkable = require('gulp-remarkable');
+const pjson = require('./package.json');
 
 const config = {
   dataPath: 'src/data/**/*.{yml,yaml}',
@@ -54,7 +54,6 @@ function getDataFile(directive) {
     console.log(`No such table ${matches[1]} in file ${matches[0]}.`);
     return null;
   }
-
   return [doc, matches];
 }
 
@@ -64,8 +63,8 @@ function preProcessMd(data) {
   const regex = /<!--\s*\$(\S+)\s*([\S\s]*?)\s*-->/g;
 
   function replace(match, name, extraData) {
-    const dataTransformer = dataTransform.find(d =>
-      (name === d.key) || (d.allowExtra && name.startsWith(d.key)));
+    const dataTransformer = dataTransform
+      .find(d => (name === d.key) || (d.allowExtra && name.startsWith(d.key)));
     if (data !== undefined) {
       return dataTransformer.replace(extraData, name) || '';
     }
