@@ -26,11 +26,11 @@
   },
   "dependencies": {
     "gulp": "^4.0.2",
-    "gulp-changed": "^3.2.0",
+    "gulp-changed": "^4.0.0",
     "gulp-changed-in-place": "^2.3.0",
     "gulp-markdown-pdf": "^7.0.0",
     "gulp-remarkable": "^2.1.0",
-    "gulp-zip": "^4.2.0",
+    "gulp-zip": "^5.0.0",
     "js-yaml": "^3.13.1",
     "through2": "^3.0.1"
   }
