@@ -8,6 +8,6 @@ jobs:
       image: node:lts
     steps:
       - name: checkout
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
       - name: lint
-      - run: npm t
+        run: npm t
