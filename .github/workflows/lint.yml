@@ -10,4 +10,6 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
       - name: lint
-        run: npm t
+        run: |
+          npm ci
+          npm t
