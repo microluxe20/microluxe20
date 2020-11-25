@@ -49,7 +49,7 @@ function getDataFile(directive) {
   }
 
   // Get the table YAML document matching the key, or the first if no key.
-  const doc = file.find(d => d.id === matches[1]);
+  const doc = file.find((d) => d.id === matches[1]);
   if (doc === undefined) {
     console.log(`No such table ${matches[1]} in file ${matches[0]}.`);
     return null;
@@ -64,7 +64,7 @@ function preProcessMd(data) {
 
   function replace(match, name, extraData) {
     const dataTransformer = dataTransform
-      .find(d => (name === d.key) || (d.allowExtra && name.startsWith(d.key)));
+      .find((d) => (name === d.key) || (d.allowExtra && name.startsWith(d.key)));
     if (data !== undefined) {
       return dataTransformer.replace(extraData, name) || '';
     }
@@ -235,9 +235,8 @@ gulp.task('compile-release', gulp.series((done) => {
   config.includeHeaders = false; done();
 }, 'load-data', makeReleaseTasks()));
 
-
 // create release zip from documents
-gulp.task('make-release', done => fs.stat('documents', (err) => {
+gulp.task('make-release', (done) => fs.stat('documents', (err) => {
   if (err) {
     return console.log(err);
   }

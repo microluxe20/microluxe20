@@ -1,0 +1,13 @@
+name: Lint and Test
+on: [push]
+jobs:
+  lint:
+    name: Lint and Test Project
+    runs-on: ubuntu-latest
+    container:
+      image: node:lts
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: lint
+        run: npm t
