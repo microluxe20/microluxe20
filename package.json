@@ -20,18 +20,18 @@
   },
   "homepage": "https://microluxe20.com",
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1"
   },
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-changed": "^4.0.2",
     "gulp-changed-in-place": "^2.3.0",
-    "gulp-markdown-pdf": "^7.0.0",
+    "gulp-markdown-pdf": "^8.0.0",
     "gulp-remarkable": "^2.1.0",
     "gulp-zip": "^5.0.2",
     "js-yaml": "^3.14.0",
-    "through2": "^3.0.2"
+    "through2": "^4.0.2"
   }
 }
