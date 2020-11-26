@@ -24,7 +24,7 @@ function getDataFile(directive) {
   }
 
   // Get the table YAML document matching the key, or the first if no key.
-  const doc = file.find(d => d.id === matches[1]);
+  const doc = file.find((d) => d.id === matches[1]);
   if (doc === undefined) {
     console.log(`No such table ${matches[1]} in file ${matches[0]}.`);
     return null;
@@ -73,7 +73,7 @@ function preProcessMd(data) {
   const regex = /<!--\s*\$(\S+)\s*([\S\s]*?)\s*-->/g;
 
   function matchReplace(match, name, extraData) {
-    const step = transformer.steps.find(d => (name === d.key)
+    const step = transformer.steps.find((d) => (name === d.key)
       || (d.allowExtra && name.startsWith(d.key)));
     return (data && step.replace(extraData, name)) || '';
   }

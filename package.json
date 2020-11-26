@@ -31,8 +31,8 @@
     "gulp-remarkable": "^2.1.0",
     "gulp-zip": "^5.0.2",
     "js-yaml": "^3.14.0",
-    "through2": "^4.0.2",
     "pify": "^4.0.1",
-    "tmp-promise": "^1.0.5"
+    "through2": "^4.0.2",
+    "tmp-promise": "^1.1.0"
   }
 }

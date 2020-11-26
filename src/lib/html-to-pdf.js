@@ -15,6 +15,7 @@ function htmlConverter(options, file) {
     const tmpfile = tempObject.path;
     const tmpfilePDF = path.join(path.dirname(tmpfile), `${path.basename(tmpfile, '.html')}.pdf`);
     const wkhtmlOpts = [
+      '--enable-local-file-access',
       '-s', options.paperFormat,
       '-L', options.hMargin, '-R', options.hMargin,
       '-T', options.vMargin, '-B', options.vMargin,
@@ -25,6 +26,7 @@ function htmlConverter(options, file) {
     return new Promise((resolve, reject) => {
       spawn('wkhtmltopdf', wkhtmlOpts, {
         cwd: options.cwd,
+        stdio: 'inherit',
       }).on('exit', (code) => {
         if (code !== 0) {
           reject(new Error(`WKHtmlToPdf exited with code ${code}.`));
@@ -48,7 +50,7 @@ function htmlConverter(options, file) {
   };
 }
 
-module.exports = options => through.obj((file, enc, cb) => {
+module.exports = (options) => through.obj((file, enc, cb) => {
   if (file.isNull()) {
     cb(null, file);
     return;
@@ -63,14 +65,14 @@ module.exports = options => through.obj((file, enc, cb) => {
   options.vMargin = options.vMargin || '2cm';
 
   fs.readFile(html5bp, 'utf8')
-    .catch(err => cb(`Error opening HTML boilerplate: ${err.message}`))
+    .catch((err) => cb(`Error opening HTML boilerplate: ${err.message}`))
     .then((data) => {
       const htmlData = data
         .replace(/\{\{baseUrl\}\}/g, path.join(options.cwd, 'src/'))
         .replace('{{content}}', file.contents.toString());
-      return tmp.file({ dir: options.cwd, prefix: '.tmp-', postfix: '.html' })
-        .then(o => fs.writeFile(o.path, htmlData).then(() => o))
+      return tmp.file({ dir: options.cwd, prefix: '.tmp-microluxe20-', postfix: '.html' })
+        .then((o) => fs.writeFile(o.path, htmlData).then(() => o))
         .then(htmlConverter(options, file))
-        .then(() => cb(null, file), err => cb(err));
+        .then(() => cb(null, file), (err) => cb(err));
     });
 });
