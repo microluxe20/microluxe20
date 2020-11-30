@@ -32,6 +32,7 @@ To start developing Microluxe20, you will need the following:
 
   * [Nodejs](https://nodejs.org/en/) >= `6.12.3` (The latest LTS is preferred.)
   * [git](https://git-scm.com/downloads)
+  * [wkhtmltopdf](https://wkhtmltopdf.org) >= `0.12.6`. The "patched QT" versions available from the site are needed to generate optimal PDFs.
 
 #### Development
 1. [Fork the repository and clone locally](https://help.github.com/articles/fork-a-repo/).
