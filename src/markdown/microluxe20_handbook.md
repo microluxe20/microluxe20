@@ -42,7 +42,7 @@ Choosing the name is one of the most difficult parts of the process; talk with y
 
 ## Races
 
-Your character's race determines your overall physical appearance and provides a bonus to certain aspects of your character.
+Your character's race determines your overall physical appearance and provides different bonuses to stats and skills.
 
 When creating a character, your player will be one of the major races of Terador. The world has a wealth of races to choose from, each with their unique history. While the Mir are the most common race in Terador, the many other races are fairly commonplace to see as well.
 
@@ -52,11 +52,11 @@ Once you have a name and race, you will need to decide on the physical attribute
 
 ## Vices and Virtues
 
-Designing a backstory and personality for your character is highly recommended. An easy way to start is to pick a vice (a weakness or failing of some sort), a virtue (something your character is good at), and a need or desire.
+When creating a character to roleplay, designing a backstory and personality is highly recommended to help flesh out the narrative and provide a reference point for your portrayal of that character. An easy way to start is to pick a vice (a weakness or failing of some sort), a virtue (something your character is good at), and a need or desire.
 
 These can be anything you would want to roleplay - the character might be proficient with whips, have a crippling fear of snakes, and desire to find hidden treasures; or your character might have an anger issue with the town guard and just wants to be left alone to have a drink. The most interesting stories are created when the Vice or Virtue coincide with the character's desire, forming a conflict of some sort - the area where the treasure is hidden is inhabited by a colony of snakes, or the town guard keeps arresting the character for public drunkenness and disorder.
 
-These factors, when carefully chosen, can significantly help in designing a character that is both interesting and rewarding to roleplay. As a general rule, if your character design is good, your Gamemaster will have numerous opportunities to weave your character's story into the narrative of the adventure; a bad character simply exists, without contributing anything of note to the narrative.
+These factors, when carefully chosen, can help significantly in designing a character that is both interesting and rewarding to roleplay. As a general rule, if your character design is good, your Gamemaster will have numerous opportunities to weave your character's story into the narrative of the adventure; a bad character simply exists, without contributing anything of note to the narrative.
 
 <!-- $page-break -->
 
@@ -254,7 +254,7 @@ Starting at 1st level, select one "signature" spell per spell level that the cha
 
 Metamagic is the name for spells that alter or enhance the effect of another spell, allowing spellcasters to introduce some variety into their existing spells. Metamagic can be cast by any spellcaster, from a rod or as an action, regardless of whether the spellcaster is the one casting the spell being affected.
 
-A Magic Attack roll is not normally required to cast metamagic. However, if the target spell's caster rejects the metamagic being cast on the spell, the metamagic's caster must make a Magic Attack roll to affect the target spell.
+A Magic Attack roll is not normally required to cast metamagic. However, if the target spell's caster rejects the metamagic being cast on the spell, the metamagic's caster must make a Magic Attack roll against the target Spell Difficulty Class to affect the target spell.
 
 If a caster is attempting to cast metamagic on their own spell, the metamagic and the spell must be cast as separate actions, one after the other. This restriction is ignored if the caster is using a rod enchanted with metamagic, or if another caster is casting the metamagic.
 
@@ -266,17 +266,13 @@ Here are some of the most common metamagic spells:
 
 **Widening** makes a spell's area of effect twice as big as normal. Widening a spell costs 4 HP.
 
-**Compelling** adds +5 to the DC for others to alter the spell. Compelling a spell costs 5 HP.
-
-**Dampening** reduces the DC for others to alter the the spell by -5. Dampening a spell costs 5 HP.
-
 **Limiting** makes a spell last half as long as it normally would. Limiting a spell costs 2 HP.
 
 **Depowering** makes a spell do 50% less damage than normal. Depowering a spell costs 3 HP.
 
 **Narrowing** makes a spell's area of effect half as large as normal. Narrowing a spell costs 4 HP.
 
-**Attuning** changes the damage type of a spell to a specific element. Attuning a spell costs 3 HP if the specified element is easily available to the caster; otherwise it costs 5 HP. Spells which already deal elemental damage cannot be Attuned.
+**Attuning** changes the damage type of a spell to a specific element. Attuning a spell costs 3 HP if a material component of the specified element is easily available to the caster; otherwise it costs 5 HP. Spells which already deal elemental damage cannot be Attuned.
 
 If two opposing metamagics are cast on the same spell, they cancel each other out.
 
