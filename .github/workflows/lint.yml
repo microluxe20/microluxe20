@@ -33,6 +33,6 @@ jobs:
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v2
         with:
-          name: microluxe20-${{ github.sha }}
+          name: microluxe20-${{ github.head_ref }}
           path: release/*.zip
           retention-days: 30
