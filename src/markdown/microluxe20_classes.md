@@ -456,7 +456,7 @@ Entertainers, scoundrels, sages, tricksters, historians, and bartenders all in o
 
 Psions are strange quirks of nature whose minds are warped from birth. They posess a natural connection with the Ethereal Plane, which allows them to directly project power into their surroundings. This often results in Psions perceiving the world in strange ways, and developing anti-social and amoral tendencies due to their outcast status.
 
-Psions cannot not use staves, rods, or metamagic. Instead, their powers are augmented with additional Hit Points (HP). The augmenting HP cost is noted under each power's entry. The combined HP cost for manifesting and augmenting a power (disregarding signature spell bonus) cannot exceed the character's psionic class level. Thus, a 3rd level psion could manifest a level 2 power by spending 2 HP, and augment it with at most 1 additional HP for a total HP cost of 3.
+Psions cannot not use staves, rods, or metamagic. Instead, their powers are augmented with additional Magic Points (MP). The augmenting MP cost is noted under each power's entry. The combined MP cost for manifesting and augmenting a power (disregarding signature spell bonus) cannot exceed the character's psionic class level. Thus, a 3rd level psion could manifest a level 2 power by spending 2 MP, and augment it with at most 1 additional MP for a total MP cost of 3.
 
 _Psionic vs. Magical Effects_: Powers interact with spells and spells interact with powers in the same way a spell or normal spell-like ability interacts with another spell or spell-like ability. For example, detect magic detects psionics and dispel psionics dispels magic. After casting a spell, a Psion is under the effects of Ethereal Influence, which functions the same as Arcane Influence.
 

@@ -106,7 +106,11 @@ These three primary stats are used to determine several extremely important seco
 
 **Hit Points (HP)**: Hit Points determine how healthy a character is. As they are injured or hurt, their HP depletes. A character's starting HP is determined with the following formula:
 
-	10 + STR stat + 1d6(with a minimum of 3).
+	10 + STR stat + 1d6(with a minimum of 3)
+
+**Magic Points (MP)**: Magic Points determine how many spells a character can cast before resting. Each spell cast depletes a portion of MP, and characters with no MP cannot cast spells. A character's starting MP is determined with the following formula:
+
+	6 + MIND bonus + 1d3
 
 **Speed** comes in 3 tiers, and determines how far a character can move in a round. Characters are either Slow (20ft.), Normal (30ft.), or Fast (35ft.). A character's Speed is determined by the game master and can be affected by spells and conditions.
 
@@ -114,7 +118,7 @@ Typically, Fighters or Paladins with Heavy armor are Slow, Rogues and Rangers ar
 
 **Armor Class (AC):** A character's Armor Class represents their ability to evade or block physical attacks. The higher a character's AC, the more difficult it is to land a damaging blow. A character's Armor Class is determined by this formula:
 
-	10 + DEX bonus + Armor bonus + Racial bonus (if applicable).
+	10 + DEX bonus + Armor bonus + Racial bonus (if applicable)
 
 **Carrying Capacity:** A character's carrying capacity represents the number and weight of items they are able to easily carry without being overburdened. The capacity is equal to `5 + STR bonus`, and can be increased with a backpack.
 
@@ -134,6 +138,8 @@ The Gamemaster may allow other characters to assist a character when performing 
 
 For compatibility purposes, the 3 saves in Microluxe20 (STR save, DEX save, and MIND save), directly match Fortitude, Reflex, and Will saves (often called "saving throws") found in other SRD-based games. Save rolls may not be assisted by other characters.
 
+<!-- $page-break -->
+
 ## Level Advancement
 
 Characters gain XP (or Experience Points) from defeating monsters, disarming traps, or from handling situations in innovative ways, at the GM's discretion. XP is awarded to all characters who take part in the encounter.
@@ -152,7 +158,9 @@ Regardless of how they are awarded, each level adds:
 
 * +1d6 to Hit Points (with a minimum of 3). Fighters also get additional HP equal to their STR bonus.
 
-* +2 points to spend on skills. When upgrading skills, you cannot add more points to a skill if it is higher than or equal to your character's level + 5.
+* Spellcasters gain additional Magic Points equal to 1d3 + MIND bonus.
+
+* +2 points to spend on skills. When upgrading skills, you cannot add more points to a skill if it is equal to or higher than your character's level + 5.
 
 * Every 3rd level (3, 6, 9, 12, etc.), characters gain +1 STR, DEX, or MIND.
 
@@ -240,15 +248,15 @@ When casting a spell against an inanimate object, the target's MIND bonus is not
 
 If the spell is successfully cast it immediately takes effect, unless the spell states that the target may make a specific save against the spell's effects. For example, a spell that forms spikes that protrude from the ground may allow the target to make a DEX save to try and escape the spell.
 
-Casting a spell of any kind costs Hit Points, regardless of the outcome. The cost is equal to the level of the spell being cast. For example, a 2nd level spell will cost the caster 2 HP.
+Casting a spell of any kind costs Magic Points, regardless of the outcome. The cost is equal to the level of the spell being cast. For example, a 2nd level spell will cost the caster 2 MP.
 
-A spellcaster may cast spells without expending HP by casting the spell over a duration of 10 minutes for each HP that would be otherwise be expended. Casting a spell over time cannot be done in combat, and cannot be used to partially lower the HP cost of a spell. Casting a spell over time does not escape arcane/divine influence.
+A spellcaster may cast spells without expending MP by casting the spell over a duration of 10 minutes for each MP that would be otherwise be expended. Casting a spell over time cannot be done in combat, and cannot be used to partially lower the MP cost of a spell. Casting a spell over time does not escape arcane/divine influence.
 
 Once a spellcaster has cast a spell in an encounter, they enter a state called "arcane (or divine) influence". While in this state, their HP *cannot* be healed normally until they have a short rest. Healing spells cast on an injured caster under arcane/divine influence only heal ¼ of the given amount. Spellcasters automatically exit their influenced state after 1 hour of rest.
 
 There is no need to memorize spells in advance. Just because a character can cast any spell, doesn't mean that they should. Choose spells that suit the character.
 
-Starting at 1st level, select one "signature" spell per spell level that the character prefers to use over any other. These spells are easier to cast due to familiarity, costing 2 HP less to use. Spells that do damage to a target (e.g. _Magic Missile_, _Produce Flame_) always cost at least 1 HP to cast, even if they are a signature spell.
+Starting at 1st level, select one "signature" spell per spell level that the character prefers to use over any other. These spells are easier to cast due to familiarity, costing 2 MP less to use. Spells that do damage to a target (e.g. _Magic Missile_, _Produce Flame_) always cost at least 1 MP to cast, even if they are a signature spell.
 
 ### Casting Metamagic
 
@@ -260,19 +268,19 @@ If a caster is attempting to cast metamagic on their own spell, the metamagic an
 
 Here are some of the most common metamagic spells:
 
-**Extending** makes a spell last twice as long as it normally would. Extending a spell costs 2 HP.
+**Extending** makes a spell last twice as long as it normally would. Extending a spell costs 2 MP.
 
-**Empowering** makes a spell do 50% more damage than normal. Empowering a spell costs 3 HP.
+**Empowering** makes a spell do 50% more damage than normal. Empowering a spell costs 3 MP.
 
-**Widening** makes a spell's area of effect twice as big as normal. Widening a spell costs 4 HP.
+**Widening** makes a spell's area of effect twice as big as normal. Widening a spell costs 4 MP.
 
-**Limiting** makes a spell last half as long as it normally would. Limiting a spell costs 2 HP.
+**Limiting** makes a spell last half as long as it normally would. Limiting a spell costs 2 MP.
 
-**Depowering** makes a spell do 50% less damage than normal. Depowering a spell costs 3 HP.
+**Depowering** makes a spell do 50% less damage than normal. Depowering a spell costs 3 MP.
 
-**Narrowing** makes a spell's area of effect half as large as normal. Narrowing a spell costs 4 HP.
+**Narrowing** makes a spell's area of effect half as large as normal. Narrowing a spell costs 4 MP.
 
-**Attuning** changes the damage type of a spell to a specific element. Attuning a spell costs 3 HP if a material component of the specified element is easily available to the caster; otherwise it costs 5 HP. Spells which already deal elemental damage cannot be Attuned.
+**Attuning** changes the damage type of a spell to a specific element. Attuning a spell costs 3 MP if a material component of the specified element is easily available to the caster; otherwise it costs 5 MP. Spells which already deal elemental damage cannot be Attuned.
 
 If two opposing metamagics are cast on the same spell, they cancel each other out.
 
@@ -281,15 +289,15 @@ If two opposing metamagics are cast on the same spell, they cancel each other ou
 
 *Author's Note:* This section is intended to establish a common baseline for magical items. Gamemasters are encouraged to customize or even ignore this section as needed to fit their setting.
 
-Magical items can be broadly divided into two categories: Active and Passive. Active magical items require some action on the part of the character to make use of their magical effects, while passive items provide their effect at all times. Using an active item may require a skill check of some sort, and may sometimes consume HP in the same fashion spellcasting does.
+Magical items can be broadly divided into two categories: Active and Passive. Active magical items require some action on the part of the character to make use of their magical effects, while passive items provide their effect at all times. Using an active item may require a skill check of some sort, and may require the character to expend MP in the same fashion spellcasting does.
 
 ### Common Active Items:
 
 **Staves:** The main tool of a spellcaster, the staff is a focus used to harness magical energy. Spellcasters usually require a staff to cast a spell. Staves may also contain one or more spells that the caster would not normally have access to; these spells can only be cast while wielding the staff. Spellcasters can create these at 9th level.
 
-**Rods:** Usually employed for easier metamagic, rods may contain a single spell or magical effect. This spell can be cast by anyone for the appropriate HP cost, but non-spellcasting characters do so at +2 or more to the difficulty. Rods with a metamagic effect may be used in tandem with staves when casting a spell. Spellcasters can create these at 5th level.
+**Rods:** Usually employed for easier metamagic, rods may contain a single spell or magical effect. This spell can be cast by anyone for the appropriate MP cost, but non-spellcasting characters do so at +2 or more to the difficulty. Rods with a metamagic effect may be used in tandem with staves when casting a spell. Spellcasters can create these at 5th level.
 
-**Wands:** Sometimes described as "magic-in-a-stick", a wand contains a single spell and a set number of charges. While there are charges left, any character may use the wand to cast the contained spell at the expense of a charge. Wands can be recharged, but usually require a significant HP cost for each charge. Spellcasters can create these at 5th level.
+**Wands:** Sometimes described as "magic-in-a-stick", a wand contains a single spell and a set number of charges. While there are charges left, any character may use the wand to cast the contained spell at the expense of a charge. Wands can be recharged, but usually require a significant MP cost for each charge. Spellcasters can create these at 5th level.
 
 **Potions:** A single-use magical item, potions are a bottled magical liquid. When consumed, a potion confers a magical effect on the character that drank it. Spellcasters can create these at 3rd level.
 
@@ -307,13 +315,13 @@ The process to enchant an item with a magical effect differs slightly from item 
 
 To begin the process, the player needs to have the base form of the item and purchase materials to perform the enchantment, and the spellcaster performing the enchantment must know the spell or use a scroll with the wanted spell. All materials used in the process are consumed, as well as any scrolls used as a source.
 
-The cost of materials used to create a magical item is usually equal to 1/2 the HP cost of the enchantment process, in gold pieces. Thus, infusing a wand with a 1 HP spell would cost 2 gp, 5 sp in materials.
+The cost of materials used to create a magical item is usually equal to 1/2 the MP cost of the enchantment process, in gold pieces. Thus, infusing a wand with a 1 MP spell would cost 2 gp, 5 sp in materials.
 
-The enchantment process will require a spellcaster to infuse the item with HP equal to 5 times the cost of the spell or effect being enchanted with. A spellcaster takes a full hour to infuse 5 HP into an item, and the infusion process places the character under Arcane Influence. No more than one spellcaster may infuse an item at a time.
+The enchantment process will require a spellcaster to infuse the item with MP equal to 5 times the cost of the spell or effect being enchanted with. A spellcaster takes a full hour to infuse 5 MP into an item, and the infusion process places the character under Arcane Influence. No more than one spellcaster may infuse an item at a time.
 
-When creating a scroll or potion, the infusion HP cost is twice the HP cost of the spell being scribed.
+When creating a scroll or potion, the infusion MP cost is twice the MP cost of the spell being scribed.
 
-When creating an item with magical charges, the maximum number of charges the item can hold is determined by `5 + Magic bonus (Mind + Level)`. Each charge requires twice the HP cost of the spell, but the item may be recharged at any point.
+When creating an item with magical charges, the maximum number of charges the item can hold is determined by `5 + Magic bonus (Mind + Level)`. Each charge requires twice the MP cost of the spell, but the item may be recharged at any point.
 
 When the infusion process is finished, the character rolls MIND+Knowledge, and the result of the roll determines the effectiveness of the enchantment.
 
@@ -325,9 +333,9 @@ When the infusion process is finished, the character rolls MIND+Knowledge, and t
 | 15+ | Success! The item is successfully enchanted, and no other effect occurs. |
 | Natural 20 | Critical Success! The item is successfully enchanted, and gains +50% to its effectiveness. |
 
-> **Example:** Your Mage wants to imbue a wand with Prestidigitation. This is a 1st-level Mage spell, so it will take 5 HP to enchant the wand, and 25 sp in material costs. Your Magic bonus is +3, so you decide to infuse it with three of the eight charges to start, bringing the total HP cost to 11.
+> **Example:** Your Mage wants to imbue a wand with Prestidigitation. This is a 1st-level Mage spell, so it will take 5 MP to enchant the wand, and 25 sp in material costs. Your Magic bonus is +3, so you decide to infuse it with three of the eight charges to start, bringing the total MP cost to 11.
 >
->You can only infuse 5 HP per hour, so you must focus on infusing the wand for slightly over two hours. You roll MIND+Knowledge when you have finished infusing the wand and - Presto! - you get a 17! The wand is successfully crafted, holding 3 / 8 charges.
+>You can only infuse 5 MP per hour, so you must focus on infusing the wand for slightly over two hours. You roll MIND+Knowledge when you have finished infusing the wand and - Presto! - you get a 17! The wand is successfully crafted, holding 3 / 8 charges.
 
 ## Resting & Recuperating
 
@@ -338,6 +346,8 @@ After players have been in combat, they may need to rest to regain their stamina
 **Long Rest:** Resting for at least 4 hours constitutes a long rest. A long rest cures most short-term status effects, and is otherwise functionally identical to a short rest.
 
 While resting, characters heal HP equal to `STR bonus + Physical` per hour of rest. Bandages and other healing items usually require that a character take at least a short rest to heal HP. Healing items that require a rest are not affected by arcane/divine influence.
+
+Spellcasters regain MP equal to `MIND bonus + 1d6` per hour of rest. A long rest restores all of a character's Magic Points.
 
 Potions and spells of Cure Wounds instantly heal a character without requiring a rest, but have significantly reduced effect on a character under arcane/divine influence.
 
