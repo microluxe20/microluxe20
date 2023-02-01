@@ -16,13 +16,13 @@ The second problem is not so simple. A large part of keeping players interested 
 
 For some characters, these senses will be heightened; a lycan may rely more on their sense of smell than sight, whereas a character with large ears like a goblin may use their hearing more heavily than their other senses.
 
-**Tell a story.** A hack-and-slash campaign is only fun until the monsters run out. Work with your players before a campain to establish an _arc_ for their characters, and weave that arc into the plot of the campaign. An arc can be as simple as a desire or shortcoming the character seeks to fulfill or overcome, or could be a full story with multiple side characters that makes up a large portion of the campaign.
+**Tell a story.** A hack-and-slash campaign is only fun until the monsters run out. Work with your players before a campaign to establish an _arc_ for their characters, and weave that arc into the plot of the campaign. An arc can be as simple as a desire or shortcoming the character seeks to fulfill or overcome, or could be a full story with multiple side characters that makes up a large portion of the campaign.
 
 Encourage your players to come up with something that is just as much fun to interact with from the outside as it is to play from the inside; a character's arc will likely span the majority of a campaign, or even provide the hook for an entire campaign in its own right.
 
 **Work together (or against each other).** Above all, a Role-Playing Game is a type of _cooperative_ game, where the main goal is for players to move through the world and accomplish goals together. While characters should certainly have their own motivations for joining the party (and their own frictions with other characters), encourage your players to work together to make the game fun for everyone.
 
-A game where the party is secretly plotting against each other and moving to foil each other's actions can certainly be buckets of fun with the right players, but make sure to get the approval of the whole table first; losing a character because someone was playing by a different set of rules is a very quick way to sour a player's attitude towards the group as a whole.
+A game where the party is secretly plotting against each other and moving to foil each other's actions can be buckets of fun with the right players, but make sure to get the approval of the whole table first; losing a character because someone was playing by a different set of rules is a very quick way to sour a player's attitude towards the group as a whole.
 
 **Drop some loot!** Half the fun of an RPG like Microluxe20 is in finding new and inventive ways to get weird and quirky items to use, modify, and assemble to get even _more_ shiny and valuable items to get yet _more_... you get the picture. Coming up with new and interesting loot for your players to strive for, and new and interesting uses of items to advance the campaign, will only endear you further to your players.
 
