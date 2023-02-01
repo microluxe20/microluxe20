@@ -160,7 +160,7 @@ Regardless of how they are awarded, each level adds:
 
 * Spellcasters gain additional Magic Points equal to 1d3 + MIND bonus.
 
-* +2 points to spend on skills. When upgrading skills, you cannot add more points to a skill if it is equal to or higher than your character's level + 5.
+* +2 points to spend on skills. When upgrading skills, you cannot add more points to a skill if it is equal to or higher than your character's level.
 
 * Every 3rd level (3, 6, 9, 12, etc.), characters gain +1 STR, DEX, or MIND.
 
@@ -216,7 +216,7 @@ If a character's attack bonus is +6 or more, they can make an additional strike 
 
 > **Example:** if your character's total Melee Attack bonus is +12, you can choose to strike three times (at +2/+2/+2), twice (at +7/+7), or once at +12. However, you can't split the strikes up between different targets.
 
-When a character enters or exits the melee range of a hostile character, the hostile character may be able to attack them, at the GM's discretion. This is called an Attack of Opportunity, and is carried out like a normal attack. Characters unable to take a normal combat action may not make an Attack of Opportunity.
+When a character exits the melee range of a hostile character, the hostile character may be able to attack them, at the GM's discretion. This is called an Attack of Opportunity, and is carried out like a normal attack. Characters unable to take a normal combat action may not make an Attack of Opportunity.
 
 Attempting to attack a specific part of a hostile character or target is known as a Called Shot, and is made at a -2 or greater penalty to Attack bonus. Successfully hitting a Called Shot may have special effects such as wounding or incapacitating the target, or may simply act like a normal attack, as determined by the GM.
 
@@ -345,7 +345,7 @@ After players have been in combat, they may need to rest to regain their stamina
 
 **Long Rest:** Resting for at least 4 hours constitutes a long rest. A long rest cures most short-term status effects, and is otherwise functionally identical to a short rest.
 
-While resting, characters heal HP equal to `STR bonus + Physical` per hour of rest. Bandages and other healing items usually require that a character take at least a short rest to heal HP. Healing items that require a rest are not affected by arcane/divine influence.
+While resting, characters heal HP equal to `STR bonus + 1d8` per hour of rest. Bandages and other healing items usually require that a character take at least a short rest to heal HP. Healing items that require a rest are not affected by arcane/divine influence.
 
 Spellcasters regain MP equal to `MIND bonus + 1d6` per hour of rest. A long rest restores all of a character's Magic Points.
 
