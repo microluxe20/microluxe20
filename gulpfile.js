@@ -42,7 +42,7 @@ transformer.init(config);
 gulp.task('load-data', () => gulp.src(config.dataPath)
   .pipe(changedInPlace({ firstPass: true }))
   .pipe(through.obj((file, enc, cb) => {
-    const data = yaml.safeLoadAll(file.contents);
+    const data = yaml.loadAll(file.contents);
     transformer.addDataFile(file.relative, data);
     cb();
   })));

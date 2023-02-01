@@ -20,8 +20,8 @@
   },
   "homepage": "https://microluxe20.com",
   "devDependencies": {
-    "eslint": "^7.14.0",
-    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.22.1"
   },
   "dependencies": {
@@ -30,7 +30,7 @@
     "gulp-changed-in-place": "^2.3.0",
     "gulp-remarkable": "^2.1.0",
     "gulp-zip": "^5.0.2",
-    "js-yaml": "^3.14.0",
+    "js-yaml": "^4.1.0",
     "through2": "^4.0.2",
     "tmp-promise": "^1.1.0"
   }

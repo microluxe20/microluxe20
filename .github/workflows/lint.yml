@@ -1,4 +1,4 @@
-name: Lint and Test
+name: Lint and Build
 on: [push]
 jobs:
   lint:
@@ -8,8 +8,31 @@ jobs:
       image: node:lts
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: lint
         run: |
           npm ci
           npm t
+  build:
+    name: Build Release for testing
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Install Dependencies
+        run: |
+          sudo apt-fast update
+          sudo apt-fast install -y xfonts-75dpi xfonts-base libjpeg-turbo8
+          wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-2/wkhtmltox_0.12.6.1-2.jammy_amd64.deb
+          sudo dpkg -i wkhtmltox_0.12.6.1-2.jammy_amd64.deb
+      - name: Build project
+        run: |
+          npm ci
+          npm run compile
+          npm run release
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: microluxe20-${{ github.head_ref || github.ref_name }}
+          path: release/*.zip
+          retention-days: 30
