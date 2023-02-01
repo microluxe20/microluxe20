@@ -30,9 +30,9 @@ jobs:
           npm ci
           npm run compile
           npm run release
-      - name: Upload Build Artifact for ${{ github.ref }}
+      - name: Upload Build Artifact
         uses: actions/upload-artifact@v2
         with:
-          name: microluxe20-${{ github.ref }}
+          name: microluxe20-"$GITHUB_SHA"
           path: release/*.zip
           retention-days: 30
